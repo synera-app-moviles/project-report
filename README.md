@@ -45,3 +45,34 @@
 
 <hr>
 <hr>
+
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| ------- | ----- | ----- | --------------------------- |
+|         |       |       |                             |
+|         |       |       |                             |
+
+# Project Report Collaboration Insights
+
+Url de la organización: https://github.com/synera-app-moviles
+
+# Contenido 
+
+
+
+# Student Outcome
+
+
+
+ABET - EAC - Student Outcome 7  Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea  necesario, utilizando estrategias de aprendizaje apropiadas.  En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones  por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –  EAC - Student Outcome 7. 
+
+
+
+| Criterio específico                                          | Acciones realizadas | Conclusiones |
+| ------------------------------------------------------------ | ------------------- | ------------ |
+| Actualiza conceptos y  conocimientos necesarios  para su desarrollo  profesional y en especial  para su proyecto en  soluciones de software. |                     |              |
+| Reconoce la necesidad del  aprendizaje permanente  para el desempeño  profesional y el desarrollo  de proyectos en soluciones  de software. |                     |              |
+
+
+
+# Objetivos SMART 
