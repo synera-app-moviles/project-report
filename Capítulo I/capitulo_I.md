@@ -13,7 +13,7 @@ Nuestra propuesta de valor radica en ofrecer una plataforma todo-en-uno que es a
 
 **Misión:** Nuestra misión es simplificar y mejorar radicalmente la comunicación dentro de las empresas reemplazando los canales informales por una plataforma segura, intuitiva y eficiente diseñada específicamente para las necesidades de las organizaciones modernas. 
 
-**Visión: **Nuestra visión es ser la plataforma de comunicación interna preferida para pequeñas, medias empresas y equipos emergentes, reconocida por su usabilidad, innovación y por fortalecer la cultura de colaboración y transparencia dentro de las empresas, posicionándonos como un aliado clave en su crecimiento y éxito.
+**Visión:** Nuestra visión es ser la plataforma de comunicación interna preferida para pequeñas, medias empresas y equipos emergentes, reconocida por su usabilidad, innovación y por fortalecer la cultura de colaboración y transparencia dentro de las empresas, posicionándonos como un aliado clave en su crecimiento y éxito.
 
 ### 1.1.2. Perfiles de integrantes del equipo 
 
@@ -106,7 +106,7 @@ Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa
 
 **Business Assumptions**:
 
-1. Creemos que al menos el 60% de las pymes objetivo están dispuestas a adoptar un modelo de suscripción anual por usuario (SaaS), en lugar de una licencia mensual o un pago único, debido a que prefieren bajos costos operativos iniciales y previsibilidad en sus gastos.
+1. Creemos que al menos el 60% de las pymes objetivo están dispuestas a adoptar un modelo de suscripción anual por usuario, en lugar de una licencia mensual o un pago único, debido a que prefieren bajos costos operativos iniciales y previsibilidad en sus gastos.
 2. Creemos que al ofrecer una experiencia de usuario móvil intuitiva y centralizada, superaremos la inercia del cambio y lograremos una tasa de retención del 70% en los primeros seis meses, ya que la mejora tangible en la productividad justificará la inversión.
 3. Creemos que al centralizar la comunicación interna, la plataforma se volverá indispensable, lo que impulsará la adopción orgánica dentro de cada empresa y nos permitirá expandirnos en un 30% entre las empresas en el primer año.
 4. Creemos que al ofrecer planes accesibles escalonados, captaremos al 80% del mercado de pymes que actualmente no puede costear soluciones empresariales complejas, maximizando nuestro volumen de clientes.
@@ -116,8 +116,7 @@ Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa
 
 1. Creemos que si logramos que las pymes centralicen su comunicación en Centralis, entonces aumentaremos la retención de clientes en un 30 % durante el primer año.
 2. Creemos que si reducimos la dependencia de aplicaciones informales, entonces disminuiremos los costos de soporte relacionado con problemas de comunicación en un 25 %.
-
-***Feature Assumptions**:*
+***Feature Assumptions**:
 
 1. Creemos que implementar un muro de anuncios formales con confirmación de lectura abordará la necesidad de los gerentes de difundir información importante de manera segura. Validaremos esto cuando al menos el 90% de los anuncios publicados sean leídos y confirmados por los empleados en un plazo de 24 horas.
 2. Creemos que ofrecer una aplicación móvil dedicada exclusivamente al ámbito laboral, resolverá el deseo de los empleados de separar su vida personal de la laboral. Validaremos esto si el 80% de los usuarios activos dejan de usar WhatsApp para temas de trabajo después del primer mes de uso.
@@ -156,7 +155,6 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 **Aspectos demográficos**
 
 - **Sexo:** Sin distinción de género.
-
 - **Rango de edad**: 18 a 55 años.
 - **Rol**: Sin distinción de departamento (administrativo, operativo, técnico, creativo, etc.).
 - **Nivel jerárquico**: Base operativa y mandos intermedios.
@@ -187,14 +185,13 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 **Aspectos demográficos**
 
 - **Sexo:** Sin distinción de género.
-
 - **Rango de edad**: 28 a 55 años.
 - **Rol**: Gerentes, directores, fundadores, líderes de departamento o proyecto.
 
 **Aspectos geográficos**
 
 - **Nacionalidad:** Sin restricciones, con enfoque inicial en Latinoamérica y expansión global.
-- **Zona geográfica:** Principalmente residentes de áreas urbanas y suburbanas con acceso a internet móvil.
+- **Zona geográfica:** Áreas urbanas y ciudades medianas con acceso a servicios de e-commerce y logística.
 - **Departamento:** No aplica (orientación nacional e internacional).
 
 **Aspectos psicográficos**
