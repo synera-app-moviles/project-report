@@ -230,9 +230,6 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 * Suelen priorizar plataformas que les permiten acceder rápidamente a información crítica (anuncios, eventos, chats relevantes).
 
 
-#
-#
-#
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
 
@@ -265,6 +262,3 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 * Toman decisiones de adopción de herramientas basadas en impacto tangible en la eficiencia operativa.
 
 * Propensos a invertir en soluciones que reduzcan riesgos de comunicación (pérdida de información, malentendidos).
-
-
-<hr>
