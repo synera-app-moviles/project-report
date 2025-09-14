@@ -379,7 +379,7 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 **Figura 12**
 
 *Empathy Mapping Empleados de Empresas*
-![Empathy Map - Segment 1](Images-CapII/Mapa-empatia-S1.png)  
+![Empathy Map - Segment 1](/Anexos/Images-CapII/Mapa-empatia-S1.png)  
 
 *Nota.* Elaboración propia.
 
@@ -388,7 +388,7 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
  **Figura 13**
 
 *Empathy Mapping Gerentes y Líderes de Equipos*
-![Empathy Map - Segment 2](Images-CapII/Mapa-empatia-S2.png) 
+![Empathy Map - Segment 2](/Anexos/Images-CapII/Mapa-empatia-S2.png) 
 
 *Nota.* Elaboración propia.
 
