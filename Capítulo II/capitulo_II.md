@@ -1,29 +1,118 @@
-# Capítulo II: Requirements Elicitation & Analysis 
-## 2.1. Competidores 
+# **Capítulo II: Requirements Elicitation & Analysis**
 
-### 2.1.1. Análisis competitivo
+## **2.1. Competidores**
+
+### ***2.1.1. Análisis competitivo***
+
+<body>
+<table class="c16">
+<tr class="c1">
+<td class="c13" colspan="6" rowspan="1"><p>Competitive Analysis Landscape</p></td>
+</tr>
+<tr class="c1">
+<td class="c11" colspan="2" rowspan="1"><p>¿Por qué llevar a cabo este análisis?</p></td>
+<td class="c17" colspan="4" rowspan="1"><p> Descripcion </p></td>
+</tr>
+<tr class="c1">
+<td class="c11" colspan="2" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Synera</p><p><img src="images/BuildTruckLogoACL.jpg" alt="BuildTruck Logo" width="86" height="44"></p></td>
+<td class="c0" colspan="1" rowspan="1"><p>empresa 1</p><p><img src="images/ProcoreLogo.png" alt="Procore Logo" width="75" height="70"></p></td>
+<td class="c0" colspan="1" rowspan="1"><p>empresa 2</p><p><img src="images/BuildertrendLogo.png" alt="Buildertrend Logo" width="69" height="69"></p></td>
+<td class="c0" colspan="1" rowspan="1"><p>empresa 3</p><p><img src="images/PlanGridLogo.png" alt="PlanGrid Logo" width="64" height="69"></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="2"><p>Perfil</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Overview</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Ventaja competitiva ¿Qué valor ofrece a los clientes?</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Mercado objetivo</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Estrategias de marketing</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Productos & Servicios</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Precios & Costos</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Canales de distribución (Web y/o Móvil)</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
+<td class="c0" colspan="1" rowspan="1"><p>Fortalezas</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Debilidades</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p><p></p><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Oportunidades</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+<tr class="c1">
+<td class="c0" colspan="1" rowspan="1"><p>Amenazas</p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+<td class="c0" colspan="1" rowspan="1"><p></p></td>
+</tr>
+</table>
+</body>
+
+#
+
+### ***2.1.2. Estrategias y tácticas frente a competidores***
 
 
+#
 
-| **Competitive Analysis Landscape**                       |                                                              |           |      |      |      |
-| -------------------------------------------------------- | ------------------------------------------------------------ | --------- | ---- | ---- | ---- |
-| ¿Por qué llevar acabo este análisis?                     | Escriba en el recuadro la pregunta que busca responder o el objetivo de este  análisis. |           |      |      |      |
-| En la cabecera colocar por cada competidor nombre y logo |                                                              | Centralis |      |      |      |
-| Perfil                                                   | Overview                                                     |           |      |      |      |
-|                                                          | Ventaja competitiva ¿Qué valorofrece a losclientes?          |           |      |      |      |
-| Perfil de Marketing                                      | Mercado objetivo                                             |           |      |      |      |
-|                                                          | Estrategias de marketing                                     |           |      |      |      |
-| Perfil de Producto                                       | Productos & Servicios                                        |           |      |      |      |
-|                                                          | Precios & Costos                                             |           |      |      |      |
-|                                                          | Canales de distribución                                      |           |      |      |      |
-|                                                          | (Web y/o Móvil)                                              |           |      |      |      |
-| Análisis SWOT                                            | Fortalezas                                                   |           |      |      |      |
-|                                                          | Debilidades                                                  |           |      |      |      |
-|                                                          | Oportunidades                                                |           |      |      |      |
-|                                                          | Amenazas                                                     |           |      |      |      |
+## **2.2. Entrevistas**
 
-### 2.1.2. Estrategias y tácticas frente a competidores 
-## 2.2. Entrevistas 
 Con el objetivo de obtener información detallada acerca de las necesidades, expectativas y frustraciones de los usuarios objetivo de Centralis, se realizaron entrevistas estructuradas dirigidas a los dos segmentos estratégicos:  empleados y gerentes o líderes de equipos.
 
 El diseño de las entrevistas se elaboró considerando formularios específicos para cada segmento, formulando preguntas abiertas que permitieran a los participantes expresar libremente sus experiencias, desafíos y expectativas en torno a la comunicación interna.
@@ -32,13 +121,13 @@ Cada entrevista fue registrada y documentada mediante notas detalladas, siguiend
 
 La metodología aplicada garantizó la recolección de información contextualizada y accionable, fundamental para el desarrollo de Centralis como una solución intuitiva, segura y efectiva para la comunicación interna empresarial.
 
-### 2.2.1. Diseño de entrevistas 
+### ***2.2.1. Diseño de entrevistas***
 
-**Segmento Objetivo #1: Empleados de Empresas**
+***- Segmento objetivo \#1: Empleados de Empresas***
 
 **Objetivo:** Comprender sus frustraciones cotidianas con las herramientas actuales, sus hábitos de comunicación y lo que valorarían en una solución como Centralis.
 
-**Preguntas principales:**
+***Preguntas principales:***
 
 1. ¿Qué aplicaciones o herramientas utilizas a diario para comunicarte con tus compañeros de trabajo y superiores? (Ej: WhatsApp, email, Teams, etc.)
 2. ¿Has tenido problemas o inconvenientes usando estas herramientas? (Ej: mensajes perdidos)
@@ -47,18 +136,19 @@ La metodología aplicada garantizó la recolección de información contextualiz
 5. ¿Cómo te sientes acerca de usar tu WhatsApp personal para temas de trabajo? (Ej: Suele cambinar visa personal con laboral)
 6. Imagina una herramienta de comunicación ideal para tu trabajo. ¿Qué características debería tener para hacerte la vida más fácil? (Ej: notificaicon de eventos de la empresa, comunicación exclusiva de entorno laboral)
 
-**Preguntas Complementarias:**
+***Preguntas Complementarias:***
 
 1. ¿Podrías contarme sobre la última vez que un malentendido o un fallo de comunicación te causó un problema o retraso en tu trabajo?
 2. ¿Prefieres que las conversaciones de diferentes proyectos o temas estén separadas? ¿Por qué?
 3. ¿Qué tipo de notificaciones te parecen útiles y cuáles te resultan molestas o intrusivas?
 4. ¿Qué dispositivo usas más para comunicarte en el trabajo: el celular o la computadora?
 
-**Segmento Objetivo #2: Gerentes y Líderes de Equipos**
+
+***- Segmento objetivo \#2:  Gerentes y Líderes de Equipos*** 
 
 **Objetivo:** Descubrir sus desafíos de gestión, necesidades de control y accountability, y los criterios de decisión para implementar nuevas herramientas.
 
-**Preguntas principales:**
+***Preguntas principales:***
 
 1. ¿Cómo se comunica oficialmente con su equipo hoy en día? ¿Qué herramientas utiliza? (Ej: WhatsApp, Teams)
 2. ¿Cuáles son los mayores desafíos o dolores de cabeza que enfrenta al gestionar la comunicación dentro de su equipo o empresa? (Ej: asegurar que todos lean los anuncios, coordinar tiempos)
@@ -68,7 +158,7 @@ La metodología aplicada garantizó la recolección de información contextualiz
 7. Desde su perspectiva, ¿qué riesgos ve en el uso de aplicaciones informales como WhatsApp para la comunicación laboral?
 8. ¿Qué criterios evalúa al considerar implementar una nueva herramienta tecnológica en la empresa? (Ej: costo, seguridad, facilidad de uso, adopción)
 
-**Preguntas Complementarias:**
+***Preguntas Complementarias:***
 
 1. Cuando publica un anuncio importante, ¿necesita saber quiénes lo han leído y quiénes no? ¿Cómo le ayudaría esa información? (Ej: Valida la necesidad de confirmación de lectura)
 2. Imagina un panel de control donde pudiera ver el engagement de su equipo con la comunicación. ¿Qué métricas o datos serían más valiosos para usted? (Ej: % de anuncios leídos, tasa de asistencia a eventos, actividad en chats).
