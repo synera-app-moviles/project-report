@@ -188,6 +188,87 @@ La metodología aplicada garantizó la recolección de información contextualiz
 ### 2.3.1. User Personas 
 ### 2.3.2. User Task Matrix 
 ### 2.3.3. User Journey Mapping 
-### 2.3.4. Empathy Mapping 
+### 2.3.4. Empathy Mapping  
+
+Los siguientes mapas de empatía ilustran los conocimientos recopilados para cada uno de los dos segmentos objetivo definidos en el proyecto: 
+
+**Segment 1**  
+![Empathy Map - Segment 1](Images-CapII/Mapa-empatia-S1.png)  
+
+**Segment 2**  
+![Empathy Map - Segment 2](Images-CapII/Mapa-empatia-S2.png)  
+
 ### 2.3.5. As-is Scenario Mapping 
 ## 2.4. Ubiquitous Language 
+## 2.3.5. Ubiquitous Language
+## 2.4. Requirements specification
+### 2.4.1. User Stories
+### 2.4.2. Impact Mapping
+### 2.4.3. Product Backlog
+## 2.5. Strategic-Level Domain-Driven Design
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+### 2.5.2. Context Mapping
+### 2.5.3. Software Architecture
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+## 2.6. Tactical-Level Domain-Driven Design
+### 2.6.1. Bounded Context: Announcement Context  
+
+### 2.6.1.1 Domain Layer  
+El **Announcement Context** gestiona la publicación, visualización y comentarios de anuncios en la organización.  
+
+- **Entities**  
+  - **Announcement**  
+    - `id: UUID`  
+    - `title: String`  
+    - `description: String`  
+    - `image: String (opcional)`  
+    - `priority: Priority (Value Object)`  
+    - `createdAt: DateTime`  
+    - `createdBy: UserId (Gerente)`  
+    - **Métodos**: `publish()`, `markAsSeen(employeeId)`, `addComment(comment)`  
+
+  - **Comment**  
+    - `id: UUID`  
+    - `announcementId: UUID`  
+    - `employeeId: UserId`  
+    - `content: String`  
+    - `createdAt: DateTime`  
+
+  - **User (simplificado)**  
+    - `id: UUID`  
+    - `name: String`  
+    - `role: ENUM (Manager, Employee)`  
+
+- **Value Objects**  
+  - **Priority**  
+    - `level: ENUM (Normal, High, Urgent)`  
+    - Inmutable, solo puede asignarse al crear el anuncio.  
+
+- **Aggregates**  
+  - `Announcement` es el Aggregate Root.  
+  - Contiene `Comments` y gestiona la lógica de negocio.  
+
+- **Business Rules**  
+  1. Solo los **Managers** pueden publicar anuncios.  
+  2. Los **Employees** pueden visualizar anuncios y marcarlos como vistos.  
+  3. Los **Employees** pueden comentar un anuncio publicado.  
+  4. Un anuncio puede clasificarse por **Priority**.  
+
+- **Repositories (Interfaces)**  
+  - `IAnnouncementRepository`  
+  - `ICommentRepository`  
+
+---
+
+### 2.6.1.2 Interface Layer
+### 2.6.1.3 Application Layer  
+### 2.6.1.4 Infrastructure Layer 
+### 2.6.1.5 Bounded Context Software Architecture Component Level Diagram 
+### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams 
+#### 2.6.1.6.1 Domain Layer Class Diagram 
+#### 2.6.1.6.2 Bounded Context Database Design Diagram 
