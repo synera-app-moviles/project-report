@@ -691,7 +691,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Database Design Diagram del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Database_Design_Diagram/Database_Design_Diagram_Event.png" alt="UH">
+  <img src="Anexos/Database_Design_Diagram_Event.png" alt="UH">
 </p> 
 
 *Nota.* Elaboración propia. Obtenido de
