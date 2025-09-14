@@ -181,9 +181,13 @@ Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque 
 
 Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Centralis, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
+**Figura 1**
 
+*Lean UX Canvas*
 
-![img](https://cdn.discordapp.com/attachments/1412484314087690354/1412484351681237022/LeanUX_canvas_v5.png?ex=68b87610&is=68b72490&hm=7d97e147b1a8a704dd99f28feec733b36463ed89f64b1c6bc4eb2f2b1f1cad37&)
+![LeanUX_canvas_v5](/Anexos/Lean_UX_Canvas/LeanUX_canvas_v5.png)
+
+*Nota.* Elaboración propia.
 
 Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
@@ -193,7 +197,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 <ins>**Segmento Objetivo 1: Empleados de Empresas**</ins>  
 
-#### **Aspectos demográficos**
+**Aspectos demográficos**
 
 * **Sexo:** Sin distinción de género.
 
@@ -203,7 +207,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * **Nivel jerárquico**: Base operativa y mandos intermedios.
 
-#### **Aspectos geográficos**
+**Aspectos geográficos**
 
 * **Nacionalidad:** Sin restricciones, con foco en mercados hispanohablantes y expansión internacional.
 
@@ -211,7 +215,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * **Departamento:** No aplica (orientación global digital).
 
-#### **Aspectos psicográficos**
+**Aspectos psicográficos**
 
 * Valoran el equilibrio entre vida laboral y personal, y prefieren separar canales de comunicación laborales y personales.
 
@@ -221,7 +225,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * Tienen aversión a la fragmentación de información y a las aplicaciones complejas.
 
-#### **Aspectos conductuales**
+**Aspectos conductuales**
 
 * Activos en dispositivos móviles y familiarizados con aplicaciones de mensajería y productividad.
 
@@ -233,7 +237,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
 
-#### **Aspectos demográficos**
+**Aspectos demográficos**
 
 * **Sexo:** Sin distinción de género.
 
@@ -241,7 +245,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * **Rol**: Gerentes, directores, fundadores, líderes de departamento o proyecto.
 
-#### **Aspectos geográficos**
+**Aspectos geográficos**
 
 * **Nacionalidad:** Sin restricciones, con enfoque inicial en Latinoamérica y expansión global.
 
@@ -249,7 +253,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * **Departamento:** No aplica (orientación nacional e internacional).
 
-#### **Aspectos psicográficos**
+**Aspectos psicográficos**
 
 * Enfocados en resultados, productividad y accountability de sus equipos.
 
@@ -257,7 +261,7 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 * Buscan soluciones que optimicen la coordinación de eventos, reuniones y capacitaciones.
 
-#### **Aspectos conductuales**
+**Aspectos conductuales**
 
 * Toman decisiones de adopción de herramientas basadas en impacto tangible en la eficiencia operativa.
 
