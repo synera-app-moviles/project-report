@@ -665,7 +665,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Component Level Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Component Level Diagrams/Diagram Event componnet.png" alt="UH">
+  <img src="Anexo/Component Level Diagrams/Diagram Event componnet.png" alt="UH">
 </p> 
 
 *Nota.* Elaboración propia. Obtenido de
@@ -679,7 +679,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Class Diagrams/Class Diagrams Event.png" alt="UH">
+  <img src="Anexo/Class Diagrams/Class Diagram Event.png" alt="UH">
 </p> 
 
 *Nota.* Elaboración propia. Obtenido de
@@ -691,7 +691,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Database Design Diagram del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Database Design Diagram/Database Design Diagram Event.png" alt="UH">
+  <img src="Anexo/Database Design Diagram/Database Design Diagram Event.png" alt="UH">
 </p> 
 
 *Nota.* Elaboración propia. Obtenido de
