@@ -679,7 +679,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Class Diagrams/Class Diagram Event.png" alt="UH">
+  <img src="Anexos/Class%20Diagrams/Class%20Diagram%20Event.png" alt="UH">
 </p> 
 
 *Nota.* Elaboración propia. Obtenido de
