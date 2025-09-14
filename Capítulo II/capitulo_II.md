@@ -109,7 +109,7 @@ Los siguientes mapas de empatía ilustran los conocimientos recopilados para cad
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 ## 2.6. Tactical-Level Domain-Driven Design
-## 2.6.1. Bounded Context: Announcement Context  
+### 2.6.1. Bounded Context: Announcement Context  
 
 ### 2.6.1.1 Domain Layer  
 El **Announcement Context** gestiona la publicación, visualización y comentarios de anuncios en la organización.  
