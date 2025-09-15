@@ -2673,21 +2673,211 @@ El siguiente diagrama muestra la distribución física y lógica de los componen
 
 ### ***2.6.2. Bounded Context: Event***
 
+Este contexto se especializa en la organización y coordinación de actividades empresariales. Captura la lógica para la creación, modificación, cancelación de eventos, así como la gestión de invitaciones y confirmaciones de asistencia. Su propósito es servir como una fuente confiable para la planificación de actividades.
+
 #### ***2.6.2.1. Domain Layer***
+
+En este bounded context, el núcleo del dominio está relacionado con la creación, gestión y visualización de eventos.
+
+**Clases principales (Entities and Value Objects):**
+
+**Event (Aggregate Root):**
+
+Representa un evento creado por un gerente. Es la entidad central del bounded context de **Event**, y actúa como “la puerta de entrada” al agregado completo.
+
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del evento.
+
+
+  - **title (String):** Título breve y descriptivo del evento (ejemplo: “Reunión de Ventas Mensual”).
+
+
+  - **description (String):** Explicación detallada del evento (objetivos, agenda, instrucciones).
+
+
+  - **date (DateTime):** Fecha y hora en que se llevará a cabo el evento.
+
+
+  - **location (String, opcional):** Lugar físico o enlace virtual (Zoom, Google Meet).
+
+
+  - **createdBy (UserId):** Identificador del gerente que creó el evento. (No guardamos al usuario aquí, porque eso lo resuelve IAM).
+
+
+  - **recipients (lista de UserId):** Conjunto de empleados que deben recibir el evento.
+
+
+* ***Métodos:***
+
+  - **createEvent():** Crea un nuevo evento, asegurando que cumple con las reglas de negocio (ejemplo: que tenga título, descripción y fecha válidos).
+
+
+  - **updateEvent():** Permite modificar la información del evento (ejemplo: cambiar fecha, ubicación o destinatarios).
+
+
+  - **deleteEvent():** Elimina el evento si ya no es necesario o fue cancelado.
+
+
+* ***Reglas de negocio:***
+
+  - Solo los gerentes (rol definido en IAM) pueden crear, actualizar o eliminar un evento.
+
+
+  - Los empleados solo pueden visualizar los eventos asignados a ellos.
+
+
+  - Todo evento debe tener obligatoriamente un título, descripción y fecha válidos.
+
+
+  - Al crearse un evento, se genera automáticamente un evento de dominio (ejemplo: EventCreated) que luego será consumido por otros bounded contexts (como el de Notificaciones).
+
 
 #### ***2.6.2.2. Interface Layer***
 
+**EventController**
+
+Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios con los permisos adecuados (ejemplo: gerentes) puedan ejecutar ciertas operaciones.
+
+* ***Endpoints principales:***
+
+  - **POST /events** → Crear evento (solo gerentes). 
+  
+    - Permite registrar un nuevo evento en el sistema.
+
+    - Valida que el usuario tenga rol de gerente y que se incluyan datos obligatorios (título, descripción, fecha).
+
+  - **GET /events** → Listar eventos (vista en lista).
+
+    - Devuelve todos los eventos disponibles para el usuario autenticado.
+
+    - Los gerentes pueden ver los eventos que crearon; los empleados solo los eventos en los que fueron incluidos como destinatarios.
+
+  - **GET /events/calendar** → Visualizar eventos en calendario.
+
+    - Devuelve los eventos en un formato especial para ser mostrados en vista de calendario.
+
+    - Permite a los empleados y gerentes elegir entre lista o calendario.
+
+  - **PUT /events/{id}** → Actualizar evento (solo gerentes).
+
+    - Permite modificar un evento existente (cambiar fecha, lugar o destinatarios).
+
+    - Requiere que el evento haya sido creado por el mismo gerente que lo intenta editar.
+
+  - **DELETE /events/{id}** → Eliminar evento (solo gerentes).
+
+    - Permite cancelar un evento.
+
+    - Asegura que el usuario sea el gerente creador del evento antes de borrarlo.
+
+
 #### ***2.6.2.3. Application Layer***
+
+La capa de aplicación es la encargada de coordinar los procesos del negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente. Aquí no se define la lógica de negocio directamente, sino que se orquesta el flujo de acciones a través de **Command Handlers y Event Handlers.**
+
+**Command Handlers**
+
+Son clases que reciben las solicitudes de la **Interface Layer** (controladores) y se encargan de invocar al **Domain Layer** para ejecutar las reglas de negocio.
+
+
+* ***CreateEventCommandHandler***
+
+
+  - Recibe la petición de creación de un evento desde el EventController.
+
+
+  - Valida los datos obligatorios (título, descripción, fecha).
+
+
+  - Delegan al agregado Event la creación del evento.
+
+
+* ***UpdateEventCommandHandler***
+
+
+  - Permite modificar datos de un evento ya existente (ejemplo: fecha, ubicación, destinatarios).
+
+
+  - Garantiza que solo el gerente creador del evento pueda actualizarlo.
+
+
+* ***DeleteEventCommandHandler***
+
+
+  - Se encarga de eliminar un evento.
+
+
+  - Valida que la acción sea realizada por el gerente correspondiente.
+
+
+**Event Handlers**
+
+Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema. Se encargan de coordinar acciones posteriores, como notificar a otros bounded contexts.
+
+* ***EventCreatedHandler***
+
+
+  - Se ejecuta cuando se crea un evento.
+
+
+  - Lanza una señal que el **Bounded Context de Notificaciones** escucha, para enviar notificaciones automáticas a los destinatarios del evento.
+
 
 #### ***2.6.2.4. Infrastructure Layer***
 
-#### ***2.6.2.5. Bounded Context Software Architecture Component Level Diagrams***
+En esta capa se implementan las conexiones con servicios externos y la persistencia de datos. Su objetivo es garantizar que los eventos creados, modificados o eliminados se guarden correctamente y puedan ser consultados en cualquier momento por los usuarios autorizados.
 
-#### ***2.6.2.6. Bounded Context Software Architecture Code Level Diagrams***
+**Repositories:**
 
-##### ***2.6.2.6.1. Bounded Context Domain Layer Class Diagrams***
+* ***EventRepository:***
 
-##### ***2.6.2.6.2. Bounded Context Database Design Diagram***
+Implementa las operaciones básicas (crear, leer, actualizar y eliminar) para la entidad Event en la base de datos. Este repositorio actúa como un intermediario entre la capa de dominio y la base de datos, asegurando que la lógica de negocio no dependa directamente de la infraestructura.
+
+* ***Database Access:***
+
+La base de datos utilizada será Supabase, que proporciona una plataforma gestionada en la nube para almacenamiento de datos. Supabase ofrece soporte para bases relacionales (PostgreSQL) y facilita la autenticación y la gestión de permisos, alineándose con el uso de IAM para los usuarios.
+
+De esta manera, la infraestructura asegura que los eventos no solo se guarden de manera confiable en Supabase, sino que también se comuniquen de forma eficiente a todos los empleados involucrados.
+
+
+#### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
+
+**Figura 17**
+
+*Component Level Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975912/diagram_event_componnet_mz0jar.png" alt="Diagrama Event Component">
+</p>
+
+*Nota.* Elaboración propia.
+
+#### ***2.6.5.6. Bounded Context Software Architecture Code Level Diagrams***
+
+##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
+
+**Figura 18**
+
+*Domain Layer Class Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975890/class_diagramEvent_g7l9pf.png" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia.
+
+##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
+
+**Figura 19**
+
+*Database Design Diagram del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975937/database_diagram_event_hqtyze.png" alt="Database diagram">
+</p>
+
+*Nota.* Elaboración propia.
 
 ### ***2.6.3. Bounded Context: Chat***
 
@@ -2727,19 +2917,167 @@ El siguiente diagrama muestra la distribución física y lógica de los componen
 
 ### ***2.6.5. Bounded Context: Profiles***
 
+Este bounded context es responsable de gestionar la información básica de los perfiles de usuario y de servir como una fuente confiable de datos de perfil para otros contextos. Se relaciona con el **IAM Context (Identity and Access Management)**, el cual maneja la autenticación, autorización y credenciales.
+
 #### ***2.6.5.1. Domain Layer***
+
+**Clases principales (Entities and Value Objects):**
+
+**Profile (Aggregate Root):** 
+
+Representa el perfil de un usuario en la plataforma. Es la entidad central del bounded context de Profiles, y actúa como “la puerta de entrada” al agregado completo.
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del perfil.
+
+  - **userId (UserId):** Identificador del usuario asociado al perfil (proveniente del IAM Context).
+
+  - **firstName (String):** Nombre del usuario.
+
+  - **lastName (String):** Apellido del usuario.
+
+  - **avatarUrl (String, opcional):** URL de la imagen de perfil **almacenada en Cloudinary.
+
+  - **position (Position):** Cargo del usuario en la empresa (ejemplo: “Empleado”, “Gerente”). Es un Value Object.
+
+  - **department (Department):** Departamento al que pertenece el usuario (ejemplo: “TI”, “Ventas”). Es un Value Object.
+
+
+* ***Métodos:***
+
+
+  - **createProfile():** Crea un nuevo perfil, asegurando que cumple con las reglas de negocio (ejemplo: que tenga userId, firstName y lastName válidos).
+
+
+  - **updateProfile():** Permite modificar la información del perfil (ejemplo: cambiar firstName, lastName, position, department).
+
+
+  - **changeAvatar():** Cambia la imagen de perfil, actualizando el avatarUrl.
+
+
+* ***Reglas de negocio:***
+
+  - Un perfil solo puede ser creado para un userId existente en el IAM Context.
+
+  - Solo el usuario dueño del perfil puede actualizar su información.
+
+  - El department debe ser uno de los valores válidos definidos por la organización (ej: "TI", "Ventas", "RH"). Al ser un Value Object, se valida contra una lista predefinida.
+
+  - El position debe ser uno de los valores válidos definidos por la organización (ej: "Empleado", "Gerente"). Al ser un Value Object, se valida contra una lista predefinida.
+
+  - Al crearse un perfil, se genera automáticamente un evento de dominio (ejemplo: ProfileCreated) que luego será consumido por otros bounded contexts.
+
 
 #### ***2.6.5.2. Interface Layer***
 
+**ProfileController**
+
+Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios autenticados puedan ejecutar operaciones.
+
+* ***Endpoints principales:***
+
+
+  - **GET /profiles** → Obtener todos los perfiles registrados.
+
+    - Devuelve el perfil completo de los usuarios registrados.
+
+
+  - **GET /profiles/{userId}** → Obtener perfil de un usuario.
+
+    - Devuelve información del perfil (nombre, cargo, departamento) para un userId dado.
+
+
+  - **PUT /profiles/{userId}**  → Actualizar un perfil.
+
+    - Permite modificar la información del perfil del usuario autenticado (firstName, lastName, position, department).
+
+    - Valida que el department sea uno de los valores permitidos.
+
+
 #### ***2.6.5.3. Application Layer***
+
+La capa de aplicación es la encargada de coordinar los procesos del negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente.
+
+**Command Handlers**
+
+Son clases que reciben las solicitudes de la Interface Layer (controladores) y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio.
+
+* ***CreateProfileCommandHandler***
+
+  - Recibe la petición de creación de un perfil (generalmente triggered por un evento de usuario registrado desde el IAM Context).
+
+  - Valida la existencia del userId contra el IAM Context.
+
+  - Delega al agregado Profile la creación del perfil.
+
+* ***UpdateProfileCommandHandler***
+
+  - Recibe la petición de actualización de un perfil desde el ProfileController.
+
+  - Valida que el usuario autenticado sea el dueño del perfil.
+
+  - Delega al agregado Profile la actualización de la información.
+
+**Event Handlers**
+
+Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema.
+
+* ***UserRegisteredEventHandler*** (Se suscribe al IAM Context)
+
+  - Se ejecuta cuando se publica el evento UserRegistered desde el IAM Context.
+
+  - Ejecuta el CreateProfileCommand para crear un perfil básico para el nuevo usuario.
+
 
 #### ***2.6.5.4. Infrastructure Layer***
 
+En esta capa se implementan las conexiones con servicios externos y la persistencia de datos.
+
+**Repositories:**
+
+* ***ProfileRepository:***
+
+Implementa las operaciones básicas (crear, leer, actualizar y eliminar) para la entidad Profile en la base de datos. Este repositorio actúa como un intermediario entre la capa de dominio y la base de datos.
+
+* ***Database Access:***
+
+La base de datos utilizada será Supabase, que proporciona una plataforma gestionada en la nube para almacenamiento de datos.
+
+* ***External Services:***
+
+**IAMServiceClient** es cliente HTTP que consume el API del IAM Context para validar la existencia de un userId (usado durante la creación del perfil).
+
+- **Relación con IAM Context:**
+
+El Profile Context actúa como Downstream y sigue un patrón Conformist con respecto al IAM Context.
+Utiliza el userId proporcionado por IAM como identificador único y foreign key. No implementa una Anti-Corruption Layer (ACL) porque la información de IAM es estable y esencial (core identity). Confía en que el IAM Context provea datos consistentes. Se suscribe al evento UserRegistered publicado por el IAM Context para iniciar la creación de un perfil. De esta manera, la infraestructura asegura que los perfiles se guarden de manera confiable en Supabase y que se mantenga la consistencia con el IAM Context.
+
+
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
+
+**Figura 26**
+
+*Component Level Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/ComponentDiagramsProfile_tj7koe.png" alt="Diagrama Event Component" >
+</p>
+
+*Nota.* Elaboración propia.
 
 #### ***2.6.5.6. Bounded Context Software Architecture Code Level Diagrams***
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
+
+**Figura 27**
+
+*Domain Layer Class Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/ClassDiagramProfile_bycj8i.png" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia.
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
