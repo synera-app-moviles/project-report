@@ -665,7 +665,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Component Level Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Component_Level_Diagrams/diagram_event_componnet.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975912/diagram_event_componnet_mz0jar.png" alt="Diagrama Event Component">
 </p>
 
 *Nota.* Elaboración propia.
@@ -679,7 +679,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Class_Diagrams/class_diagramEvent.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975890/class_diagramEvent_g7l9pf.png" alt="Class Diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -691,7 +691,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 *Database Design Diagram del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Database_Design_Diagram/database_diagram_event.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975937/database_diagram_event_hqtyze.png" alt="Database diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -877,7 +877,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 *Component Level Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Component_Level_Diagrams/ComponentDiagramsProfile.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/ComponentDiagramsProfile_tj7koe.png" alt="Diagrama Event Component" >
 </p>
 
 *Nota.* Elaboración propia.
@@ -891,7 +891,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Class_Diagrams/ClassDiagramProfile.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/ClassDiagramProfile_bycj8i.png" alt="Class Diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -903,7 +903,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 *Database Design Diagram del Bounded Context Event de Synera*
 
 <p align="center">
-  <img src="Anexos/Database_Design_Diagram/DatabaseDiagramProfile.png" alt="UH">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/DatabaseDiagramProfile_faxjvj.png" alt="Database Diagram">
 </p>
 
 *Nota.* Elaboración propia.
