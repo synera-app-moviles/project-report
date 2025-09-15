@@ -658,34 +658,43 @@ La base de datos utilizada será Supabase, que proporciona una plataforma gestio
 De esta manera, la infraestructura asegura que los eventos no solo se guarden de manera confiable en Supabase, sino que también se comuniquen de forma eficiente a todos los empleados involucrados.
 
 
-#### ***2.6.2.5. Bounded Context Software Architecture Component Level Diagrams***
+#### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
 
 **Figura n**
 
 *Component Level Diagrams del Bounded Context Event de Synera*
 
+<p align="center">
+  <img src="Anexos/Component_Level_Diagrams/diagram_event_componnet.png" alt="UH">
+</p>
 
-*Nota.* Elaboración propia. Obtenido de
+*Nota.* Elaboración propia.
 
-#### ***2.6.2.6. Bounded Context Software Architecture Code Level Diagrams***
+#### ***2.6.5.6. Bounded Context Software Architecture Code Level Diagrams***
 
-##### ***2.6.2.6.1. Bounded Context Domain Layer Class Diagrams***
+##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
 **Figura n**
 
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
+<p align="center">
+  <img src="Anexos/Class_Diagrams/class_diagramEvent.png" alt="UH">
+</p>
 
-*Nota.* Elaboración propia. Obtenido de
+*Nota.* Elaboración propia.
 
-##### ***2.6.2.6.2. Bounded Context Database Design Diagram***
+##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
 **Figura n**
 
 *Database Design Diagram del Bounded Context Event de Synera*
 
+<p align="center">
+  <img src="Anexos/Database_Design_Diagram/database_diagram_event.png" alt="UH">
+</p>
 
-*Nota.* Elaboración propia. Obtenido de
+*Nota.* Elaboración propia.
 
 ### ***2.6.3. Bounded Context: Chat***
 
@@ -725,19 +734,177 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 ### ***2.6.5. Bounded Context: Profiles***
 
+Este bounded context es responsable de gestionar la información básica de los perfiles de usuario y de servir como una fuente confiable de datos de perfil para otros contextos. Se relaciona con el **IAM Context (Identity and Access Management)**, el cual maneja la autenticación, autorización y credenciales.
+
 #### ***2.6.5.1. Domain Layer***
+
+**Clases principales (Entities and Value Objects):**
+
+**Profile (Aggregate Root):** 
+
+Representa el perfil de un usuario en la plataforma. Es la entidad central del bounded context de Profiles, y actúa como “la puerta de entrada” al agregado completo.
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del perfil.
+
+  - **userId (UserId):** Identificador del usuario asociado al perfil (proveniente del IAM Context).
+
+  - **firstName (String):** Nombre del usuario.
+
+  - **lastName (String):** Apellido del usuario.
+
+  - **avatarUrl (String, opcional):** URL de la imagen de perfil **almacenada en Cloudinary.
+
+  - **position (Position):** Cargo del usuario en la empresa (ejemplo: “Empleado”, “Gerente”). Es un Value Object.
+
+  - **department (Department):** Departamento al que pertenece el usuario (ejemplo: “TI”, “Ventas”). Es un Value Object.
+
+
+* ***Métodos:***
+
+
+  - **createProfile():** Crea un nuevo perfil, asegurando que cumple con las reglas de negocio (ejemplo: que tenga userId, firstName y lastName válidos).
+
+
+  - **updateProfile():** Permite modificar la información del perfil (ejemplo: cambiar firstName, lastName, position, department).
+
+
+  - **changeAvatar():** Cambia la imagen de perfil, actualizando el avatarUrl.
+
+
+* ***Reglas de negocio:***
+
+  - Un perfil solo puede ser creado para un userId existente en el IAM Context.
+
+  - Solo el usuario dueño del perfil puede actualizar su información.
+
+  - El department debe ser uno de los valores válidos definidos por la organización (ej: "TI", "Ventas", "RH"). Al ser un Value Object, se valida contra una lista predefinida.
+
+  - El position debe ser uno de los valores válidos definidos por la organización (ej: "Empleado", "Gerente"). Al ser un Value Object, se valida contra una lista predefinida.
+
+  - Al crearse un perfil, se genera automáticamente un evento de dominio (ejemplo: ProfileCreated) que luego será consumido por otros bounded contexts.
+
 
 #### ***2.6.5.2. Interface Layer***
 
+**ProfileController**
+
+Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios autenticados puedan ejecutar operaciones.
+
+* ***Endpoints principales:***
+
+
+  - **GET /profiles** → Obtener todos los perfiles registrados.
+
+    - Devuelve el perfil completo de los usuarios registrados.
+
+
+  - **GET /profiles/{userId}** → Obtener perfil de un usuario.
+
+    - Devuelve información del perfil (nombre, cargo, departamento) para un userId dado.
+
+
+  - **PUT /profiles/{userId}**  → Actualizar un perfil.
+
+    - Permite modificar la información del perfil del usuario autenticado (firstName, lastName, position, department).
+
+    - Valida que el department sea uno de los valores permitidos.
+
+
 #### ***2.6.5.3. Application Layer***
+
+La capa de aplicación es la encargada de coordinar los procesos del negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente.
+
+**Command Handlers**
+
+Son clases que reciben las solicitudes de la Interface Layer (controladores) y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio.
+
+* ***CreateProfileCommandHandler***
+
+  - Recibe la petición de creación de un perfil (generalmente triggered por un evento de usuario registrado desde el IAM Context).
+
+  - Valida la existencia del userId contra el IAM Context.
+
+  - Delega al agregado Profile la creación del perfil.
+
+* ***UpdateProfileCommandHandler***
+
+  - Recibe la petición de actualización de un perfil desde el ProfileController.
+
+  - Valida que el usuario autenticado sea el dueño del perfil.
+
+  - Delega al agregado Profile la actualización de la información.
+
+**Event Handlers**
+
+Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema.
+
+* ***UserRegisteredEventHandler*** (Se suscribe al IAM Context)
+
+  - Se ejecuta cuando se publica el evento UserRegistered desde el IAM Context.
+
+  - Ejecuta el CreateProfileCommand para crear un perfil básico para el nuevo usuario.
+
 
 #### ***2.6.5.4. Infrastructure Layer***
 
+En esta capa se implementan las conexiones con servicios externos y la persistencia de datos.
+
+**Repositories:**
+
+* ***ProfileRepository:***
+
+Implementa las operaciones básicas (crear, leer, actualizar y eliminar) para la entidad Profile en la base de datos. Este repositorio actúa como un intermediario entre la capa de dominio y la base de datos.
+
+* ***Database Access:***
+
+La base de datos utilizada será Supabase, que proporciona una plataforma gestionada en la nube para almacenamiento de datos.
+
+* ***External Services:***
+
+**IAMServiceClient** es cliente HTTP que consume el API del IAM Context para validar la existencia de un userId (usado durante la creación del perfil).
+
+- **Relación con IAM Context:**
+
+El Profile Context actúa como Downstream y sigue un patrón Conformist con respecto al IAM Context.
+Utiliza el userId proporcionado por IAM como identificador único y foreign key. No implementa una Anti-Corruption Layer (ACL) porque la información de IAM es estable y esencial (core identity). Confía en que el IAM Context provea datos consistentes. Se suscribe al evento UserRegistered publicado por el IAM Context para iniciar la creación de un perfil. De esta manera, la infraestructura asegura que los perfiles se guarden de manera confiable en Supabase y que se mantenga la consistencia con el IAM Context.
+
+
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
+
+**Figura n**
+
+*Component Level Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="Anexos/Component_Level_Diagrams/ComponentDiagramsProfile.png" alt="UH">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### ***2.6.5.6. Bounded Context Software Architecture Code Level Diagrams***
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
+**Figura n**
+
+*Domain Layer Class Diagrams del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="Anexos/Class_Diagrams/ClassDiagramProfile.png" alt="UH">
+</p>
+
+*Nota.* Elaboración propia.
+
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
+
+**Figura n**
+
+*Database Design Diagram del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="Anexos/Database_Design_Diagram/DatabaseDiagramProfile.png" alt="UH">
+</p>
+
+*Nota.* Elaboración propia.
 
