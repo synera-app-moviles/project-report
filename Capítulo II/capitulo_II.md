@@ -6,107 +6,127 @@
 
 <body>
 <table class="c16">
-<tr class="c1">
-<td class="c13" colspan="6" rowspan="1"><p>Competitive Analysis Landscape</p></td>
-</tr>
-<tr class="c1">
-<td class="c11" colspan="2" rowspan="1"><p>¿Por qué llevar a cabo este análisis?</p></td>
-<td class="c17" colspan="4" rowspan="1"><p> Descripcion </p></td>
-</tr>
-<tr class="c1">
-<td class="c11" colspan="2" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Synera</p><p><img src="images/BuildTruckLogoACL.jpg" alt="BuildTruck Logo" width="86" height="44"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 1</p><p><img src="images/ProcoreLogo.png" alt="Procore Logo" width="75" height="70"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 2</p><p><img src="images/BuildertrendLogo.png" alt="Buildertrend Logo" width="69" height="69"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 3</p><p><img src="images/PlanGridLogo.png" alt="PlanGrid Logo" width="64" height="69"></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="2"><p>Perfil</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Overview</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Ventaja competitiva ¿Qué valor ofrece a los clientes?</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Mercado objetivo</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Estrategias de marketing</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Productos & Servicios</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Precios & Costos</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Canales de distribución (Web y/o Móvil)</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Fortalezas</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Debilidades</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p><p></p><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Oportunidades</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Amenazas</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
+  <tr class="c1">
+    <td class="c13" colspan="6"><p>Competitive Analysis Landscape</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c11" colspan="2"><p>¿Por qué llevar a cabo este análisis?</p></td>
+    <td class="c17" colspan="4"><p>Identificar fortalezas, debilidades, oportunidades y amenazas de los principales competidores (Teams, Slack y WhatsApp), para diferenciar a Centralis como solución enfocada en PYMEs LATAM.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c11" colspan="2"></td>
+    <td class="c0">
+      <p>Centralis</p>
+      <img src="images/centralis.png" alt="Centralis Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>Microsoft Teams</p>
+      <img src="images/teams.png" alt="Teams Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>Slack</p>
+      <img src="images/slack.png" alt="Slack Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>WhatsApp</p>
+      <img src="images/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
+    </td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="2"><p>Perfil</p></td>
+    <td class="c0"><p>Overview</p></td>
+    <td class="c0"><p>Plataforma integral para PYMEs, diseñada para centralizar la comunicación laboral.</p></td>
+    <td class="c0"><p>Plataforma de colaboración de Microsoft, integrada en Microsoft 365.</p></td>
+    <td class="c0"><p>Herramienta de mensajería y colaboración empresarial.</p></td>
+    <td class="c0"><p>Aplicación de mensajería instantánea de Meta, orientada a uso personal.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Ventaja competitiva</p></td>
+    <td class="c0"><p>Simplicidad, bajo costo, funciones en anuncios, eventos y chat laboral.</p></td>
+    <td class="c0"><p>Integración completa con Office 365, alta seguridad.</p></td>
+    <td class="c0"><p>Amplia integración con apps de terceros (Trello, Google Drive, Jira, etc.).</p></td>
+    <td class="c0"><p>Facilidad de uso y adopción masiva global.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td class="c0"><p>Mercado objetivo</p></td>
+    <td class="c0"><p>Pequeñas y medianas empresas en LATAM.</p></td>
+    <td class="c0"><p>Empresas medianas y grandes.</p></td>
+    <td class="c0"><p>Empresas tecnológicas, startups, equipos distribuidos.</p></td>
+    <td class="c0"><p>Usuarios generales, comunicación personal y grupos informales.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Estrategias de marketing</p></td>
+    <td class="c0"><p>Marketing digital enfocado en PYMEs, alianzas con gremios y cámaras empresariales.</p></td>
+    <td class="c0"><p>Incluido en licencias de Microsoft 365, ventas corporativas.</p></td>
+    <td class="c0"><p>Modelo freemium, marketing digital, comunidad de desarrolladores.</p></td>
+    <td class="c0"><p>Posicionamiento masivo y gratuito, expansión viral.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="3"><p>Perfil de Producto</p></td>
+    <td class="c0"><p>Productos & Servicios</p></td>
+    <td class="c0"><p>Anuncios formales, gestión de eventos, chats laborales segmentados.</p></td>
+    <td class="c0"><p>Videollamadas, chat, colaboración documental, calendario.</p></td>
+    <td class="c0"><p>Canales temáticos, bots, integraciones externas, chat grupal.</p></td>
+    <td class="c0"><p>Mensajería, llamadas, grupos, archivos multimedia.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Precios & Costos</p></td>
+    <td class="c0"><p>Suscripción accesible y escalable.</p></td>
+    <td class="c0"><p>Desde $4 USD/usuario/mes (básico).</p></td>
+    <td class="c0"><p>Desde $7.25 USD/usuario/mes (estándar).</p></td>
+    <td class="c0"><p>Gratuito (limitado en funciones empresariales).</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Canales de distribución</p></td>
+    <td class="c0"><p>Mobile-first (Android/iOS) + versión web complementaria.</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="4"><p>Análisis SWOT</p></td>
+    <td class="c0"><p>Fortalezas</p></td>
+    <td class="c0"><p>Asequibilidad, enfoque LATAM, simplicidad laboral.</p></td>
+    <td class="c0"><p>Integración con Microsoft 365, seguridad.</p></td>
+    <td class="c0"><p>Flexibilidad, ecosistema de apps.</p></td>
+    <td class="c0"><p>Simplicidad, adopción masiva.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Debilidades</p></td>
+    <td class="c0"><p>Startup nueva, menor reconocimiento de marca.</p></td>
+    <td class="c0"><p>Complejo para PYMEs, curva de aprendizaje alta.</p></td>
+    <td class="c0"><p>Costoso para equipos pequeños, saturación de apps.</p></td>
+    <td class="c0"><p>Baja seguridad, falta de funciones laborales.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Oportunidades</p></td>
+    <td class="c0"><p>Brecha en PYMEs que necesitan centralización simple y económica.</p></td>
+    <td class="c0"><p>Creciente adopción de entornos híbridos.</p></td>
+    <td class="c0"><p>Expansión en empresas medianas.</p></td>
+    <td class="c0"><p>Uso laboral en mercados emergentes.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Amenazas</p></td>
+    <td class="c0"><p>Copia rápida del modelo por grandes competidores.</p></td>
+    <td class="c0"><p>Competencia de Slack y Google Workspace.</p></td>
+    <td class="c0"><p>Competencia de Teams y Zoom.</p></td>
+    <td class="c0"><p>Regulaciones de privacidad y nuevas apps laborales.</p></td>
+  </tr>
 </table>
-</body>
 
 #
 
 ### ***2.1.2. Estrategias y tácticas frente a competidores***
+
+<ul>
+  <li><b>Diferenciación Tecnológica:</b> Arquitectura DDD y hexagonal, bounded contexts claros, uso de Supabase y Firebase para escalabilidad y costos bajos.</li>
+  <li><b>Experiencia de Usuario:</b> Diseño mobile-first, minimalista y simple frente a la complejidad de Teams y Slack. Diferenciación clara de vida laboral y personal frente a WhatsApp.</li>
+  <li><b>Seguridad y Privacidad:</b> Roles y permisos integrados, cumplimiento con GDPR, encriptación en tránsito y reposo, auditorías.</li>
+  <li><b>Escalabilidad y Despliegue:</b> Arquitectura en microservicios, despliegue modular, infraestructura serverless y monitoreo con Prometheus/Sentry.</li>
+  <li><b>Go-to-Market:</b> Posicionamiento como alternativa formal y económica para PYMEs en LATAM, con plan freemium inicial y escalabilidad progresiva.</li>
+</ul>
+</body>
 
 
 #
