@@ -2657,19 +2657,19 @@ Este apartado presenta los diagramas de la arquitectura del Announcement Context
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las entidades, value objects e interfaces de repositorios del Announcement Context.  
 
-![Domain Layer Class Diagram](Anexos/Announcement-Context/Boundend1-C-Domain-Layer-Class-Diagram.png)
+![Domain Layer Class Diagram](../Anexos/Announcement-Context/Boundend1-C-Domain-Layer-Class-Diagram.png)
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 El siguiente diagrama representa el diseño de la base de datos (ERD) del Announcement Context.  
 
-![Database Design Diagram](Anexos/Announcement-Context/Boundend1-C-Database-Design.png)
+![Database Design Diagram](../Anexos/Announcement-Context/Boundend1-C-Database-Design.png)
 
 ---
 
 #### 2.6.1.7. Deployment Diagram
 El siguiente diagrama muestra la distribución física y lógica de los componentes del Announcement Context en la infraestructura de despliegue.  
 
-![Deployment Diagram](Anexos/Announcement-Context/Boundend1-C-Deployment-Diagram.png)
+![Deployment Diagram](../Anexos/Announcement-Context/Boundend1-C-Deployment-Diagram.png)
 
 ### ***2.6.2. Bounded Context: Event***
 
