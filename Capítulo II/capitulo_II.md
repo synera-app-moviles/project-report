@@ -2645,7 +2645,8 @@ El **Infrastructure Layer** incluye la implementación de repositorios y la inte
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 El siguiente diagrama representa la arquitectura del Announcement Context a nivel de componentes.  
 
-![Component Diagram](Anexos/Announcement-Context/Boundend1-C-Component-Diagram.png)
+![Component Diagram](./project-report/Anexos/Announcement-Context/Boundend1-C-Component-Diagram.png)
+
 
 ---
 
