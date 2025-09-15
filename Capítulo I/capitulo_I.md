@@ -7,19 +7,19 @@
 
 ### ***1.1.1. Descripción de la Startup***
 
-Synera es una startup innovadora fundada por un pequeño equipo de estudiantes de Ingeniería de Software. Nuestra motivación surge de identificar una problemática común en el entorno laboral moderno y aplicar nuestros conocimientos para crear una solución efectiva y elegante.
+<p style="text-indent: 1.25cm;">Synera es una startup innovadora fundada por un pequeño equipo de estudiantes de Ingeniería de Software. Nuestra motivación surge de identificar una problemática común en el entorno laboral moderno y aplicar nuestros conocimientos para crear una solución efectiva y elegante.
 
-Nuestro producto, la app Centralis, es una plataforma de comunicación integral diseñada específicamente para el ámbito profesional. Lo que ofrecemos es una alternativa centralizada y organizada a las herramientas informales como WhatsApp o a las plataformas corporativas que pueden resultar complejas. Centralis ofrece funcionalidades clave en un solo lugar: un espacio para publicar noticias y anuncios formales que aseguran que la información vital llegue a todos, un espacio para crear y gestionar eventos como reuniones y capacitaciones, y una sección de chat que permite crear grupos de trabajo flexibles y personalizados por departamentos, equipos de proyecto, o entre gerentes.
+<p style="text-indent: 1.25cm;">Nuestro producto, la app Centralis, es una plataforma de comunicación integral diseñada específicamente para el ámbito profesional. Lo que ofrecemos es una alternativa centralizada y organizada a las herramientas informales como WhatsApp o a las plataformas corporativas que pueden resultar complejas. Centralis ofrece funcionalidades clave en un solo lugar: un espacio para publicar noticias y anuncios formales que aseguran que la información vital llegue a todos, un espacio para crear y gestionar eventos como reuniones y capacitaciones, y una sección de chat que permite crear grupos de trabajo flexibles y personalizados por departamentos, equipos de proyecto, o entre gerentes.
 
-Nuestra solución se dirige principalmente a pequeñas y medianas empresas que carecen de una herramienta de comunicación interna oficial o que están lidiando con el caos de usar aplicaciones personales para el trabajo. Nos enfocamos en ambos lados de la estructura organizacional: tanto en los gerentes y líderes, que necesitan un canal formal para difundir información y organizar actividades, como en los empleados, que requieren un espacio colaborativo y oficial para comunicarse entre sí sin mezclar su vida personal con la profesional.
+<p style="text-indent: 1.25cm;">Nuestra solución se dirige principalmente a pequeñas y medianas empresas que carecen de una herramienta de comunicación interna oficial o que están lidiando con el caos de usar aplicaciones personales para el trabajo. Nos enfocamos en ambos lados de la estructura organizacional: tanto en los gerentes y líderes, que necesitan un canal formal para difundir información y organizar actividades, como en los empleados, que requieren un espacio colaborativo y oficial para comunicarse entre sí sin mezclar su vida personal con la profesional.
 
-Nuestra propuesta de valor radica en ofrecer una plataforma todo-en-uno que es a la vez poderosa y excepcionalmente fácil de usar. Reemplazamos la desorganización de las apps personales y la complejidad de las apps corporativas con una solución intuitiva. Centralis no es solo otra app de chat; es una herramienta estratégica que mejora la productividad, fomenta una cultura de transparencia y convierte la comunicación interna en una ventaja para nuestros clientes.
+<p style="text-indent: 1.25cm;">Nuestra propuesta de valor radica en ofrecer una plataforma todo-en-uno que es a la vez poderosa y excepcionalmente fácil de usar. Reemplazamos la desorganización de las apps personales y la complejidad de las apps corporativas con una solución intuitiva. Centralis no es solo otra app de chat; es una herramienta estratégica que mejora la productividad, fomenta una cultura de transparencia y convierte la comunicación interna en una ventaja para nuestros clientes.
 
 **Misión:**
-Nuestra misión es simplificar y mejorar radicalmente la comunicación dentro de las empresas reemplazando los canales informales por una plataforma segura, intuitiva y eficiente diseñada específicamente para las necesidades de las organizaciones modernas. 
+<p style="text-indent: 1.25cm;">Nuestra misión es simplificar y mejorar radicalmente la comunicación dentro de las empresas reemplazando los canales informales por una plataforma segura, intuitiva y eficiente diseñada específicamente para las necesidades de las organizaciones modernas. 
 
 **Visión:** 
-Nuestra visión es ser la plataforma de comunicación interna preferida para pequeñas, medias empresas y equipos emergentes, reconocida por su usabilidad, innovación y por fortalecer la cultura de colaboración y transparencia dentro de las empresas, posicionándonos como un aliado clave en su crecimiento y éxito.
+<p style="text-indent: 1.25cm;">Nuestra visión es ser la plataforma de comunicación interna preferida para pequeñas, medias empresas y equipos emergentes, reconocida por su usabilidad, innovación y por fortalecer la cultura de colaboración y transparencia dentro de las empresas, posicionándonos como un aliado clave en su crecimiento y éxito.
 
 ### ***1.1.2. Perfiles de Integrantes del Equipo***
 
@@ -41,69 +41,69 @@ Nuestra visión es ser la plataforma de comunicación interna preferida para peq
 
 ### ***1.2.1. Antecedentes y problemática***
 
-Como parte del proceso de definición de la problemática, se aplicó la técnica The 5 W’s and 2 H’s (Who, What, Where, When, Why, How, How Much), permitiendo estructurar de manera preliminar la descripción de los antecedentes y el planteamiento del problema.
+<p style="text-indent: 1.25cm;">Como parte del proceso de definición de la problemática, se aplicó la técnica The 5 W’s and 2 H’s (Who, What, Where, When, Why, How, How Much), permitiendo estructurar de manera preliminar la descripción de los antecedentes y el planteamiento del problema.
 
 ***Who:***
 
 ¿Quiénes están involucrados?
 
-Los principales stakeholders identificados son tres grupos: pequeñas y medianas empresas que buscan mejorar su comunicación interna, gerentes o líderes que necesitan un canal formal para difundir información y organizar actividades, y empleados que requieren un espacio colaborativo dedicado para interactuar sin mezclar su vida personal con la laboral.
+<p style="text-indent: 1.25cm;">Los principales stakeholders identificados son tres grupos: pequeñas y medianas empresas que buscan mejorar su comunicación interna, gerentes o líderes que necesitan un canal formal para difundir información y organizar actividades, y empleados que requieren un espacio colaborativo dedicado para interactuar sin mezclar su vida personal con la laboral.
 
 ***What:***
 
 ¿Cuál es el problema?
 
-Actualmente, las empresas enfrentan una fragmentación en sus canales de comunicación interna. Muchas organizaciones utilizan aplicaciones informales como WhatsApp para interacciones diarias, lo que genera desorganización y falta de privacidad, o recurren a soluciones complejas como Microsoft Teams o Slack, que pueden resultar abrumadoras y costosas para equipos pequeños. Esto deriva en pérdida de información importante, falta de centralización, dificultades para gestionar anuncios, eventos y conversaciones grupales de manera eficiente, y una clara desconexión entre los diferentes niveles jerárquicos de la organización.
+<p style="text-indent: 1.25cm;">Actualmente, las empresas enfrentan una fragmentación en sus canales de comunicación interna. Muchas organizaciones utilizan aplicaciones informales como WhatsApp para interacciones diarias, lo que genera desorganización y falta de privacidad, o recurren a soluciones complejas como Microsoft Teams o Slack, que pueden resultar abrumadoras y costosas para equipos pequeños. Esto deriva en pérdida de información importante, falta de centralización, dificultades para gestionar anuncios, eventos y conversaciones grupales de manera eficiente, y una clara desconexión entre los diferentes niveles jerárquicos de la organización.
 
 ***Where:***
 
 ¿Dónde surge el problema?
 
-El problema se manifiesta principalmente en el entorno digital y laboral de pequeñas y medianas empresas en América Latina, donde el acceso a herramientas especializadas es limitado debido a su costo o complejidad.
+<p style="text-indent: 1.25cm;">El problema se manifiesta principalmente en el entorno digital y laboral de pequeñas y medianas empresas en América Latina, donde el acceso a herramientas especializadas es limitado debido a su costo o complejidad.
 
 ***When:***
 
 ¿Cuándo sucede el problema?
 
-La necesidad se hace evidente en el día a día de las empresas, especialmente durante la planificación de proyectos, la difusión de anuncios urgentes, la organización de reuniones o capacitaciones, y en la comunicación grupal entre departamentos o equipos. El problema se intensifica con el crecimiento de la empresa y la adopción del trabajo híbrido o remoto.
+<p style="text-indent: 1.25cm;">La necesidad se hace evidente en el día a día de las empresas, especialmente durante la planificación de proyectos, la difusión de anuncios urgentes, la organización de reuniones o capacitaciones, y en la comunicación grupal entre departamentos o equipos. El problema se intensifica con el crecimiento de la empresa y la adopción del trabajo híbrido o remoto.
 
 ***Why:***
 
 ¿Por qué ocurre esta situación?
 
-La ausencia de una plataforma unificada obliga a los equipos a utilizar múltiples herramientas no integradas, lo que genera descoordinación, pérdida de productividad, riesgos de seguridad y falta de transparencia en la comunicación. Esto impacta directamente en la eficiencia operativa y la cultura organizacional.
+<p style="text-indent: 1.25cm;">La ausencia de una plataforma unificada obliga a los equipos a utilizar múltiples herramientas no integradas, lo que genera descoordinación, pérdida de productividad, riesgos de seguridad y falta de transparencia en la comunicación. Esto impacta directamente en la eficiencia operativa y la cultura organizacional.
 
 ***How:***
 
-Actualmente, los procesos de comunicación se llevan a cabo de manera desarticulada: los anuncios se comparten en correos electrónicos que se pierden, los eventos se gestionan en calendarios externos no sincronizados y las conversaciones se fragmentan entre aplicaciones personales y profesionales. Esto da lugar a duplicación de esfuerzos, falta de seguimiento y errores en la ejecución de tareas.
+<p style="text-indent: 1.25cm;">Actualmente, los procesos de comunicación se llevan a cabo de manera desarticulada: los anuncios se comparten en correos electrónicos que se pierden, los eventos se gestionan en calendarios externos no sincronizados y las conversaciones se fragmentan entre aplicaciones personales y profesionales. Esto da lugar a duplicación de esfuerzos, falta de seguimiento y errores en la ejecución de tareas.
 
 ***How Much:***
 
-El impacto económico incluye pérdidas de productividad debido al tiempo invertido en buscar información dispersa en múltiples plataformas, posibles malentendidos que derivan en retrasos operativos y reprocesos, así como costos indirectos asociados al uso de herramientas no optimizadas para el ámbito laboral, como la baja escalabilidad o la necesidad de capacitaciones adicionales. Para las pymes, esto puede representar una disminución significativa en su capacidad de respuesta y competitividad, estimándose que hasta un 20% del tiempo de trabajo podría perderse en gestionar comunicaciones ineficientes.
+<p style="text-indent: 1.25cm;">El impacto económico incluye pérdidas de productividad debido al tiempo invertido en buscar información dispersa en múltiples plataformas, posibles malentendidos que derivan en retrasos operativos y reprocesos, así como costos indirectos asociados al uso de herramientas no optimizadas para el ámbito laboral, como la baja escalabilidad o la necesidad de capacitaciones adicionales. Para las pymes, esto puede representar una disminución significativa en su capacidad de respuesta y competitividad, estimándose que hasta un 20% del tiempo de trabajo podría perderse en gestionar comunicaciones ineficientes.
 
-Con base en este análisis preliminar, se identifica como problemática principal la falta de una plataforma integral y accesible que centralice la comunicación interna para pymes, integrando anuncios, eventos y chats grupales en un solo espacio seguro, intuitivo y diseñado específicamente para sus necesidades.
+<p style="text-indent: 1.25cm;">Con base en este análisis preliminar, se identifica como problemática principal la falta de una plataforma integral y accesible que centralice la comunicación interna para pymes, integrando anuncios, eventos y chats grupales en un solo espacio seguro, intuitivo y diseñado específicamente para sus necesidades.
 
-Centralis se propone como respuesta a esta brecha, diseñando una aplicación móvil que unifique en un solo flujo la publicación de noticias, la creación de eventos y la comunicación grupal, priorizando la usabilidad y la adaptación al mercado latinoamericano.
+<p style="text-indent: 1.25cm;">Centralis se propone como respuesta a esta brecha, diseñando una aplicación móvil que unifique en un solo flujo la publicación de noticias, la creación de eventos y la comunicación grupal, priorizando la usabilidad y la adaptación al mercado latinoamericano.
 
 \- Delimitación del alcance del proyecto:
 
-Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa para Android e iOS, que incluya funcionalidades centrales como: publicación de anuncios y noticias, creación y gestión de eventos (reuniones, capacitaciones), y chats grupales. Quedan fuera del alcance inicial funciones avanzadas como videollamadas, almacenamiento de archivos y el desarrollo de una versión web. El enfoque inicial estará dirigido a empresas radicadas en Perú, con posibilidad de expandirse a otros países de habla hispana en etapas posteriores.
+<p style="text-indent: 1.25cm;">Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa para Android e iOS, que incluya funcionalidades centrales como: publicación de anuncios y noticias, creación y gestión de eventos (reuniones, capacitaciones), y chats grupales. Quedan fuera del alcance inicial funciones avanzadas como videollamadas, almacenamiento de archivos y el desarrollo de una versión web. El enfoque inicial estará dirigido a empresas radicadas en Perú, con posibilidad de expandirse a otros países de habla hispana en etapas posteriores.
 
 ### ***1.2.2. Lean UX Process***
 
 #### **1.2.2.1. Lean UX Problem Statements**
 
-**Centralis** es una aplicación móvil que permite a pequeñas y medianas empresas (pymes) centralizar y optimizar su comunicación interna mediante anuncios, eventos y chats grupales, fomentando la transparencia y la colaboración entre empleados y gerentes.
+<p style="text-indent: 1.25cm;">**Centralis** es una aplicación móvil que permite a pequeñas y medianas empresas (pymes) centralizar y optimizar su comunicación interna mediante anuncios, eventos y chats grupales, fomentando la transparencia y la colaboración entre empleados y gerentes.
 
-**Contexto**: Nuestro producto ofrece a pymes y equipos emergentes una herramienta accesible y intuitiva para gestionar su comunicación interna, con el objetivo de reemplazar canales informales y soluciones complejas.
+<p style="text-indent: 1.25cm;">**Contexto**: Nuestro producto ofrece a pymes y equipos emergentes una herramienta accesible y intuitiva para gestionar su comunicación interna, con el objetivo de reemplazar canales informales y soluciones complejas.
 
-**Observación del problema**: Sin embargo, hemos identificado que muchas empresas aún dependen de aplicaciones no oficiales para su comunicación diaria, lo que genera desorganización, pérdida de información y falta de seguridad. Esta observación se basa en entrevistas con gerentes y empleados de pymes, análisis de flujos de comunicación actuales y feedback recogido en pruebas preliminares, donde los participantes señalaron dificultades para centralizar anuncios, coordinar eventos y mantener conversaciones grupales estructuradas.
+<p style="text-indent: 1.25cm;">**Observación del problema**: Sin embargo, hemos identificado que muchas empresas aún dependen de aplicaciones no oficiales para su comunicación diaria, lo que genera desorganización, pérdida de información y falta de seguridad. Esta observación se basa en entrevistas con gerentes y empleados de pymes, análisis de flujos de comunicación actuales y feedback recogido en pruebas preliminares, donde los participantes señalaron dificultades para centralizar anuncios, coordinar eventos y mantener conversaciones grupales estructuradas.
 
-**Impacto**: Esta situación genera una disminución en la productividad de los equipos, aumenta el riesgo de malentendidos operativos y limita la escalabilidad de la comunicación a medida que la empresa crece. Además, afecta negativamente la cultura organizacional al fomentar la fragmentación y la desconfianza en los canales oficiales.
+<p style="text-indent: 1.25cm;">**Impacto**: Esta situación genera una disminución en la productividad de los equipos, aumenta el riesgo de malentendidos operativos y limita la escalabilidad de la comunicación a medida que la empresa crece. Además, afecta negativamente la cultura organizacional al fomentar la fragmentación y la desconfianza en los canales oficiales.
 
-**Necesidad insatisfecha**: Actualmente, los usuarios de Centralis necesitan una plataforma móvil unificada que les permita publicar anuncios formales, crear eventos y chatear en grupos organizados, todo en un entorno seguro y diseñado específicamente para el ámbito laboral, para sentirse seguros de que su comunicación será eficiente y transparente.
+<p style="text-indent: 1.25cm;">**Necesidad insatisfecha**: Actualmente, los usuarios de Centralis necesitan una plataforma móvil unificada que les permita publicar anuncios formales, crear eventos y chatear en grupos organizados, todo en un entorno seguro y diseñado específicamente para el ámbito laboral, para sentirse seguros de que su comunicación será eficiente y transparente.
 
-**Pregunta de mejora**: ¿Cómo podríamos optimizar la experiencia de comunicación interna en Centralis para aumentar la adopción por parte de pymes y mejorar significativamente la productividad y satisfacción de sus equipos?
+<p style="text-indent: 1.25cm;">**Pregunta de mejora**: ¿Cómo podríamos optimizar la experiencia de comunicación interna en Centralis para aumentar la adopción por parte de pymes y mejorar significativamente la productividad y satisfacción de sus equipos?
 
 
 #### **1.2.2.2. Lean UX Assumptions**
@@ -175,11 +175,11 @@ Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa
 # 
 #### **1.2.2.4. Lean UX Canvas**
 
-En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Centralis.
+<p style="text-indent: 1.25cm;">En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Centralis.
 
-Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem), las soluciones propuestas a nivel funcional y técnico (Solutions), los resultados esperados a nivel organizacional (Business Outcomes), la caracterización de los usuarios objetivos (Users), los beneficios esperados para estos usuarios (User Outcomes & Benefits), la formulación de hipótesis de aprendizaje (Hypotheses), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing?).
+<p style="text-indent: 1.25cm;">Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem), las soluciones propuestas a nivel funcional y técnico (Solutions), los resultados esperados a nivel organizacional (Business Outcomes), la caracterización de los usuarios objetivos (Users), los beneficios esperados para estos usuarios (User Outcomes & Benefits), la formulación de hipótesis de aprendizaje (Hypotheses), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing?).
 
-Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Centralis, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
+<p style="text-indent: 1.25cm;">Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Centralis, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
 **Figura 1**
 
