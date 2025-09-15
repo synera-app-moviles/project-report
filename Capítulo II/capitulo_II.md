@@ -660,7 +660,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
 
-**Figura n**
+**Figura 17**
 
 *Component Level Diagrams del Bounded Context Event de Synera*
 
@@ -674,7 +674,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
-**Figura n**
+**Figura 18**
 
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
@@ -686,7 +686,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
-**Figura n**
+**Figura 19**
 
 *Database Design Diagram del Bounded Context Event de Synera*
 
@@ -872,7 +872,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
 
-**Figura n**
+**Figura 26**
 
 *Component Level Diagrams del Bounded Context Event de Synera*
 
@@ -886,7 +886,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
-**Figura n**
+**Figura 27**
 
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
@@ -898,7 +898,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
-**Figura n**
+**Figura 28**
 
 *Database Design Diagram del Bounded Context Event de Synera*
 
