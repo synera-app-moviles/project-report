@@ -6,107 +6,127 @@
 
 <body>
 <table class="c16">
-<tr class="c1">
-<td class="c13" colspan="6" rowspan="1"><p>Competitive Analysis Landscape</p></td>
-</tr>
-<tr class="c1">
-<td class="c11" colspan="2" rowspan="1"><p>¿Por qué llevar a cabo este análisis?</p></td>
-<td class="c17" colspan="4" rowspan="1"><p> Descripcion </p></td>
-</tr>
-<tr class="c1">
-<td class="c11" colspan="2" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Synera</p><p><img src="images/BuildTruckLogoACL.jpg" alt="BuildTruck Logo" width="86" height="44"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 1</p><p><img src="images/ProcoreLogo.png" alt="Procore Logo" width="75" height="70"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 2</p><p><img src="images/BuildertrendLogo.png" alt="Buildertrend Logo" width="69" height="69"></p></td>
-<td class="c0" colspan="1" rowspan="1"><p>empresa 3</p><p><img src="images/PlanGridLogo.png" alt="PlanGrid Logo" width="64" height="69"></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="2"><p>Perfil</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Overview</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Ventaja competitiva ¿Qué valor ofrece a los clientes?</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de synera</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 1</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 2</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Descripcicon de empresa 3</p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Mercado objetivo</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Estrategias de marketing</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Productos & Servicios</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Precios & Costos</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Canales de distribución (Web y/o Móvil)</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
-<td class="c0" colspan="1" rowspan="1"><p>Fortalezas</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Debilidades</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p><p></p><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Oportunidades</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
-<tr class="c1">
-<td class="c0" colspan="1" rowspan="1"><p>Amenazas</p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-<td class="c0" colspan="1" rowspan="1"><p></p></td>
-</tr>
+  <tr class="c1">
+    <td class="c13" colspan="6"><p>Competitive Analysis Landscape</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c11" colspan="2"><p>¿Por qué llevar a cabo este análisis?</p></td>
+    <td class="c17" colspan="4"><p>Identificar fortalezas, debilidades, oportunidades y amenazas de los principales competidores (Teams, Slack y WhatsApp), para diferenciar a Centralis como solución enfocada en PYMEs LATAM.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c11" colspan="2"></td>
+    <td class="c0">
+      <p>Centralis</p>
+      <img src="Anexos/Images-CompetitiveAnalysis/centralis.png" alt="Centralis Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>Microsoft Teams</p>
+      <img src="Anexos/Images-CompetitiveAnalysis/teams.png" alt="Teams Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>Slack</p>
+      <img src="Anexos/Images-CompetitiveAnalysis/slack.png" alt="Slack Logo" width="80" height="80">
+    </td>
+    <td class="c0">
+      <p>WhatsApp</p>
+      <img src="Anexos/Images-CompetitiveAnalysis/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
+    </td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="2"><p>Perfil</p></td>
+    <td class="c0"><p>Overview</p></td>
+    <td class="c0"><p>Plataforma integral para PYMEs, diseñada para centralizar la comunicación laboral.</p></td>
+    <td class="c0"><p>Plataforma de colaboración de Microsoft, integrada en Microsoft 365.</p></td>
+    <td class="c0"><p>Herramienta de mensajería y colaboración empresarial.</p></td>
+    <td class="c0"><p>Aplicación de mensajería instantánea de Meta, orientada a uso personal.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Ventaja competitiva</p></td>
+    <td class="c0"><p>Simplicidad, bajo costo, funciones en anuncios, eventos y chat laboral.</p></td>
+    <td class="c0"><p>Integración completa con Office 365, alta seguridad.</p></td>
+    <td class="c0"><p>Amplia integración con apps de terceros (Trello, Google Drive, Jira, etc.).</p></td>
+    <td class="c0"><p>Facilidad de uso y adopción masiva global.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td class="c0"><p>Mercado objetivo</p></td>
+    <td class="c0"><p>Pequeñas y medianas empresas en LATAM.</p></td>
+    <td class="c0"><p>Empresas medianas y grandes.</p></td>
+    <td class="c0"><p>Empresas tecnológicas, startups, equipos distribuidos.</p></td>
+    <td class="c0"><p>Usuarios generales, comunicación personal y grupos informales.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Estrategias de marketing</p></td>
+    <td class="c0"><p>Marketing digital enfocado en PYMEs, alianzas con gremios y cámaras empresariales.</p></td>
+    <td class="c0"><p>Incluido en licencias de Microsoft 365, ventas corporativas.</p></td>
+    <td class="c0"><p>Modelo freemium, marketing digital, comunidad de desarrolladores.</p></td>
+    <td class="c0"><p>Posicionamiento masivo y gratuito, expansión viral.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="3"><p>Perfil de Producto</p></td>
+    <td class="c0"><p>Productos & Servicios</p></td>
+    <td class="c0"><p>Anuncios formales, gestión de eventos, chats laborales segmentados.</p></td>
+    <td class="c0"><p>Videollamadas, chat, colaboración documental, calendario.</p></td>
+    <td class="c0"><p>Canales temáticos, bots, integraciones externas, chat grupal.</p></td>
+    <td class="c0"><p>Mensajería, llamadas, grupos, archivos multimedia.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Precios & Costos</p></td>
+    <td class="c0"><p>Suscripción accesible y escalable.</p></td>
+    <td class="c0"><p>Desde $4 USD/usuario/mes (básico).</p></td>
+    <td class="c0"><p>Desde $7.25 USD/usuario/mes (estándar).</p></td>
+    <td class="c0"><p>Gratuito (limitado en funciones empresariales).</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Canales de distribución</p></td>
+    <td class="c0"><p>Mobile-first (Android/iOS) + versión web complementaria.</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+    <td class="c0"><p>Web, Desktop, Móvil (Android/iOS).</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0" rowspan="4"><p>Análisis SWOT</p></td>
+    <td class="c0"><p>Fortalezas</p></td>
+    <td class="c0"><p>Asequibilidad, enfoque LATAM, simplicidad laboral.</p></td>
+    <td class="c0"><p>Integración con Microsoft 365, seguridad.</p></td>
+    <td class="c0"><p>Flexibilidad, ecosistema de apps.</p></td>
+    <td class="c0"><p>Simplicidad, adopción masiva.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Debilidades</p></td>
+    <td class="c0"><p>Startup nueva, menor reconocimiento de marca.</p></td>
+    <td class="c0"><p>Complejo para PYMEs, curva de aprendizaje alta.</p></td>
+    <td class="c0"><p>Costoso para equipos pequeños, saturación de apps.</p></td>
+    <td class="c0"><p>Baja seguridad, falta de funciones laborales.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Oportunidades</p></td>
+    <td class="c0"><p>Brecha en PYMEs que necesitan centralización simple y económica.</p></td>
+    <td class="c0"><p>Creciente adopción de entornos híbridos.</p></td>
+    <td class="c0"><p>Expansión en empresas medianas.</p></td>
+    <td class="c0"><p>Uso laboral en mercados emergentes.</p></td>
+  </tr>
+  <tr class="c1">
+    <td class="c0"><p>Amenazas</p></td>
+    <td class="c0"><p>Copia rápida del modelo por grandes competidores.</p></td>
+    <td class="c0"><p>Competencia de Slack y Google Workspace.</p></td>
+    <td class="c0"><p>Competencia de Teams y Zoom.</p></td>
+    <td class="c0"><p>Regulaciones de privacidad y nuevas apps laborales.</p></td>
+  </tr>
 </table>
-</body>
 
 #
 
 ### ***2.1.2. Estrategias y tácticas frente a competidores***
+
+<ul>
+  <li><b>Diferenciación Tecnológica:</b> Arquitectura DDD y hexagonal, bounded contexts claros, uso de Supabase y Firebase para escalabilidad y costos bajos.</li>
+  <li><b>Experiencia de Usuario:</b> Diseño mobile-first, minimalista y simple frente a la complejidad de Teams y Slack. Diferenciación clara de vida laboral y personal frente a WhatsApp.</li>
+  <li><b>Seguridad y Privacidad:</b> Roles y permisos integrados, cumplimiento con GDPR, encriptación en tránsito y reposo, auditorías.</li>
+  <li><b>Escalabilidad y Despliegue:</b> Arquitectura en microservicios, despliegue modular, infraestructura serverless y monitoreo con Prometheus/Sentry.</li>
+  <li><b>Go-to-Market:</b> Posicionamiento como alternativa formal y económica para PYMEs en LATAM, con plan freemium inicial y escalabilidad progresiva.</li>
+</ul>
+</body>
 
 
 #
@@ -3148,20 +3168,112 @@ Permite: Cargar un group por Id, guardar y actualizar los datos de un group en l
 ### ***2.6.4. Bounded Context: Notification***
 
 #### ***2.6.4.1. Domain Layer***
+En este bounded context, el núcleo del dominio está relacionado con la creación, gestión y envío de notificaciones.
+- **Clases Principales (Entities and Value Objects):**
+  - **Notification (Aggregate Root):**
+    Representa una notificación generada a partir de un evento de dominio (ejemplo: un evento creado, un anuncio publicado, un mensaje enviado en un chat).
+  - **Atributos**
+    - `id (UUID)`: Identificador único de la notificación.
+    - `title (String)`: Título breve de la notificación.
+    - `message (String)`: Mensaje principal de la notificación.
+    - `recipients (List<UserId>)`: Lista de destinatarios (proveniente de otros bounded contexts, como Event con sus invitados, o Chat con sus miembros).
+    - `priority (enum: HIGH, NORMAL)`: Define si es una notificación prioritaria o regular.
+    - `status (enum: PENDING, SENT, FAILED, READ)`: Estado de la notificación.
+    - `createdAt (DateTime)`: Fecha y hora de creación.
+  - **Métodos (comportamientos):**
+    - `createNotification()`: Genera una nueva notificación.
+    - `markAsSent()`: Cambia estado a SENT tras confirmación del servicio externo (FCM).
+    - `markAsFailed()`: Cambia estado a FAILED en caso de error.
+    - `markAsRead()`: Cambia estado a READ cuando el usuario abre la notificación.
+  - **Reglas de Negocio:**
+    1. Una notificación debe tener destinatarios válidos, los cuales provienen de otros contextos (ejemplo: invitados de un evento, empleados de un anuncio).
+    2. Una notificación de alta prioridad debe ser enviada inmediatamente.
+    3. El estado de cada notificación debe ser registrado y actualizado de forma confiable.
+    4. No se duplican notificaciones para el mismo usuario y el mismo evento.
 
 #### ***2.6.4.2. Interface Layer***
+**NotificationController**
+Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios autenticados accedan a sus notificaciones.
+- **Endpoints principales:**
+  - `POST /notifications/test` → Enviar una notificación de prueba (debug).
+    - Permite verificar la integración con Firebase Cloud Messaging.
+  - `GET /notifications/{userId}` → Listar notificaciones de un usuario.
+    -Devuelve todas las notificaciones asignadas al usuario autenticado.
+  - `GET /notifications/{id}/status` → Consultar estado de una notificación.
+    -Permite verificar si la notificación fue enviada, falló o fue leída.
 
 #### ***2.6.4.3. Application Layer***
+La capa de aplicación es la encargada de coordinar los procesos de negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente. Aquí no se define la lógica de negocio directamente, sino que se orquesta el flujo de acciones a través de Command Handlers y Event Handlers.
+- **Command Handlers:**
+  Son clases que reciben las solicitudes de la Interface Layer (controladores) y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio
+  - `SendNotificationCommandHandler:`
+    - Recibe una solicitud para enviar una notificación.
+    - Valida datos y delega al dominio.
+  - `RetryNotificationCommandHandler:`
+    -Reintenta el envío de una notificación en caso de fallo.
+
+- **Event Handlers**
+  Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema. Se encargan de generar y actualizar notificaciones.
+  - `AnnouncementCreatedHandler` → escucha cuando se crea un anuncio y genera notificaciones a los empleados.
+    - Genera notificaciones a los destinatarios definidos.
+  - `EventCreatedHandler` → escucha cuando se crea un evento y envía notificaciones a los invitados.
+    -Envía notificaciones a los usuarios invitados.
+  - `ChatMessageSentHandler` → escucha cuando se envía un mensaje de chat y notifica a los miembros del grupo.
+    - Envía notificaciones push a los miembros del grupo.
+  - `NotificationReadHandler`:
+    - Se ejecuta cuando un usuario marca una notificación como leída.
+    - Actualiza el estado de la notificación en la base de datos.
 
 #### ***2.6.4.4. Infrastructure Layer***
+En esta capa se implementan las conexiones con servicios externos y la persistencia de datos. Su objetivo es garantizar que las notificaciones se guarden correctamente, se envíen mediante Firebase y se mantenga el estado actualizado.
+
+- **Repositories:**
+NotificationRepository: Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Supabase.
+
+- **Database Access:**
+  La base de datos utilizada será Supabase, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.
+- **External Services:**
+  - **Firebase Cloud Messaging (FCM):** Servicio encargado de enviar notificaciones push a los dispositivos móviles de los usuarios.
+  - **Anti-Corruption Layer (ACL):** Se utiliza para traducir los eventos de otros bounded contexts (Announcement, Event, Chat) al modelo estándar de notificación antes de enviarlos a FCM.
+
+De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
 
 #### ***2.6.4.5. Bounded Context Software Architecture Component Level Diagrams***
+![Component Diagram](../Anexos/Notification-Context/Component%20Level%20Diagrams%20Notification.png)
+
+**Descripción de Componentes:**
+  - **Domain Layer:**
+    - **Notification (Aggregate Root):** Entidad principal que representa una notificación generada a partir de eventos de dominio (ejemplo: anuncio publicado, evento creado o mensaje enviado en chat).
+  - **Interface Layer:**
+    - `NotificationController`: Componente que expone la API REST de notificaciones:
+    - `POST /notifications/test`: permite enviar notificaciones de prueba.
+    - `GET /notifications/{userId}`: lista todas las notificaciones de un usuario.
+    - `GET /notifications/{id}/status`: consulta el estado de una notificación.
+    Se comunica con los command y event handlers de la capa de aplicación para orquestar las operaciones.
+  - **Application Layer:**
+    - **Command Handlers:**
+      -`SendNotificationCommandHandler`: Orquesta el envío de nuevas notificaciones, validando datos y delegando al dominio.
+      - `RetryNotificationCommandHandler`: Gestiona el reintento de envío de notificaciones que fallaron previamente.
+    - **Event Handlers:** 
+      - `AnnouncementCreatedHandler`: Se suscribe al evento AnnouncementCreated del Announcements Context y genera notificaciones para los empleados.
+      - `EventCreatedHandler`: Escucha el evento EventCreated del Events Context y envía notificaciones a los invitados del evento.
+      - `ChatMessageSentHandler`: Escucha el evento ChatMessageSent del Chat Context y genera notificaciones push para los miembros del chat.
+      - `NotificationReadHandler`: Marca como leída una notificación cuando el usuario la abre, actualizando su estado en la base de datos.
+  - **Infrastructure Layer:**
+    - `NotificationRepository`: Componente que gestiona la persistencia de notificaciones y destinatarios en Supabase. Implementa las operaciones de guardar, actualizar y consultar.
+    - `SupabaseDB`: Base de datos PostgreSQL utilizada para almacenar las notificaciones con sus atributos, estados e historial de destinatarios.
+    - `Firebase Cloud Messaging (FCM)`: Servicio externo encargado de entregar notificaciones push en tiempo real a los dispositivos móviles de los usuarios.
+    - `Anti-Corruption Layer (ACL)`: Componente que traduce los eventos externos de otros bounded contexts (Announcements, Events, Chat) al modelo de dominio estandarizado de Notification antes de interactuar con FCM.
+Este diseño asegura que el Notification Context esté bien estructurado, con separación clara de responsabilidades, alineado con los principios de DDD y arquitectura hexagonal, y desacoplado de servicios externos.
+
 
 #### ***2.6.4.6. Bounded Context Software Architecture Code Level Diagrams***
 
 #### ***2.6.4.6.1. Bounded Context Domain Layer Class Diagrams***
+![Domain Layer Class Diagram](../Anexos/Notification-Context/Class%20Diagram%20Notification.png)
 
 ##### ***2.6.4.6.2. Bounded Context Database Design Diagram***
+![Database Desing Diagram](../Anexos/Notification-Context/Database%20Design%20Diagram%20Notification.png)
 
 ### ***2.6.5. Bounded Context: Profiles***
 
