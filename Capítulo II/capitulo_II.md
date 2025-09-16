@@ -17,19 +17,19 @@
     <td class="c11" colspan="2"></td>
     <td class="c0">
       <p>Centralis</p>
-      <img src="images/centralis.png" alt="Centralis Logo" width="80" height="80">
+      <img src="Anexos/Images-CompetitiveAnalysis/centralis.png" alt="Centralis Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>Microsoft Teams</p>
-      <img src="images/teams.png" alt="Teams Logo" width="80" height="80">
+      <img src="Anexos/Images-CompetitiveAnalysis/teams.png" alt="Teams Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>Slack</p>
-      <img src="images/slack.png" alt="Slack Logo" width="80" height="80">
+      <img src="Anexos/Images-CompetitiveAnalysis/slack.png" alt="Slack Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>WhatsApp</p>
-      <img src="images/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
+      <img src="Anexos/Images-CompetitiveAnalysis/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
     </td>
   </tr>
   <tr class="c1">
