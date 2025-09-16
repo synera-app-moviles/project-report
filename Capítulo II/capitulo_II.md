@@ -17,19 +17,18 @@
     <td class="c11" colspan="2"></td>
     <td class="c0">
       <p>Centralis</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/centralis.png" alt="Centralis Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>Microsoft Teams</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/teams.png" alt="Teams Logo" width="80" height="80">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" alt="Teams Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>Slack</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/slack.png" alt="Slack Logo" width="80" height="80">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Slack Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>WhatsApp</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
+      <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-phone-icon-png-image_6315989.png" alt="WhatsApp Logo" width="80" height="80">
     </td>
   </tr>
   <tr class="c1">
