@@ -381,7 +381,6 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
   - Una interfaz sencilla y fácil de usar, adaptable a equipos con distintos niveles de conocimiento tecnológico.
 
-
 #
 
 ***Entrevista #6:***
@@ -417,6 +416,9 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
   - Trazabilidad y respaldo de la información, incluso si un empleado se retira.
 
   - Separación clara de lo personal y lo laboral, para reducir quejas y estrés del equipo.
+
+
+#
 
 
 ### 2.2.3. Análisis de entrevistas 
