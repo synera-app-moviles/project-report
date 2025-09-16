@@ -2851,7 +2851,10 @@ El **Announcement Context** gestiona la publicación, visualización y comentari
 
 #### ***2.6.1.2. Interface Layer***
 El **Interface Layer** está compuesto por los controladores y endpoints que permiten la interacción entre la aplicación móvil / web y el Announcement Context.
-
+  - `POST /announcements`
+  - `GET /announcements`
+  - `POST /announcements/{id}/seen`
+  - `POST /announcements/{id}/comments`
 
 #### 2.6.1.3. Application Layer
 El **Application Layer** contiene los casos de uso implementados como **Command Handlers** y **Event Handlers**.  
