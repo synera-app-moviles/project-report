@@ -2664,12 +2664,6 @@ El siguiente diagrama representa el diseño de la base de datos (ERD) del Announ
 
 ![Database Design Diagram](../Anexos/Announcement-Context/Boundend1-C-Database-Design.png)
 
----
-
-#### 2.6.1.7. Deployment Diagram
-El siguiente diagrama muestra la distribución física y lógica de los componentes del Announcement Context en la infraestructura de despliegue.  
-
-![Deployment Diagram](../Anexos/Announcement-Context/Boundend1-C-Deployment-Diagram.png)
 
 ### ***2.6.2. Bounded Context: Event***
 
@@ -2843,7 +2837,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
 
-**Figura 17**
+**Figura 37**
 
 *Component Level Diagrams del Bounded Context Event de Synera*
 
@@ -2857,7 +2851,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
-**Figura 18**
+**Figura 38**
 
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
@@ -2869,7 +2863,7 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
-**Figura 19**
+**Figura 39**
 
 *Database Design Diagram del Bounded Context Event de Synera*
 
@@ -3055,7 +3049,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
 
-**Figura 26**
+**Figura 46**
 
 *Component Level Diagrams del Bounded Context Event de Synera*
 
@@ -3069,7 +3063,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 ##### ***2.6.5.6.1. Bounded Context Domain Layer Class Diagrams***
 
-**Figura 27**
+**Figura 47**
 
 *Domain Layer Class Diagrams del Bounded Context Event de Synera*
 
@@ -3081,3 +3075,12 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
 
+**Figura 48**
+
+*Database Design Diagram del Bounded Context Event de Synera*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/DatabaseDiagramProfile_faxjvj.png" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia.
