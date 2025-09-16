@@ -182,6 +182,45 @@
 4. Desde el punto de vista de la seguridad, ¿qué tipo de controles o permisos considera indispensables en una herramienta de comunicación?
 
 ### 2.2.2. Registro de entrevistas 
+
+#### Segmento objetivo #1: Empleados de Empresas
+
+**Entrevista 1:**
+
+![Entrevista 2](/Anexos/Entrevistas/EntrevistaLeonardo.png)
+
+
+
+
+- **Nombre:** Leonardo Delgado Arriola
+- **Edad:** 21 años
+- **Resumen:** Leonardo utiliza principalmente WhatsApp y correo electrónico para comunicarse en el trabajo. Señala que los mensajes laborales en WhatsApp suelen perderse entre los personales y que esto le ha causado retrasos. Se organiza con el calendario de su celular, aunque reconoce que no siempre es eficiente. Le resulta incómodo usar su WhatsApp personal para temas laborales porque no logra desconectarse. Prefiere separar conversaciones por proyectos y recibir solo notificaciones relevantes. Usa más el celular que la computadora para comunicarse.
+- **Necesidades:** Leonardo requiere una herramienta exclusiva para el trabajo que separe proyectos, integre un calendario con recordatorios y filtre notificaciones importantes, evitando mezclar lo personal con lo laboral.
+
+
+
+#### Segmento objetivo #2: Gerentes y lideres de equipo
+
+
+**Entrevista 4:**
+
+![Entrevista 4](/Anexos/Entrevistas/EntrevistaIvan.png)
+
+
+
+- **Nombre:** Ivan Lavado Vallejos
+- **Edad:** 21 años
+- **Resumen:** Iván, estudiante de Ingeniería Civil y líder en una empresa de construcción, se comunica principalmente por WhatsApp y correo electrónico, además de usar Google Calendar y Meet para reuniones. Su mayor dificultad es asegurar que todos reciban y lean la información, ya que a menudo los mensajes se pierden, generando retrasos. También le preocupa la falta de seguridad y el uso de aplicaciones informales como WhatsApp para temas laborales.
+
+- **Necesidades:** 
+  - Herramienta de comunicación exclusiva para lo laboral.
+  - Confirmación de lectura en anuncios y mensajes importantes.
+  - Segmentación de información por área o proyecto.
+  - Panel de métricas para medir engagement del equipo.
+  - Controles de seguridad y permisos para publicar o crear grupos.
+  - Facilidad de adopción en un entorno de construcción.
+
+
 ### 2.2.3. Análisis de entrevistas 
 
 <p style="text-indent: 1.25cm;">En este apartado se documenta de manera estructurada cada una de las entrevistas realizadas a los diferentes segmentos objetivo. Para cada entrevista, se incluye información relevante como el perfil del entrevistado, el registro de sus respuestas, observaciones contextuales, y un resumen de los principales hallazgos obtenidos.
@@ -2883,19 +2922,228 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 #### ***2.6.3.1. Domain Layer***
 
+El Bounded Context Chat gestiona la mensajeria colaborativa en grupos de trabajo (departments, projects, squads).
+
+- **Group (Aggregate Root)**
+
+  - **Atributos:**
+    - Id(UUID): Identificador unico
+    - Name(String) : Nombre del grupo 
+    - Description(String) : Descripción del grupo
+    - Visibility(Enum) : Indica la visibilidad del grupo 
+    - CreateAt (Date) : Fecha de creación
+    - CreatedBy(UserId) : Indica el usuario que creo el grupo
+    - Members (List<Member>) Indica la lista de miembros del grupo.
+
+
+
+
+
+  - **Métodos:**
+    - rename(newName): Cambiar nombre del grupo
+    - changeVisibility(newVisibility): Cambiar la visibilidad del grupo.
+    - addMember(): Agregar un miembro al grupo.
+    - removeMember(): Quitar a un miembro de un grupo.
+    - promoteToAdmin(): Asignar a un miembro el rol de ADMIN
+    - demoteAdmin(): Quitar el rol de ADMIN a un miembro.
+
+**Entidades:** 
+
+- **Message**  
+	
+  - **Atributos:** 
+    - MessageId: Identificador único del mensaje
+    - GroupId : Identificador del grupo al que pertenece el mensaje
+    - SenderId ( UserId) : Id del usuario que envió el mensaje.
+    - Body ( String ) : Contenido del mensaje.
+    - Mentions (List<UserId>): Lista de usuarios mencionados en el mensaje.
+    - Status (Enum) : Estatus del mensaje (SENT, EDITED, DELETED).
+    - Pinned (Bool): Indica si un mensaje ha sido fijado o no.
+
+
+  - **Metodos:**
+    - Edit(newContent): Permite editar el contenido de un mensaje
+    - SoftDelete(): Permite eliminar un mensaje
+    - TogglePin(): Permite fijar un mensaje
+
+
+
+- **Member**
+
+  - **Atributos:**
+    - UserId: Identificador único
+    - Role (Enum): Indica el rol del miembro en el grupo (OWNER, ADMIN, MEMBER)
+    - JoinedAt(Date): Indica la fecha en el que el miembro del grupo se unió.
+
+
+**Value Objects :**
+- **UserId :** Indica el id de un user.
+- **Attachment :**Archivos adjuntos en un mensaje
+
+
+**Domain Events:**
+
+  - GroupCreated
+  - MemberAdded
+  - MemberRemoved
+  - GroupRenamed
+  - MessageSent
+  - MessageEdited
+  - MessageDeleted
+  - MessagePinned
+
+**Reglas de negocio:**
+
+  - Solo OWNER/ADMIN pueden agregar miembros; en grupos PUBLIC se permite unirse por invitación válida.
+
+  - Toda acción sobre el grupo requiere ser miembro (salvo la creación del grupo).
+
+  - Roles válidos: OWNER, ADMIN, MEMBER; OWNER puede promover/degradar, ADMIN no puede degradar a OWNER.
+
+  - Cualquier miembro puede salir; si es OWNER y es el único, debe transferir la propiedad antes.
+  - Un grupo se crea con nombre no vacío y un OWNER inicial (el creador).
+
+  - Siempre debe existir al menos un OWNER; si es el único, no puede salir ni degradarse.
+
+  - Solo OWNER/ADMIN pueden renombrar, cambiar visibilidad o fijar políticas del grupo.
+
+  - El body de un Message puede estar vacío solo si hay ≥1 adjunto válido; sin adjuntos, el body no puede ser vacío/espacios.
+  - Fijar/desfijar mensajes es acción de OWNER/ADMIN; el máximo de pins es configurable.
+
+  - El orden lógico de la conversación es por (createdAt,messageId) estrictamente creciente.
+  - Un usuario solo puede tener una reacción por emoji en un mismo mensaje.
+
+  - Repetir la misma reacción hace toggle (la quita).
+
+  - Solo miembros pueden reaccionar; no se permiten reacciones sobre mensajes en DELETED.
+
+
 #### ***2.6.3.2. Interface Layer***
+
+Esta capa es responsable de exponer las capacidades del bounded context Chat a clientes externos (móvil/web) mediante REST/JSON sobre HTTPS, aplicando autenticación/ autorización basada en IAM.
+
+**GroupsController:**
+
+- POST /groups → Crear grupo (cualquier usuario autenticado; el creador queda como O
+WNER).
+  - Permite registrar un nuevo grupo de chat.
+  - Valida name no vacío y visibility válida.
+  - Asigna automáticamente al creador como OWNER.
+
+- GET /groups/{groupId} → Ver detalle del grupo (solo miembros).
+  - Devuelve los metadatos del grupo (nombre, visibilidad, estado, contadores) y el rol del solicitante.
+  - Exige que el usuario pertenezca al grupo.
+
+- PUT /groups/{groupId} → Actualizar grupo (solo OWNER/ADMIN).
+  - Permite renombrar, cambiar visibilidad y editar la descripción.
+  - Requiere que el grupo exista y no esté archivado.
+  - Cambiar visibilidad no expone el historial a no-miembros.
+
+- GET /groups/{groupId}/members → Listar miembros (solo miembros).
+  - Devuelve la lista de miembros con su rol y fecha de ingreso.
+
+- POST /groups/{groupId}/members → Agregar miembros (solo OWNER/ADMIN).
+  - Permite invitar/agregar nuevos usuarios al grupo.
+  - Valida que los usuarios existan y no estén ya agregados.
+  - Emite eventos de incorporación para notificaciones.
+
+
+- DELETE /groups/{groupId}/members/{userId} → Remover miembro (OWNER/ADMIN o el propio usuario para salir).
+  - Permite sacar a un miembro del grupo o que este se retire.
+  - Garantiza que siempre quede al menos un OWNER en el grupo.
+  - Bloquea la salida si el usuario es el único OWNER (debe transferir propiedad).
+
+- POST /groups/{groupId}/messages → Enviar mensaje (miembros; grupo no archivado).
+  - Crea un mensaje con texto y/o adjuntos.
+  - Valida: si no hay adjuntos, body no puede ser vacío; adjuntos con url/type/size válidos; menciones resueltas a miembros.
+  - Admite idempotencia (Idempotency-Key / clientMessageId) y aplica rate limit.
+
+- GET /groups/{groupId}/messages/{messageId} → Ver un mensaje (solo miembros).
+  - Devuelve un mensaje específico con metadatos, reacciones y adjuntos.
+  - Si fue eliminado, retorna tombstone y conserva autoría/fechas.
+
+- PUT /groups/{groupId}/messages/{messageId} → Editar mensaje (autor dentro de ventana; moderación por OWNER/ADMIN).
+  - Permite corregir el contenido del mensaje.
+  - Registra editedAt; cuando edita un moderador, se marca como tal.
+  - Aplica validaciones de moderación (longitud, términos prohibidos).
+
+- DELETE /groups/{groupId}/messages/{messageId} → Eliminar mensaje (soft delete: autor o OWNER/ADMIN).
+  - Cancela lógicamente un mensaje manteniendo metadatos y evidencia.
+  - Cambia status a DELETED.
 
 #### ***2.6.3.3. Application Layer***
 
+La capa de Application orquesta casos de uso del bounded context Chat: coordina entidades del dominio, aplica políticas, maneja transacciones, publica eventos y conversa con la capa de infraestructura
+
+
+**Commands Handler:**
+
+- **CreateGroupCommand**
+  - Permite la creación de un grupo
+  - Los datos de entrada serian : userId, name, visibility , description
+  - Cualquier usuario autenticado puede crear un group
+  - El usuario creador del group queda con el rol OWNER.
+
+- **UpdateGroupCommand**
+  - Permite la actualización de la información de un grupo(name, description o visibility)
+  - Solo los usuarios con el rol de OWNER o ADMIN pueden actualizar la información del grupo.
+
+- **AddMembersCommand**
+  - El objetivo es agregar a nuevos miembros a un grupo.
+  - Los datos de entrada para este command serían: userId, groupId, List<UserId>
+  - Solo los usuarios con el rol OWNER o ADMIN pueden ejecutar esta acción.
+
+- **RemoveMembersCommand**  
+  - Remover un miembro de un grupo.
+  - Los datos de entrada serían: userId, groupId.
+  - No se puede eliminar de un grupo al usuario con el rol OWNER.
+  - Solo los usuarios con rol OWNER o ADMIN pueden realizar esta acción.
+
+- **PromoteMemberCommand**
+  - Cambiar el rol de un miembro.
+  - Los datos de entrada : groupId, userId, newRole
+  - Los usuarios con rol ADMIN no pueden degradar al usuario con el rol OWNER.
+  - Solo el rol OWNER puede ejecutar esta acción
+
+- **SendMessageCommand**
+  - El objetivo es enviar mensajes en un grupo.
+  - Datos de entrada: userId, groupId, body , attachments[].
+  - Todos los usuarios miembros de un grupo pueden ejecutar esta acción.
+
+- **EditMessageCommand**
+  - Permite la edición de un mensaje enviado .
+  - Datos de entrada: userId, messageId, newBody, newAttachments[].
+  - Cualquier usuario miembro del grupo puede ejecutar esta acción.
+
+- **DeleteMessageCommand**
+  - Eliminar un mensaje enviado en un grupo.
+  - Datos de entrada: userId, messageId.
+  - Solo los usuarios autores del mensaje  o usuarios con el rol OWNER o ADMIN pueden ejecutar esta acción.
+
+
+
 #### ***2.6.3.4. Infrastructure Layer***
+
+**GroupRepository:** Gestiona el ciclo de vida del Group. Es el encargado de guardar y recuperar el agregado Group desde el almacenamiento (DB) sin exponer detalles técnicos.
+Permite: Cargar un group por Id, guardar y actualizar los datos de un group en la base de datos y listar groups.
+
+**MessageRepository:** Gestiona toda la persistencia de la entidad Message , entidad fundamental para el bounded context Chat.
 
 #### ***2.6.3.5. Bounded Context Software Architecture Component Level Diagrams***
 
+![Component Diagram Chat](/Anexos/Component_Level_Diagrams/ComponentDiagramsChat.png)
+
+
 ##### ***2.6.3.6. Bounded Context Software Architecture Code Level Diagrams***
 
+
 ##### ***2.6.3.6.1. Bounded Context Domain Layer Class Diagrams***
+![Class Diagram Chat](/Anexos/Class_Diagrams/ClassDiagramChat.png)
+
 
 ##### ***2.6.3.6.2. Bounded Context Database Design Diagram***
+![Database Diagram Chat](/Anexos/Database_Design_Diagram/DatabaseDiagramChat.png)
+
 
 ### ***2.6.4. Bounded Context: Notification***
 
