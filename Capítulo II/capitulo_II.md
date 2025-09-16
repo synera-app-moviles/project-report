@@ -2730,20 +2730,112 @@ El siguiente diagrama muestra la distribución física y lógica de los componen
 ### ***2.6.4. Bounded Context: Notification***
 
 #### ***2.6.4.1. Domain Layer***
+En este bounded context, el núcleo del dominio está relacionado con la creación, gestión y envío de notificaciones.
+- **Clases Principales (Entities and Value Objects):**
+  - **Notification (Aggregate Root):**
+    Representa una notificación generada a partir de un evento de dominio (ejemplo: un evento creado, un anuncio publicado, un mensaje enviado en un chat).
+  - **Atributos**
+    - `id (UUID)`: Identificador único de la notificación.
+    - `title (String)`: Título breve de la notificación.
+    - `message (String)`: Mensaje principal de la notificación.
+    - `recipients (List<UserId>)`: Lista de destinatarios (proveniente de otros bounded contexts, como Event con sus invitados, o Chat con sus miembros).
+    - `priority (enum: HIGH, NORMAL)`: Define si es una notificación prioritaria o regular.
+    - `status (enum: PENDING, SENT, FAILED, READ)`: Estado de la notificación.
+    - `createdAt (DateTime)`: Fecha y hora de creación.
+  - **Métodos (comportamientos):**
+    - `createNotification()`: Genera una nueva notificación.
+    - `markAsSent()`: Cambia estado a SENT tras confirmación del servicio externo (FCM).
+    - `markAsFailed()`: Cambia estado a FAILED en caso de error.
+    - `markAsRead()`: Cambia estado a READ cuando el usuario abre la notificación.
+  - **Reglas de Negocio:**
+    1. Una notificación debe tener destinatarios válidos, los cuales provienen de otros contextos (ejemplo: invitados de un evento, empleados de un anuncio).
+    2. Una notificación de alta prioridad debe ser enviada inmediatamente.
+    3. El estado de cada notificación debe ser registrado y actualizado de forma confiable.
+    4. No se duplican notificaciones para el mismo usuario y el mismo evento.
 
 #### ***2.6.4.2. Interface Layer***
+**NotificationController**
+Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios autenticados accedan a sus notificaciones.
+- **Endpoints principales:**
+  - `POST /notifications/test` → Enviar una notificación de prueba (debug).
+    - Permite verificar la integración con Firebase Cloud Messaging.
+  - `GET /notifications/{userId}` → Listar notificaciones de un usuario.
+    -Devuelve todas las notificaciones asignadas al usuario autenticado.
+  - `GET /notifications/{id}/status` → Consultar estado de una notificación.
+    -Permite verificar si la notificación fue enviada, falló o fue leída.
 
 #### ***2.6.4.3. Application Layer***
+La capa de aplicación es la encargada de coordinar los procesos de negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente. Aquí no se define la lógica de negocio directamente, sino que se orquesta el flujo de acciones a través de Command Handlers y Event Handlers.
+- **Command Handlers:**
+  Son clases que reciben las solicitudes de la Interface Layer (controladores) y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio
+  - `SendNotificationCommandHandler:`
+    - Recibe una solicitud para enviar una notificación.
+    - Valida datos y delega al dominio.
+  - `RetryNotificationCommandHandler:`
+    -Reintenta el envío de una notificación en caso de fallo.
+
+- **Event Handlers**
+  Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema. Se encargan de generar y actualizar notificaciones.
+  - `AnnouncementCreatedHandler` → escucha cuando se crea un anuncio y genera notificaciones a los empleados.
+    - Genera notificaciones a los destinatarios definidos.
+  - `EventCreatedHandler` → escucha cuando se crea un evento y envía notificaciones a los invitados.
+    -Envía notificaciones a los usuarios invitados.
+  - `ChatMessageSentHandler` → escucha cuando se envía un mensaje de chat y notifica a los miembros del grupo.
+    - Envía notificaciones push a los miembros del grupo.
+  - `NotificationReadHandler`:
+    - Se ejecuta cuando un usuario marca una notificación como leída.
+    - Actualiza el estado de la notificación en la base de datos.
 
 #### ***2.6.4.4. Infrastructure Layer***
+En esta capa se implementan las conexiones con servicios externos y la persistencia de datos. Su objetivo es garantizar que las notificaciones se guarden correctamente, se envíen mediante Firebase y se mantenga el estado actualizado.
+
+- **Repositories:**
+NotificationRepository: Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Supabase.
+
+- **Database Access:**
+  La base de datos utilizada será Supabase, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.
+- **External Services:**
+  - **Firebase Cloud Messaging (FCM):** Servicio encargado de enviar notificaciones push a los dispositivos móviles de los usuarios.
+  - **Anti-Corruption Layer (ACL):** Se utiliza para traducir los eventos de otros bounded contexts (Announcement, Event, Chat) al modelo estándar de notificación antes de enviarlos a FCM.
+
+De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
 
 #### ***2.6.4.5. Bounded Context Software Architecture Component Level Diagrams***
+![Component Diagram](../Anexos/Notification-Context/Component%20Level%20Diagrams%20Notification.png)
+
+**Descripción de Componentes:**
+  - **Domain Layer:**
+    - **Notification (Aggregate Root):** Entidad principal que representa una notificación generada a partir de eventos de dominio (ejemplo: anuncio publicado, evento creado o mensaje enviado en chat).
+  - **Interface Layer:**
+    - `NotificationController`: Componente que expone la API REST de notificaciones:
+    - `POST /notifications/test`: permite enviar notificaciones de prueba.
+    - `GET /notifications/{userId}`: lista todas las notificaciones de un usuario.
+    - `GET /notifications/{id}/status`: consulta el estado de una notificación.
+    Se comunica con los command y event handlers de la capa de aplicación para orquestar las operaciones.
+  - **Application Layer:**
+    - **Command Handlers:**
+      -`SendNotificationCommandHandler`: Orquesta el envío de nuevas notificaciones, validando datos y delegando al dominio.
+      - `RetryNotificationCommandHandler`: Gestiona el reintento de envío de notificaciones que fallaron previamente.
+    - **Event Handlers:** 
+      - `AnnouncementCreatedHandler`: Se suscribe al evento AnnouncementCreated del Announcements Context y genera notificaciones para los empleados.
+      - `EventCreatedHandler`: Escucha el evento EventCreated del Events Context y envía notificaciones a los invitados del evento.
+      - `ChatMessageSentHandler`: Escucha el evento ChatMessageSent del Chat Context y genera notificaciones push para los miembros del chat.
+      - `NotificationReadHandler`: Marca como leída una notificación cuando el usuario la abre, actualizando su estado en la base de datos.
+  - **Infrastructure Layer:**
+    - `NotificationRepository`: Componente que gestiona la persistencia de notificaciones y destinatarios en Supabase. Implementa las operaciones de guardar, actualizar y consultar.
+    - `SupabaseDB`: Base de datos PostgreSQL utilizada para almacenar las notificaciones con sus atributos, estados e historial de destinatarios.
+    - `Firebase Cloud Messaging (FCM)`: Servicio externo encargado de entregar notificaciones push en tiempo real a los dispositivos móviles de los usuarios.
+    - `Anti-Corruption Layer (ACL)`: Componente que traduce los eventos externos de otros bounded contexts (Announcements, Events, Chat) al modelo de dominio estandarizado de Notification antes de interactuar con FCM.
+Este diseño asegura que el Notification Context esté bien estructurado, con separación clara de responsabilidades, alineado con los principios de DDD y arquitectura hexagonal, y desacoplado de servicios externos.
+
 
 #### ***2.6.4.6. Bounded Context Software Architecture Code Level Diagrams***
 
 #### ***2.6.4.6.1. Bounded Context Domain Layer Class Diagrams***
+![Domain Layer Class Diagram](../Anexos/Notification-Context/Class%20Diagram%20Notification.png)
 
 ##### ***2.6.4.6.2. Bounded Context Database Design Diagram***
+![Database Desing Diagram](../Anexos/Notification-Context/Database%20Design%20Diagram%20Notification.png)
 
 ### ***2.6.5. Bounded Context: Profiles***
 
