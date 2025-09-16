@@ -205,40 +205,218 @@
 
 #### Segmento objetivo #1: Empleados de Empresas
 
-**Entrevista 1:**
+***Entrevista #1:***
 
-![Entrevista 2](/Anexos/Entrevistas/EntrevistaLeonardo.png)
+**Figura 2**
+
+*Imagen del usuario número 1 entrevistado*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758043275/Entrevista_elverth_empleado_gfkmen.png" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia. Link: https://goo.su/QQt8lAi
+
+* **Nombre:** Leonardo Delgado Arriola
+* **Edad:** 21 años
+* **Minuto de inicio:** 0:55
+#
+* **Resumen:** Leonardo utiliza principalmente WhatsApp y correo electrónico para comunicarse en el trabajo. Señala que los mensajes laborales en WhatsApp suelen perderse entre los personales y que esto le ha causado retrasos. Se organiza con el calendario de su celular, aunque reconoce que no siempre es eficiente. Le resulta incómodo usar su WhatsApp personal para temas laborales porque no logra desconectarse. Prefiere separar conversaciones por proyectos y recibir solo notificaciones relevantes. Usa más el celular que la computadora para comunicarse.
+
+* **Necesidades:**
+
+  - Una herramienta exclusiva para el trabajo, separada de WhatsApp personal.
+
+  - Organización por proyectos o equipos para no mezclar información.
+
+  - Calendario integrado con recordatorios automáticos.
+
+  - Notificaciones filtradas y priorizadas, solo lo realmente importante.
+
+  - Evitar la mezcla entre lo laboral y lo personal para reducir distracciones.
+
+#
+
+***Entrevista #2:***
+
+**Figura 3**
+
+*Imagen del usuario número 2 entrevistado*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758039708/Etrevista_abigail_foto_vfnikz.jpg" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia. Link: https://goo.su/qwPRY
+
+* **Nombre:** Abigail Goñe Arracata
+* **Edad:** 22 años
+* **Minuto de inicio:** 1:03
+#
+* **Resumen:** Abigail utiliza principalmente WhatsApp para la comunicación rápida con su equipo, y Gmail/Outlook para correos oficiales. Para reuniones puntuales usa Google Meet o Teams, mientras que se organiza con Google Calendar para recordatorios. Sin embargo, comenta que en WhatsApp las instrucciones suelen perderse entre mensajes personales, y que los correos importantes quedan enterrados si no los marca. También le incomoda usar su WhatsApp personal para temas laborales, porque invade su espacio privado y le genera estrés al no poder desconectarse.
+Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por WhatsApp, lo que le obliga a revisar en varios canales. Ha tenido problemas porque los cambios de horario se comunican solo por WhatsApp, sin confirmación formal, lo que ha causado retrasos y reclamos de clientes. Prefiere que las conversaciones estén separadas por proyectos o turnos para evitar confusiones y considera útiles las notificaciones de reuniones, cambios de última hora y anuncios prioritarios, pero molestas las reacciones o mensajes rutinarios. Usa más el celular que la computadora para comunicarse, ya que lo acompaña todo el día en el trabajo.
+
+* **Necesidades:**
+
+  - Una herramienta exclusiva para el trabajo que no invada su WhatsApp personal.
+
+  - Un muro de anuncios donde lo formal quede separado de las conversaciones informales.
+
+  - Calendario integrado y sincronizado con recordatorios automáticos en el celular.
+
+  - Confirmación de lectura en anuncios importantes.
+
+  - Segmentación por proyectos o áreas para encontrar la información más rápido.
+
+  - Un sistema de notificaciones filtradas y prioritarias, evitando mensajes rutinarios o irrelevantes.
+
+  - Acceso tanto en celular como en laptop.
 
 
 
+#
 
-- **Nombre:** Leonardo Delgado Arriola
-- **Edad:** 21 años
-- **Resumen:** Leonardo utiliza principalmente WhatsApp y correo electrónico para comunicarse en el trabajo. Señala que los mensajes laborales en WhatsApp suelen perderse entre los personales y que esto le ha causado retrasos. Se organiza con el calendario de su celular, aunque reconoce que no siempre es eficiente. Le resulta incómodo usar su WhatsApp personal para temas laborales porque no logra desconectarse. Prefiere separar conversaciones por proyectos y recibir solo notificaciones relevantes. Usa más el celular que la computadora para comunicarse.
-- **Necesidades:** Leonardo requiere una herramienta exclusiva para el trabajo que separe proyectos, integre un calendario con recordatorios y filtre notificaciones importantes, evitando mezclar lo personal con lo laboral.
+***Entrevista #3:***
 
+**Figura 4**
 
+*Imagen del usuario número 6 entrevistado*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758039708/Entrevista_Milagros_foto_wpybdk.jpg" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia. Link: https://goo.su/RpcRZ2
+
+* **Nombre:** Milagros Arelano Bendezu
+* **Edad:** 23 años
+* **Minuto de inicio:** 1:15
+#
+* **Resumen:** Milagros depende de herramientas de mensajería rápidas para coordinar operaciones diarias. Aunque WhatsApp es práctico, le genera confusión al mezclar mensajes laborales y personales, además de la falta de confirmación formal de lectura. El chat interno de la empresa no es confiable en zonas de baja señal, lo que limita su utilidad. Suele enterarse de anuncios importantes por WhatsApp o llamadas, mientras que los correos quedan relegados hasta que tiene acceso en oficina. Para organizar reuniones y eventos, intenta usar Google Calendar, pero termina dependiendo de recordatorios informales y apuntes en libreta. Milagros siente incomodidad usando su número personal para trabajo, ya que pierde la separación entre vida laboral y personal, y teme perder información importante al cambiar de número. Valora una herramienta que sea ordenada, funcional en condiciones de baja conectividad y que centralice la información en un solo espacio.
+
+* **Necesidades:**
+
+  - Separar lo personal de WhatsApp.
+
+  - Funcionar con señal baja y sincronizar después.
+
+  - Calendario con recordatorios automáticos.
+
+  - Confirmación de lectura en avisos.
+
+  - Segmentación por zonas o equipos.
+
+  - Historial seguro y centralizado.
+
+  - Notificaciones solo de lo importante.
 
 #### Segmento objetivo #2: Gerentes y lideres de equipo
 
 
 **Entrevista 4:**
 
-![Entrevista 4](/Anexos/Entrevistas/EntrevistaIvan.png)
+**Figura 5**
 
+*Imagen del usuario número 4 entrevistado*
 
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758043275/entrevista_elverth_gerente_smwno4.png" alt="Class Diagram">
+</p>
 
-- **Nombre:** Ivan Lavado Vallejos
-- **Edad:** 21 años
+*Nota.* Elaboración propia. Link: https://goo.su/PGTYLE 
+
+* **Nombre:** Ivan Lavado Vallejos
+* **Edad:** 21 años
+* **Minuto de inicio:** 1:01
+#
 - **Resumen:** Iván, estudiante de Ingeniería Civil y líder en una empresa de construcción, se comunica principalmente por WhatsApp y correo electrónico, además de usar Google Calendar y Meet para reuniones. Su mayor dificultad es asegurar que todos reciban y lean la información, ya que a menudo los mensajes se pierden, generando retrasos. También le preocupa la falta de seguridad y el uso de aplicaciones informales como WhatsApp para temas laborales.
 
 - **Necesidades:** 
+
   - Herramienta de comunicación exclusiva para lo laboral.
+
   - Confirmación de lectura en anuncios y mensajes importantes.
+
   - Segmentación de información por área o proyecto.
+
   - Panel de métricas para medir engagement del equipo.
+
   - Controles de seguridad y permisos para publicar o crear grupos.
+
   - Facilidad de adopción en un entorno de construcción.
+
+#
+
+***Entrevista #5:***
+
+**Figura 6**
+
+*Imagen del usuario número 5 entrevistado*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758039740/Entrevista_Vania_Foto_kck9s4.jpg" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia. Link. https://goo.su/NdZQ
+
+* **Nombre:** Vania Hidalgo Quincho
+* **Edad:** 21 años
+* **Minuto de inicio:** 1:10
+#
+* **Resumen:** Vania Hidalgo Quincho, Líder de equipo de Atención al Cliente en QuickBuy Perú, coordina un grupo de 8 personas responsables de atender pedidos y reclamos en canales digitales. Utiliza principalmente WhatsApp para avisos urgentes y un grupo interno de Facebook creado por la empresa, mientras que para reclamos más serios emplea el correo. También realizan reuniones rápidas en Google Meet, aunque no siempre todos se conectan. Su mayor desafío es lograr que todos los miembros de su equipo lean y confirmen los avisos a tiempo. Muchas veces algunos colaboradores no responden o aseguran que no vieron el mensaje, lo que genera retrasos y afecta directamente la atención al cliente. Esto ya le ha ocasionado problemas con clientes y llamados de atención de su jefa. Para asegurarse de que todos estén informados, debe preguntar uno por uno por privado, lo cual le quita tiempo valioso. Percibe riesgos en el uso de WhatsApp: mezcla de lo personal con lo laboral, mensajes fuera de horario y dispersión de la información porque cualquiera puede crear grupos. Le gustaría una herramienta más ordenada, donde pueda enviar avisos que queden registrados, con confirmación de lectura y segmentación por equipos. Considera clave que sea fácil de usar, ya que no todos en su equipo son expertos en tecnología.
+
+* **Necesidades:**
+
+  - Una plataforma de comunicación centralizada que reemplace WhatsApp y el grupo de Facebook.
+
+  - Un panel de métricas que muestre quién leyó un comunicado y quién confirmó asistencia.
+
+  - Notificaciones automáticas y recordatorios integrados con calendario.
+
+  - Segmentación de mensajes por equipo o área, para evitar información irrelevante.
+
+  - Controles de seguridad y permisos, donde solo líderes puedan enviar anuncios globales.
+
+  - Historial respaldado, incluso si un colaborador deja la empresa.
+
+  - Una interfaz sencilla y fácil de usar, adaptable a equipos con distintos niveles de conocimiento tecnológico.
+
+
+#
+
+***Entrevista #6:***
+
+**Figura 7**
+
+*Imagen del usuario número 6 entrevistado*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758039708/Entrevista_Guiliana_l9c16c.jpg" alt="Class Diagram">
+</p>
+
+*Nota.* Elaboración propia. Link: https://goo.su/LOTchFG
+
+* **Nombre:** Guilianna Curipaco Huayllani
+* **Edad:** 28 años
+* **Minuto de inicio:** 1:07
+#
+* **Resumen:** Guiliana, Jefa de Recursos Humanos en una constructora de Lima, coordina a un equipo de 25 personas. Utiliza WhatsApp para comunicaciones rápidas y correo (Outlook) para lo formal, aunque muchas veces debe reforzar los mensajes por múltiples canales porque no todos leen a tiempo. Para reuniones virtuales emplea Teams, pero aun así suele enviar recordatorios por WhatsApp. Su mayor desafío es asegurarse de que todos lean y comprendan los comunicados importantes, lo cual le genera reprocesos y pérdida de tiempo al tener que confirmar manualmente. Ha enfrentado problemas cuando políticas internas no fueron leídas, ocasionando retrasos y quejas de gerencia. Además, considera que WhatsApp trae riesgos: mezcla de lo personal con lo laboral, falta de control de la información y poca seguridad. Al organizar eventos y reuniones, usa Outlook, pero desearía contar con una plataforma única que se sincronice con el calendario y que avise automáticamente al equipo. Valora especialmente la seguridad, el control sobre quién publica y la trazabilidad de la información. Para ella, sería clave poder segmentar los comunicados por área, ver métricas de lectura y contar con confirmación de asistencia.
+
+* **Necesidades:**
+
+  - Una plataforma centralizada que integre chat, anuncios y calendario en un solo lugar.
+
+  - Confirmación de lectura automática en comunicados importantes.
+
+  - Un panel de métricas con porcentajes de lectura, asistencia a eventos y nivel de participación.
+
+  - Segmentación de mensajes por área o proyecto, evitando la sobrecarga de información.
+
+  - Controles de seguridad y permisos, donde solo líderes puedan publicar anuncios globales.
+
+  - Trazabilidad y respaldo de la información, incluso si un empleado se retira.
+
+  - Separación clara de lo personal y lo laboral, para reducir quejas y estrés del equipo.
 
 
 ### 2.2.3. Análisis de entrevistas 
