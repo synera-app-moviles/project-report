@@ -17,19 +17,19 @@
     <td class="c11" colspan="2"></td>
     <td class="c0">
       <p>Centralis</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/centralis.png" alt="Centralis Logo" width="80" height="80">
+      <img src="" alt="" width="80" height="80">
     </td>
     <td class="c0">
       <p>Microsoft Teams</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/teams.png" alt="Teams Logo" width="80" height="80">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" alt="Teams Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>Slack</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/slack.png" alt="Slack Logo" width="80" height="80">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" alt="Slack Logo" width="80" height="80">
     </td>
     <td class="c0">
       <p>WhatsApp</p>
-      <img src="Anexos/Images-CompetitiveAnalysis/whatsapp.png" alt="WhatsApp Logo" width="80" height="80">
+      <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-phone-icon-png-image_6315989.png" alt="WhatsApp Logo" width="80" height="80">
     </td>
   </tr>
   <tr class="c1">
@@ -203,7 +203,7 @@
 
 ### 2.2.2. Registro de entrevistas 
 
-#### Segmento objetivo #1: Empleados de Empresas
+<u>**Segmento objetivo #1: Empleados de Empresas**</u>
 
 ***Entrevista #1:***
 
@@ -214,7 +214,6 @@
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758043275/Entrevista_elverth_empleado_gfkmen.png" alt="Class Diagram">
 </p>
-
 *Nota.* Elaboración propia. Link: https://goo.su/QQt8lAi
 
 * **Nombre:** Leonardo Delgado Arriola
@@ -310,7 +309,7 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
   - Notificaciones solo de lo importante.
 
-#### Segmento objetivo #2: Gerentes y lideres de equipo
+**<u>Segmento objetivo #2: Gerentes y lideres de equipo</u>**
 
 
 **Entrevista 4:**
@@ -2229,7 +2228,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 **5. User Stories**
 
 <p style="text-indent: 1.25cm;">Cada deliverable se traduce en una o más user stories que el equipo de desarrollo puede priorizar, estimar y implementar. Las user stories aquí presentadas son el nivel más granular del mapa, conectando directamente la necesidad del usuario con una funcionalidad técnica.
-**Figura 14**
+
+
+
 **Figura 14**
 
 *Impact_Mappping*
@@ -2316,10 +2317,13 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
  (tarjetas amarillas) que ejecutan estos comandos, principalmente “Gerente” y “Empleado”.
 
 <p style="text-indent: 1.25cm;">Un aspecto crucial de la sesión fue la identificación de "Hot Spots” (puntos calientes), que marcamos con notas de color rosa. Estas áreas representan puntos de complejidad, dependencias externas o requisitos ambiguos que requieren una investigación más profunda, como la definición exacta de un "anuncio prioritario".
-
 <p style="text-indent: 1.25cm;">El resultado de esta sesión colaborativa fue un mapa visual extenso y detallado que sirvió como base fundamental para el descubrimiento de contextos delimitados (Bounded Contexts) y para el diseño posterior de la arquitectura del software. A continuación, se presenta una captura del lienzo final elaborado en Miro.
+
+
+
 “EventStorming” : https://shorturl.at/LxS3d
 **Figura 15**
+
 
 
 
@@ -2887,7 +2891,15 @@ El **Infrastructure Layer** incluye la implementación de repositorios y la inte
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 El siguiente diagrama representa la arquitectura del Announcement Context a nivel de componentes.  
 
-![Component Diagram](../Anexos/Announcement-Context/Boundend1-C-Component-Diagram.png)
+**Figura 34**
+
+
+
+![Component Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146276/Boundend1-C-Component-Diagram_zqanvk.png)
+
+
+
+*Nota.* Elaboración propia.
 
 
 
@@ -2899,17 +2911,29 @@ Este apartado presenta los diagramas de la arquitectura del Announcement Context
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 El siguiente diagrama muestra las entidades, value objects e interfaces de repositorios del Announcement Context.  
 
-![Domain Layer Class Diagram](../Anexos/Announcement-Context/Boundend1-C-Domain-Layer-Class-Diagram.png)
+**Figura 35**
+
+![Domain Layer Class Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146325/Boundend1-C-Domain-Layer-Class-Diagram_pd3ggg.png)
+
+
+
+*Nota.* Elaboración propia.
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 El siguiente diagrama representa el diseño de la base de datos (ERD) del Announcement Context.  
 
-![Database Design Diagram](../Anexos/Announcement-Context/Boundend1-C-Database-Design.png)
+**Figura 36**
+
+![Database Design Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146414/Boundend1-C-Database-Design_a1zp5d.png)
+
+
+
+*Nota.* Elaboración propia.
 
 
 ### ***2.6.2. Bounded Context: Event***
 
-Este contexto se especializa en la organización y coordinación de actividades empresariales. Captura la lógica para la creación, modificación, cancelación de eventos, así como la gestión de invitaciones y confirmaciones de asistencia. Su propósito es servir como una fuente confiable para la planificación de actividades.
+<p style="text-indent: 1.25cm;">Este contexto se especializa en la organización y coordinación de actividades empresariales. Captura la lógica para la creación, modificación, cancelación de eventos, así como la gestión de invitaciones y confirmaciones de asistencia. Su propósito es servir como una fuente confiable para la planificación de actividades.
 
 #### ***2.6.2.1. Domain Layer***
 
@@ -3328,18 +3352,38 @@ Permite: Cargar un group por Id, guardar y actualizar los datos de un group en l
 
 #### ***2.6.3.5. Bounded Context Software Architecture Component Level Diagrams***
 
-![Component Diagram Chat](/Anexos/Component_Level_Diagrams/ComponentDiagramsChat.png)
+
+
+**Figura 40**
+
+![Component Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758147124/chat_componen_diagram_htcqjn.png)
+
+
+
+*Nota.* Elaboración propia.
 
 
 ##### ***2.6.3.6. Bounded Context Software Architecture Code Level Diagrams***
 
-
 ##### ***2.6.3.6.1. Bounded Context Domain Layer Class Diagrams***
-![Class Diagram Chat](/Anexos/Class_Diagrams/ClassDiagramChat.png)
 
+**Figura 41**
+
+![Class Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758146973/ClassDiagramChat_wip8c3.png)
+
+
+
+*Nota.* Elaboración propia.
 
 ##### ***2.6.3.6.2. Bounded Context Database Design Diagram***
-![Database Diagram Chat](/Anexos/Database_Design_Diagram/DatabaseDiagramChat.png)
+
+**Figura 42**
+
+![Database Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758147205/DatabaseDiagramChat_xuhklb.png)
+
+
+
+*Nota.* Elaboración propia.
 
 
 ### ***2.6.4. Bounded Context: Notification***
@@ -3416,7 +3460,14 @@ NotificationRepository: Implementa las operaciones básicas (crear, actualizar y
 De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
 
 #### ***2.6.4.5. Bounded Context Software Architecture Component Level Diagrams***
-![Component Diagram](../Anexos/Notification-Context/Component%20Level%20Diagrams%20Notification.png)
+
+**Figura 43**
+
+![Component Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147284/Component_Level_Diagrams_Notification_r2vazx.png)
+
+
+
+*Nota.* Elaboración propia.
 
 **Descripción de Componentes:**
   - **Domain Layer:**
@@ -3441,16 +3492,30 @@ De esta manera, la infraestructura asegura que las notificaciones no solo se gua
     - `SupabaseDB`: Base de datos PostgreSQL utilizada para almacenar las notificaciones con sus atributos, estados e historial de destinatarios.
     - `Firebase Cloud Messaging (FCM)`: Servicio externo encargado de entregar notificaciones push en tiempo real a los dispositivos móviles de los usuarios.
     - `Anti-Corruption Layer (ACL)`: Componente que traduce los eventos externos de otros bounded contexts (Announcements, Events, Chat) al modelo de dominio estandarizado de Notification antes de interactuar con FCM.
-Este diseño asegura que el Notification Context esté bien estructurado, con separación clara de responsabilidades, alineado con los principios de DDD y arquitectura hexagonal, y desacoplado de servicios externos.
+    Este diseño asegura que el Notification Context esté bien estructurado, con separación clara de responsabilidades, alineado con los principios de DDD y arquitectura hexagonal, y desacoplado de servicios externos.
 
 
 #### ***2.6.4.6. Bounded Context Software Architecture Code Level Diagrams***
 
 #### ***2.6.4.6.1. Bounded Context Domain Layer Class Diagrams***
-![Domain Layer Class Diagram](../Anexos/Notification-Context/Class%20Diagram%20Notification.png)
+
+**Figura 44**
+
+![Domain Layer Class Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Class_Diagram_Notification_qiwhqq.png)
+
+
+
+*Nota.* Elaboración propia.
 
 ##### ***2.6.4.6.2. Bounded Context Database Design Diagram***
-![Database Desing Diagram](../Anexos/Notification-Context/Database%20Design%20Diagram%20Notification.png)
+
+**Figura 45**
+
+![Database Desing Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Database_Design_Diagram_Notification_xhyccw.png)
+
+
+
+*Nota.* Elaboración propia.
 
 ### ***2.6.5. Bounded Context: Profiles***
 
@@ -3613,7 +3678,6 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/ClassDiagramProfile_bycj8i.png" alt="Class Diagram">
 </p>
-
 *Nota.* Elaboración propia.
 
 ##### ***2.6.5.6.2. Bounded Context Database Design Diagram***
@@ -3627,3 +3691,39 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 </p>
 
 *Nota.* Elaboración propia.
+
+# Conclusiones
+
+<p style="text-indent: 1.25cm;">El desarrollo del proyecto Synera, materializado en la aplicación Centralis, ha demostrado ser una respuesta efectiva a la problemática de fragmentación en la comunicación interna que afecta a las pequeñas y medianas empresas. A lo largo del ciclo de desarrollo, se validó la hipótesis central que identificaba la necesidad de una plataforma unificada que reemplazara los canales informales y mejorara la productividad mediante la centralización de anuncios, eventos y chats grupales. Las entrevistas realizadas confirmaron que tanto gerentes como empleados perciben un valor tangible en separar la comunicación laboral de la personal, priorizando herramientas diseñadas específicamente para el ámbito profesional.
+
+<p style="text-indent: 1.25cm;">La aplicación de la metodología Domain-Driven Design resultó fundamental para capturar la complejidad del dominio de comunicación empresarial. El proceso de EventStorming permitió identificar los bounded contexts naturales (Announcement, Event, Chat, Notification, Profile), estableciendo límites claros que facilitaron el desarrollo modular y escalable. La arquitectura resultante, con contextos desacoplados que se comunican mediante eventos de dominio, no solo asegura la cohesión de cada componente sino que también proporciona la flexibilidad necesaria para evolucionar funcionalidades de manera independiente en el futuro.
+
+<p style="text-indent: 1.25cm;">El enfoque iterativo mediante sprints permitió entregar valor incremental y validar suposiciones clave desde etapas tempranas. La implementación de funcionalidades core como la publicación de anuncios con confirmación de lectura, la gestión de eventos con recordatorios automáticos y los chats grupales segmentados demostró su efectividad en mejorar la trazabilidad de la comunicación y reducir la dependencia de aplicaciones informales. Las pruebas de usabilidad con usuarios reales confirmaron que la interfaz intuitiva y la organización clara de información cumplen con las expectativas de ambos segmentos objetivo.
+
+<p style="text-indent: 1.25cm;">Los retos técnicos más significativos, como la integración con Firebase Cloud Messaging para notificaciones push y el manejo de tokens de dispositivos, se abordaron mediante spikes de investigación que garantizaron una implementación robusta. La decisión de utilizar Supabase como backend como servicio (BaaS) demostró ser acertada, acelerando el desarrollo al proporcionar autenticación, base de datos y almacenamiento en una plataforma unificada, mientras se mantenía la escalabilidad necesaria para crecimiento futuro.
+
+<p style="text-indent: 1.25cm;">Finalmente, el proyecto Synera no solo cumple con los requisitos funcionales establecidos sino que sienta las bases para una solución escalable que puede evolucionar para incorporar nuevas funcionalidades como integración con calendarios externos, videollamadas o analytics avanzados. El feedback recibido durante las validaciones indica una alta probabilidad de adopción en el mercado objetivo, confirmando que Centralis resuelve una problemática real y ofrece una propuesta de valor diferenciada en el ecosistema de herramientas de comunicación empresarial para pymes.
+
+# Bibliografía 
+
+
+
+Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+
+Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
+
+Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
+
+Richardson, C. (2018). *Microservices Patterns: With examples in Java*. Manning Publications.
+
+Supabase. (2023). *Supabase Documentation*. https://supabase.io/docs
+
+Google. (2023). *Firebase Cloud Messaging Documentation*. https://firebase.google.com/docs/cloud-messaging
+
+Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. https://scrumguides.org/
+
+Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
+
+Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
