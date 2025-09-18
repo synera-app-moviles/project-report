@@ -22,20 +22,25 @@
 <p style="text-indent: 1.25cm;">Nuestra visión es ser la plataforma de comunicación interna preferida para pequeñas, medias empresas y equipos emergentes, reconocida por su usabilidad, innovación y por fortalecer la cultura de colaboración y transparencia dentro de las empresas, posicionándonos como un aliado clave en su crecimiento y éxito.
 
 ### ***1.1.2. Perfiles de Integrantes del Equipo***
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758165456/1_nfosfv.png" alt="PI1" width="1000">
+</p>
 
-| Alumno: Daniela Araceli Gómez Flores <br />Codigo: U202311184 |      |
-| ------------------------------------------------------------ | ---- |
-|                                                              |      |
-| Alumno: Elverth Jair Vaszquez Villalobos <br />Codigo: U202213070 |      |
-|                                                              |      |
-| Alumno: Jorge Luis Diaz Fiestas <br />Codigo: U20231D534     |      |
-|                                                              |      |
-| Alumno: Neil Aldrin Wilhelm Curipaco Huayllani <br />Codigo: U20231B866 |      |
-|                                                              |      |
-| Alumno: Raúl Adrian Medina Cruzado <br />Codigo: U202210938  |      |
-|                                                              |      |
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758165456/2_rdz659.png" alt="PI1" width="1000">
+</p>
 
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758219387/Perfiles_-_Aplicaciones_Moviles_kl0xsi.png" alt="PI1" width="1000">
+</p>
 
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758165456/4_pmalrr.png" alt="PI1" width="1000">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758165456/5_kiauz0.png" alt="PI1" width="1000">
+</p>
 
 ## **1.2. Solution Profile**
 
@@ -85,7 +90,7 @@
 
 <p style="text-indent: 1.25cm;">Centralis se propone como respuesta a esta brecha, diseñando una aplicación móvil que unifique en un solo flujo la publicación de noticias, la creación de eventos y la comunicación grupal, priorizando la usabilidad y la adaptación al mercado latinoamericano.
 
-\- Delimitación del alcance del proyecto:
+  - **Delimitación del alcance del proyecto:**
 
 <p style="text-indent: 1.25cm;">Este proyecto contempla el diseño y desarrollo de una aplicación móvil nativa para Android e iOS, que incluya funcionalidades centrales como: publicación de anuncios y noticias, creación y gestión de eventos (reuniones, capacitaciones), y chats grupales. Quedan fuera del alcance inicial funciones avanzadas como videollamadas, almacenamiento de archivos y el desarrollo de una versión web. El enfoque inicial estará dirigido a empresas radicadas en Perú, con posibilidad de expandirse a otros países de habla hispana en etapas posteriores.
 
@@ -93,17 +98,17 @@
 
 #### **1.2.2.1. Lean UX Problem Statements**
 
-<p style="text-indent: 1.25cm;">**Centralis** es una aplicación móvil que permite a pequeñas y medianas empresas (pymes) centralizar y optimizar su comunicación interna mediante anuncios, eventos y chats grupales, fomentando la transparencia y la colaboración entre empleados y gerentes.
+**Centralis** es una aplicación móvil que permite a pequeñas y medianas empresas (pymes) centralizar y optimizar su comunicación interna mediante anuncios, eventos y chats grupales, fomentando la transparencia y la colaboración entre empleados y gerentes.
 
-<p style="text-indent: 1.25cm;">**Contexto**: Nuestro producto ofrece a pymes y equipos emergentes una herramienta accesible y intuitiva para gestionar su comunicación interna, con el objetivo de reemplazar canales informales y soluciones complejas.
+* **Contexto**: Nuestro producto ofrece a pymes y equipos emergentes una herramienta accesible y intuitiva para gestionar su comunicación interna, con el objetivo de reemplazar canales informales y soluciones complejas.
 
-<p style="text-indent: 1.25cm;">**Observación del problema**: Sin embargo, hemos identificado que muchas empresas aún dependen de aplicaciones no oficiales para su comunicación diaria, lo que genera desorganización, pérdida de información y falta de seguridad. Esta observación se basa en entrevistas con gerentes y empleados de pymes, análisis de flujos de comunicación actuales y feedback recogido en pruebas preliminares, donde los participantes señalaron dificultades para centralizar anuncios, coordinar eventos y mantener conversaciones grupales estructuradas.
+* **Observación del problema**: Sin embargo, hemos identificado que muchas empresas aún dependen de aplicaciones no oficiales para su comunicación diaria, lo que genera desorganización, pérdida de información y falta de seguridad. Esta observación se basa en entrevistas con gerentes y empleados de pymes, análisis de flujos de comunicación actuales y feedback recogido en pruebas preliminares, donde los participantes señalaron dificultades para centralizar anuncios, coordinar eventos y mantener conversaciones grupales estructuradas.
 
-<p style="text-indent: 1.25cm;">**Impacto**: Esta situación genera una disminución en la productividad de los equipos, aumenta el riesgo de malentendidos operativos y limita la escalabilidad de la comunicación a medida que la empresa crece. Además, afecta negativamente la cultura organizacional al fomentar la fragmentación y la desconfianza en los canales oficiales.
+* **Impacto**: Esta situación genera una disminución en la productividad de los equipos, aumenta el riesgo de malentendidos operativos y limita la escalabilidad de la comunicación a medida que la empresa crece. Además, afecta negativamente la cultura organizacional al fomentar la fragmentación y la desconfianza en los canales oficiales.
 
-<p style="text-indent: 1.25cm;">**Necesidad insatisfecha**: Actualmente, los usuarios de Centralis necesitan una plataforma móvil unificada que les permita publicar anuncios formales, crear eventos y chatear en grupos organizados, todo en un entorno seguro y diseñado específicamente para el ámbito laboral, para sentirse seguros de que su comunicación será eficiente y transparente.
+* **Necesidad insatisfecha**: Actualmente, los usuarios de Centralis necesitan una plataforma móvil unificada que les permita publicar anuncios formales, crear eventos y chatear en grupos organizados, todo en un entorno seguro y diseñado específicamente para el ámbito laboral, para sentirse seguros de que su comunicación será eficiente y transparente.
 
-<p style="text-indent: 1.25cm;">**Pregunta de mejora**: ¿Cómo podríamos optimizar la experiencia de comunicación interna en Centralis para aumentar la adopción por parte de pymes y mejorar significativamente la productividad y satisfacción de sus equipos?
+* **Pregunta de mejora**: ¿Cómo podríamos optimizar la experiencia de comunicación interna en Centralis para aumentar la adopción por parte de pymes y mejorar significativamente la productividad y satisfacción de sus equipos?
 
 
 #### **1.2.2.2. Lean UX Assumptions**
@@ -148,7 +153,7 @@
 
 2. Creemos que si reducimos la dependencia de aplicaciones informales, entonces disminuiremos los costos de soporte relacionado con problemas de comunicación en un 25 %.
 
-***Feature Assumptions**
+**Feature Assumptions**
 
 1. Creemos que implementar un muro de anuncios formales con confirmación de lectura abordará la necesidad de los gerentes de difundir información importante de manera segura. Validaremos esto cuando al menos el 90% de los anuncios publicados sean leídos y confirmados por los empleados en un plazo de 24 horas.
 
@@ -160,7 +165,7 @@
 
 5. Creemos que la funcionalidad de recordatorios automáticos para eventos aumentará la participación puntual. Validaremos esto si la tasa de asistencia puntual a reuniones aumenta en un 20% en las empresas que usan Centralis.
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+#### **1.2.2.3. Lean UX Hypothesis Statements**
 
 1. **Anuncios con confirmación de lectura**: Creemos que incluir confirmaciones de lectura en los anuncios formales aumentará la accountability de los empleados. Sabremos que estamos en lo correcto cuando el 90 % de los anuncios sean leídos en menos de 24 horas.
 
@@ -172,7 +177,6 @@
 
 5. **Múltiples roles de usuario**: Creemos que diferenciar permisos entre gerentes y empleados mejorará la seguridad. Sabremos que estamos en lo correcto cuando el 95 % de los gerentes utilice la herramienta para publicar anuncios formales.
 
-# 
 #### **1.2.2.4. Lean UX Canvas**
 
 <p style="text-indent: 1.25cm;">En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Centralis.
@@ -185,17 +189,19 @@
 
 *Lean UX Canvas*
 
-![LeanUX_canvas_v5](/Anexos/Lean_UX_Canvas/LeanUX_canvas_v5.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758222302/LeanUX_canvas_v5_m2oahq.png" alt="Class Diagram">
+</p>
 
-*Nota.* Elaboración propia.
-
-Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
+*Nota.* Elaboración propia. Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 
 
 ## **1.3. Segmentos Objetivos**
 
-<ins>**Segmento Objetivo 1: Empleados de Empresas**</ins>  
+<ins>**Segmento Objetivo 1: Empleados de Empresas**</ins>
+
+<p style="text-indent: 1.25cm;"> Son los colaboradores que trabajan en diferentes áreas dentro de una empresa. Ellos necesitan estar informados sobre anuncios, reuniones, capacitaciones y eventos de la organización, pero suelen tener problemas porque la comunicación llega por canales dispersos como WhatsApp o correos que se pierden. Para ellos, Centralis busca ofrecer un canal único, ordenado y exclusivo del entorno laboral, evitando la mezcla entre lo personal y lo profesional y facilitando que no se pierda información importante.
 
 **Aspectos demográficos**
 
@@ -236,6 +242,8 @@ Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
+
+<p style="text-indent: 1.25cm;"> Son los responsables de coordinar, supervisar y asegurar que sus equipos reciban la información necesaria a tiempo. Su mayor reto está en garantizar que los comunicados se lean, que las reuniones se recuerden y que exista trazabilidad en la comunicación. Además, necesitan métricas de lectura, confirmación de asistencia y controles de seguridad (como quién puede publicar o segmentar mensajes por área). Centralis les ofrece control, orden y visibilidad para optimizar la gestión de sus equipos.
 
 **Aspectos demográficos**
 

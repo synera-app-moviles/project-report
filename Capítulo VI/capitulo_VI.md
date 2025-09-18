@@ -1,1 +1,0 @@
-# Capítulo VI: Product Implementation, Validation & Deployment

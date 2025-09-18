@@ -59,6 +59,54 @@
 
 Url de la organización: https://github.com/synera-app-moviles
 
+**TB1:**
+
+<p style="text-indent: 1.25cm;">A continuación, se presenta un informe detallado sobre la colaboración del equipo en el proyecto Synera, con un enfoque en la entrega del informe tb1 para el producto Centralis. Este análisis se basa en el registro de desempeño de los participantes, destacando las responsabilidades asignadas y el cumplimiento de cada miembro del equipo. A pesar de los desafíos encontrados con la gestión de la herramienta GitHub,  los miembros cumplieron a tiempo con sus tareas.
+
+
+
+![Insights 1](https://res.cloudinary.com/dpprgycup/image/upload/v1758149176/7111c4ea-30b8-421e-a8e2-e417f1f6026e.png)
+
+
+
+**Actividades individuales de los estudiantes**
+
+
+
+- **Daniela Araceli Gómez Flores**: 
+
+  Colaboró en la creación de las user stories, realizó entrevistas, y contribuyó en la elaboración del Product Backlog. También fue la encargada del Bounded Context: Event.
+
+  
+
+- **Neil Curipaco Huayllani**: 
+  Describió la startup profile, Lean UX Hypothesis Statements, y el Lean UX Canvas. Contribuyó a la creación de las user stories y al Product Backlog. Además, colaboró en la creación del EventStorming y fue el responsable del Bounded Context: Profile.
+
+  
+
+- **Jorge Luis Díaz Fiestas**:
+
+  Elaboró el Empathy Mapping y el Ubiquitous Language. También colaboró en la creación del EventStorming. Fue el encargado del Bounded Context: Announcement.
+
+  
+
+- **Raúl Adrian Medina Cruzado**: 
+
+  Realizó el análisis competitivo, así como las estrategias y tácticas frente a los competidores. También llevó a cabo el Impact Mapping. Fue el encargado de la Software Architecture y del Bounded Context: Notification.
+
+  
+
+- **Elverth Jair Vásquez Villalobos**: 
+
+  Colaboró en la realización y registro de las entrevistas. También fue el encargado del Context Mapping y del Bounded Context: Chat.
+
+  
+
+**Desafíos en la colaboración**
+
+<p style="text-indent: 1.25cm;">Se identificaron dificultades en el control de la herramienta GitHub. La falta de un manejo adecuado afectó la visibilidad y el seguimiento de las contribuciones de los miembros del equipo. Resolver este problema es una prioridad para asegurar una colaboración más fluida y eficiente en futuras entregas, ya que las analíticas de GitHub son cruciales para evaluar el rendimiento y el aporte de cada integrante en el informe.
+
+
 # Contenido 
 
 Capítulo I: Presentación
@@ -85,14 +133,14 @@ Capítulo I: Presentación
 
 1.3. Segmentos objetivo
 
-Capítulo II: Requirements Elicitation & 
-Analysis
+Capítulo II: Requirements Elicitation & Analysis
+
 2.1. Competidores
 
 2.1.1. Análisis competitivo
 
-2.1.2. Estrategias y tácticas frente a 
-competidores
+2.1.2. Estrategias y tácticas frente a competidores
+
 2.2. Entrevistas
 
 2.2.1. Diseño de entrevistas
@@ -322,7 +370,7 @@ Capítulo III: Solution UI/UX Design
 - Relevant: Para diseñar sistemas backend robustos que soporten aplicaciones móviles a gran escala.
 - Time-bound: Iniciar la maestría en el segundo año post-graduación y finalizarla en 2 años.
 
-**2.2.** Contribuir a Proyectos Open Source de Impacto:
+**2.2. Contribuir a Proyectos Open Source de Impacto:**
 
 - Specific: Convertirse en un contribuidor activo de proyectos open source relacionados con el ecosistema Kotlin/Spring.
 - Measurable: Realizar al menos 50 contribuciones (commits, issues, PRs) a proyectos reconocidos en un año.
