@@ -17,7 +17,10 @@
     <td class="c11" colspan="2"></td>
     <td class="c0">
       <p>Centralis</p>
+
       <img src="" alt="" width="80" height="80">
+
+
     </td>
     <td class="c0">
       <p>Microsoft Teams</p>
