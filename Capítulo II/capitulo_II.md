@@ -490,6 +490,8 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
 <p style="text-indent: 1.25cm;">En esta sección se construyeron perfiles representativos denominados “User Personas”, los cuales sintetizan características clave de los usuarios objetivo a partir del análisis cualitativo de las entrevistas. Cada User Persona refleja patrones comunes de comportamiento, motivaciones, frustraciones, objetivos, dispositivos utilizados y canales de información. Esta herramienta permitió traducir datos individuales en arquetipos comprensibles que orientan el diseño centrado en el usuario, facilitando decisiones estratégicas en cuanto a funcionalidades, experiencia de usuario y comunicación visual.
 
+*“Anexo: User Persona”*: https://acortar.link/gN7rnw
+
 Se desarrollaron dos perfiles principales:
 
 
@@ -499,9 +501,11 @@ Se desarrollaron dos perfiles principales:
 
 *User Persona Segmento Objetivo #1: Empleados de Empresas*
 
-![User_Persona_María_Moreira](https://res.cloudinary.com/dpprgycup/image/upload/v1757951334/Mar%C3%ADa_Moreira_uqhhdr.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951334/Mar%C3%ADa_Moreira_uqhhdr.png" alt="Class Diagram">
+</p>
 
-*Nota.* Elaboración propia. Link: https://acortar.link/gN7rnw
+*Nota.* Elaboración propia.
 
 #
 
@@ -511,10 +515,11 @@ Se desarrollaron dos perfiles principales:
 
 *User Persona Segmento Objetivo #2: Gerentes y Líderes de Equipos*
 
-![User_Persona_Carlos_Román](https://res.cloudinary.com/dpprgycup/image/upload/v1757951331/Carlos_Rom%C3%A1n_qhu0ye.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951331/Carlos_Rom%C3%A1n_qhu0ye.png" alt="Class Diagram">
+</p>
 
-*Nota.* Elaboración propia. Link: https://acortar.link/gN7rnw
-
+*Nota.* Elaboración propia.
 
 ### ***2.3.2. User Task Matrix***
 
@@ -604,7 +609,9 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 *User Journey Mapping Objetivo #1: Empleados de Empresas*
 
-![Journey_Empleados](https://res.cloudinary.com/dpprgycup/image/upload/v1757951408/Journey_Mapping_Empleados_de_Empresas_knmgcv.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951408/Journey_Mapping_Empleados_de_Empresas_knmgcv.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia. 
 
@@ -616,7 +623,9 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 *User Journey Mapping Objetivo #2: Gerentes y Líderes de Equipos*
 
-![Journey_Gerentes](https://res.cloudinary.com/dpprgycup/image/upload/v1757951407/Journey_mapp_de_Gerentes_y_Lideres_de_Equipos_wzslfm.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951407/Journey_mapp_de_Gerentes_y_Lideres_de_Equipos_wzslfm.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia. 
 
@@ -631,7 +640,9 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 *Empathy Mapping Empleados de Empresas*
 
-![Empathy Map - Segment 1](https://res.cloudinary.com/dpprgycup/image/upload/v1757951612/Mapa-empatia-S1_aqgfll.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951612/Mapa-empatia-S1_aqgfll.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -643,7 +654,9 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 *Empathy Mapping Gerentes y Líderes de Equipos*
 
-![Empathy Map - Segment 2](https://res.cloudinary.com/dpprgycup/image/upload/v1757951614/Mapa-empatia-S2_a62fxc.png) 
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951614/Mapa-empatia-S2_a62fxc.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2199,7 +2212,6 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 </table>
 
 
-
 ### ***2.4.2. Impact Mapping.***
 
 <p style="text-indent: 1.25cm;">El Impact Mapping es una técnica de planificación estratégica que conecta los objetivos de negocio (Business Goals) con las acciones de desarrollo a través de cuatro preguntas clave: ¿POR QUÉ? (objetivo), ¿QUIÉN? (personas involucradas), ¿CÓMO? (impactos en su comportamiento) y ¿QUÉ? (entregables software). Este ejercicio asegura que cada funcionalidad desarrollada esté alineada directamente con las metas del negocio.
@@ -2249,8 +2261,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Impact Mappping*
 
-![Impact_Mappping](https://res.cloudinary.com/dpprgycup/image/upload/v1757951834/Impact_map_bxfo1g.png)
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757951834/Impact_map_bxfo1g.png" alt="Class Diagram">
+</p>
 *Nota.* Elaboración propia. Link: https://shorturl.at/6ucAR
 
 ### ***2.4.3. Product Backlog.***
@@ -2338,15 +2351,18 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 15**
 
-![EventStorming1](https://res.cloudinary.com/dpprgycup/image/upload/v1757946002/d4ae22da-56ce-4337-9926-e1809a8fe30d.png)
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946002/d4ae22da-56ce-4337-9926-e1809a8fe30d.png" alt="Class Diagram">
+</p>
 *Nota.* Elaboración propia.
 
 #
 
 **Figura 16**
 
-![EventStorming2](https://res.cloudinary.com/dpprgycup/image/upload/v1757946256/98f48dba-adb0-4648-be51-107a9c173f28.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946256/98f48dba-adb0-4648-be51-107a9c173f28.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2354,7 +2370,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 17**
 
-![EventStorming3](https://res.cloudinary.com/dpprgycup/image/upload/v1757946329/ddf7955d-1d1a-46d0-bd60-da0fb73cb6a2.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946329/ddf7955d-1d1a-46d0-bd60-da0fb73cb6a2.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2362,7 +2380,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 18**
 
-![EventStorming4](https://res.cloudinary.com/dpprgycup/image/upload/v1757946594/22315c10-dcc7-4b85-800c-e23ee9004324.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946594/22315c10-dcc7-4b85-800c-e23ee9004324.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2370,7 +2390,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 19**
 
-![EventStorming5](https://res.cloudinary.com/dpprgycup/image/upload/v1757946732/381ed372-e432-4112-bd0c-1cc5095c9179.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946732/381ed372-e432-4112-bd0c-1cc5095c9179.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2378,7 +2400,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 20**
 
-![EventStorming6](https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2411,7 +2435,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 19**
 
-![EventStorming5](https://res.cloudinary.com/dpprgycup/image/upload/v1757946732/381ed372-e432-4112-bd0c-1cc5095c9179.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946732/381ed372-e432-4112-bd0c-1cc5095c9179.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2419,7 +2445,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 20**
 
-![EventStorming6](https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2454,7 +2482,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Domain Story - Publicación de un Anuncio Prioritario*
 
-![Publicación de un Anuncio Prioritario](https://res.cloudinary.com/dpprgycup/image/upload/v1757947556/99fbd846-87d6-4b91-859d-f626efc1065e.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757947556/99fbd846-87d6-4b91-859d-f626efc1065e.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2478,7 +2508,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Domain Story - Creación de un Evento*
 
-![Publicación de un Anuncio Prioritario](https://res.cloudinary.com/dpprgycup/image/upload/v1757947631/7fd3df5b-a13a-4fd7-9504-b75f6e279862.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757947631/7fd3df5b-a13a-4fd7-9504-b75f6e279862.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2504,7 +2536,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Domain Story - Envío de un Mensaje de Chat*
 
-![Envío de un Mensaje de Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1757948194/b2cbfb93-4172-4d92-b861-29b22e9fd723.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757948194/b2cbfb93-4172-4d92-b861-29b22e9fd723.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2541,7 +2575,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Bounded Context Canvases Announcement*
 
-![Bounded Context Canvases Announcement](https://res.cloudinary.com/dpprgycup/image/upload/v1757948411/f373576b-afe3-4b80-b71e-28539c3af094.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757948411/f373576b-afe3-4b80-b71e-28539c3af094.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2551,8 +2587,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Bounded Context Canvases Event*
 
-![Bounded Context Canvases Event](https://res.cloudinary.com/dpprgycup/image/upload/v1757948672/4c255d91-8c92-4344-91d4-330355f3fd1e.png)
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757948672/4c255d91-8c92-4344-91d4-330355f3fd1e.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2562,7 +2599,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Bounded Context Canvases Chat*
 
-![Bounded Context Canvases Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1757948727/ff534fcd-ed76-4728-b8dc-707291f8aa2b.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757948727/ff534fcd-ed76-4728-b8dc-707291f8aa2b.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2572,7 +2611,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Bounded Context Canvases Notification*
 
-![Bounded Context Canvases Notification](https://res.cloudinary.com/dpprgycup/image/upload/v1757948915/2bbe2d7c-c8ef-4a2b-860f-b3998c6c4428.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757948915/2bbe2d7c-c8ef-4a2b-860f-b3998c6c4428.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2582,7 +2623,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Bounded Context Canvases Profile*
 
-![Bounded Context Canvases Profile](https://res.cloudinary.com/dpprgycup/image/upload/v1757949192/862d9c11-2bf2-444e-858f-dc439425236c.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757949192/862d9c11-2bf2-444e-858f-dc439425236c.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2601,7 +2644,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Context Mapping*
 
-![Bounded Context Canvases Profile](https://res.cloudinary.com/dpprgycup/image/upload/v1757949368/74da534e-a089-45bf-9caa-f3dd8b74103b.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757949368/74da534e-a089-45bf-9caa-f3dd8b74103b.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2792,7 +2837,9 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 
 *Deployment Diagrams*
 
-![Deployment Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1757940838/deploydiagram_admkxm.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757940838/deploydiagram_admkxm.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -3742,32 +3789,6 @@ La base de datos utilizada será Supabase, que proporciona soporte para PostgreS
 </p>
 
 *Nota.* Elaboración propia.
-
-**Descripción de Componentes:**
-  - **Domain Layer:**
-    - **Notification (Aggregate Root):** Entidad principal que representa una notificación generada a partir de eventos de dominio (ejemplo: anuncio publicado, evento creado o mensaje enviado en chat).
-  - **Interface Layer:**
-    - `NotificationController`: Componente que expone la API REST de notificaciones:
-    - `POST /notifications/test`: permite enviar notificaciones de prueba.
-    - `GET /notifications/{userId}`: lista todas las notificaciones de un usuario.
-    - `GET /notifications/{id}/status`: consulta el estado de una notificación.
-    Se comunica con los command y event handlers de la capa de aplicación para orquestar las operaciones.
-  - **Application Layer:**
-    - **Command Handlers:**
-      -`SendNotificationCommandHandler`: Orquesta el envío de nuevas notificaciones, validando datos y delegando al dominio.
-      - `RetryNotificationCommandHandler`: Gestiona el reintento de envío de notificaciones que fallaron previamente.
-    - **Event Handlers:** 
-      - `AnnouncementCreatedHandler`: Se suscribe al evento AnnouncementCreated del Announcements Context y genera notificaciones para los empleados.
-      - `EventCreatedHandler`: Escucha el evento EventCreated del Events Context y envía notificaciones a los invitados del evento.
-      - `ChatMessageSentHandler`: Escucha el evento ChatMessageSent del Chat Context y genera notificaciones push para los miembros del chat.
-      - `NotificationReadHandler`: Marca como leída una notificación cuando el usuario la abre, actualizando su estado en la base de datos.
-  - **Infrastructure Layer:**
-    - `NotificationRepository`: Componente que gestiona la persistencia de notificaciones y destinatarios en Supabase. Implementa las operaciones de guardar, actualizar y consultar.
-    - `SupabaseDB`: Base de datos PostgreSQL utilizada para almacenar las notificaciones con sus atributos, estados e historial de destinatarios.
-    - `Firebase Cloud Messaging (FCM)`: Servicio externo encargado de entregar notificaciones push en tiempo real a los dispositivos móviles de los usuarios.
-    - `Anti-Corruption Layer (ACL)`: Componente que traduce los eventos externos de otros bounded contexts (Announcements, Events, Chat) al modelo de dominio estandarizado de Notification antes de interactuar con FCM.
-    Este diseño asegura que el Notification Context esté bien estructurado, con separación clara de responsabilidades, alineado con los principios de DDD y arquitectura hexagonal, y desacoplado de servicios externos.
-
 
 #### ***2.6.4.6. Bounded Context Software Architecture Code Level Diagrams***
 

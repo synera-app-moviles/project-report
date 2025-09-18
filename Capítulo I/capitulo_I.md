@@ -189,7 +189,9 @@
 
 *Lean UX Canvas*
 
-![LeanUX_canvas_v5](/Anexos/Lean_UX_Canvas/LeanUX_canvas_v5.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758222302/LeanUX_canvas_v5_m2oahq.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia. Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
