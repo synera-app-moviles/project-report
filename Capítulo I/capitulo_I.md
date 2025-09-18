@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <img src="images/PerfilMtt.png" alt="PI1" width="1000">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758219387/Perfiles_-_Aplicaciones_Moviles_kl0xsi.png" alt="PI1" width="1000">
 </p>
 
 <p align="center">

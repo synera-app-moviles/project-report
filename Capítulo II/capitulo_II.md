@@ -2236,10 +2236,10 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 <p style="text-indent: 1.25cm;">Son las funcionalidades específicas que debemos construir para generar los impacts deseados. Cada deliverable es una respuesta directa a un "Cómo".
 
-- Para Impact 1.1: No basta con un muro de anuncios. Se necesita confirmación de lectura para generar confianza en el canal y un panel de control para demostrar el valor al gerente.
-- Para Impact 1.2: La creación de eventos debe ir acompañada de recordatorios automáticos para ser efectiva y de integración con calendarios para reducir la fricción de uso.
-- Para Impact 2.1: La información debe llegar al empleado de forma proactiva via notificaciones push y debe ser fácil de encontrar en una interfaz intuitiva.
-- Para Impact 2.2: Los chats grupales deben estar bien organizados para ser útiles, y el historial permanente es un advantage clave sobre WhatsApp (donde los mensajes pueden perderse).
+- **Para Impact 1.1:** No basta con un muro de anuncios. Se necesita confirmación de lectura para generar confianza en el canal y un panel de control para demostrar el valor al gerente.
+- **Para Impact 1.2:** La creación de eventos debe ir acompañada de recordatorios automáticos para ser efectiva y de integración con calendarios para reducir la fricción de uso.
+- **Para Impact 2.1:*+ La información debe llegar al empleado de forma proactiva via notificaciones push y debe ser fácil de encontrar en una interfaz intuitiva.
+- **Para Impact 2.2:** Los chats grupales deben estar bien organizados para ser útiles, y el historial permanente es un advantage clave sobre WhatsApp (donde los mensajes pueden perderse).
 
 **5. User Stories**
 
@@ -2648,7 +2648,9 @@ El Context Mapping resultante define las siguientes interacciones clave entre lo
 
 *Context Level Diagrams*
 
-![Context Level Diagrams](https://res.cloudinary.com/dpprgycup/image/upload/v1757949760/e101e243-a520-48a0-8c31-42f689040a56.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757949760/e101e243-a520-48a0-8c31-42f689040a56.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2720,7 +2722,9 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 *Context Level Diagrams*
 
-![Context Level Diagrams](https://res.cloudinary.com/dpprgycup/image/upload/v1757950034/c632b4d5-0b18-4a80-8d5b-5110a73a1c07.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757950034/c632b4d5-0b18-4a80-8d5b-5110a73a1c07.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2735,7 +2739,9 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 *Components Diagrams*
 
-![Components Diagrams](https://res.cloudinary.com/dpprgycup/image/upload/v1757950960/9f68f5e9-1704-4fb6-a093-22aca1006ec7.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757950960/9f68f5e9-1704-4fb6-a093-22aca1006ec7.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -2849,7 +2855,7 @@ Este diagrama de despliegue representa una infraestructura moderna, escalable y 
 
 <p style="text-indent: 1.25cm;">Este contexto se especializa en la gestión de anuncios organizacionales. Captura la lógica para la creación, publicación, visualización y comentarios de anuncios dentro de la empresa. Su propósito es servir como un canal centralizado de comunicación que garantice que los empleados reciban la información correcta y oportuna.
 
-### ***2.6.1.1 Domain Layer***
+#### ***2.6.1.1 Domain Layer***
 
 El **Announcement Context** gestiona la publicación, visualización y comentarios de anuncios en la organización.  
 
@@ -2891,10 +2897,15 @@ Entidad que representa un comentario asociado a un anuncio.
 * ***Atributos:***
 
   - **id (UUID):** Identificador único del comentario.  
+
   - **announcementId (UUID):** Identificador del anuncio al que pertenece el comentario.  
+
   - **employeeId (UserId):** Identificador del empleado que hizo el comentario.  
+
   - **content (String):** Texto del comentario.  
+
   - **createdAt (DateTime):** Fecha y hora en que se creó el comentario. 
+
 
 **User (simplificado):**
 
@@ -2903,7 +2914,9 @@ Entidad que representa a los usuarios de la organización.
 * ***Atributos:***
 
   - **id (UUID):** Identificador único del usuario.  
+
   - **name (String):** Nombre del usuario.  
+
   - **role (ENUM: Manager, Employee):** Rol del usuario en el sistema.  
 
 
@@ -2912,24 +2925,30 @@ Entidad que representa a los usuarios de la organización.
 * ***Atributos:***
 
   - **level (ENUM: Normal, High, Urgent):** Define el nivel de prioridad del anuncio.  
-  - Inmutable: solo puede asignarse al momento de la creación del anuncio. 
+
+  - **Inmutable:** solo puede asignarse al momento de la creación del anuncio. 
 
 - ***Aggregates***
 
   - **Announcement** es el Aggregate Root.  
+
   - Contiene **Comments** y gestiona la lógica de negocio.  
 
 **Reglas de negocio:**
 
   - Solo los **Managers** pueden publicar, actualizar o eliminar anuncios.  
+
   - Los **Employees** pueden visualizar anuncios y marcarlos como vistos.  
+
   - Los **Employees** pueden comentar anuncios ya publicados.  
+
   - Cada anuncio debe tener título, descripción y nivel de prioridad válido.  
  
 
 **Repositories (Interfaces)**  
 
   - IAnnouncementRepository  
+
   - ICommentRepository
 
 
@@ -2951,83 +2970,87 @@ Es el responsable de recibir solicitudes HTTP y conectarlas con la lógica de ap
   - **POST /announcements/{id}/comments** → Agregar un comentario a un anuncio.  
 
 
-#### 2.6.1.3. Application Layer
+#### ***2.6.1.3. Application Layer***
 
 
 La capa de aplicación coordina los casos de uso y garantiza que la lógica de negocio definida en el Domain Layer se ejecute correctamente.  
 
 **Command Handlers**
 
-  - **CreateAnnouncementCommandHandler:** Maneja la creación de un nuevo anuncio.  
+  - ***CreateAnnouncementCommandHandler:*** Maneja la creación de un nuevo anuncio.  
 
-  - **UpdateAnnouncementCommandHandler:** Permite la modificación de anuncios existentes. 
+  - ***UpdateAnnouncementCommandHandler:*** Permite la modificación de anuncios existentes. 
 
-  - **DeleteAnnouncementCommandHandler:** Gestiona la eliminación de un anuncio.  
+  - ***DeleteAnnouncementCommandHandler:*** Gestiona la eliminación de un anuncio.  
   
-  - **CreateCommentCommandHandler:** Permite que los empleados creen comentarios en anuncios.  
+  - ***CreateCommentCommandHandler:*** Permite que los empleados creen comentarios en anuncios.  
 
-  - **MarkAsSeenCommandHandler:** Registra cuando un usuario marca un anuncio como visto.  
+  - ***MarkAsSeenCommandHandler:*** Registra cuando un usuario marca un anuncio como visto.  
 
 
 **Event Handlers**
 
-  - **AnnouncementPublishedEventHandler:** Se activa automáticamente al publicarse un anuncio, notificando a otros bounded contexts (ejemplo: notificaciones).  
+  - ***AnnouncementPublishedEventHandler:*** Se activa automáticamente al publicarse un anuncio, notificando a otros bounded contexts (ejemplo: notificaciones).  
 
 
-#### 2.6.1.4. Infrastructure Layer
+#### ***2.6.1.4. Infrastructure Layer***
 
 
 La capa de infraestructura provee la implementación concreta de repositorios y conexiones con sistemas externos.
 
 **Repositorios:**
 
-  - **AnnouncementRepository:** Persistencia de los anuncios.  
+  - ***AnnouncementRepository:*** Persistencia de los anuncios.  
 
-  - **CommentRepository:** Persistencia de los comentarios.  
+  - ***CommentRepository:*** Persistencia de los comentarios.  
 
 **Integraciones externas:**
 
-  - **Servicio de notificaciones push** (Firebase Cloud Messaging o similar) para enviar alertas.  
+  - ***Servicio de notificaciones push*** (Firebase Cloud Messaging o similar) para enviar alertas.  
 
-  - **Almacenamiento de imágenes** (Firebase Storage o Azure Blob) para guardar imágenes asociadas a los anuncios.  
+  - ***Almacenamiento de imágenes*** (Firebase Storage o Azure Blob) para guardar imágenes asociadas a los anuncios.  
 
 
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### ***2.6.1.5. Bounded Context Software Architecture Component Level Diagrams***
 
 El siguiente diagrama representa la arquitectura del Announcement Context a nivel de componentes.  
 
-
 **Figura 34**
 
-![Component Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146276/Boundend1-C-Component-Diagram_zqanvk.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758146276/Boundend1-C-Component-Diagram_zqanvk.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### ***2.6.1.6. Bounded Context Software Architecture Code Level Diagrams***
 
-Este apartado presenta los diagramas de la arquitectura del Announcement Context a nivel de código.  
-
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### ***2.6.1.6.1. Bounded Context Domain Layer Class Diagrams***
 
 El siguiente diagrama muestra las entidades, value objects e interfaces de repositorios del Announcement Context.  
 
 **Figura 35**
 
-![Domain Layer Class Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146325/Boundend1-C-Domain-Layer-Class-Diagram_pd3ggg.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758146325/Boundend1-C-Domain-Layer-Class-Diagram_pd3ggg.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
+##### ***2.6.1.6.2. Bounded Context Database Design Diagram***
 
 El siguiente diagrama representa el diseño de la base de datos (ERD) del Announcement Context.  
 
 **Figura 36**
 
-![Database Design Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146414/Boundend1-C-Database-Design_a1zp5d.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758146414/Boundend1-C-Database-Design_a1zp5d.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
+#
 
 ### ***2.6.2. Bounded Context: Event***
 
@@ -3237,104 +3260,145 @@ De esta manera, la infraestructura asegura que los eventos no solo se guarden de
 
 *Nota.* Elaboración propia.
 
+#
+
 ### ***2.6.3. Bounded Context: Chat***
+
+<p style="text-indent: 1.25cm;">Este contexto se centra en la mensajería colaborativa entre los usuarios, permitiendo la creación de grupos, envío de mensajes y administración de miembros. Su propósito es facilitar la comunicación en equipos de trabajo, garantizando roles claros y control de acceso según las reglas de negocio establecidas.
 
 #### ***2.6.3.1. Domain Layer***
 
-El Bounded Context Chat gestiona la mensajeria colaborativa en grupos de trabajo (departments, projects, squads).
+En este bounded context, el núcleo del dominio está relacionado con la creación de grupos de chat, la gestión de miembros y el intercambio de mensajes.
 
-- **Group (Aggregate Root)**
+**Clases principales (Entities and Value Objects):**
 
-  - **Atributos:**
-    - Id(UUID): Identificador unico
-    - Name(String) : Nombre del grupo 
-    - Description(String) : Descripción del grupo
-    - Visibility(Enum) : Indica la visibilidad del grupo 
-    - CreateAt (Date) : Fecha de creación
-    - CreatedBy(UserId) : Indica el usuario que creo el grupo
-    - Members (List<Member>) Indica la lista de miembros del grupo.
+**Group (Aggregate Root):**
+
+Representa un grupo de chat creado por un usuario. Es la entidad principal y actúa como punto de entrada al agregado.
 
 
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del grupo.  
+
+  - **name (String):** Nombre del grupo.  
+
+  - **description (String):** Breve descripción del grupo.  
+
+  - **visibility (Enum):** Define si el grupo es público o privado.  
+
+  - **createdAt (Date):** Fecha de creación del grupo.  
+
+  - **createdBy (UserId):** Identificador del usuario que creó el grupo. 
+
+  - **members (List<Member>):** Lista de miembros que pertenecen al grupo.  
 
 
+* ***Métodos:***
 
-  - **Métodos:**
-    - rename(newName): Cambiar nombre del grupo
-    - changeVisibility(newVisibility): Cambiar la visibilidad del grupo.
-    - addMember(): Agregar un miembro al grupo.
-    - removeMember(): Quitar a un miembro de un grupo.
-    - promoteToAdmin(): Asignar a un miembro el rol de ADMIN
-    - demoteAdmin(): Quitar el rol de ADMIN a un miembro.
+  - **rename(newName):** Cambiar el nombre del grupo.  
 
-**Entidades:** 
+  - **changeVisibility(newVisibility):** Modificar la visibilidad del grupo.  
 
-- **Message**  
-	
-  - **Atributos:** 
-    - MessageId: Identificador único del mensaje
-    - GroupId : Identificador del grupo al que pertenece el mensaje
-    - SenderId ( UserId) : Id del usuario que envió el mensaje.
-    - Body ( String ) : Contenido del mensaje.
-    - Mentions (List<UserId>): Lista de usuarios mencionados en el mensaje.
-    - Status (Enum) : Estatus del mensaje (SENT, EDITED, DELETED).
-    - Pinned (Bool): Indica si un mensaje ha sido fijado o no.
+  - **addMember():** Agregar un nuevo miembro al grupo.  
+
+  - **removeMember():** Quitar un miembro existente.  
+
+  - **promoteToAdmin():** Asignar a un miembro el rol de ADMIN.  
+
+  - **demoteAdmin():** Quitar el rol de ADMIN a un miembro.  
 
 
-  - **Metodos:**
-    - Edit(newContent): Permite editar el contenido de un mensaje
-    - SoftDelete(): Permite eliminar un mensaje
-    - TogglePin(): Permite fijar un mensaje
+**Message:**
+
+Entidad que representa los mensajes enviados dentro de un grupo.
 
 
+* ***Atributos:***
 
-- **Member**
+  - **messageId (UUID):** Identificador único del mensaje.  
 
-  - **Atributos:**
-    - UserId: Identificador único
-    - Role (Enum): Indica el rol del miembro en el grupo (OWNER, ADMIN, MEMBER)
-    - JoinedAt(Date): Indica la fecha en el que el miembro del grupo se unió.
+  - **groupId (UUID):** Identificador del grupo al que pertenece.  
+
+  - **senderId (UserId):** Identificador del usuario que envió el mensaje.  
+
+  - **body (String):** Contenido del mensaje.  
+
+  - **mentions (List<UserId>):** Usuarios mencionados en el mensaje.  
+
+  - **status (Enum):** Estado del mensaje (SENT, EDITED, DELETED).  
+
+  - **pinned (Bool):** Indica si el mensaje ha sido fijado.  
 
 
-**Value Objects :**
-- **UserId :** Indica el id de un user.
-- **Attachment :**Archivos adjuntos en un mensaje
+* ***Métodos:***
+
+  - **edit(newContent):** Editar el contenido del mensaje. 
+
+  - **softDelete():** Eliminar lógicamente un mensaje.  
+
+  - **togglePin():** Fijar o desfijar un mensaje.  
+
+
+**Member:**
+
+Entidad que define a los usuarios dentro de un grupo de chat.
+
+
+* ***Atributos:***
+
+  - **userId (UUID):** Identificador único del miembro.  
+
+  - **role (Enum):** Rol del miembro en el grupo (OWNER, ADMIN, MEMBER).  
+
+  - **joinedAt (Date):** Fecha en la que se unió al grupo.  
+
+
+**Value Objects:**
+
+- **UserId:** Representa la identidad de un usuario.  
+
+- **Attachment:** Archivos adjuntos asociados a un mensaje.  
 
 
 **Domain Events:**
 
-  - GroupCreated
-  - MemberAdded
-  - MemberRemoved
-  - GroupRenamed
-  - MessageSent
-  - MessageEdited
-  - MessageDeleted
-  - MessagePinned
+- GroupCreated  
+
+- MemberAdded 
+
+- MemberRemoved 
+
+- GroupRenamed  
+
+- MessageSent  
+
+- MessageEdited  
+
+- MessageDeleted  
+
+- MessagePinned  
+
 
 **Reglas de negocio:**
 
-  - Solo OWNER/ADMIN pueden agregar miembros; en grupos PUBLIC se permite unirse por invitación válida.
+- Solo OWNER/ADMIN pueden agregar miembros; en grupos públicos se permite unirse con invitación válida. 
 
-  - Toda acción sobre el grupo requiere ser miembro (salvo la creación del grupo).
+- Toda acción sobre el grupo requiere ser miembro (excepto la creación inicial).  
 
-  - Roles válidos: OWNER, ADMIN, MEMBER; OWNER puede promover/degradar, ADMIN no puede degradar a OWNER.
+- Roles válidos: OWNER, ADMIN, MEMBER; OWNER puede promover o degradar.  
 
-  - Cualquier miembro puede salir; si es OWNER y es el único, debe transferir la propiedad antes.
-  - Un grupo se crea con nombre no vacío y un OWNER inicial (el creador).
+- Debe existir siempre al menos un OWNER; si es el único, no puede salir ni degradarse.  
 
-  - Siempre debe existir al menos un OWNER; si es el único, no puede salir ni degradarse.
+- El body de un mensaje no puede estar vacío, salvo que tenga al menos un adjunto válido.  
 
-  - Solo OWNER/ADMIN pueden renombrar, cambiar visibilidad o fijar políticas del grupo.
+- Solo OWNER/ADMIN pueden fijar mensajes, y existe un límite configurable de mensajes fijados.
 
-  - El body de un Message puede estar vacío solo si hay ≥1 adjunto válido; sin adjuntos, el body no puede ser vacío/espacios.
-  - Fijar/desfijar mensajes es acción de OWNER/ADMIN; el máximo de pins es configurable.
+- El orden de los mensajes es estrictamente creciente por (createdAt, messageId).  
 
-  - El orden lógico de la conversación es por (createdAt,messageId) estrictamente creciente.
-  - Un usuario solo puede tener una reacción por emoji en un mismo mensaje.
+- Los usuarios solo pueden reaccionar una vez por emoji en un mismo mensaje.  
 
-  - Repetir la misma reacción hace toggle (la quita).
-
-  - Solo miembros pueden reaccionar; no se permiten reacciones sobre mensajes en DELETED.
+- No se permiten reacciones sobre mensajes eliminados.  
 
 
 #### ***2.6.3.2. Interface Layer***
@@ -3343,51 +3407,76 @@ Esta capa es responsable de exponer las capacidades del bounded context Chat a c
 
 **GroupsController:**
 
-- POST /groups → Crear grupo (cualquier usuario autenticado; el creador queda como O
+- **POST /groups** → Crear grupo (cualquier usuario autenticado; el creador queda como O
 WNER).
+
   - Permite registrar un nuevo grupo de chat.
+
   - Valida name no vacío y visibility válida.
+
   - Asigna automáticamente al creador como OWNER.
 
-- GET /groups/{groupId} → Ver detalle del grupo (solo miembros).
+- **GET /groups/{groupId}** → Ver detalle del grupo (solo miembros).
+
   - Devuelve los metadatos del grupo (nombre, visibilidad, estado, contadores) y el rol del solicitante.
+
   - Exige que el usuario pertenezca al grupo.
 
-- PUT /groups/{groupId} → Actualizar grupo (solo OWNER/ADMIN).
+- **PUT /groups/{groupId}** → Actualizar grupo (solo OWNER/ADMIN).
+
   - Permite renombrar, cambiar visibilidad y editar la descripción.
+
   - Requiere que el grupo exista y no esté archivado.
+
   - Cambiar visibilidad no expone el historial a no-miembros.
 
-- GET /groups/{groupId}/members → Listar miembros (solo miembros).
+- **GET /groups/{groupId}/members** → Listar miembros (solo miembros).
+
   - Devuelve la lista de miembros con su rol y fecha de ingreso.
 
-- POST /groups/{groupId}/members → Agregar miembros (solo OWNER/ADMIN).
+- **POST /groups/{groupId}/members** → Agregar miembros (solo OWNER/ADMIN).
+
   - Permite invitar/agregar nuevos usuarios al grupo.
+
   - Valida que los usuarios existan y no estén ya agregados.
+
   - Emite eventos de incorporación para notificaciones.
 
+- **DELETE /groups/{groupId}/members/{userId}** → Remover miembro (OWNER/ADMIN o el propio usuario para salir).
 
-- DELETE /groups/{groupId}/members/{userId} → Remover miembro (OWNER/ADMIN o el propio usuario para salir).
   - Permite sacar a un miembro del grupo o que este se retire.
+
   - Garantiza que siempre quede al menos un OWNER en el grupo.
+
   - Bloquea la salida si el usuario es el único OWNER (debe transferir propiedad).
 
-- POST /groups/{groupId}/messages → Enviar mensaje (miembros; grupo no archivado).
+- **POST /groups/{groupId}/messages** → Enviar mensaje (miembros; grupo no archivado).
+
   - Crea un mensaje con texto y/o adjuntos.
+
   - Valida: si no hay adjuntos, body no puede ser vacío; adjuntos con url/type/size válidos; menciones resueltas a miembros.
+
   - Admite idempotencia (Idempotency-Key / clientMessageId) y aplica rate limit.
 
-- GET /groups/{groupId}/messages/{messageId} → Ver un mensaje (solo miembros).
+- **GET /groups/{groupId}/messages/{messageId}** → Ver un mensaje (solo miembros).
+
   - Devuelve un mensaje específico con metadatos, reacciones y adjuntos.
+
   - Si fue eliminado, retorna tombstone y conserva autoría/fechas.
 
-- PUT /groups/{groupId}/messages/{messageId} → Editar mensaje (autor dentro de ventana; moderación por OWNER/ADMIN).
+- **PUT /groups/{groupId}/messages/{messageId}** → Editar mensaje (autor dentro de ventana; moderación por OWNER/ADMIN).
+
   - Permite corregir el contenido del mensaje.
+
   - Registra editedAt; cuando edita un moderador, se marca como tal.
+
   - Aplica validaciones de moderación (longitud, términos prohibidos).
 
-- DELETE /groups/{groupId}/messages/{messageId} → Eliminar mensaje (soft delete: autor o OWNER/ADMIN).
+
+- **DELETE /groups/{groupId}/messages/{messageId}** → Eliminar mensaje (soft delete: autor o OWNER/ADMIN).
+
   - Cancela lógicamente un mensaje manteniendo metadatos y evidencia.
+
   - Cambia status a DELETED.
 
 #### ***2.6.3.3. Application Layer***
@@ -3397,66 +3486,87 @@ La capa de Application orquesta casos de uso del bounded context Chat: coordina 
 
 **Commands Handler:**
 
-- **CreateGroupCommand**
-  - Permite la creación de un grupo
-  - Los datos de entrada serian : userId, name, visibility , description
-  - Cualquier usuario autenticado puede crear un group
+- ***CreateGroupCommand***
+
+  - Permite la creación de un grupo.
+
+  - Los datos de entrada serian : userId, name, visibility , description.
+
+  - Cualquier usuario autenticado puede crear un group.
+
   - El usuario creador del group queda con el rol OWNER.
 
-- **UpdateGroupCommand**
-  - Permite la actualización de la información de un grupo(name, description o visibility)
+- ***UpdateGroupCommand***
+
+  - Permite la actualización de la información de un grupo(name, description o visibility).
+
   - Solo los usuarios con el rol de OWNER o ADMIN pueden actualizar la información del grupo.
 
-- **AddMembersCommand**
+- ***AddMembersCommand***
+
   - El objetivo es agregar a nuevos miembros a un grupo.
-  - Los datos de entrada para este command serían: userId, groupId, List<UserId>
+
+  - Los datos de entrada para este command serían: userId, groupId, List<UserId>.
+
   - Solo los usuarios con el rol OWNER o ADMIN pueden ejecutar esta acción.
 
-- **RemoveMembersCommand**  
+- ***RemoveMembersCommand*** 
+
   - Remover un miembro de un grupo.
+
   - Los datos de entrada serían: userId, groupId.
+
   - No se puede eliminar de un grupo al usuario con el rol OWNER.
+
   - Solo los usuarios con rol OWNER o ADMIN pueden realizar esta acción.
 
-- **PromoteMemberCommand**
-  - Cambiar el rol de un miembro.
-  - Los datos de entrada : groupId, userId, newRole
-  - Los usuarios con rol ADMIN no pueden degradar al usuario con el rol OWNER.
-  - Solo el rol OWNER puede ejecutar esta acción
+- ***PromoteMemberCommand***
 
-- **SendMessageCommand**
+  - Cambiar el rol de un miembro.
+
+  - Los datos de entrada : groupId, userId, newRole.
+
+  - Los usuarios con rol ADMIN no pueden degradar al usuario con el rol OWNER.
+
+  - Solo el rol OWNER puede ejecutar esta acción.
+
+- ***SendMessageCommand***
   - El objetivo es enviar mensajes en un grupo.
+
   - Datos de entrada: userId, groupId, body , attachments[].
+
   - Todos los usuarios miembros de un grupo pueden ejecutar esta acción.
 
-- **EditMessageCommand**
+- ***EditMessageCommand***
+
   - Permite la edición de un mensaje enviado .
+
   - Datos de entrada: userId, messageId, newBody, newAttachments[].
+
   - Cualquier usuario miembro del grupo puede ejecutar esta acción.
 
-- **DeleteMessageCommand**
-  - Eliminar un mensaje enviado en un grupo.
-  - Datos de entrada: userId, messageId.
-  - Solo los usuarios autores del mensaje  o usuarios con el rol OWNER o ADMIN pueden ejecutar esta acción.
+- ***DeleteMessageCommand***
 
+  - Eliminar un mensaje enviado en un grupo.
+
+  - Datos de entrada: userId, messageId.
+
+  - Solo los usuarios autores del mensaje  o usuarios con el rol OWNER o ADMIN pueden ejecutar esta acción.
 
 
 #### ***2.6.3.4. Infrastructure Layer***
 
-**GroupRepository:** Gestiona el ciclo de vida del Group. Es el encargado de guardar y recuperar el agregado Group desde el almacenamiento (DB) sin exponer detalles técnicos.
-Permite: Cargar un group por Id, guardar y actualizar los datos de un group en la base de datos y listar groups.
+* ***GroupRepository:*** Gestiona el ciclo de vida del Group. Es el encargado de guardar y recuperar el agregado Group desde el almacenamiento (DB) sin exponer detalles técnicos. Permite cargar un group por Id, guardar y actualizar los datos de un group en la base de datos y listar groups.
 
-**MessageRepository:** Gestiona toda la persistencia de la entidad Message , entidad fundamental para el bounded context Chat.
+* ***MessageRepository:*** Gestiona toda la persistencia de la entidad Message , entidad fundamental para el bounded context Chat.
 
 #### ***2.6.3.5. Bounded Context Software Architecture Component Level Diagrams***
 
-
-
 **Figura 40**
 
-![Component Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758147124/chat_componen_diagram_htcqjn.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758147124/chat_componen_diagram_htcqjn.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -3467,9 +3577,9 @@ Permite: Cargar un group por Id, guardar y actualizar los datos de un group en l
 
 **Figura 41**
 
-![Class Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758146973/ClassDiagramChat_wip8c3.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758146973/ClassDiagramChat_wip8c3.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -3477,93 +3587,159 @@ Permite: Cargar un group por Id, guardar y actualizar los datos de un group en l
 
 **Figura 42**
 
-![Database Diagram Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1758147205/DatabaseDiagramChat_xuhklb.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758147205/DatabaseDiagramChat_xuhklb.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
+#
 
 ### ***2.6.4. Bounded Context: Notification***
 
+<p style="text-indent: 1.25cm;">Este contexto se centra en la creación, gestión y envío de notificaciones dentro del sistema. Su propósito es garantizar que los usuarios reciban información relevante en tiempo real, derivada de eventos, anuncios o mensajes de chat, manteniendo un registro confiable de los estados de cada notificación.
+
 #### ***2.6.4.1. Domain Layer***
+
 En este bounded context, el núcleo del dominio está relacionado con la creación, gestión y envío de notificaciones.
-- **Clases Principales (Entities and Value Objects):**
-  - **Notification (Aggregate Root):**
-    Representa una notificación generada a partir de un evento de dominio (ejemplo: un evento creado, un anuncio publicado, un mensaje enviado en un chat).
-  - **Atributos**
-    - `id (UUID)`: Identificador único de la notificación.
-    - `title (String)`: Título breve de la notificación.
-    - `message (String)`: Mensaje principal de la notificación.
-    - `recipients (List<UserId>)`: Lista de destinatarios (proveniente de otros bounded contexts, como Event con sus invitados, o Chat con sus miembros).
-    - `priority (enum: HIGH, NORMAL)`: Define si es una notificación prioritaria o regular.
-    - `status (enum: PENDING, SENT, FAILED, READ)`: Estado de la notificación.
-    - `createdAt (DateTime)`: Fecha y hora de creación.
-  - **Métodos (comportamientos):**
-    - `createNotification()`: Genera una nueva notificación.
-    - `markAsSent()`: Cambia estado a SENT tras confirmación del servicio externo (FCM).
-    - `markAsFailed()`: Cambia estado a FAILED en caso de error.
-    - `markAsRead()`: Cambia estado a READ cuando el usuario abre la notificación.
-  - **Reglas de Negocio:**
-    1. Una notificación debe tener destinatarios válidos, los cuales provienen de otros contextos (ejemplo: invitados de un evento, empleados de un anuncio).
-    2. Una notificación de alta prioridad debe ser enviada inmediatamente.
-    3. El estado de cada notificación debe ser registrado y actualizado de forma confiable.
-    4. No se duplican notificaciones para el mismo usuario y el mismo evento.
+
+**Clases principales (Entities and Value Objects):**
+
+**Notification (Aggregate Root):**
+
+Representa una notificación generada a partir de un evento de dominio (ejemplo: evento creado, anuncio publicado, mensaje enviado en un chat).
+
+
+* ***Atributos:***
+
+   * **id (UUID):** Identificador único de la notificación.  
+
+   * **title (String):** Título breve de la notificación. 
+
+   * **message (String):** Mensaje principal de la notificación. 
+
+   * **recipients (List<UserId>):** Lista de destinatarios (proveniente de otros bounded contexts, como Event con sus invitados o Chat con sus miembros).  
+
+   * **priority (Enum: HIGH, NORMAL):** Define si es una notificación prioritaria o regular.  
+
+   * **status (Enum: PENDING, SENT, FAILED, READ):** Estado de la notificación.  
+
+   * **createdAt (DateTime):** Fecha y hora de creación.  
+
+
+* ***Métodos:***
+
+   * **createNotification():** Genera una nueva notificación.  
+
+   * **markAsSent():** Cambia estado a SENT tras confirmación del servicio externo.  
+
+   * **markAsFailed():** Cambia estado a FAILED en caso de error.  
+
+   * **markAsRead():** Cambia estado a READ cuando el usuario abre la notificación.  
+
+
+* ***Reglas de negocio:***
+
+  * Una notificación debe tener destinatarios válidos, los cuales provienen de otros contextos (ejemplo: invitados de un evento, empleados de un anuncio).  
+
+  * Una notificación de alta prioridad debe ser enviada inmediatamente.  
+
+  * El estado de cada notificación debe ser registrado y actualizado de forma confiable.
+
+  * No se duplican notificaciones para el mismo usuario y el mismo evento.  
+
 
 #### ***2.6.4.2. Interface Layer***
+
 **NotificationController**
+
 Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de aplicación (Application Layer). Cada endpoint está protegido por el IAM para garantizar que solo los usuarios autenticados accedan a sus notificaciones.
-- **Endpoints principales:**
-  - `POST /notifications/test` → Enviar una notificación de prueba (debug).
-    - Permite verificar la integración con Firebase Cloud Messaging.
-  - `GET /notifications/{userId}` → Listar notificaciones de un usuario.
-    -Devuelve todas las notificaciones asignadas al usuario autenticado.
-  - `GET /notifications/{id}/status` → Consultar estado de una notificación.
-    -Permite verificar si la notificación fue enviada, falló o fue leída.
+
+* **Endpoints principales:**
+
+  - ***POST /notifications/test*** → Enviar una notificación de prueba (debug).  
+
+    - Permite verificar la integración con Firebase Cloud Messaging.  
+
+  - ****GET /notifications/{userId}*** → Listar notificaciones de un usuario.  
+
+    - Devuelve todas las notificaciones asignadas al usuario autenticado.  
+
+  - ***GET /notifications/{id}/status*** → Consultar estado de una notificación.  
+
+    - Permite verificar si la notificación fue enviada, falló o fue leída. 
+
 
 #### ***2.6.4.3. Application Layer***
-La capa de aplicación es la encargada de coordinar los procesos de negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente. Aquí no se define la lógica de negocio directamente, sino que se orquesta el flujo de acciones a través de Command Handlers y Event Handlers.
-- **Command Handlers:**
-  Son clases que reciben las solicitudes de la Interface Layer (controladores) y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio
-  - `SendNotificationCommandHandler:`
-    - Recibe una solicitud para enviar una notificación.
-    - Valida datos y delega al dominio.
-  - `RetryNotificationCommandHandler:`
-    -Reintenta el envío de una notificación en caso de fallo.
 
-- **Event Handlers**
-  Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema. Se encargan de generar y actualizar notificaciones.
-  - `AnnouncementCreatedHandler` → escucha cuando se crea un anuncio y genera notificaciones a los empleados.
-    - Genera notificaciones a los destinatarios definidos.
-  - `EventCreatedHandler` → escucha cuando se crea un evento y envía notificaciones a los invitados.
-    -Envía notificaciones a los usuarios invitados.
-  - `ChatMessageSentHandler` → escucha cuando se envía un mensaje de chat y notifica a los miembros del grupo.
-    - Envía notificaciones push a los miembros del grupo.
-  - `NotificationReadHandler`:
-    - Se ejecuta cuando un usuario marca una notificación como leída.
-    - Actualiza el estado de la notificación en la base de datos.
+La capa de aplicación es la encargada de coordinar los procesos de negocio y garantizar que la lógica definida en el Domain Layer se ejecute correctamente. Aquí no se define la lógica de negocio directamente, sino que se orquesta el flujo de acciones a través de Command Handlers y Event Handlers.
+
+**Command Handlers**
+
+Son clases que reciben las solicitudes de la Interface Layer y se encargan de invocar al Domain Layer para ejecutar las reglas de negocio.
+
+- ***SendNotificationCommandHandler***  
+
+  - Recibe una solicitud para enviar una notificación.  
+
+  - Valida datos y delega al dominio.  
+
+- ***RetryNotificationCommandHandler***  
+
+  - Reintenta el envío de una notificación en caso de fallo.  
+
+**Event Handlers**
+
+Son clases que se activan automáticamente cuando ocurre un evento de dominio en el sistema. Se encargan de generar y actualizar notificaciones.
+
+- ***AnnouncementCreatedHandler*** 
+
+  - Escucha cuando se crea un anuncio y genera notificaciones a los empleados.  
+
+- ***EventCreatedHandler*** 
+
+  - Escucha cuando se crea un evento y envía notificaciones a los invitados.
+
+- ***ChatMessageSentHandler*** 
+
+  - Escucha cuando se envía un mensaje de chat y notifica a los miembros del grupo.  
+
+- ***NotificationReadHandler***  
+
+  - Se ejecuta cuando un usuario marca una notificación como leída.  
+
+  - Actualiza el estado de la notificación en la base de datos.  
+
 
 #### ***2.6.4.4. Infrastructure Layer***
+
 En esta capa se implementan las conexiones con servicios externos y la persistencia de datos. Su objetivo es garantizar que las notificaciones se guarden correctamente, se envíen mediante Firebase y se mantenga el estado actualizado.
 
-- **Repositories:**
-NotificationRepository: Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Supabase.
+**Repositories:**
 
-- **Database Access:**
-  La base de datos utilizada será Supabase, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.
-- **External Services:**
-  - **Firebase Cloud Messaging (FCM):** Servicio encargado de enviar notificaciones push a los dispositivos móviles de los usuarios.
-  - **Anti-Corruption Layer (ACL):** Se utiliza para traducir los eventos de otros bounded contexts (Announcement, Event, Chat) al modelo estándar de notificación antes de enviarlos a FCM.
+- ***NotificationRepository:*** 
 
-De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
+Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Supabase.  
+
+**Database Access:**
+
+La base de datos utilizada será Supabase, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.  
+
+**External Services:**
+
+- ***Firebase Cloud Messaging (FCM):*** Servicio encargado de enviar notificaciones push a los dispositivos móviles de los usuarios.  
+
+- ***Anti-Corruption Layer (ACL):*** Se utiliza para traducir los eventos de otros bounded contexts (Announcement, Event, Chat) al modelo estándar de notificación antes de enviarlos a FCM.  
+
+<p style="text-indent: 1.25cm;">De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
 
 #### ***2.6.4.5. Bounded Context Software Architecture Component Level Diagrams***
 
 **Figura 43**
 
-![Component Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147284/Component_Level_Diagrams_Notification_r2vazx.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758147284/Component_Level_Diagrams_Notification_r2vazx.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -3599,9 +3775,10 @@ De esta manera, la infraestructura asegura que las notificaciones no solo se gua
 
 **Figura 44**
 
-![Domain Layer Class Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Class_Diagram_Notification_qiwhqq.png)
-
-
+![Domain Layer Class Diagram]()
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Class_Diagram_Notification_qiwhqq.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
 
@@ -3609,11 +3786,13 @@ De esta manera, la infraestructura asegura que las notificaciones no solo se gua
 
 **Figura 45**
 
-![Database Desing Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Database_Design_Diagram_Notification_xhyccw.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758147290/Database_Design_Diagram_Notification_xhyccw.png" alt="Class Diagram">
+</p>
 
 *Nota.* Elaboración propia.
+
+#
 
 ### ***2.6.5. Bounded Context: Profiles***
 
@@ -3626,6 +3805,7 @@ Este bounded context es responsable de gestionar la información básica de los 
 **Profile (Aggregate Root):** 
 
 Representa el perfil de un usuario en la plataforma. Es la entidad central del bounded context de Profiles, y actúa como “la puerta de entrada” al agregado completo.
+
 * ***Atributos:***
 
   - **id (UUID):** Identificador único del perfil.
@@ -3685,7 +3865,6 @@ Es el responsable de recibir solicitudes HTTP y dirigirlas hacia la lógica de a
   - **GET /profiles/{userId}** → Obtener perfil de un usuario.
 
     - Devuelve información del perfil (nombre, cargo, departamento) para un userId dado.
-
 
   - **PUT /profiles/{userId}**  → Actualizar un perfil.
 
@@ -3790,6 +3969,8 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 *Nota.* Elaboración propia.
 
+#
+
 # Conclusiones
 
 <p style="text-indent: 1.25cm;">El desarrollo del proyecto Synera, materializado en la aplicación Centralis, ha demostrado ser una respuesta efectiva a la problemática de fragmentación en la comunicación interna que afecta a las pequeñas y medianas empresas. A lo largo del ciclo de desarrollo, se validó la hipótesis central que identificaba la necesidad de una plataforma unificada que reemplazara los canales informales y mejorara la productividad mediante la centralización de anuncios, eventos y chats grupales. Las entrevistas realizadas confirmaron que tanto gerentes como empleados perciben un valor tangible en separar la comunicación laboral de la personal, priorizando herramientas diseñadas específicamente para el ámbito profesional.
@@ -3802,26 +3983,26 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 <p style="text-indent: 1.25cm;">Finalmente, el proyecto Synera no solo cumple con los requisitos funcionales establecidos sino que sienta las bases para una solución escalable que puede evolucionar para incorporar nuevas funcionalidades como integración con calendarios externos, videollamadas o analytics avanzados. El feedback recibido durante las validaciones indica una alta probabilidad de adopción en el mercado objetivo, confirmando que Centralis resuelve una problemática real y ofrece una propuesta de valor diferenciada en el ecosistema de herramientas de comunicación empresarial para pymes.
 
+#
+
 # Bibliografía 
 
+* Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
 
+* Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
 
-Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
+* Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
 
-Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
+* Richardson, C. (2018). *Microservices Patterns: With examples in Java*. Manning Publications.
 
-Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
+* Supabase. (2023). *Supabase Documentation*. https://supabase.io/docs
 
-Richardson, C. (2018). *Microservices Patterns: With examples in Java*. Manning Publications.
+* Google. (2023). *Firebase Cloud Messaging Documentation*. https://firebase.google.com/docs/cloud-messaging
 
-Supabase. (2023). *Supabase Documentation*. https://supabase.io/docs
+* Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. https://scrumguides.org/
 
-Google. (2023). *Firebase Cloud Messaging Documentation*. https://firebase.google.com/docs/cloud-messaging
+* Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
 
-Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. https://scrumguides.org/
+* Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 
-Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
-
-Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
-
-Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
+* Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
