@@ -146,7 +146,11 @@
 
 * **Objetivo:** Comprender sus frustraciones cotidianas con las herramientas actuales, sus hábitos de comunicación y lo que valorarían en una solución como Centralis.
 
-***Características demográficas***
+***Características demográficas:***
+
+* ¿Cuál es tu nombre?
+* ¿Cuantos años tienes?
+* ¿En qué lugar trabajas o estás actualmente asignado(a)?
 
 ***Preguntas principales:***
 
@@ -172,12 +176,17 @@
 
 10. ¿Qué dispositivo usas más para comunicarte en el trabajo: el celular o la computadora?
 
+#
 
 ***-Segmento objetivo \#2:  Gerentes y Líderes de Equipos*** 
 
 * **Objetivo:** Descubrir sus desafíos de gestión, necesidades de control y accountability, y los criterios de decisión para implementar nuevas herramientas.
 
-***Características demográficas***
+***Características demográficas: ***
+
+* ¿Cuál es tu nombre?
+* ¿Cuantos años tienes?
+* ¿En qué lugar trabajas o estás actualmente asignado(a)?
 
 ***Preguntas principales:***
 
@@ -204,6 +213,8 @@
 10. Para la toma de decisiones, ¿le resultaría útil poder segmentar y enviar anuncios o eventos solo a departamentos o equipos específicos?
 
 11. Desde el punto de vista de la seguridad, ¿qué tipo de controles o permisos considera indispensables en una herramienta de comunicación?
+
+#
 
 ### 2.2.2. Registro de entrevistas 
 
@@ -314,6 +325,8 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
   - Notificaciones solo de lo importante.
 
+#
+
 **<u>Segmento objetivo #2: Gerentes y lideres de equipo</u>**
 
 
@@ -421,7 +434,7 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
   - Separación clara de lo personal y lo laboral, para reducir quejas y estrés del equipo.
 
-
+#
 
 ### ***2.2.3. Análisis de entrevistas***
 
@@ -2195,15 +2208,15 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 Definimos dos objetivos principales, cada uno enfocado en un segmento usuario específico:
 
-- Business Goal 1: Enfocado en gerentes. El objetivo es cuantificable (80% de adopción), medible (uso como canal principal) y con un timeframe claro (6 meses). Esto asegura que la herramienta se convierta en el estándar para la comunicación formal descendente.
-- Business Goal 2: Enfocado en empleados. El objetivo es igualmente medible (70% de uso diario) y critical para el éxito general, ya que la herramienta debe ser adoptada masivamente para reemplazar canales informales como WhatsApp. La métrica "diariamente" es clave para medir el engagement real.
+- **Business Goal 1:** Enfocado en gerentes. El objetivo es cuantificable (80% de adopción), medible (uso como canal principal) y con un timeframe claro (6 meses). Esto asegura que la herramienta se convierta en el estándar para la comunicación formal descendente.
+- **Business Goal 2:** Enfocado en empleados. El objetivo es igualmente medible (70% de uso diario) y critical para el éxito general, ya que la herramienta debe ser adoptada masivamente para reemplazar canales informales como WhatsApp. La métrica "diariamente" es clave para medir el engagement real.
 
 ***2. Personas (¿QUIÉN?)***
 
 <p style="text-indent: 1.25cm;">Identificamos a los actores principales cuyo comportamiento debemos influir para lograr los objetivos. Son los mismos segmentos objetivo definidos en el Lean UX Canvas:
 
-- Gerentes: Tomadores de decisión que necesitan control y visibilidad.
-- Empleados: Usuarios finales que necesitan simplicidad y utilidad en su día a día.
+- **Gerentes:** Tomadores de decisión que necesitan control y visibilidad.
+- **Empleados:** Usuarios finales que necesitan simplicidad y utilidad en su día a día.
 
 ***3. Impacts (¿CÓMO?)***
 
@@ -2211,13 +2224,13 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 * **Para Gerentes (Goal 1):**
 
-  - Impact 1.1: Cambiar el hábito de publicar anuncios en emails o WhatsApp hacia Centralis. Esto resuelve el problema de la falta de trazabilidad.
-  - Impact 1.2: Centralizar la planificación de eventos en una sola herramienta. Esto resuelve el problema de la descoordinación.
+  - **Impact 1.1:** Cambiar el hábito de publicar anuncios en emails o WhatsApp hacia Centralis. Esto resuelve el problema de la falta de trazabilidad.
+  - **Impact 1.2:** Centralizar la planificación de eventos en una sola herramienta. Esto resuelve el problema de la descoordinación.
 
 * **Para Empleados (Goal 2):**
 
-  - Impact 2.1: Convertir a Centralis en la fuente principal de información corporativa. Esto resuelve el problema de la información dispersa.
-  - Impact 2.2: Migrar las conversaciones de trabajo de apps personales a Centralis. Esto resuelve el problema de la falta de separación vida laboral/personal.
+  - **Impact 2.1:** Convertir a Centralis en la fuente principal de información corporativa. Esto resuelve el problema de la información dispersa.
+  - **Impact 2.2:** Migrar las conversaciones de trabajo de apps personales a Centralis. Esto resuelve el problema de la falta de separación vida laboral/personal.
 
 ***4. Deliverables (¿QUÉ?)***
 
@@ -2301,8 +2314,10 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 | 54   | US54    | Representación de navegación y acciones basada en roles.     | 2            |
 | 55   | US55    | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | 8            |
 
-### **2.5. Strategic-Level Domain-Driven Design**
 #
+
+## **2.5. Strategic-Level Domain-Driven Design**
+
 ### ***2.5.1. EventStorming***
 
 <p style="text-indent: 1.25cm;">Como parte fundamental del diseño estratégico impulsado por el dominio (Domain-Driven Design), nuestro equipo llevó a cabo una sesión de EventStorming con el objetivo principal de desglosar y comprender de manera colaborativa los procesos de negocio centrales que conforman la aplicación Centralis. Esta actividad nos permitió alinear nuestra visión técnica con las necesidades reales de los usuarios finales (empleados y gerentes), identificando los eventos clave, comandos, políticas y actores involucrados en el flujo de comunicación interna empresarial.
@@ -2362,11 +2377,11 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 #
 
 **Figura 20**
+
 ![EventStorming6](https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png)
 
 *Nota.* Elaboración propia.
 
-#
 
 ####  ***2.5.1.1. Candidate Context Discovery***
 
@@ -2445,13 +2460,13 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 
 
-<p style="text-indent: 1.25cm;">El Actor Gerente interactúa con el Contexto Announcement para ejecutar el comando Publicar Anuncio Prioritario, proporcionando todos los datos necesarios (título, descripción, Imagen, ect).
+* El Actor Gerente interactúa con el Contexto Announcement para ejecutar el comando Publicar Anuncio Prioritario, proporcionando todos los datos necesarios (título, descripción, Imagen, ect).
 
-<p style="text-indent: 1.25cm;">El Contexto Announcement procesa la solicitud, aplica sus reglas de negocio (p. ej., verifica permisos) y persiste el nuevo anuncio. Una vez creado exitosamente, publica un Evento de Dominio AnuncioPrioritarioCreado que contiene los datos relevantes del anuncio y la audiencia objetivo.
+* El Contexto Announcement procesa la solicitud, aplica sus reglas de negocio (p. ej., verifica permisos) y persiste el nuevo anuncio. Una vez creado exitosamente, publica un Evento de Dominio AnuncioPrioritarioCreado que contiene los datos relevantes del anuncio y la audiencia objetivo.
 
-<p style="text-indent: 1.25cm;">El Contexto Notification se suscribe al evento AnuncioPrioritarioCreado. Al recibirlo, procesa el evento y ejecuta la lógica para Enviar Notificación Push a todos los dispositivos de los empleados pertenecientes al departamento especificado en el evento.
+* El Contexto Notification se suscribe al evento AnuncioPrioritarioCreado. Al recibirlo, procesa el evento y ejecuta la lógica para Enviar Notificación Push a todos los dispositivos de los empleados pertenecientes al departamento especificado en el evento.
 
-<p style="text-indent: 1.25cm;">Como resultado, el Actor Empleado recibe la notificación en su dispositivo móvil, alertándole sobre el nuevo anuncio importante.
+* Como resultado, el Actor Empleado recibe la notificación en su dispositivo móvil, alertándole sobre el nuevo anuncio importante.
 
 #
 
@@ -2471,13 +2486,13 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Explicación del Flujo:**
 
-<p style="text-indent: 1.25cm;">El Actor Gerente interactúa con el Contexto Event para ejecutar el comando Crear Evento, proporcionando detalles como fecha, hora, descripción y lista de invitados.
+* El Actor Gerente interactúa con el Contexto Event para ejecutar el comando Crear Evento, proporcionando detalles como fecha, hora, descripción y lista de invitados.
 
-<p style="text-indent: 1.25cm;">El Contexto Event persiste el nuevo evento y publica un evento de dominio EventoCreado que contiene los detalles del evento y la lista de IDs de usuarios invitados.
+* El Contexto Event persiste el nuevo evento y publica un evento de dominio EventoCreado que contiene los detalles del evento y la lista de IDs de usuarios invitados.
 
-<p style="text-indent: 1.25cm;">El Contexto Notification, suscrito a EventoCreado, recibe el evento y procede a Enviar Invitaciones/Notificaciones a cada uno de los usuarios invitados, informándoles sobre el nuevo evento.
+* El Contexto Notification, suscrito a EventoCreado, recibe el evento y procede a Enviar Invitaciones/Notificaciones a cada uno de los usuarios invitados, informándoles sobre el nuevo evento.
 
-<p style="text-indent: 1.25cm;">El Actor Empleado (invitado) recibe la notificación en su dispositivo.
+* El Actor Empleado (invitado) recibe la notificación en su dispositivo.
 
 #
 
@@ -2495,19 +2510,19 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Explicación del Flujo:**
 
-<p style="text-indent: 1.25cm;">El Actor Empleado interactúa con el Contexto Chat para ejecutar el comando Enviar Mensaje, proporcionando el contenido del mensaje y el ID del grupo de destino.
+* El Actor Empleado interactúa con el Contexto Chat para ejecutar el comando Enviar Mensaje, proporcionando el contenido del mensaje y el ID del grupo de destino.
 
-<p style="text-indent: 1.25cm;">El Contexto Chat persiste el mensaje y publica un evento de dominio NuevoMensajeEnGrupo que contiene el ID del grupo, el ID del remitente y el contenido del mensaje.
+* El Contexto Chat persiste el mensaje y publica un evento de dominio NuevoMensajeEnGrupo que contiene el ID del grupo, el ID del remitente y el contenido del mensaje.
 
-<p style="text-indent: 1.25cm;">El Contexto Notification, suscrito a NuevoMensajeEnGrupo, recibe el evento. Su lógica de negocio determina a quiénes notificar (p. ej., a todos los miembros del grupo excepto al remitente). Luego, procede a Enviar Notificación Push a los usuarios correspondientes.
+* El Contexto Notification, suscrito a NuevoMensajeEnGrupo, recibe el evento. Su lógica de negocio determina a quiénes notificar (p. ej., a todos los miembros del grupo excepto al remitente). Luego, procede a Enviar Notificación Push a los usuarios correspondientes.
 
-<p style="text-indent: 1.25cm;">Los Actores Empleado (miembros del grupo) reciben una notificación en sus dispositivos indicando que hay un nuevo mensaje en el grupo.
+* Los Actores Empleado (miembros del grupo) reciben una notificación en sus dispositivos indicando que hay un nuevo mensaje en el grupo.
 
-<p style="text-indent: 1.25cm;">El modelado de flujos de mensajes mediante Domain Storytelling evidenció que el Contexto Notification actúa como un servicio centralizado de notificaciones, suscrito a eventos de todos los demás contextos core (Announcement, Event, Chat). Este diseño permite:
+* El modelado de flujos de mensajes mediante Domain Storytelling evidenció que el Contexto Notification actúa como un servicio centralizado de notificaciones, suscrito a eventos de todos los demás contextos core (Announcement, Event, Chat). Este diseño permite:
 
-- Desacoplamiento: Los contextos core no necesitan conocer la lógica compleja de envío de notificaciones; solo publican eventos de lo que ocurre.
-- Cohesión: La lógica de cuándo y cómo notificar está encapsulada en un único contexto especializado.
-- Escalabilidad: Es fácil agregar nuevos canales de notificación (email, SMS) o suscribirse a nuevos eventos desde Notification sin modificar los otros contextos.
+- **Desacoplamiento:** Los contextos core no necesitan conocer la lógica compleja de envío de notificaciones; solo publican eventos de lo que ocurre.
+- **Cohesión:** La lógica de cuándo y cómo notificar está encapsulada en un único contexto especializado.
+- **Escalabilidad:** Es fácil agregar nuevos canales de notificación (email, SMS) o suscribirse a nuevos eventos desde Notification sin modificar los otros contextos.
 
 <p style="text-indent: 1.25cm;">Este modelo de colaboración define claramente los contratos de comunicación entre los contextos, lo cual es fundamental para el diseño e implementación de la arquitectura de microservicios o la estructura modular de la aplicación.
 
@@ -2593,7 +2608,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Descripción del Diagrama y Relaciones Identificadas** 
 
-  - El Context Mapping resultante define las siguientes interacciones clave entre los Bounded Contexts:
+El Context Mapping resultante define las siguientes interacciones clave entre los Bounded Contexts:
 
 * **Separate Ways (Vías Separadas) entre Contextos Nucleares:** Se estableció que los contextos centrales de negocio Event, Announcement y Chat operan de manera completamente independiente (Separate Ways). No comparten datos, funcionalidades ni modelos de dominio directamente. Esta decisión refleja que, aunque forman parte de la misma suite de productividad, sus capacidades centrales son distintas y no requieren integración sincrónica para cumplir con sus objetivos primarios. Cada uno es responsable de su propio ciclo de vida de datos y reglas de negocio.
 
@@ -2709,6 +2724,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 *Nota.* Elaboración propia.
 
+
 #### ***2.5.3.3. Software Architecture Components Diagrams*** 
 
 <p style="text-indent: 1.25cm;">El siguiente diagrama de componentes describe la estructura interna de la API Application de Centralis, la cual actúa como el núcleo del sistema. Este diagrama descompone la API en sus módulos funcionales clave, ilustrando cómo interactúan entre sí y con los servicios externos para cumplir con los requisitos de la aplicación. La arquitectura sigue principios de diseño modular y de separación de concerns, lo que facilita el mantenimiento, la escalabilidad y la implementación de nuevas funcionalidades.
@@ -2776,21 +2792,21 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 
 <p style="text-indent: 1.25cm;">El diagrama ilustra los siguientes nodos de despliegue y sus interacciones:
 
-<p style="text-indent: 1.25cm;">Dispositivos Móviles de Usuarios: Representa los smartphones Android de los empleados y gerentes. En este nodo se ejecuta la App Centralis, una aplicación nativa desarrollada en Kotlin que consume los servicios del backend.
+* **Dispositivos Móviles de Usuarios:** Representa los smartphones Android de los empleados y gerentes. En este nodo se ejecuta la App Centralis, una aplicación nativa desarrollada en Kotlin que consume los servicios del backend.
 
-<p style="text-indent: 1.25cm;">Servidor Web/API: Nodo que aloja el núcleo del sistema. Contiene:
+* **Servidor Web/API:** Nodo que aloja el núcleo del sistema. Contiene:
 
-<p style="text-indent: 1.25cm;">API Centralis: Aplicación principal construida con Spring Boot que expone endpoints RESTful.
+* **API Centralis:** Aplicación principal construida con Spring Boot que expone endpoints RESTful.
 
 **Componentes de la API:** 
 
 * Módulos internos que organizan la funcionalidad por dominio:
 
-  - Announcement Component: Gestiona la lógica de anuncios.
-  - Event Component: Administra eventos y calendarios.
-  - Chat Component: Controla la mensajería y chats grupales.
-  - Notification Component: Coordina el envío de notificaciones.
-  - Profile Component: Administra los datos de los usuarios
+  - **Announcement Component:** Gestiona la lógica de anuncios.
+  - **Event Component:** Administra eventos y calendarios.
+  - **Chat Component:** Controla la mensajería y chats grupales.
+  - **Notification Component:** Coordina el envío de notificaciones.
+  - **Profile Component:** Administra los datos de los usuarios
 
 **Supabase (PostgreSQL Database):** Nodo de base de datos que almacena toda la información estructurada del sistema. Incluye tablas para usuarios, anuncios, eventos y mensajes, manteniendo la integridad relacional de los datos.
 
@@ -2798,8 +2814,8 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 
 * Nodos que representan servicios especializados de terceros:
 
-  - Cloudinary: Servicio CDN para almacenamiento y gestión de imágenes y archivos multimedia.
-  - Firebase Cloud Messaging: Servicio de Google para el envío de notificaciones push a dispositivos móviles.
+  - **Cloudinary:** Servicio CDN para almacenamiento y gestión de imágenes y archivos multimedia.
+  - **Firebase Cloud Messaging:** Servicio de Google para el envío de notificaciones push a dispositivos móviles.
 
 **Flujos de Comunicación y Dependencias**
 
@@ -2831,128 +2847,184 @@ Este diagrama de despliegue representa una infraestructura moderna, escalable y 
 
 ### ***2.6.1. Bounded Context: Announcement***
 
+<p style="text-indent: 1.25cm;">Este contexto se especializa en la gestión de anuncios organizacionales. Captura la lógica para la creación, publicación, visualización y comentarios de anuncios dentro de la empresa. Su propósito es servir como un canal centralizado de comunicación que garantice que los empleados reciban la información correcta y oportuna.
+
 ### ***2.6.1.1 Domain Layer***
 
 El **Announcement Context** gestiona la publicación, visualización y comentarios de anuncios en la organización.  
 
-- **Entities**  
-  - **Announcement**  
-    - `id: UUID`  
-    - `title: String`  
-    - `description: String`  
-    - `image: String (opcional)`  
-    - `priority: Priority (Value Object)`  
-    - `createdAt: DateTime`  
-    - `createdBy: UserId (Gerente)`  
-    - **Métodos**: `publish()`, `markAsSeen(employeeId)`, `addComment(comment)`  
+**Clases principales (Entities and Value Objects):**
 
-  - **Comment**  
-    - `id: UUID`  
-    - `announcementId: UUID`  
-    - `employeeId: UserId`  
-    - `content: String`  
-    - `createdAt: DateTime`  
+**Announcement (Aggregate Root):**
 
-  - **User (simplificado)**  
-    - `id: UUID`  
-    - `name: String`  
-    - `role: ENUM (Manager, Employee)`  
+Representa un anuncio creado por un gerente. Es la entidad central del bounded context de **Announcement** y actúa como la puerta de entrada al agregado.
 
-- **Value Objects**  
-  - **Priority**  
-    - `level: ENUM (Normal, High, Urgent)`  
-    - Inmutable, solo puede asignarse al crear el anuncio.  
+* ***Atributos:***
 
-- **Aggregates**  
-  - `Announcement` es el Aggregate Root.  
-  - Contiene `Comments` y gestiona la lógica de negocio.  
+  - **id (UUID):** Identificador único del anuncio, garantiza trazabilidad.  
 
-- **Business Rules**  
-  1. Solo los **Managers** pueden publicar anuncios.  
-  2. Los **Employees** pueden visualizar anuncios y marcarlos como vistos.  
-  3. Los **Employees** pueden comentar un anuncio publicado.  
-  4. Un anuncio puede clasificarse por **Priority**.  
+  - **title (String):** Título breve y conciso que resume el mensaje (ejemplo: “Nueva Política de Vacaciones”). 
 
-- **Repositories (Interfaces)**  
-  - `IAnnouncementRepository`  
-  - `ICommentRepository`  
+  - **description (String):** Detalle completo del anuncio con instrucciones, políticas o información relevante.  
 
----
+  - **image (String, opcional):** URL de una imagen asociada (banner, gráfico, documento escaneado).  
+
+  - **priority (Priority, Value Object):** Nivel de urgencia del anuncio (Normal, High, Urgent). 
+
+  - **createdAt (DateTime):** Fecha y hora de publicación del anuncio.  
+
+  - **createdBy (UserId):** Identificador del gerente que creó el anuncio.  
+
+* ***Métodos:***
+
+  - **publish():** Publica un nuevo anuncio validando que los datos requeridos estén completos.  
+
+  - **markAsSeen(employeeId):** Marca que un empleado específico visualizó el anuncio.
+
+  - **addComment(comment):** Agrega un comentario de un empleado al anuncio.  
+ 
+
+**Comment:**
+
+Entidad que representa un comentario asociado a un anuncio.
+
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del comentario.  
+  - **announcementId (UUID):** Identificador del anuncio al que pertenece el comentario.  
+  - **employeeId (UserId):** Identificador del empleado que hizo el comentario.  
+  - **content (String):** Texto del comentario.  
+  - **createdAt (DateTime):** Fecha y hora en que se creó el comentario. 
+
+**User (simplificado):**
+
+Entidad que representa a los usuarios de la organización.
+
+* ***Atributos:***
+
+  - **id (UUID):** Identificador único del usuario.  
+  - **name (String):** Nombre del usuario.  
+  - **role (ENUM: Manager, Employee):** Rol del usuario en el sistema.  
+
+
+**Value Object: Priority**
+
+* ***Atributos:***
+
+  - **level (ENUM: Normal, High, Urgent):** Define el nivel de prioridad del anuncio.  
+  - Inmutable: solo puede asignarse al momento de la creación del anuncio. 
+
+- ***Aggregates***
+
+  - **Announcement** es el Aggregate Root.  
+  - Contiene **Comments** y gestiona la lógica de negocio.  
+
+**Reglas de negocio:**
+
+  - Solo los **Managers** pueden publicar, actualizar o eliminar anuncios.  
+  - Los **Employees** pueden visualizar anuncios y marcarlos como vistos.  
+  - Los **Employees** pueden comentar anuncios ya publicados.  
+  - Cada anuncio debe tener título, descripción y nivel de prioridad válido.  
+ 
+
+**Repositories (Interfaces)**  
+
+  - IAnnouncementRepository  
+  - ICommentRepository
+
 
 #### ***2.6.1.2. Interface Layer***
-El **Interface Layer** está compuesto por los controladores y endpoints que permiten la interacción entre la aplicación móvil / web y el Announcement Context.
-  - `POST /announcements`
-  - `GET /announcements`
-  - `POST /announcements/{id}/seen`
-  - `POST /announcements/{id}/comments`
+
+
+**AnnouncementController**
+
+Es el responsable de recibir solicitudes HTTP y conectarlas con la lógica de aplicación (Application Layer).
+
+* ***Endpoints principales:***
+
+  - **POST /announcements** → Crear anuncio (solo Managers).
+
+  - **GET /announcements** → Listar todos los anuncios disponibles para el usuario.  
+
+  - **POST /announcements/{id}/seen** → Marcar anuncio como visto por un empleado. 
+
+  - **POST /announcements/{id}/comments** → Agregar un comentario a un anuncio.  
+
 
 #### 2.6.1.3. Application Layer
-El **Application Layer** contiene los casos de uso implementados como **Command Handlers** y **Event Handlers**.  
 
-- Command Handlers:
-  - `CreateAnnouncementCommandHandler`
-  - `UpdateAnnouncementCommandHandler`
-  - `DeleteAnnouncementCommandHandler`
-  - `CreateCommentCommandHandler`
-  - `MarkAsSeenCommandHandler`
 
-- Event Handlers:
-  - `AnnouncementPublishedEventHandler`
+La capa de aplicación coordina los casos de uso y garantiza que la lógica de negocio definida en el Domain Layer se ejecute correctamente.  
 
----
+**Command Handlers**
+
+  - **CreateAnnouncementCommandHandler:** Maneja la creación de un nuevo anuncio.  
+
+  - **UpdateAnnouncementCommandHandler:** Permite la modificación de anuncios existentes. 
+
+  - **DeleteAnnouncementCommandHandler:** Gestiona la eliminación de un anuncio.  
+  
+  - **CreateCommentCommandHandler:** Permite que los empleados creen comentarios en anuncios.  
+
+  - **MarkAsSeenCommandHandler:** Registra cuando un usuario marca un anuncio como visto.  
+
+
+**Event Handlers**
+
+  - **AnnouncementPublishedEventHandler:** Se activa automáticamente al publicarse un anuncio, notificando a otros bounded contexts (ejemplo: notificaciones).  
+
 
 #### 2.6.1.4. Infrastructure Layer
-El **Infrastructure Layer** incluye la implementación de repositorios y la integración con servicios externos.  
 
-- Repositorios:
-  - `AnnouncementRepository`
-  - `CommentRepository`
 
-- Integraciones externas:
-  - Servicio de notificaciones push (Firebase Cloud Messaging o similar).
-  - Almacenamiento de imágenes (Firebase Storage o Azure Blob).
+La capa de infraestructura provee la implementación concreta de repositorios y conexiones con sistemas externos.
 
----
+**Repositorios:**
+
+  - **AnnouncementRepository:** Persistencia de los anuncios.  
+
+  - **CommentRepository:** Persistencia de los comentarios.  
+
+**Integraciones externas:**
+
+  - **Servicio de notificaciones push** (Firebase Cloud Messaging o similar) para enviar alertas.  
+
+  - **Almacenamiento de imágenes** (Firebase Storage o Azure Blob) para guardar imágenes asociadas a los anuncios.  
+
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
 El siguiente diagrama representa la arquitectura del Announcement Context a nivel de componentes.  
+
 
 **Figura 34**
 
-
-
 ![Component Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146276/Boundend1-C-Component-Diagram_zqanvk.png)
-
-
 
 *Nota.* Elaboración propia.
 
 
-
----
-
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 Este apartado presenta los diagramas de la arquitectura del Announcement Context a nivel de código.  
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
 El siguiente diagrama muestra las entidades, value objects e interfaces de repositorios del Announcement Context.  
 
 **Figura 35**
 
 ![Domain Layer Class Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146325/Boundend1-C-Domain-Layer-Class-Diagram_pd3ggg.png)
 
-
-
 *Nota.* Elaboración propia.
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
 El siguiente diagrama representa el diseño de la base de datos (ERD) del Announcement Context.  
 
 **Figura 36**
 
 ![Database Design Diagram](https://res.cloudinary.com/dpprgycup/image/upload/v1758146414/Boundend1-C-Database-Design_a1zp5d.png)
-
-
 
 *Nota.* Elaboración propia.
 
