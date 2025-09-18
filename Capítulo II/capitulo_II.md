@@ -128,7 +128,6 @@
 </ul>
 </body>
 
-
 #
 
 ## **2.2. Entrevistas**
@@ -143,9 +142,11 @@
 
 ### ***2.2.1. Diseño de entrevistas***
 
-<u>***- Segmento objetivo \#1: Empleados de Empresas***</u>
+***-Segmento objetivo \#1: Empleados de Empresas***
 
-***Objetivo:*** Comprender sus frustraciones cotidianas con las herramientas actuales, sus hábitos de comunicación y lo que valorarían en una solución como Centralis.
+* **Objetivo:** Comprender sus frustraciones cotidianas con las herramientas actuales, sus hábitos de comunicación y lo que valorarían en una solución como Centralis.
+
+***Características demográficas***
 
 ***Preguntas principales:***
 
@@ -163,17 +164,20 @@
 
 ***Preguntas Complementarias:***
 
-1. ¿Podrías contarme sobre la última vez que un malentendido o un fallo de comunicación te causó un problema o retraso en tu trabajo?
+7. ¿Podrías contarme sobre la última vez que un malentendido o un fallo de comunicación te causó un problema o retraso en tu trabajo?
 
-2. ¿Prefieres que las conversaciones de diferentes proyectos o temas estén separadas? ¿Por qué?
+8. ¿Prefieres que las conversaciones de diferentes proyectos o temas estén separadas? ¿Por qué?
 
-3. ¿Qué tipo de notificaciones te parecen útiles y cuáles te resultan molestas o intrusivas?
+9. ¿Qué tipo de notificaciones te parecen útiles y cuáles te resultan molestas o intrusivas?
 
-4. ¿Qué dispositivo usas más para comunicarte en el trabajo: el celular o la computadora?
+10. ¿Qué dispositivo usas más para comunicarte en el trabajo: el celular o la computadora?
 
-<u>***- Segmento objetivo \#2:  Gerentes y Líderes de Equipos***</u> 
 
-**Objetivo:** Descubrir sus desafíos de gestión, necesidades de control y accountability, y los criterios de decisión para implementar nuevas herramientas.
+***-Segmento objetivo \#2:  Gerentes y Líderes de Equipos*** 
+
+* **Objetivo:** Descubrir sus desafíos de gestión, necesidades de control y accountability, y los criterios de decisión para implementar nuevas herramientas.
+
+***Características demográficas***
 
 ***Preguntas principales:***
 
@@ -193,19 +197,19 @@
 
 ***Preguntas Complementarias:***
 
-1. Cuando publica un anuncio importante, ¿necesita saber quiénes lo han leído y quiénes no? ¿Cómo le ayudaría esa información?
+8. Cuando publica un anuncio importante, ¿necesita saber quiénes lo han leído y quiénes no? ¿Cómo le ayudaría esa información?
 
-2. Imagina un panel de control donde pudiera ver el engagement de su equipo con la comunicación. ¿Qué métricas o datos serían más valiosos para usted?
+9. Imagina un panel de control donde pudiera ver el engagement de su equipo con la comunicación. ¿Qué métricas o datos serían más valiosos para usted?
 
-3. Para la toma de decisiones, ¿le resultaría útil poder segmentar y enviar anuncios o eventos solo a departamentos o equipos específicos?
+10. Para la toma de decisiones, ¿le resultaría útil poder segmentar y enviar anuncios o eventos solo a departamentos o equipos específicos?
 
-4. Desde el punto de vista de la seguridad, ¿qué tipo de controles o permisos considera indispensables en una herramienta de comunicación?
+11. Desde el punto de vista de la seguridad, ¿qué tipo de controles o permisos considera indispensables en una herramienta de comunicación?
 
 ### 2.2.2. Registro de entrevistas 
 
-<u>**Segmento objetivo #1: Empleados de Empresas**</u>
+***Segmento objetivo #1: Empleados de Empresas***
 
-***Entrevista #1:***
+**Entrevista #1:**
 
 **Figura 2**
 
@@ -214,6 +218,7 @@
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758043275/Entrevista_elverth_empleado_gfkmen.png" alt="Class Diagram">
 </p>
+
 *Nota.* Elaboración propia. Link: https://goo.su/QQt8lAi
 
 * **Nombre:** Leonardo Delgado Arriola
@@ -236,7 +241,7 @@
 
 #
 
-***Entrevista #2:***
+**Entrevista #2:**
 
 **Figura 3**
 
@@ -275,7 +280,7 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
 #
 
-***Entrevista #3:***
+**Entrevista #3:**
 
 **Figura 4**
 
@@ -346,7 +351,7 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
 #
 
-***Entrevista #5:***
+**Entrevista #5:**
 
 **Figura 6**
 
@@ -382,7 +387,7 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
 #
 
-***Entrevista #6:***
+**Entrevista #6:**
 
 **Figura 7**
 
@@ -417,10 +422,8 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
   - Separación clara de lo personal y lo laboral, para reducir quejas y estrés del equipo.
 
 
-#
 
-
-### 2.2.3. Análisis de entrevistas 
+### ***2.2.3. Análisis de entrevistas***
 
 <p style="text-indent: 1.25cm;">En este apartado se documenta de manera estructurada cada una de las entrevistas realizadas a los diferentes segmentos objetivo. Para cada entrevista, se incluye información relevante como el perfil del entrevistado, el registro de sus respuestas, observaciones contextuales, y un resumen de los principales hallazgos obtenidos.
 
@@ -430,51 +433,49 @@ Cuando recibe anuncios importantes, a veces llegan por correo y otras veces por 
 
 <u>**Segmento objetivo #1: Empleados de Empresas**</u>
 
-**Características Objetivas Comunes:**
+* **Características Objetivas Comunes:**
 
-- Sexo: Femenino.
-- Edad: 28-35 años. 
-- Dispositivos: Laptop de marca Hp con sistema operativo Windows 10 y smartphone android.
-- Programas: WhatAspp , Meet, Google Calendar, Procreate.
-- Canales de información: WhatsApp, Google Gmail,
-- Marcas preferidas: Google Gmail, WhatsApp, Google Meet
+  - Sexo: Femenino.
+  - Edad: 28-35 años. 
+  - Dispositivos: Laptop de marca Hp con sistema operativo Windows 10 y smartphone android.
+  - Programas: WhatAspp , Meet, Google Calendar, Procreate.
+  - Canales de información: WhatsApp, Google Gmail,
+  - Marcas preferidas: Google Gmail, WhatsApp, Google Meet
 
-**Características Subjetivas Comunes:**
+* **Características Subjetivas Comunes:**
 
-- Problemas al encontrar mensajes importantes.
-- Dispersión de comunicación, uso de varias aplicaciones.
-- Disgusto por combinar conversiones de vida personal y laboral.
-- Interés por la centralización de la comunicación laboral
-- Mayor uso de dispositivos móviles.
+  - Problemas al encontrar mensajes importantes.
+  - Dispersión de comunicación, uso de varias aplicaciones.
+  - Disgusto por combinar conversiones de vida personal y laboral.
+  - Interés por la centralización de la comunicación laboral
+  - Mayor uso de dispositivos móviles.
 
 <u>**Segmento objetivo #2: Gerentes o líderes de equipo**</u>
 
-**Características Objetivas Comunes:**
+* **Características Objetivas Comunes:**
 
-- Sexo: Masculino.
-- Edad: 40-55 años.
-- Dispositivos: Laptop de marca HP con sistema operativo Windows 10 y iPhone.
-- Canales de información: Messenger , WhatsApp, Outlook.
-- Marcas preferidas: Messenger , WhatsApp, Outlook.
+  - Sexo: Masculino.
+  - Edad: 40-55 años.
+  - Dispositivos: Laptop de marca HP con sistema operativo Windows 10 y iPhone.
+  - Canales de información: Messenger , WhatsApp, Outlook.
+  - Marcas preferidas: Messenger , WhatsApp, Outlook.
 
-**Características Subjetivas Comunes:**
+* **Características Subjetivas Comunes:**
 
-- Problemas con las confirmaciones de lectura 
-- Conflicto con la organización de archivos
-- Valora la facilidad del uso de la herramienta.
-- Orientación hacia la eficiencia y ahorro de tiempo.
-- Preocupación por la seguridad de la empresa y el profesionalismo de los empleados. 
-- Necesidad del control jerárquico. 
+  - Problemas con las confirmaciones de lectura 
+  - Conflicto con la organización de archivos
+  - Valora la facilidad del uso de la herramienta.
+  - Orientación hacia la eficiencia y ahorro de tiempo.
+  - Preocupación por la seguridad de la empresa y el profesionalismo de los empleados. 
+  - Necesidad del control jerárquico. 
 
-## 2.3. Needfinding 
+## **2.3. Needfinding**
 
 <p style="text-indent: 1.25cm;">Para identificar las necesidades reales de los usuarios objetivo de Centralis, se realizaron entrevistas en profundidad a dos segmentos clave: empleados y gerentes/líderes. A través de estas entrevistas, se descubrieron patrones comunes y críticos en cada grupo, como la necesidad de centralizar la comunicación fragmentada en múltiples aplicaciones (WhatsApp, correo, calendarios), la frustración por la pérdida de información importante en entornos informales, la demanda de herramientas intuitivas y móviles que prioricen la usabilidad, y la urgencia por separar la comunicación laboral de la personal para mejorar el equilibrio vida-trabajo. 
 
-### 2.3.1. User Personas 
+### ***2.3.1. User Personas***
 
 <p style="text-indent: 1.25cm;">En esta sección se construyeron perfiles representativos denominados “User Personas”, los cuales sintetizan características clave de los usuarios objetivo a partir del análisis cualitativo de las entrevistas. Cada User Persona refleja patrones comunes de comportamiento, motivaciones, frustraciones, objetivos, dispositivos utilizados y canales de información. Esta herramienta permitió traducir datos individuales en arquetipos comprensibles que orientan el diseño centrado en el usuario, facilitando decisiones estratégicas en cuanto a funcionalidades, experiencia de usuario y comunicación visual.
-
-*“Anexo: Diagrama User Persona”* : https://acortar.link/gN7rnw
 
 Se desarrollaron dos perfiles principales:
 
@@ -487,6 +488,9 @@ Se desarrollaron dos perfiles principales:
 
 ![User_Persona_María_Moreira](https://res.cloudinary.com/dpprgycup/image/upload/v1757951334/Mar%C3%ADa_Moreira_uqhhdr.png)
 
+*Nota.* Elaboración propia. Link: https://acortar.link/gN7rnw
+
+#
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
 
@@ -496,7 +500,10 @@ Se desarrollaron dos perfiles principales:
 
 ![User_Persona_Carlos_Román](https://res.cloudinary.com/dpprgycup/image/upload/v1757951331/Carlos_Rom%C3%A1n_qhu0ye.png)
 
-### 2.3.2. User Task Matrix 
+*Nota.* Elaboración propia. Link: https://acortar.link/gN7rnw
+
+
+### ***2.3.2. User Task Matrix***
 
 <p style="text-indent: 1.25cm;">A continuación se presenta el User Task Matrix, construido a partir de las entrevistas realizadas a los dos segmentos definidos: Empleados de Empresas y Gerentes o Líderes de Equipos.
 
@@ -517,63 +524,62 @@ Se desarrollaron dos perfiles principales:
 
 
 
-**Diferencias Clave entre Segmentos**
+* **Diferencias Clave entre Segmentos**
 
 Enfoque en control vs. practicidad:
 
-- Carlos realiza tareas de gestión y supervisión (revisar métricas, administrar permisos, publicar anuncios) con alta frecuencia e importancia.
-- María se centra en tareas operativas y reactivas (recibir notificaciones, marcar anuncios como leídos) que simplifiquen su flujo de trabajo.
+  - Carlos realiza tareas de gestión y supervisión (revisar métricas, administrar permisos, publicar anuncios) con alta frecuencia e importancia.
+  - María se centra en tareas operativas y reactivas (recibir notificaciones, marcar anuncios como leídos) que simplifiquen su flujo de trabajo.
 
-**Uso de analytics**:
+* **Uso de analytics**:
 
-- Carlos necesita paneles de control y métricas (ej: tasa de lectura de anuncios) para tomar decisiones.
-- María no usa analytics, pero valora confirmaciones simples (ej: "visto" en anuncios) para su tranquilidad.
+  - Carlos necesita paneles de control y métricas (ej: tasa de lectura de anuncios) para tomar decisiones.
+  - María no usa analytics, pero valora confirmaciones simples (ej: "visto" en anuncios) para su tranquilidad.
 
-**Creación de contenido:**
+* **Creación de contenido:**
 
-- Carlos genera anuncios y eventos constantemente
-- María principalmente los consume.
+  - Carlos genera anuncios y eventos constantemente
+  - María principalmente los consume.
 
-**Coincidencias Relevantes**
+* **Coincidencias Relevantes**
 
-- Ambos comparten la necesidad de notificaciones efectivas y grupos de chat organizados.
+  - Ambos comparten la necesidad de notificaciones efectivas y grupos de chat organizados.
 
-- Tareas como crear eventos son más frecuentes para Carlos, pero ambos las consideran importantes para la coordinación.
+  - Tareas como crear eventos son más frecuentes para Carlos, pero ambos las consideran importantes para la coordinación.
 
-- Marcar anuncios como leídos es relevante para ambos: para María, es una forma de confirmar recepción; para Carlos, un mecanismo de validación.
+  - Marcar anuncios como leídos es relevante para ambos: para María, es una forma de confirmar recepción; para Carlos, un mecanismo de validación.
 
-**Implicancias para el Diseño de Centralis**
+* **Implicancias para el Diseño de Centralis**
 
 Priorizar funcionalidades para gerentes:
 
-- Paneles de control con métricas de engagement (ej: % de lectura de anuncios).
-- Herramientas de segmentación para enviar mensajes a grupos específicos.
+  - Paneles de control con métricas de engagement (ej: % de lectura de anuncios).
+  - Herramientas de segmentación para enviar mensajes a grupos específicos.
 
-**Optimizar la experiencia para empleados:**
+* **Optimizar la experiencia para empleados:**
 
-- Notificaciones que destaquen lo urgente.
-- Flujos simples para confirmar lectura o asistencia a eventos.
+  - Notificaciones que destaquen lo urgente.
+  - Flujos simples para confirmar lectura o asistencia a eventos.
 
 Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados como María con herramientas de gestión robustas para líderes como Carlos.
 
 
-
-### 2.3.3. User Journey Mapping 
+### ***2.3.3. User Journey Mapping***
 
 <p style="text-indent: 1.25cm;">Con el objetivo de comprender en profundidad las necesidades, comportamientos, emociones y puntos de fricción de los usuarios de Centralis, se desarrolló un User Journey Mapping utilizando metodologías centradas en el usuario. Este proceso permitió visualizar de manera estructurada y empática el recorrido que cada segmento realiza desde el descubrimiento de la herramienta hasta su adopción y uso continuo, identificando oportunidades clave para optimizar la experiencia.
 
-**La actividad se centró en dos segmentos principales:**
+* **La actividad se centró en dos segmentos principales:**
 
-- María Moreira, empleada administrativa que busca centralizar la comunicación laboral y reducir el estrés causado por la fragmentación de canales.
-- Carlos Román, gerente de ventas que necesita controlar la difusión de información crítica y garantizar la accountability de su equipo.
+  - María Moreira, empleada administrativa que busca centralizar la comunicación laboral y reducir el estrés causado por la fragmentación de canales.
+  - Carlos Román, gerente de ventas que necesita controlar la difusión de información crítica y garantizar la accountability de su equipo.
 
-**Para cada perfil, se diseñó un mapa que incluye:**
+* **Para cada perfil, se diseñó un mapa que incluye:**
 
-- Fases del proceso: Descubrimiento, Registro, Uso diario y Análisis de resultados.
-- Objetivos del usuario en cada etapa.
-- Acciones específicas (procesos) y canales utilizados.
-- Emociones experimentadas, representadas mediante un sistema visual intuitivo: Frustración, Alivio, Satisfacción.
-- Problemas identificados y oportunidades de mejora a lo largo del recorrido.
+  - Fases del proceso: Descubrimiento, Registro, Uso diario y Análisis de resultados.
+  - Objetivos del usuario en cada etapa.
+  - Acciones específicas (procesos) y canales utilizados.
+  - Emociones experimentadas, representadas mediante un sistema visual intuitivo: Frustración, Alivio, Satisfacción.
+  - Problemas identificados y oportunidades de mejora a lo largo del recorrido.
 
 <p style="text-indent: 1.25cm;">Gracias a UXPressia, se logró una representación visual dinámica y clara que facilita la toma de decisiones centradas en el usuario. Este trabajo no solo mejora la comprensión de sus motivaciones y desafíos, sino que también guía el diseño de soluciones más relevantes, empáticas y funcionales para cada perfil identificado.
 
@@ -587,11 +593,9 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 ![Journey_Empleados](https://res.cloudinary.com/dpprgycup/image/upload/v1757951408/Journey_Mapping_Empleados_de_Empresas_knmgcv.png)
 
-
-
 *Nota.* Elaboración propia. 
 
-
+#
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
 
@@ -599,16 +603,12 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 *User Journey Mapping Objetivo #2: Gerentes y Líderes de Equipos*
 
-
-
 ![Journey_Gerentes](https://res.cloudinary.com/dpprgycup/image/upload/v1757951407/Journey_mapp_de_Gerentes_y_Lideres_de_Equipos_wzslfm.png)
-
-
 
 *Nota.* Elaboración propia. 
 
 
-### 2.3.4. Empathy Mapping  
+### ***2.3.4. Empathy Mapping***
 
 <p style="text-indent: 1.25cm;">Los siguientes mapas de empatía ilustran los conocimientos recopilados para cada uno de los dos segmentos objetivo definidos en el proyecto: 
 
@@ -617,21 +617,24 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 **Figura 12**
 
 *Empathy Mapping Empleados de Empresas*
+
 ![Empathy Map - Segment 1](https://res.cloudinary.com/dpprgycup/image/upload/v1757951612/Mapa-empatia-S1_aqgfll.png)
+
 *Nota.* Elaboración propia.
+
+#
 
 <ins>**Segmento Objetivo 2: Gerentes y Líderes de Equipos**</ins>
 
  **Figura 13**
 
 *Empathy Mapping Gerentes y Líderes de Equipos*
+
 ![Empathy Map - Segment 2](https://res.cloudinary.com/dpprgycup/image/upload/v1757951614/Mapa-empatia-S2_a62fxc.png) 
 
 *Nota.* Elaboración propia.
 
 ### ***2.3.5. Ubiquitous Language***
-
-
 
 | **Ubiquos Term**                | **Definition of Functional Domain**             |
 | ------------------------------- | ------------------------------------------------------------ |
@@ -2188,35 +2191,35 @@ Este análisis refuerza que Centralis debe equilibrar simplicidad para empleados
 
 <p style="text-indent: 1.25cm;">El Impact Mapping es una técnica de planificación estratégica que conecta los objetivos de negocio (Business Goals) con las acciones de desarrollo a través de cuatro preguntas clave: ¿POR QUÉ? (objetivo), ¿QUIÉN? (personas involucradas), ¿CÓMO? (impactos en su comportamiento) y ¿QUÉ? (entregables software). Este ejercicio asegura que cada funcionalidad desarrollada esté alineada directamente con las metas del negocio.
 
-**1. Business Goals (¿POR QUÉ?)**
+***1. Business Goals (¿POR QUÉ?)***
 
 Definimos dos objetivos principales, cada uno enfocado en un segmento usuario específico:
 
 - Business Goal 1: Enfocado en gerentes. El objetivo es cuantificable (80% de adopción), medible (uso como canal principal) y con un timeframe claro (6 meses). Esto asegura que la herramienta se convierta en el estándar para la comunicación formal descendente.
 - Business Goal 2: Enfocado en empleados. El objetivo es igualmente medible (70% de uso diario) y critical para el éxito general, ya que la herramienta debe ser adoptada masivamente para reemplazar canales informales como WhatsApp. La métrica "diariamente" es clave para medir el engagement real.
 
-**2. Personas (¿QUIÉN?)**
+***2. Personas (¿QUIÉN?)***
 
 <p style="text-indent: 1.25cm;">Identificamos a los actores principales cuyo comportamiento debemos influir para lograr los objetivos. Son los mismos segmentos objetivo definidos en el Lean UX Canvas:
 
 - Gerentes: Tomadores de decisión que necesitan control y visibilidad.
 - Empleados: Usuarios finales que necesitan simplicidad y utilidad en su día a día.
 
-**3. Impacts (¿CÓMO?)**
+***3. Impacts (¿CÓMO?)***
 
 <p style="text-indent: 1.25cm;">Para cada objetivo, definimos los cambios de comportamiento específicos que debemos lograr en las personas:
 
-**Para Gerentes (Goal 1):**
+* **Para Gerentes (Goal 1):**
 
-- Impact 1.1: Cambiar el hábito de publicar anuncios en emails o WhatsApp hacia Centralis. Esto resuelve el problema de la falta de trazabilidad.
-- Impact 1.2: Centralizar la planificación de eventos en una sola herramienta. Esto resuelve el problema de la descoordinación.
+  - Impact 1.1: Cambiar el hábito de publicar anuncios en emails o WhatsApp hacia Centralis. Esto resuelve el problema de la falta de trazabilidad.
+  - Impact 1.2: Centralizar la planificación de eventos en una sola herramienta. Esto resuelve el problema de la descoordinación.
 
-**Para Empleados (Goal 2):**
+* **Para Empleados (Goal 2):**
 
-- Impact 2.1: Convertir a Centralis en la fuente principal de información corporativa. Esto resuelve el problema de la información dispersa.
-- Impact 2.2: Migrar las conversaciones de trabajo de apps personales a Centralis. Esto resuelve el problema de la falta de separación vida laboral/personal.
+  - Impact 2.1: Convertir a Centralis en la fuente principal de información corporativa. Esto resuelve el problema de la información dispersa.
+  - Impact 2.2: Migrar las conversaciones de trabajo de apps personales a Centralis. Esto resuelve el problema de la falta de separación vida laboral/personal.
 
-**4. Deliverables (¿QUÉ?)**
+***4. Deliverables (¿QUÉ?)***
 
 <p style="text-indent: 1.25cm;">Son las funcionalidades específicas que debemos construir para generar los impacts deseados. Cada deliverable es una respuesta directa a un "Cómo".
 
@@ -2229,20 +2232,15 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 <p style="text-indent: 1.25cm;">Cada deliverable se traduce en una o más user stories que el equipo de desarrollo puede priorizar, estimar y implementar. Las user stories aquí presentadas son el nivel más granular del mapa, conectando directamente la necesidad del usuario con una funcionalidad técnica.
 
-
-
 **Figura 14**
 
-*Impact_Mappping*
+*Impact Mappping*
 
 ![Impact_Mappping](https://res.cloudinary.com/dpprgycup/image/upload/v1757951834/Impact_map_bxfo1g.png)
 
-*Nota.* Elaboración propia.
-
-“Impact Mapping” : https://shorturl.at/6ucAR
+*Nota.* Elaboración propia. Link: https://shorturl.at/6ucAR
 
 ### ***2.4.3. Product Backlog.***
-
 
 
 | N°   | StoryID | Título                                                       | Story Points |
@@ -2304,7 +2302,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 | 55   | US55    | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | 8            |
 
 ### **2.5. Strategic-Level Domain-Driven Design**
-
+#
 ### ***2.5.1. EventStorming***
 
 <p style="text-indent: 1.25cm;">Como parte fundamental del diseño estratégico impulsado por el dominio (Domain-Driven Design), nuestro equipo llevó a cabo una sesión de EventStorming con el objetivo principal de desglosar y comprender de manera colaborativa los procesos de negocio centrales que conforman la aplicación Centralis. Esta actividad nos permitió alinear nuestra visión técnica con las necesidades reales de los usuarios finales (empleados y gerentes), identificando los eventos clave, comandos, políticas y actores involucrados en el flujo de comunicación interna empresarial.
@@ -2319,19 +2317,17 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 <p style="text-indent: 1.25cm;">Un aspecto crucial de la sesión fue la identificación de "Hot Spots” (puntos calientes), que marcamos con notas de color rosa. Estas áreas representan puntos de complejidad, dependencias externas o requisitos ambiguos que requieren una investigación más profunda, como la definición exacta de un "anuncio prioritario".
 <p style="text-indent: 1.25cm;">El resultado de esta sesión colaborativa fue un mapa visual extenso y detallado que sirvió como base fundamental para el descubrimiento de contextos delimitados (Bounded Contexts) y para el diseño posterior de la arquitectura del software. A continuación, se presenta una captura del lienzo final elaborado en Miro.
 
+#
 
+*“EventStorming”*: https://shorturl.at/LxS3d
 
-“EventStorming” : https://shorturl.at/LxS3d
 **Figura 15**
-
-
-
 
 ![EventStorming1](https://res.cloudinary.com/dpprgycup/image/upload/v1757946002/d4ae22da-56ce-4337-9926-e1809a8fe30d.png)
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 16**
 
@@ -2339,7 +2335,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 17**
 
@@ -2347,7 +2343,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 18**
 
@@ -2355,7 +2351,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 19**
 
@@ -2363,14 +2359,14 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 20**
 ![EventStorming6](https://res.cloudinary.com/dpprgycup/image/upload/v1757946767/06944144-04e2-47ef-aac0-e0b1f06be485.png)
 
 *Nota.* Elaboración propia.
 
-
+#
 
 ####  ***2.5.1.1. Candidate Context Discovery***
 
@@ -2393,7 +2389,10 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 - **Profile Context:** Este contexto se encarga de gestionar los datos personales de los perfiles de los usuarios.
 
 <p style="text-indent: 1.25cm;">Estos contextos candidatos representan los núcleos de negocio distintivos de Centralis y serán validados y refinados durante las fases de Context Mapping y Domain Message Flows Modeling.
-“Candidate Context Discovery“ : https://shorturl.at/LxS3d
+
+*“Candidate Context Discovery“*: https://shorturl.at/LxS3d
+
+#
 
 **Figura 19**
 
@@ -2401,7 +2400,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 20**
 
@@ -2409,7 +2408,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 *Nota.* Elaboración propia.
 
-
+#
 
 #### ***2.5.1.2. Domain Message Flows Modeling***
 
@@ -2428,7 +2427,9 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Narrativas Principales Modeladas:**
 
-“Domain Message Flows Modeling” : https://shorturl.at/LxS3d
+*“Domain Message Flows Modeling”*: https://shorturl.at/LxS3d
+
+#
 
 **1. Historia: "Un Gerente publica un anuncio prioritario"**
 
@@ -2436,7 +2437,7 @@ Definimos dos objetivos principales, cada uno enfocado en un segmento usuario es
 
 **Figura 21**
 
-Domain Story - Publicación de un Anuncio Prioritario
+*Domain Story - Publicación de un Anuncio Prioritario*
 
 ![Publicación de un Anuncio Prioritario](https://res.cloudinary.com/dpprgycup/image/upload/v1757947556/99fbd846-87d6-4b91-859d-f626efc1065e.png)
 
@@ -2452,13 +2453,15 @@ Domain Story - Publicación de un Anuncio Prioritario
 
 <p style="text-indent: 1.25cm;">Como resultado, el Actor Empleado recibe la notificación en su dispositivo móvil, alertándole sobre el nuevo anuncio importante.
 
+#
+
 **2. Historia: "Un Gerente crea un evento de equipo"**
 
 <p style="text-indent: 1.25cm;">Esta historia describe la coordinación necesaria para organizar un evento y notificar a los invitados.
 
 **Figura 22**
 
-Domain Story - Creación de un Evento
+*Domain Story - Creación de un Evento*
 
 ![Publicación de un Anuncio Prioritario](https://res.cloudinary.com/dpprgycup/image/upload/v1757947631/7fd3df5b-a13a-4fd7-9504-b75f6e279862.png)
 
@@ -2476,13 +2479,15 @@ Domain Story - Creación de un Evento
 
 <p style="text-indent: 1.25cm;">El Actor Empleado (invitado) recibe la notificación en su dispositivo.
 
+#
+
 **3. Historia: "Un Empleado envía un mensaje en un grupo de chat"**
 
 <p style="text-indent: 1.25cm;">Esta historia muestra la interacción para la mensajería y la posible notificación a otros miembros del grupo.
 
 **Figura 23**
 
-Domain Story - Envío de un Mensaje de Chat
+*Domain Story - Envío de un Mensaje de Chat*
 
 ![Envío de un Mensaje de Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1757948194/b2cbfb93-4172-4d92-b861-29b22e9fd723.png)
 
@@ -2513,15 +2518,22 @@ Domain Story - Envío de un Mensaje de Chat
 
 <p style="text-indent: 1.25cm;">A continuación, se presenta el canvas para cada uno de los contextos centrales de Centralis.
 
-“Bounded Context Canvases” : https://shorturl.at/LxS3d
+*“Bounded Context Canvases”*: https://shorturl.at/LxS3d
+
+#
 
 **Figura 24**
+
 *Bounded Context Canvases Announcement*
+
 ![Bounded Context Canvases Announcement](https://res.cloudinary.com/dpprgycup/image/upload/v1757948411/f373576b-afe3-4b80-b71e-28539c3af094.png)
 
 *Nota.* Elaboración propia.
 
+#
+
 **Figura 25**
+
 *Bounded Context Canvases Event*
 
 ![Bounded Context Canvases Event](https://res.cloudinary.com/dpprgycup/image/upload/v1757948672/4c255d91-8c92-4344-91d4-330355f3fd1e.png)
@@ -2529,28 +2541,35 @@ Domain Story - Envío de un Mensaje de Chat
 
 *Nota.* Elaboración propia.
 
+#
 
 **Figura 26**
+
 *Bounded Context Canvases Chat*
 
 ![Bounded Context Canvases Chat](https://res.cloudinary.com/dpprgycup/image/upload/v1757948727/ff534fcd-ed76-4728-b8dc-707291f8aa2b.png)
 
 *Nota.* Elaboración propia.
 
-
+#
 
 **Figura 27**
+
 *Bounded Context Canvases Notification*
 
 ![Bounded Context Canvases Notification](https://res.cloudinary.com/dpprgycup/image/upload/v1757948915/2bbe2d7c-c8ef-4a2b-860f-b3998c6c4428.png)
+
 *Nota.* Elaboración propia.
 
+# 
+
 **Figura 28**
+
 *Bounded Context Canvases Profile*
 
 ![Bounded Context Canvases Profile](https://res.cloudinary.com/dpprgycup/image/upload/v1757949192/862d9c11-2bf2-444e-858f-dc439425236c.png)
-*Nota.* Elaboración propia.
 
+*Nota.* Elaboración propia.
 
 
 ### ***2.5.2. Context Mapping***
@@ -2559,43 +2578,42 @@ Domain Story - Envío de un Mensaje de Chat
 
 <p style="text-indent: 1.25cm;">El objetivo principal fue definir claramente los límites de cada contexto y establecer protocolos de comunicación que respeten la autonomía de cada uno, minimizando el acoplamiento y previniendo la corrupción del modelo de dominio central.
 
-“Context Mapping” : https://shorturl.at/LxS3d
+*“Context Mapping”* : https://shorturl.at/LxS3d
+
+#
 
 **Figura 29**
 
 *Context Mapping*
+
 ![Bounded Context Canvases Profile](https://res.cloudinary.com/dpprgycup/image/upload/v1757949368/74da534e-a089-45bf-9caa-f3dd8b74103b.png)
+
 *Nota.* Elaboración propia.
 
 
-**Descripción del Diagrama y Relaciones Identificadas**
+**Descripción del Diagrama y Relaciones Identificadas** 
 
-<p style="text-indent: 1.25cm;">El Context Mapping resultante define las siguientes interacciones clave entre los Bounded Contexts:
+  - El Context Mapping resultante define las siguientes interacciones clave entre los Bounded Contexts:
 
-**Separate Ways (Vías Separadas) entre Contextos Nucleares:**
+* **Separate Ways (Vías Separadas) entre Contextos Nucleares:** Se estableció que los contextos centrales de negocio Event, Announcement y Chat operan de manera completamente independiente (Separate Ways). No comparten datos, funcionalidades ni modelos de dominio directamente. Esta decisión refleja que, aunque forman parte de la misma suite de productividad, sus capacidades centrales son distintas y no requieren integración sincrónica para cumplir con sus objetivos primarios. Cada uno es responsable de su propio ciclo de vida de datos y reglas de negocio.
 
-<p style="text-indent: 1.25cm;">Se estableció que los contextos centrales de negocio Event, Announcement y Chat operan de manera completamente independiente (Separate Ways). No comparten datos, funcionalidades ni modelos de dominio directamente. Esta decisión refleja que, aunque forman parte de la misma suite de productividad, sus capacidades centrales son distintas y no requieren integración sincrónica para cumplir con sus objetivos primarios. Cada uno es responsable de su propio ciclo de vida de datos y reglas de negocio.
+* **Relación Upstream-Downstream con Patrón OHS/ACL con Notification Context:** Los contextos Event, Announcement y Chat actúan como Upstream en su relación con el Notification Context.
 
-**Relación Upstream-Downstream con Patrón OHS/ACL con Notification Context:**
+* **Upstream (Event, Announcement, Chat) como Open/Host Service (OHS):** Estos contextos publican eventos de dominio. Actúan como anfitriones, proporcionando la información necesaria para que otros contextos reaccionen.
 
-<p style="text-indent: 1.25cm;">Los contextos Event, Announcement y Chat actúan como Upstream en su relación con el Notification Context.
+* **Downstream (Notification Context) con Anti-Corruption Layer (ACL):** El contexto de Notificaciones es el consumidor o Downstream. Para procesar los eventos de los contextos upstream y traducirlos a notificaciones push, SMS o correos, implementa una Capa Anticorrupción (ACL). Esta capa se encarga de traducir el lenguaje público de los upstreams al modelo interno del Notification Context, protegiéndolo de cambios en los modelos externos y evitando que su lógica se vea corrompida por conceptos ajenos a su dominio.
 
-**Upstream (Event, Announcement, Chat) como Open/Host Service (OHS):** Estos contextos publican eventos de dominio. Actúan como anfitriones, proporcionando la información necesaria para que otros contextos reaccionen.
+* **Relación Upstream-Downstream con Servicios Externos (Cloudinary):** El servicio externo Cloudinary es tratado como un Upstream que proporciona la capacidad de almacenar y gestionar archivos multimedia.
 
-**Downstream (Notification Context) con Anti-Corruption Layer (ACL):** El contexto de Notificaciones es el consumidor o Downstream. Para procesar los eventos de los contextos upstream y traducirlos a notificaciones push, SMS o correos, implementa una Capa Anticorrupción (ACL). Esta capa se encarga de traducir el lenguaje público de los upstreams al modelo interno del Notification Context, protegiéndolo de cambios en los modelos externos y evitando que su lógica se vea corrompida por conceptos ajenos a su dominio.
+* **Upstream (Cloudinary) como Open/Host Service (OHS):** Cloudinary expone su API RESTful, la cual sirve como el lenguaje público y contrato al que los sistemas downstream deben adaptarse.
 
-**Relación Upstream-Downstream con Servicios Externos (Cloudinary):** El servicio externo Cloudinary es tratado como un Upstream que proporciona la capacidad de almacenar y gestionar archivos multimedia.
+* **Downstream (Event Context, Chat Context) como Conformist:** Los contextos Event y Chat, que requieren subir imágenes o documentos, adoptan un papel Conformista. Esto significa que se conforman y adaptan voluntariamente al modelo de datos y la API proporcionada por Cloudinary, sin necesidad de una capa de traducción compleja, ya que la integración es directa y la funcionalidad es genérica (upload de archivos). La implementación de este cliente se ubicará en la capa de infraestructura de cada contexto.
 
-**Upstream (Cloudinary) como Open/Host Service (OHS):** Cloudinary expone su API RESTful, la cual sirve como el lenguaje público y contrato al que los sistemas downstream deben adaptarse.
+* **Relación Upstream-Downstream con Servicios Externos (Firebase Cloud Messaging):** El servicio externo Firebase Cloud Messaginges tratado como un Upstream que proporciona servicio en la nube de envío de notificaciones .
 
-**Downstream (Event Context, Chat Context) como Conformist:** Los contextos Event y Chat, que requieren subir imágenes o documentos, adoptan un papel Conformista. Esto significa que se conforman y adaptan voluntariamente al modelo de datos y la API proporcionada por Cloudinary, sin necesidad de una capa de traducción compleja, ya que la integración es directa y la funcionalidad es genérica (upload de archivos). La implementación de este cliente se ubicará en la capa de infraestructura de cada contexto.
+* **Upstream (Firebase Cloud Messaging) como Open/Host Service (OHS):** Firebase Cloud Messaging expone su API RESTful, la cual sirve como el lenguaje público y contrato al que los sistemas downstream deben adaptarse.
 
-**Relación Upstream-Downstream con Servicios Externos (Firebase Cloud Messaging):** El servicio externo Firebase Cloud Messaginges tratado como un Upstream que proporciona servicio en la nube de envío de notificaciones .
-
-**Upstream (Firebase Cloud Messaging) como Open/Host Service (OHS):** Firebase Cloud Messaging expone su API RESTful, la cual sirve como el lenguaje público y contrato al que los sistemas downstream deben adaptarse.
-
-**Upstrema (Profile context) como Open/Host Service (OHS):** Este bounded context proporciona la información necesaria de los datos de los perfiles de los usuarios a los bounded context Event, Announcement y Chat.
-
+* **Upstrema (Profile context) como Open/Host Service (OHS):** Este bounded context proporciona la información necesaria de los datos de los perfiles de los usuarios a los bounded context Event, Announcement y Chat.
 
 
 ### ***2.5.3. Software Architecture***
@@ -2607,14 +2625,15 @@ Domain Story - Envío de un Mensaje de Chat
 
 <p style="text-indent: 1.25cm;">El diagrama de contexto representa el sistema Centralis como un todo, mostrando sus interacciones con los usuarios y sistemas externos. Este nivel de abstracción es útil para entender el alcance global de la solución y cómo se integra con su entorno.
 
-“Context Level Diagrams” : https://shorturl.at/FsGxl
+*“Context Level Diagrams”*: https://shorturl.at/FsGxl
+
+#
 
 **Figura 30**
 
 *Context Level Diagrams*
 
 ![Context Level Diagrams](https://res.cloudinary.com/dpprgycup/image/upload/v1757949760/e101e243-a520-48a0-8c31-42f689040a56.png)
-
 
 *Nota.* Elaboración propia.
 
@@ -2646,15 +2665,15 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 <p style="text-indent: 1.25cm;">El diagrama ilustra los siguientes contenedores y sistemas externos:
 
-<p style="text-indent: 1.25cm;">Landing Page [Container: html, css, js]: Es una aplicación estática que sirve como punto de entrada para los usuarios. Su función principal es proporcionar información sobre Centralis y redirigir a los usuarios hacia la descarga o acceso de las aplicaciones móviles.
+* **Landing Page [Container: html, css, js]:** Es una aplicación estática que sirve como punto de entrada para los usuarios. Su función principal es proporcionar información sobre Centralis y redirigir a los usuarios hacia la descarga o acceso de las aplicaciones móviles.
 
-<p style="text-indent: 1.25cm;">Mobile App Empleados [Container: Kotlin]: Aplicación móvil nativa para Android desarrollada en Kotlin. Está dirigida a los empleados y ofrece un conjunto de funcionalidades con permisos limitados, como visualizar anuncios, eventos y chats, y recibir notificaciones.
+* **Mobile App Empleados [Container: Kotlin]:** Aplicación móvil nativa para Android desarrollada en Kotlin. Está dirigida a los empleados y ofrece un conjunto de funcionalidades con permisos limitados, como visualizar anuncios, eventos y chats, y recibir notificaciones.
 
-<p style="text-indent: 1.25cm;">Mobile App Gerentes [Container: Kotlin]: Aplicación móvil nativa para Android desarrollada en Kotlin. Diseñada para gerentes, proporciona permisos absolutos que permiten no solo visualizar sino también crear y gestionar anuncios, eventos, chats y notificaciones.
+* **Mobile App Gerentes [Container: Kotlin]:** Aplicación móvil nativa para Android desarrollada en Kotlin. Diseñada para gerentes, proporciona permisos absolutos que permiten no solo visualizar sino también crear y gestionar anuncios, eventos, chats y notificaciones.
 
-<p style="text-indent: 1.25cm;">API [Container: Java and Spring Boot]: Es el núcleo del backend, una aplicación Spring Boot desarrollada en Java. Expone endpoints RESTful (JSON/HTTPS) a los que se conectan ambas aplicaciones móviles para realizar todas las operaciones de negocio. Centraliza la lógica de la aplicación y actúa como intermediario con los servicios de persistencia y terceros.
+* **API [Container: Java and Spring Boot]:** Es el núcleo del backend, una aplicación Spring Boot desarrollada en Java. Expone endpoints RESTful (JSON/HTTPS) a los que se conectan ambas aplicaciones móviles para realizar todas las operaciones de negocio. Centraliza la lógica de la aplicación y actúa como intermediario con los servicios de persistencia y terceros.
 
-<p style="text-indent: 1.25cm;">Supabase [Container: Database Schema]: Representa el servicio de base de datos en la nube utilizado como solución principal de persistencia para almacenar todos los datos de la aplicación (usuarios, anuncios, eventos, mensajes de chat, etc.).
+* **Supabase [Container: Database Schema]:** Representa el servicio de base de datos en la nube utilizado como solución principal de persistencia para almacenar todos los datos de la aplicación (usuarios, anuncios, eventos, mensajes de chat, etc.).
 
 **Interacciones y Comunicación**
 
@@ -2668,28 +2687,33 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 **Decisiones Tecnológicas Principales:**
 
-- Frontend Móvil: Kotlin para el desarrollo nativo en Android, aprovechando su interoperabilidad y modernidad.
-- Backend: Java con el framework Spring Boot, elegido por su robustez, ecosistema maduro y facilidad para crear APIs RESTful seguras y escalables.
-- Base de Datos: Supabase, una base de datos SQL en la nube, seleccionada por su escalabilidad automática, sincronización en tiempo real.
-- Almacenamiento de Medios: Cloudinary, un servicio especializado para la gestión, optimización y entrega de imágenes y videos.
-- Notificaciones Push: Firebase Cloud Messaging (FCM), la solución estándar de Google para envío de notificaciones confiables y gratuitas a dispositivos Android e iOS.
+- **Frontend Móvil:** Kotlin para el desarrollo nativo en Android, aprovechando su interoperabilidad y modernidad.
+
+- **Backend:** Java con el framework Spring Boot, elegido por su robustez, ecosistema maduro y facilidad para crear APIs RESTful seguras y escalables.
+
+- **Base de Datos:** Supabase, una base de datos SQL en la nube, seleccionada por su escalabilidad automática, sincronización en tiempo real.
+
+- **Almacenamiento de Medios:** Cloudinary, un servicio especializado para la gestión, optimización y entrega de imágenes y videos.
+
+- **Notificaciones Push:** Firebase Cloud Messaging (FCM), la solución estándar de Google para envío de notificaciones confiables y gratuitas a dispositivos Android e iOS.
 
 <p style="text-indent: 1.25cm;">Este diseño de contenedores asegura una separación clara de responsabilidades, donde el backend actúa como un gateway único y seguro, facilitando el mantenimiento, la escalabilidad y la potencial incorporación de nuevos clientes (como una aplicación iOS) en el futuro.
 
-“Container Level Diagrams” : https://shorturl.at/FsGxl
+*“Container Level Diagrams”*: https://shorturl.at/FsGxl
 
 **Figura 31**
 
 *Context Level Diagrams*
 
 ![Context Level Diagrams](https://res.cloudinary.com/dpprgycup/image/upload/v1757950034/c632b4d5-0b18-4a80-8d5b-5110a73a1c07.png)
+
 *Nota.* Elaboración propia.
 
 #### ***2.5.3.3. Software Architecture Components Diagrams*** 
 
 <p style="text-indent: 1.25cm;">El siguiente diagrama de componentes describe la estructura interna de la API Application de Centralis, la cual actúa como el núcleo del sistema. Este diagrama descompone la API en sus módulos funcionales clave, ilustrando cómo interactúan entre sí y con los servicios externos para cumplir con los requisitos de la aplicación. La arquitectura sigue principios de diseño modular y de separación de concerns, lo que facilita el mantenimiento, la escalabilidad y la implementación de nuevas funcionalidades.
 
-“Components Diagrams“ : https://shorturl.at/FsGxl
+*“Components Diagrams”*: https://shorturl.at/FsGxl
 
 **Figura 32**
 
@@ -2701,19 +2725,19 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 **Descripción del Components Diagram**
 
-<p style="text-indent: 1.25cm;">El diagrama ilustra los siguientes componentes principales dentro del contenedor API [Java and Spring Boot]:
+El diagrama ilustra los siguientes componentes principales dentro del contenedor API [Java and Spring Boot]:
 
-<p style="text-indent: 1.25cm;">Announcement Component [Spring Boot]: Este componente es responsable de toda la lógica relacionada con la gestión de anuncios. Expone endpoints para que los gerentes puedan crear, leer, actualizar, eliminar y listar anuncios. También maneja la segmentación por departamento y las confirmaciones de lectura. Se comunica con el componente Shared para interactuar con el servicio compartido Cloudinary. 
+* **Announcement Component [Spring Boot]:** Este componente es responsable de toda la lógica relacionada con la gestión de anuncios. Expone endpoints para que los gerentes puedan crear, leer, actualizar, eliminar y listar anuncios. También maneja la segmentación por departamento y las confirmaciones de lectura. Se comunica con el componente Shared para interactuar con el servicio compartido Cloudinary. 
 
-<p style="text-indent: 1.25cm;">Event Component [Spring Boot]: Este módulo gestiona el ciclo de vida de los eventos. Permite a los gerentes programar, modificar, cancelar eventos y gestionar invitaciones. Los empleados interactúan con él para confirmar su asistencia. Se apoya en el componente Shared para la persistencia y en el componente Notification para enviar recordatorios.
+* **Event Component [Spring Boot]:** Este módulo gestiona el ciclo de vida de los eventos. Permite a los gerentes programar, modificar, cancelar eventos y gestionar invitaciones. Los empleados interactúan con él para confirmar su asistencia. Se apoya en el componente Shared para la persistencia y en el componente Notification para enviar recordatorios.
 
-<p style="text-indent: 1.25cm;">Chat Component [Spring Boot]: Este componente orchesta la funcionalidad de mensajería. Gestiona la creación de grupos de chat (tanto públicos como departamentales), el envío/recibo de mensajes y las operaciones de moderación realizadas por los gerentes. Utiliza el componente Shared para almacenar imágenes y depende de notification context para las notificaciones en tiempo real.
+* **Chat Component [Spring Boot]:** Este componente orchesta la funcionalidad de mensajería. Gestiona la creación de grupos de chat (tanto públicos como departamentales), el envío/recibo de mensajes y las operaciones de moderación realizadas por los gerentes. Utiliza el componente Shared para almacenar imágenes y depende de notification context para las notificaciones en tiempo real.
 
-<p style="text-indent: 1.25cm;">Notification Component [Spring Boot]: Este es un componente de servicio centralizado que abstrae la lógica de envío de notificaciones. Es utilizado por los otros componentes (Event, Chat) para enviar notificaciones push a los usuarios a través del servicio externo Firebase Cloud Messaging (FCM). Su propósito es evitar la duplicación de código y centralizar la configuración de la comunicación con FCM.
+* **Notification Component [Spring Boot]:** Este es un componente de servicio centralizado que abstrae la lógica de envío de notificaciones. Es utilizado por los otros componentes (Event, Chat) para enviar notificaciones push a los usuarios a través del servicio externo Firebase Cloud Messaging (FCM). Su propósito es evitar la duplicación de código y centralizar la configuración de la comunicación con FCM.
 
-<p style="text-indent: 1.25cm;">Shared Component [Spring Boot]: Este módulo actúa como una capa de abstracción y reutilización. Contiene la lógica común de acceso a datos, entidades de dominio compartidas, utilidades y configuraciones que son utilizadas por todos los demás componentes.
+* **Shared Component [Spring Boot]:** Este módulo actúa como una capa de abstracción y reutilización. Contiene la lógica común de acceso a datos, entidades de dominio compartidas, utilidades y configuraciones que son utilizadas por todos los demás componentes.
 
-<p style="text-indent: 1.25cm;">Profile Component [Spring Boot]: Este componente de servicio centralizado que abstrae la lógica de datos de los usuarios.
+* **Profile Component [Spring Boot]:** Este componente de servicio centralizado que abstrae la lógica de datos de los usuarios.
 
 **Interacciones y Comunicación**
 
@@ -2725,23 +2749,22 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 **Decisiones Tecnológicas y Justificación**
 
-<p style="text-indent: 1.25cm;">Spring Boot: La elección del framework Spring Boot para todos los componentes garantiza consistencia, aprovecha la inyección de dependencias y facilita la creación de APIs RESTful robustas y seguras.
+* **Spring Boot:** La elección del framework Spring Boot para todos los componentes garantiza consistencia, aprovecha la inyección de dependencias y facilita la creación de APIs RESTful robustas y seguras.
 
-<p style="text-indent: 1.25cm;">Patrón de Diseño Modular: La separación en componentes por entidad de negocio (Announcement, Event, Chat, Profiles) permite que los equipos de desarrollo trabajen de manera independiente y paralela en diferentes funcionalidades.
+* **Patrón de Diseño Modular:** La separación en componentes por entidad de negocio (Announcement, Event, Chat, Profiles) permite que los equipos de desarrollo trabajen de manera independiente y paralela en diferentes funcionalidades.
 
-<p style="text-indent: 1.25cm;">Capa Shared: El componente Shared promueve la reutilización de código, asegura la consistencia en el acceso a datos y simplifica el mantenimiento. Cambios en la lógica de base de datos o en el esquema se realizan en un solo lugar.
+* **Capa Shared:** El componente Shared promueve la reutilización de código, asegura la consistencia en el acceso a datos y simplifica el mantenimiento. Cambios en la lógica de base de datos o en el esquema se realizan en un solo lugar.
 
-<p style="text-indent: 1.25cm;">Servicios Externos Especializados: El uso de Supabase (PostgreSQL) para datos estructurados, Cloudinary para gestión de medios y FCM para notificaciones push permite aprovechar lo mejor de cada servicio, construyendo una arquitectura escalable y eficiente.
+* **Servicios Externos Especializados:** El uso de Supabase (PostgreSQL) para datos estructurados, Cloudinary para gestión de medios y FCM para notificaciones push permite aprovechar lo mejor de cada servicio, construyendo una arquitectura escalable y eficiente.
 
-<p style="text-indent: 1.25cm;">Este diseño de componentes asegura que la API de Centralis sea mantenible, escalable y esté bien preparada para la incorporación de nuevas funcionalidades en el futuro.
-
+Este diseño de componentes asegura que la API de Centralis sea mantenible, escalable y esté bien preparada para la incorporación de nuevas funcionalidades en el futuro.
 
 
 #### ***2.5.3.4. Software Architecture Deployment Diagrams***
 
 <p style="text-indent: 1.25cm;">El diagrama de despliegue presenta la arquitectura física del sistema Centralis, mostrando cómo los diferentes componentes software se distribuyen entre dispositivos clientes, servidores y servicios en la nube. Esta visualización es crucial para entender las dependencias del sistema, los puntos de comunicación y la infraestructura requerida para su implementación.
 
-“Deployment Diagram” : https://shorturl.at/3Zeen
+*“Deployment Diagrams”*: https://shorturl.at/3Zeen
 
 **Figura 33**
 
@@ -2751,8 +2774,6 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 *Nota.* Elaboración propia.
 
-
-
 <p style="text-indent: 1.25cm;">El diagrama ilustra los siguientes nodos de despliegue y sus interacciones:
 
 <p style="text-indent: 1.25cm;">Dispositivos Móviles de Usuarios: Representa los smartphones Android de los empleados y gerentes. En este nodo se ejecuta la App Centralis, una aplicación nativa desarrollada en Kotlin que consume los servicios del backend.
@@ -2761,52 +2782,57 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 <p style="text-indent: 1.25cm;">API Centralis: Aplicación principal construida con Spring Boot que expone endpoints RESTful.
 
-**Componentes de la API:** Módulos internos que organizan la funcionalidad por dominio:
+**Componentes de la API:** 
 
-- Announcement Component: Gestiona la lógica de anuncios.
-- Event Component: Administra eventos y calendarios.
-- Chat Component: Controla la mensajería y chats grupales.
-- Notification Component: Coordina el envío de notificaciones.
-- Profile Component: Administra los datos de los usuarios
+* Módulos internos que organizan la funcionalidad por dominio:
 
-<p style="text-indent: 1.25cm;">Supabase (PostgreSQL Database): Nodo de base de datos que almacena toda la información estructurada del sistema. Incluye tablas para usuarios, anuncios, eventos y mensajes, manteniendo la integridad relacional de los datos.
+  - Announcement Component: Gestiona la lógica de anuncios.
+  - Event Component: Administra eventos y calendarios.
+  - Chat Component: Controla la mensajería y chats grupales.
+  - Notification Component: Coordina el envío de notificaciones.
+  - Profile Component: Administra los datos de los usuarios
 
-**Servicios Externos: Nodos que representan servicios especializados de terceros:**
+**Supabase (PostgreSQL Database):** Nodo de base de datos que almacena toda la información estructurada del sistema. Incluye tablas para usuarios, anuncios, eventos y mensajes, manteniendo la integridad relacional de los datos.
 
-- Cloudinary: Servicio CDN para almacenamiento y gestión de imágenes y archivos multimedia.
-- Firebase Cloud Messaging: Servicio de Google para el envío de notificaciones push a dispositivos móviles.
+**Servicios Externos:**
 
-Flujos de Comunicación y Dependencias
+* Nodos que representan servicios especializados de terceros:
 
-<p style="text-indent: 1.25cm;">App Centralis → API Centralis: Las aplicaciones móviles se comunican con el servidor principal mediante llamadas HTTPS/JSON a los endpoints RESTful.
+  - Cloudinary: Servicio CDN para almacenamiento y gestión de imágenes y archivos multimedia.
+  - Firebase Cloud Messaging: Servicio de Google para el envío de notificaciones push a dispositivos móviles.
 
-<p style="text-indent: 1.25cm;">API Centralis → Supabase: Todos los componentes acceden a la base de datos PostgreSQL mediante conexiones JDBC para operaciones CRUD.
+**Flujos de Comunicación y Dependencias**
 
-<p style="text-indent: 1.25cm;">Componentes → Notification Component: Los componentes de negocio (Announcement, Event, Chat) notifican al componente Notification sobre eventos que requieren notificaciones push.
+* **App Centralis → API Centralis:** Las aplicaciones móviles se comunican con el servidor principal mediante llamadas HTTPS/JSON a los endpoints RESTful.
 
-<p style="text-indent: 1.25cm;">Notification Component → FCM: El componente Notification se comunica con Firebase Cloud Messaging through su API HTTPS para enviar notificaciones push.
+* **API Centralis → Supabase:** Todos los componentes acceden a la base de datos PostgreSQL mediante conexiones JDBC para operaciones CRUD.
 
-<p style="text-indent: 1.25cm;">Componentes → Cloudinary: Los componentes Announcement, Event y Chat utilizan el servicio Cloudinary para subir y gestionar archivos multimedia through su API HTTPS.
+* **Componentes → Notification Component:** Los componentes de negocio (Announcement, Event, Chat) notifican al componente Notification sobre eventos que requieren notificaciones push.
 
-Decisiones de Despliegue y Justificación
+* **Notification Component → FCM:** El componente Notification se comunica con Firebase Cloud Messaging through su API HTTPS para enviar notificaciones push.
 
-<p style="text-indent: 1.25cm;">Separación de Responsabilidades: La arquitectura separa claramente el cliente móvil, el servidor de aplicaciones, la base de datos y los servicios externos, facilitando el mantenimiento y escalado independiente de cada componente.
+* **Componentes → Cloudinary:** Los componentes Announcement, Event y Chat utilizan el servicio Cloudinary para subir y gestionar archivos multimedia through su API HTTPS.
 
-<p style="text-indent: 1.25cm;">Servicios Gestionados: Supabase proporciona PostgreSQL como servicio gestionado, reduciendo la carga operativa de administración de bases de datos.
+**Decisiones de Despliegue y Justificación**
 
-<p style="text-indent: 1.25cm;">Servicios Especializados: Cloudinary y FCM se utilizan como servicios especializados externos, aprovechando su expertise específico en gestión de medios y notificaciones push.
+* **Separación de Responsabilidades:** La arquitectura separa claramente el cliente móvil, el servidor de aplicaciones, la base de datos y los servicios externos, facilitando el mantenimiento y escalado independiente de cada componente.
 
-<p style="text-indent: 1.25cm;">Comunicación Estándar: Todas las comunicaciones utilizan protocolos estándar (HTTPS, JSON) asegurando interoperabilidad y seguridad.
+* **Servicios Gestionados:** Supabase proporciona PostgreSQL como servicio gestionado, reduciendo la carga operativa de administración de bases de datos.
 
-<p style="text-indent: 1.25cm;">Arquitectura Escalable: La separación en componentes permite escalar horizontalmente componentes específicos bajo demanda (ej: añadir más instancias del Notification Component si hay alta carga de notificaciones).
+* **Servicios Especializados:** Cloudinary y FCM se utilizan como servicios especializados externos, aprovechando su expertise específico en gestión de medios y notificaciones push.
 
-<p style="text-indent: 1.25cm;">Este diagrama de despliegue representa una infraestructura moderna, escalable y bien organizada que soporta los requisitos funcionales y no funcionales del sistema Centralis.
+* **Comunicación Estándar:** Todas las comunicaciones utilizan protocolos estándar (HTTPS, JSON) asegurando interoperabilidad y seguridad.
+
+* **Arquitectura Escalable:** La separación en componentes permite escalar horizontalmente componentes específicos bajo demanda (ej: añadir más instancias del Notification Component si hay alta carga de notificaciones).
+
+Este diagrama de despliegue representa una infraestructura moderna, escalable y bien organizada que soporta los requisitos funcionales y no funcionales del sistema Centralis.
 
 ## **2.6. Tactical-Level Domain-Driven Design**
 
 ### ***2.6.1. Bounded Context: Announcement***
 
 ### ***2.6.1.1 Domain Layer***
+
 El **Announcement Context** gestiona la publicación, visualización y comentarios de anuncios en la organización.  
 
 - **Entities**  
