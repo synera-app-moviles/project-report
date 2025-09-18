@@ -133,14 +133,14 @@ Capítulo I: Presentación
 
 1.3. Segmentos objetivo
 
-Capítulo II: Requirements Elicitation & 
-Analysis
+Capítulo II: Requirements Elicitation & Analysis
+
 2.1. Competidores
 
 2.1.1. Análisis competitivo
 
-2.1.2. Estrategias y tácticas frente a 
-competidores
+2.1.2. Estrategias y tácticas frente a competidores
+
 2.2. Entrevistas
 
 2.2.1. Diseño de entrevistas
@@ -370,7 +370,7 @@ Capítulo III: Solution UI/UX Design
 - Relevant: Para diseñar sistemas backend robustos que soporten aplicaciones móviles a gran escala.
 - Time-bound: Iniciar la maestría en el segundo año post-graduación y finalizarla en 2 años.
 
-**2.2.** Contribuir a Proyectos Open Source de Impacto:
+**2.2. Contribuir a Proyectos Open Source de Impacto:**
 
 - Specific: Convertirse en un contribuidor activo de proyectos open source relacionados con el ecosistema Kotlin/Spring.
 - Measurable: Realizar al menos 50 contribuciones (commits, issues, PRs) a proyectos reconocidos en un año.
