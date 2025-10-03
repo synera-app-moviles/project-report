@@ -2841,8 +2841,9 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 *Deployment Diagrams*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757940838/deploydiagram_admkxm.png" alt="Class Diagram">
+  <img src="https://i.imgur.com/hYfvD44.png" alt="Class Diagram">
 </p>
+
 
 *Nota.* Elaboración propia.
 
@@ -3990,43 +3991,4 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1757975751/DatabaseDiagramProfile_faxjvj.png" alt="Class Diagram">
 </p>
-
 *Nota.* Elaboración propia.
-
-#
-
-# Conclusiones
-
-<p style="text-indent: 1.25cm;">El desarrollo del proyecto Synera, materializado en la aplicación Centralis, ha demostrado ser una respuesta efectiva a la problemática de fragmentación en la comunicación interna que afecta a las pequeñas y medianas empresas. A lo largo del ciclo de desarrollo, se validó la hipótesis central que identificaba la necesidad de una plataforma unificada que reemplazara los canales informales y mejorara la productividad mediante la centralización de anuncios, eventos y chats grupales. Las entrevistas realizadas confirmaron que tanto gerentes como empleados perciben un valor tangible en separar la comunicación laboral de la personal, priorizando herramientas diseñadas específicamente para el ámbito profesional.
-
-<p style="text-indent: 1.25cm;">La aplicación de la metodología Domain-Driven Design resultó fundamental para capturar la complejidad del dominio de comunicación empresarial. El proceso de EventStorming permitió identificar los bounded contexts naturales (Announcement, Event, Chat, Notification, Profile), estableciendo límites claros que facilitaron el desarrollo modular y escalable. La arquitectura resultante, con contextos desacoplados que se comunican mediante eventos de dominio, no solo asegura la cohesión de cada componente sino que también proporciona la flexibilidad necesaria para evolucionar funcionalidades de manera independiente en el futuro.
-
-<p style="text-indent: 1.25cm;">El enfoque iterativo mediante sprints permitió entregar valor incremental y validar suposiciones clave desde etapas tempranas. La implementación de funcionalidades core como la publicación de anuncios con confirmación de lectura, la gestión de eventos con recordatorios automáticos y los chats grupales segmentados demostró su efectividad en mejorar la trazabilidad de la comunicación y reducir la dependencia de aplicaciones informales. Las pruebas de usabilidad con usuarios reales confirmaron que la interfaz intuitiva y la organización clara de información cumplen con las expectativas de ambos segmentos objetivo.
-
-<p style="text-indent: 1.25cm;">Los retos técnicos más significativos, como la integración con Firebase Cloud Messaging para notificaciones push y el manejo de tokens de dispositivos, se abordaron mediante spikes de investigación que garantizaron una implementación robusta. La decisión de utilizar Render postgresql como backend como servicio (BaaS) demostró ser acertada, acelerando el desarrollo al proporcionar autenticación, base de datos y almacenamiento en una plataforma unificada, mientras se mantenía la escalabilidad necesaria para crecimiento futuro.
-
-<p style="text-indent: 1.25cm;">Finalmente, el proyecto Synera no solo cumple con los requisitos funcionales establecidos sino que sienta las bases para una solución escalable que puede evolucionar para incorporar nuevas funcionalidades como integración con calendarios externos, videollamadas o analytics avanzados. El feedback recibido durante las validaciones indica una alta probabilidad de adopción en el mercado objetivo, confirmando que Centralis resuelve una problemática real y ofrece una propuesta de valor diferenciada en el ecosistema de herramientas de comunicación empresarial para pymes.
-
-#
-
-# Bibliografía 
-
-* Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley Professional.
-
-* Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley.
-
-* Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
-
-* Richardson, C. (2018). *Microservices Patterns: With examples in Java*. Manning Publications.
-
-* Render postgresql. (2023). *Render postgresql Documentation*. https://render.com/docs/postgresql
-
-* Google. (2023). *Firebase Cloud Messaging Documentation*. https://firebase.google.com/docs/cloud-messaging
-
-* Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. https://scrumguides.org/
-
-* Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley.
-
-* Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
-
-* Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
