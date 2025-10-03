@@ -123,7 +123,7 @@
 ### ***2.1.2. Estrategias y tácticas frente a competidores***
 
 <ul>
-  <li><b>Diferenciación Tecnológica:</b> Arquitectura DDD y hexagonal, bounded contexts claros, uso de Supabase y Firebase para escalabilidad y costos bajos.</li>
+  <li><b>Diferenciación Tecnológica:</b> Arquitectura DDD y hexagonal, bounded contexts claros, uso de Render postgresql y Firebase para escalabilidad y costos bajos.</li>
   <li><b>Experiencia de Usuario:</b> Diseño mobile-first, minimalista y simple frente a la complejidad de Teams y Slack. Diferenciación clara de vida laboral y personal frente a WhatsApp.</li>
   <li><b>Seguridad y Privacidad:</b> Roles y permisos integrados, cumplimiento con GDPR, encriptación en tránsito y reposo, auditorías.</li>
   <li><b>Escalabilidad y Despliegue:</b> Arquitectura en microservicios, despliegue modular, infraestructura serverless y monitoreo con Prometheus/Sentry.</li>
@@ -2697,7 +2697,7 @@ El Context Mapping resultante define las siguientes interacciones clave entre lo
 *Context Level Diagrams*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757949760/e101e243-a520-48a0-8c31-42f689040a56.png" alt="Class Diagram">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1759510465/65da12e6-36ea-4c84-8dcf-414621ef532f.png" alt="Class Diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -2715,7 +2715,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 - Cloudinary: Servicio externo para almacenamiento y gestión de archivos multimedia (imágenes, documentos).
 - Firebase Cloud Messaging: Sistema externo utilizado para enviar notificaciones push a dispositivos móviles.
-- Supabase : Sistema externo utilizado para la persistencia de datos 
+- Render postgresql : Sistema externo utilizado para la persistencia de datos 
 
 **Interacciones:**
 
@@ -2738,7 +2738,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 * **API [Container: Java and Spring Boot]:** Es el núcleo del backend, una aplicación Spring Boot desarrollada en Java. Expone endpoints RESTful (JSON/HTTPS) a los que se conectan ambas aplicaciones móviles para realizar todas las operaciones de negocio. Centraliza la lógica de la aplicación y actúa como intermediario con los servicios de persistencia y terceros.
 
-* **Supabase [Container: Database Schema]:** Representa el servicio de base de datos en la nube utilizado como solución principal de persistencia para almacenar todos los datos de la aplicación (usuarios, anuncios, eventos, mensajes de chat, etc.).
+* **Render postgresql [Container: Database Schema]:** Representa el servicio de base de datos en la nube utilizado como solución principal de persistencia para almacenar todos los datos de la aplicación (usuarios, anuncios, eventos, mensajes de chat, etc.).
 
 **Interacciones y Comunicación**
 
@@ -2746,9 +2746,9 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 **La API se encarga de:**
 
-- Persistir y recuperar datos en Supabase .
+- Persistir y recuperar datos en Render postgresql .
 - Gestionar la subida y recuperación de archivos (como imágenes) utilizando el servicio Cloudinary.
-- Encargarse del envío de notificaciones push a los dispositivos móviles mediante el servicio Supabase Cloud Messaging (FCM).
+- Encargarse del envío de notificaciones push a los dispositivos móviles mediante el servicio Render postgresql Cloud Messaging (FCM).
 
 **Decisiones Tecnológicas Principales:**
 
@@ -2756,7 +2756,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 
 - **Backend:** Java con el framework Spring Boot, elegido por su robustez, ecosistema maduro y facilidad para crear APIs RESTful seguras y escalables.
 
-- **Base de Datos:** Supabase, una base de datos SQL en la nube, seleccionada por su escalabilidad automática, sincronización en tiempo real.
+- **Base de Datos:** Render postgresql, una base de datos SQL en la nube, seleccionada por su escalabilidad automática, sincronización en tiempo real.
 
 - **Almacenamiento de Medios:** Cloudinary, un servicio especializado para la gestión, optimización y entrega de imágenes y videos.
 
@@ -2771,7 +2771,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 *Context Level Diagrams*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757950034/c632b4d5-0b18-4a80-8d5b-5110a73a1c07.png" alt="Class Diagram">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1759510555/75950392-e05e-47c9-889b-afc60ee1d835.png" alt="Class Diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -2788,7 +2788,7 @@ Sistema Central (Centralis): Es la plataforma principal que centraliza la comuni
 *Components Diagrams*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1757950960/9f68f5e9-1704-4fb6-a093-22aca1006ec7.png" alt="Class Diagram">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1759510629/a5b5c270-b35e-44e4-8e0e-7941342d2189.png" alt="Class Diagram">
 </p>
 
 *Nota.* Elaboración propia.
@@ -2825,7 +2825,7 @@ El diagrama ilustra los siguientes componentes principales dentro del contenedor
 
 * **Capa Shared:** El componente Shared promueve la reutilización de código, asegura la consistencia en el acceso a datos y simplifica el mantenimiento. Cambios en la lógica de base de datos o en el esquema se realizan en un solo lugar.
 
-* **Servicios Externos Especializados:** El uso de Supabase (PostgreSQL) para datos estructurados, Cloudinary para gestión de medios y FCM para notificaciones push permite aprovechar lo mejor de cada servicio, construyendo una arquitectura escalable y eficiente.
+* **Servicios Externos Especializados:** El uso de Render postgresql (PostgreSQL) para datos estructurados, Cloudinary para gestión de medios y FCM para notificaciones push permite aprovechar lo mejor de cada servicio, construyendo una arquitectura escalable y eficiente.
 
 Este diseño de componentes asegura que la API de Centralis sea mantenible, escalable y esté bien preparada para la incorporación de nuevas funcionalidades en el futuro.
 
@@ -2864,7 +2864,7 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
   - **Notification Component:** Coordina el envío de notificaciones.
   - **Profile Component:** Administra los datos de los usuarios
 
-**Supabase (PostgreSQL Database):** Nodo de base de datos que almacena toda la información estructurada del sistema. Incluye tablas para usuarios, anuncios, eventos y mensajes, manteniendo la integridad relacional de los datos.
+**Render postgresql (PostgreSQL Database):** Nodo de base de datos que almacena toda la información estructurada del sistema. Incluye tablas para usuarios, anuncios, eventos y mensajes, manteniendo la integridad relacional de los datos.
 
 **Servicios Externos:**
 
@@ -2877,7 +2877,7 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 
 * **App Centralis → API Centralis:** Las aplicaciones móviles se comunican con el servidor principal mediante llamadas HTTPS/JSON a los endpoints RESTful.
 
-* **API Centralis → Supabase:** Todos los componentes acceden a la base de datos PostgreSQL mediante conexiones JDBC para operaciones CRUD.
+* **API Centralis → Render postgresql:** Todos los componentes acceden a la base de datos PostgreSQL mediante conexiones JDBC para operaciones CRUD.
 
 * **Componentes → Notification Component:** Los componentes de negocio (Announcement, Event, Chat) notifican al componente Notification sobre eventos que requieren notificaciones push.
 
@@ -2889,7 +2889,7 @@ Este diseño de componentes asegura que la API de Centralis sea mantenible, esca
 
 * **Separación de Responsabilidades:** La arquitectura separa claramente el cliente móvil, el servidor de aplicaciones, la base de datos y los servicios externos, facilitando el mantenimiento y escalado independiente de cada componente.
 
-* **Servicios Gestionados:** Supabase proporciona PostgreSQL como servicio gestionado, reduciendo la carga operativa de administración de bases de datos.
+* **Servicios Gestionados:** Render postgresql proporciona PostgreSQL como servicio gestionado, reduciendo la carga operativa de administración de bases de datos.
 
 * **Servicios Especializados:** Cloudinary y FCM se utilizan como servicios especializados externos, aprovechando su expertise específico en gestión de medios y notificaciones push.
 
@@ -2938,7 +2938,7 @@ Representa un anuncio creado por un gerente. Es la entidad central del bounded c
   - **markAsSeen(employeeId):** Marca que un empleado específico visualizó el anuncio.
 
   - **addComment(comment):** Agrega un comentario de un empleado al anuncio.  
- 
+
 
 **Comment:**
 
@@ -2993,7 +2993,7 @@ Entidad que representa a los usuarios de la organización.
   - Los **Employees** pueden comentar anuncios ya publicados.  
 
   - Cada anuncio debe tener título, descripción y nivel de prioridad válido.  
- 
+
 
 **Repositories (Interfaces)**  
 
@@ -3267,9 +3267,9 @@ Implementa las operaciones básicas (crear, leer, actualizar y eliminar) para la
 
 * ***Database Access:***
 
-La base de datos utilizada será Supabase, que proporciona una plataforma gestionada en la nube para almacenamiento de datos. Supabase ofrece soporte para bases relacionales (PostgreSQL) y facilita la autenticación y la gestión de permisos, alineándose con el uso de IAM para los usuarios.
+La base de datos utilizada será Render postgresql, que proporciona una plataforma gestionada en la nube para almacenamiento de datos. Render postgresql ofrece soporte para bases relacionales (PostgreSQL) y facilita la autenticación y la gestión de permisos, alineándose con el uso de IAM para los usuarios.
 
-De esta manera, la infraestructura asegura que los eventos no solo se guarden de manera confiable en Supabase, sino que también se comuniquen de forma eficiente a todos los empleados involucrados.
+De esta manera, la infraestructura asegura que los eventos no solo se guarden de manera confiable en Render postgresql, sino que también se comuniquen de forma eficiente a todos los empleados involucrados.
 
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
@@ -3769,11 +3769,11 @@ En esta capa se implementan las conexiones con servicios externos y la persisten
 
 - ***NotificationRepository:*** 
 
-Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Supabase.  
+Implementa las operaciones básicas (crear, actualizar y consultar) para la entidad Notification en la base de datos Render postgresql.  
 
 **Database Access:**
 
-La base de datos utilizada será Supabase, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.  
+La base de datos utilizada será Render postgresql, que proporciona soporte para PostgreSQL. Aquí se almacenan todas las notificaciones con su estado, historial y destinatarios.  
 
 **External Services:**
 
@@ -3781,7 +3781,7 @@ La base de datos utilizada será Supabase, que proporciona soporte para PostgreS
 
 - ***Anti-Corruption Layer (ACL):*** Se utiliza para traducir los eventos de otros bounded contexts (Announcement, Event, Chat) al modelo estándar de notificación antes de enviarlos a FCM.  
 
-<p style="text-indent: 1.25cm;">De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Supabase, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
+<p style="text-indent: 1.25cm;">De esta manera, la infraestructura asegura que las notificaciones no solo se guarden de manera confiable en Render postgresql, sino que también se comuniquen eficientemente a los dispositivos de los empleados.
 
 #### ***2.6.4.5. Bounded Context Software Architecture Component Level Diagrams***
 
@@ -3944,7 +3944,7 @@ Implementa las operaciones básicas (crear, leer, actualizar y eliminar) para la
 
 * ***Database Access:***
 
-La base de datos utilizada será Supabase, que proporciona una plataforma gestionada en la nube para almacenamiento de datos.
+La base de datos utilizada será Render postgresql, que proporciona una plataforma gestionada en la nube para almacenamiento de datos.
 
 * ***External Services:***
 
@@ -3953,7 +3953,7 @@ La base de datos utilizada será Supabase, que proporciona una plataforma gestio
 - **Relación con IAM Context:**
 
 El Profile Context actúa como Downstream y sigue un patrón Conformist con respecto al IAM Context.
-Utiliza el userId proporcionado por IAM como identificador único y foreign key. No implementa una Anti-Corruption Layer (ACL) porque la información de IAM es estable y esencial (core identity). Confía en que el IAM Context provea datos consistentes. Se suscribe al evento UserRegistered publicado por el IAM Context para iniciar la creación de un perfil. De esta manera, la infraestructura asegura que los perfiles se guarden de manera confiable en Supabase y que se mantenga la consistencia con el IAM Context.
+Utiliza el userId proporcionado por IAM como identificador único y foreign key. No implementa una Anti-Corruption Layer (ACL) porque la información de IAM es estable y esencial (core identity). Confía en que el IAM Context provea datos consistentes. Se suscribe al evento UserRegistered publicado por el IAM Context para iniciar la creación de un perfil. De esta manera, la infraestructura asegura que los perfiles se guarden de manera confiable en Render postgresql y que se mantenga la consistencia con el IAM Context.
 
 
 #### ***2.6.5.5. Bounded Context Software Architecture Component Level Diagrams***
@@ -4003,7 +4003,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 <p style="text-indent: 1.25cm;">El enfoque iterativo mediante sprints permitió entregar valor incremental y validar suposiciones clave desde etapas tempranas. La implementación de funcionalidades core como la publicación de anuncios con confirmación de lectura, la gestión de eventos con recordatorios automáticos y los chats grupales segmentados demostró su efectividad en mejorar la trazabilidad de la comunicación y reducir la dependencia de aplicaciones informales. Las pruebas de usabilidad con usuarios reales confirmaron que la interfaz intuitiva y la organización clara de información cumplen con las expectativas de ambos segmentos objetivo.
 
-<p style="text-indent: 1.25cm;">Los retos técnicos más significativos, como la integración con Firebase Cloud Messaging para notificaciones push y el manejo de tokens de dispositivos, se abordaron mediante spikes de investigación que garantizaron una implementación robusta. La decisión de utilizar Supabase como backend como servicio (BaaS) demostró ser acertada, acelerando el desarrollo al proporcionar autenticación, base de datos y almacenamiento en una plataforma unificada, mientras se mantenía la escalabilidad necesaria para crecimiento futuro.
+<p style="text-indent: 1.25cm;">Los retos técnicos más significativos, como la integración con Firebase Cloud Messaging para notificaciones push y el manejo de tokens de dispositivos, se abordaron mediante spikes de investigación que garantizaron una implementación robusta. La decisión de utilizar Render postgresql como backend como servicio (BaaS) demostró ser acertada, acelerando el desarrollo al proporcionar autenticación, base de datos y almacenamiento en una plataforma unificada, mientras se mantenía la escalabilidad necesaria para crecimiento futuro.
 
 <p style="text-indent: 1.25cm;">Finalmente, el proyecto Synera no solo cumple con los requisitos funcionales establecidos sino que sienta las bases para una solución escalable que puede evolucionar para incorporar nuevas funcionalidades como integración con calendarios externos, videollamadas o analytics avanzados. El feedback recibido durante las validaciones indica una alta probabilidad de adopción en el mercado objetivo, confirmando que Centralis resuelve una problemática real y ofrece una propuesta de valor diferenciada en el ecosistema de herramientas de comunicación empresarial para pymes.
 
@@ -4019,7 +4019,7 @@ Utiliza el userId proporcionado por IAM como identificador único y foreign key.
 
 * Richardson, C. (2018). *Microservices Patterns: With examples in Java*. Manning Publications.
 
-* Supabase. (2023). *Supabase Documentation*. https://supabase.io/docs
+* Render postgresql. (2023). *Render postgresql Documentation*. https://render.com/docs/postgresql
 
 * Google. (2023). *Firebase Cloud Messaging Documentation*. https://firebase.google.com/docs/cloud-messaging
 
