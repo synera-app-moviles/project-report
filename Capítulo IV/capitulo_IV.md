@@ -46,10 +46,7 @@
 **Conventional Commits**
 
 <p style="text-indent: 1.25cm;">Se ha implementado la especificación de Conventional Commits para estandarizar los mensajes de commit en todos los repositorios del proyecto. Este formato estructurado proporciona un lenguaje consistente para describir los cambios realizados, facilitando la generación automática de changelogs y la comprensión del historial del proyecto. La convención define tipos específicos de commits que categorizan el propósito de cada cambio, mejorando la trazabilidad y el mantenimiento del código a largo plazo.
-
-
-
-## Repositorios GitHub
+**Repositorios GitHub**
 
 | **Producto**                  | **URL del Repositorio**                                | **Descripción**                                     |
 | :---------------------------- | :----------------------------------------------------- | :-------------------------------------------------- |
@@ -63,16 +60,25 @@
 **1. Estándares de Nomenclatura y Estilo**
 
 <p style="text-indent: 1.25cm;">El proyecto Centralis adopta un conjunto de convenciones de codificación estandarizadas para garantizar la consistencia y mantenibilidad del código a través de todos los componentes del sistema. Todos los elementos de código utilizan nomenclatura en inglés, siguiendo las mejores prácticas de la industria para cada lenguaje y tecnología empleada en el proyecto. Esta uniformidad en la escritura del código facilita la colaboración entre desarrolladores y mejora la legibilidad del código base.
+
 **2. Convenciones para Backend y APIs**
 
 <p style="text-indent: 1.25cm;">Para el desarrollo del backend con Spring Boot y Java, se sigue la Google Java Style Guide, estableciendo estándares para la indentación, organización de imports, y estructura de clases y métodos. Las APIs RESTful implementan las convenciones de Spring Boot Features para la estructuración de controladores, servicios y entidades, asegurando un diseño consistente y alineado con las mejores prácticas del ecosistema Spring. Los nombres de paquetes, clases y métodos siguen patrones descriptivos que reflejan claramente su propósito y responsabilidad.
+
 **3. Estándares para Desarrollo Móvil**
 
 <p style="text-indent: 1.25cm;">En el desarrollo de la aplicación móvil con Kotlin, se aplican las convenciones oficiales del lenguaje para la estructuración de archivos, nombrado de variables, y organización de clases y funciones. Las guías de estilo de Kotlin proveen directrices específicas para la escritura de código idiomático, aprovechando las características únicas del lenguaje mientras se mantiene la coherencia con los estándares establecidos para el backend. Esto asegura una experiencia de desarrollo uniforme a través de todas las capas de la aplicación.
+
+
+
 **4. Convenciones para Pruebas y Especificaciones**
 
 <p style="text-indent: 1.25cm;">Los archivos de especificación .feature para pruebas de aceptación siguen las Gherkin Conventions for Readable Specifications, empleando un lenguaje claro y estructurado que describe el comportamiento del sistema en términos de negocio. Las pruebas unitarias y de integración implementan patrones de nombrado descriptivos que explicitan el escenario bajo prueba y el resultado esperado, facilitando la comprensión del propósito de cada prueba y su relación con los requisitos funcionales.
+
+
+
 **5. Guías para Frontend y Documentación**
+
 
 <p style="text-indent: 1.25cm;">Para los componentes de frontend en la Landing Page, se aplican las directrices del Google HTML/CSS Style Guide, estableciendo estándares para la indentación, organización de selectores, y estructuración de archivos HTML y CSS. La documentación del proyecto sigue convenciones consistentes para la redacción de comentarios en el código, archivos README, y documentación técnica, asegurando que toda la información asociada al proyecto sea clara y accesible para todos los miembros del equipo.
 
@@ -94,25 +100,6 @@
 
 
 
-**Figura 51**
-
-*Desploy del web service*
-
-<p align="center">
-  <img src="https://i.imgur.com/a53sGwS.png" alt="Descripción">
-</p>
-
-*Nota.* Elaboración propia.
-
-**Figura 52**
-
-*Configurcion de las variables de entorno*
-
-<p align="center">
-  <img src="https://i.imgur.com/60KDVEI.png" alt="Descripción">
-</p>
-
-*Nota.* Elaboración propia.
 
 **Plataforma: Render PostgreSQL**
 
@@ -251,6 +238,122 @@ This will be confirmed when managers can create announcements, employees can vie
 #### 4.2.1.3. Development Evidence for Sprint Review
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para el Sprint 1, se implementó una suite completa de testing que incluye pruebas unitarias, de integración y de aceptación (BDD) para los Web Services desarrollados. La estrategia se centró en garantizar la calidad de las funcionalidades core implementadas en los módulos de anuncios, chats y eventos.
+
+**Unit Tests Implementados**
+
+**1. Módulo de Anuncios**
+
+- **AnnouncementServiceTest:** Valida la creación, edición y priorización de anuncios (US15, US16, US17)
+- **AnnouncementRepositoryTest:** Verifica las operaciones CRUD y consultas personalizadas
+- **CommentServiceTest:** Prueba la funcionalidad de comentarios en anuncios (US23)
+
+**2. Módulo de Chats**
+
+- **ChatServiceTest:** Valida creación de chats grupales y por departamentos (US33, US34)
+- **MessageServiceTest:** Prueba el envío de mensajes y gestión de conversaciones (US36)
+- **GroupRepositoryTest:** Verifica consultas de listado organizado de chats (US41)
+
+**3. Módulo de Eventos**
+
+- **EventServiceTest:** Valida la creación básica de eventos (US26)
+- **EventControllerTest:** Prueba los endpoints REST para gestión de eventos
+
+**Integration Tests**
+
+**Acceptance Tests (BDD - Gherkin)**
+
+**announcements.feature** (US15-US17, US23-US25)
+
+
+
+```json
+# language: es
+Característica: Publicación básica de anuncios
+  Como gerente
+  Quiero publicar anuncios en la aplicación móvil
+  Para que los empleados estén informados de las novedades de la empresa
+
+  Escenario: Publicar un anuncio básico exitosamente
+    Dado que soy un gerente autenticado
+    Cuando publico un anuncio con título "Reunión mensual" y contenido "Reunión mensual este viernes"
+    Entonces el anuncio debe ser creado exitosamente
+    Y debe aparecer en la lista de anuncios
+
+  Escenario: Intentar publicar anuncio sin título
+    Dado que soy un gerente autenticado
+    Cuando intento publicar un anuncio sin título
+    Entonces debo recibir un error de validación
+    Y el anuncio no debe ser creado
+```
+
+
+
+**chats.feature** (US33-US34, US36, US41-US42)
+
+```json
+# language: es
+Característica: Creación de chats grupales
+  Como empleado
+  Quiero crear chats grupales
+  Para discutir temas específicos con mis colegas
+
+  Escenario: Crear un chat grupal
+    Dado que soy un empleado autenticado
+    Cuando creo un chat grupal con nombre "Proyecto Alpha"
+    Y agrego a los empleados "juan@company.com" y "maria@company.com"
+    Entonces el chat grupal debe ser creado exitosamente
+    Y todos los miembros deben poder ver el chat
+
+  Escenario: Crear chat grupal sin miembros
+    Dado que soy un empleado autenticado
+    Cuando intento crear un chat grupal sin agregar miembros
+    Entonces debo recibir un error de validación
+    Y el chat no debe ser creado
+```
+
+**events.feature** (US26)
+
+```json
+# language: es
+Característica: Creación básica de eventos
+  Como gerente
+  Quiero crear eventos en la aplicación móvil
+  Para organizar reuniones y actividades de la empresa
+
+  Escenario: Crear un evento básico
+    Dado que soy un gerente autenticado
+    Cuando creo un evento con título "Reunión de equipo" y fecha "2025-10-15"
+    Y establezco la hora como "14:00"
+    Entonces el evento debe ser creado exitosamente
+    Y debe aparecer en el calendario de eventos
+
+  Escenario: Crear evento sin fecha
+    Dado que soy un gerente autenticado
+    Cuando intento crear un evento sin especificar fecha
+    Entonces debo recibir un error de validación
+    Y el evento no debe ser creado
+```
+
+
+
+**Evidencia de Commits de Testing**
+
+| Repository                      | Branch  | Commit Id | Commit Message                                               | Commit Message Body                                          | Commited on (Date) |
+| :------------------------------ | :------ | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------- |
+| synera-app-moviles/web-services | testing | d3c78e5   | test(services): add unit tests for announcement and chat services | Implement comprehensive unit tests covering business logic for announcement creation, priority management, and chat group functionality with 85% code coverage | 07/10/2025         |
+| synera-app-moviles/web-services | testing | dc9f56f   | test(bdd): implement step definitions and cucumber configuration | Add Cucumber step definitions and test configuration for BDD acceptance tests, including setup for Spring Boot integration | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 5faa7e4   | feat(events): add BDD tests for event creation US26          | Implement BDD scenarios for event management feature, covering basic event creation and validation workflows | 07/10/2025         |
+| synera-app-moviles/web-services | testing | c993c56   | feat(images): add BDD tests for image functionality in chats US42 | Create BDD tests for image sharing in group chats, validating file upload and display functionality | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 4dc652e   | test(chat): implement integration tests for chat controller  | Add integration tests for chat REST endpoints, testing complete request/response cycles and error handling | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 3281772   | feat(chat): add BDD tests for messaging and chat listing US36-US41 | Implement BDD scenarios for message sending and organized chat listing features with multiple test cases | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 01a6ce8   | feat(chat): add BDD tests for group chat creation US33-US34  | Create acceptance tests for group chat creation and department-based chat automation functionality | 07/10/2025         |
+| synera-app-moviles/web-services | testing | bc9bc74   | test(announcements): implement integration tests for announcement controller | Add integration tests for announcement API endpoints, covering CRUD operations and comment functionality | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 2268103   | feat(announcements): add BDD tests for comments and images US23-US25 | Implement BDD tests for announcement comments and image attachment features with various user scenarios | 07/10/2025         |
+| synera-app-moviles/web-services | testing | 99f17f9   | feat(announcements): add BDD tests for basic announcement features US15-US17 | Create initial BDD test suite for basic announcement management including creation, prioritization, and editing | 07/10/2025         |
+
+
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
@@ -511,7 +614,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 
 
-
+**Chat Context: **
 
 <p align="center">
   <img src="https://i.imgur.com/ZfpoZFx.png" alt="Descripción">
@@ -522,7 +625,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 <p align="center">
   <img src="https://i.imgur.com/CiYJ69B.png" alt="Descripción">
 </p>
-
+*Nota.* Elaboración propia.
 
 
 
@@ -542,8 +645,34 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 <p style="text-indent: 1.25cm;">Esta evidencia respalda el cumplimiento de los objetivos de documentación de servicios para el Sprint, facilitando la revisión y validación por parte del equipo y stakeholders.
 
 
-
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
+
+
+**Figura 51**
+
+*Desploy del web service*
+
+<p align="center">
+  <img src="https://i.imgur.com/a53sGwS.png" alt="Descripción">
+</p>
+
+
+*Nota.* Elaboración propia.
+
+**Figura 52**
+
+*Configurcion de las variables de entorno*
+
+<p align="center">
+  <img src="https://i.imgur.com/60KDVEI.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
