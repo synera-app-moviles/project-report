@@ -271,3 +271,25 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 #### 3.1.4.5. Mobile Applications Prototyping
+
+
+El presente apartado expone los prototipos de interfaz de usuario (UI) desarrollados para la aplicación móvil Centralis, los cuales simulan la interacción y navegación entre las principales vistas del sistema. Estos prototipos fueron elaborados en Figma, siguiendo los paths definidos en los User Flow Diagrams, con el objetivo de validar tempranamente la experiencia de usuario y las decisiones de arquitectura de información adoptadas.
+
+En cuanto a los flujos de interacción, el prototipo contempla las siguientes secuencias:
+
+- **Autenticación:** registro de nuevos usuarios, inicio de sesión y completado de perfil.
+
+- **Gestión de anuncios:** creación, edición y visualización de comunicados corporativos con distintos niveles de prioridad.
+
+- **Gestión de eventos:** programación, edición y confirmación de asistencia a reuniones o capacitaciones internas.
+
+- **Mensajería interna:** creación de grupos de chat, envío de mensajes y administración de miembros.
+
+- **Perfil del usuario:** edición de datos personales y cierre de sesión.
+
+##### Link del video :
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213070_upc_edu_pe/ETSq5tjzEbNGujO0EvMDo9cBZZV49yfXBT-eHTy9TN5nGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=R966PZ
+
+
+
