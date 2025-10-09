@@ -42,6 +42,8 @@
 
 #### 3.1.3.2. Landing Page Mock-up
 
+*Imagen del wireframe de la Landing Page*
+
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/11_t3jk6h.jpg" alt="Class wireframe">
 </p>
@@ -54,6 +56,8 @@
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/14_siatlj.jpg" alt="Class wireframe">
 </p>
+
+*Nota.* Elaboración propia.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
