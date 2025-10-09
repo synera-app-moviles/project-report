@@ -17,6 +17,7 @@ La siguiente paleta de colores elegidos se basan en un contraste armónico que e
 </p>
 *Nota.* Elaboración propia.
 
+
 La paleta cromática de Centralis ha sido concebida con una intención emocional y psicológica precisa, buscando generar una experiencia visual equilibrada que estimule la concentración y la confianza del usuario. El tono violeta predominante (#823DFA) actúa como color principal de acción, simbolizando creatividad, dinamismo y energía digital; es el color que impulsa la interacción y orienta al usuario hacia los elementos más relevantes de la interfaz.
 
 El fondo profundo (#170F24) aporta una base sólida y elegante, asociada a la estabilidad y a la sofisticación tecnológica. Este tono oscuro no solo crea un contraste ideal para el texto, sino que también contribuye a un ambiente visual inmersivo que invita al enfoque y la concentración. Los elementos blancos (#FFFFFF) refuerzan la legibilidad y otorgan sensación de limpieza, mientras que los matices lavanda (#9C78FE) introducen un toque de frescura y suavidad visual dentro de la composición. Finalmente, los tonos de apoyo como el violeta-grisáceo (#30214A) aportan profundidad y coherencia tonal, manteniendo la armonía entre los distintos componentes de la interfaz.
@@ -35,6 +36,7 @@ El uso de Manrope en distintos grosores —desde Regular 400 hasta Bold 700— p
 </p>
 *Nota.* Elaboración propia.
 
+
 **Logo**
 
 El logotipo de Centralis constituye el eje principal de su identidad gráfica. Su diseño, de carácter minimalista y geométrico, sintetiza de forma simbólica los valores y la esencia funcional de la aplicación. Las formas que lo componen evocan interconexión, flujo y dirección, tres conceptos fundamentales que representan la manera en que Centralis unifica las distintas herramientas de comunicación y gestión dentro de un único entorno centralizado.
@@ -49,6 +51,7 @@ El uso del color blanco en el símbolo transmite pureza, claridad y confianza, m
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/logo_mspr1x.png" alt="Class logo">
 </p>
 *Nota.* Elaboración propia.
+
 
 **Tono de comunicación.**
 
