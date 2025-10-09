@@ -229,7 +229,7 @@ Los meta tags y etiquetas SEO son elementos fundamentales dentro de la sección 
 
 
 
-### Estrategia SEO
+**Estrategia SEO**
 
 - **Palabras clave objetivo**: Comunicación interna, aplicación empresarial, plataforma colaborativa
 - **Enfoque geográfico**: Mercado hispanohablante con potencial expansión internacional
@@ -356,6 +356,48 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 <p style="text-indent: 1.25cm;">La Landing Page emplea un sistema de navegación simplificado que responde a su naturaleza informativa y de conversión. El scroll unidireccional optimiza la presentación del valor proposition, mientras el menú hamburguesa proporciona acceso rápido para usuarios con objetivos específicos.
 
 
+**Figura 52**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/qno8dar.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 53**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/OlOM18W.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 54**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/1rYSElt.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 55**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/H9jg1I2.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
 
 ### 3.1.3. Landing Page UI Design
 
@@ -393,7 +435,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 - **Enlaces contextuales**: Conexiones lógicas entre secciones relacionadas
 - **Call-to-action estratégicos**: Ubicados en puntos de mayor atención visual
 
-**Figura 52**
+**Figura 56**
 
 *Imagen del wireframe de la Landing Page*
 
@@ -441,7 +483,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 - **Secciones Modulares**: Tarjetas con bordes redondeados, sombras sutiles y separación visual clara
 - **Espaciado Consistente**: Aplicación del sistema de espaciado definido en el Design System
 
-**Figura 53**
+**Figura 57**
 
 *Imagen del wireframe de la Landing Page*
 
@@ -505,7 +547,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 
 
 
-**Figura 54**
+**Figura 58**
 
 *Imagen del wireframes de la application mobile*
 
@@ -579,7 +621,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 3. **Edición de Perfil** → Modificación de datos personales
 4. **Configuración** → Ajustes de notificaciones y preferencias
 
-**Figura 55**
+**Figura 59**
 
 *Imagen del Wireflow Diagrams de la application mobile*
 
@@ -625,7 +667,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 - **Edición de Perfil**: Formularios modales con campos pre-llenados y validación contextual.
 - **Configuración**: Lista de opciones agrupadas temáticamente, con interruptores y menús desplegables para preferencias.
 
-**Figura 56**
+**Figura 60**
 
 *Imagen del Mockups de la application mobile*
 
@@ -659,7 +701,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 6. **Edit Form** → Modificación de título, contenido, prioridad
 7. **Save Changes** → Confirmación y regreso a lista actualizada
 
-**Figura 57**
+**Figura 61**
 
 *Imagen del User flow Announcement*
 
@@ -683,7 +725,7 @@ Happy Path:
 6. **Send Message** → Escritura y envío con confirmación
 7. **View Messages** → Scroll histórico y burbujas de conversación
 
-**Figura 58**
+**Figura 62**
 
 *Imagen del User flow Gestión de Chats y Mensajes*
 
@@ -718,7 +760,7 @@ Happy Path:
 3. **Photo Upload** → Selección de avatar desde galería
 4. **Save Changes** → Confirmación y actualización visual
 
-**Figura 59**
+**Figura 63**
 
 *Imagen del User flow Iniciar sesión y crear cuenta*
 
@@ -728,7 +770,7 @@ Happy Path:
 
 *Nota.* Elaboración propia.
 
-**Figura 60**
+**Figura 64**
 
 *Imagen del User flow Gestión de Perfil*
 
@@ -756,7 +798,7 @@ En cuanto a los flujos de interacción, el prototipo contempla las siguientes se
 
 
 
-**Figura 61**
+**Figura 65**
 
 *Screenshot del video prototyping*
 
