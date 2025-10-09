@@ -21,7 +21,39 @@
 
 #### 3.1.3.1. Landing Page Wireframe
 
+**Figura N**
+
+*Imagen del wireframe de la Landing Page*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/1_uuqext.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/2_rzay88.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/3_b3ef0l.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/4_jgui97.jpg" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
 #### 3.1.3.2. Landing Page Mock-up
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/11_t3jk6h.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/12_sqzjxo.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/13_bdb7se.jpg" alt="Class wireframe">
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/14_siatlj.jpg" alt="Class wireframe">
+</p>
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
