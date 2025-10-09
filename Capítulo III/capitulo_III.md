@@ -53,10 +53,10 @@ El uso del color blanco en el símbolo transmite pureza, claridad y confianza, m
 **Figura 48**
 
 *Logo de Centralis*
+
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/logo_mspr1x.png" alt="Class logo">
 </p>
-
 *Nota.* Elaboración propia.
 
 #
@@ -211,8 +211,31 @@ Se utiliza de forma complementaria en situaciones que requieren búsqueda y loca
 - **Attendees:** Representa participantes confirmados en eventos
 
 <p style="text-indent: 1.25cm;">Este sistema de etiquetado minimiza la carga cognitiva del usuario mientras maximiza la eficiencia en la navegación y comprensión de la aplicación, creando una experiencia cohesiva y predecible a través de todos los módulos de Centralis.
-
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+Los meta tags y etiquetas SEO son elementos fundamentales dentro de la sección "`<head>`" de cualquier página web, ya que permiten controlar cómo es interpretado, indexado y presentado el contenido de un sitio por parte de los motores de búsqueda (como Google) y las redes sociales (como Facebook o Twitter). Estas etiquetas no son visibles directamente por los usuarios, pero influyen de manera determinante en la forma en que una página se posiciona y aparece en los resultados de búsqueda, así como en la claridad con la que comunica su propósito al compartir enlaces.
+
+<p style="text-indent: 1.25cm;">En el desarrollo de la plataforma Centralis, se han implementado meta etiquetas específicas para cada archivo HTML clave de la landing page con el fin de garantizar una correcta indexación, visibilidad en buscadores, claridad semántica y una presentación visualmente coherente al momento de compartir los enlaces en redes sociales. Estas prácticas fortalecen la identidad de marca y optimizan la experiencia de descubrimiento para nuevos usuarios.
+
+**Figura 49**
+
+*SEO tag and Meta tags*
+
+<p align="center">
+  <img src="https://i.imgur.com/hECft8E.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Estrategia SEO**
+
+- **Palabras clave objetivo**: Comunicación interna, aplicación empresarial, plataforma colaborativa
+- **Enfoque geográfico**: Mercado hispanohablante con potencial expansión internacional
+- **Audiencia objetivo**: Gerentes de empresas, departamentos de RH, equipos de TI corporativos
+
+<p style="text-indent: 1.25cm;">Esta implementación de SEO tags y meta tags asegura que Centralis tenga una presencia óptima en motores de búsqueda y redes sociales, facilitando el descubrimiento orgánico y mejorando la conversión de visitantes en usuarios de la aplicación.
 
 #### 3.1.2.4. Searching Systems
 
@@ -244,7 +267,9 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 
 
 
-**Figura 49**
+**Figura 50**
+
+*Searching Systems*
 
 
 <p align="center">
@@ -254,7 +279,9 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 
 
 
-**Figura 50**
+**Figura 51**
+
+*Searching Systems*
 
 <p align="center">
   <img src="https://i.imgur.com/4rbxUe5.png" alt="Descripción">
@@ -329,12 +356,86 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 <p style="text-indent: 1.25cm;">La Landing Page emplea un sistema de navegación simplificado que responde a su naturaleza informativa y de conversión. El scroll unidireccional optimiza la presentación del valor proposition, mientras el menú hamburguesa proporciona acceso rápido para usuarios con objetivos específicos.
 
 
+**Figura 52**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/qno8dar.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 53**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/OlOM18W.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 54**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/1rYSElt.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 55**
+
+*Navigation System*
+
+<p align="center">
+  <img src="https://i.imgur.com/H9jg1I2.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
 
 ### 3.1.3. Landing Page UI Design
 
 #### 3.1.3.1. Landing Page Wireframe
 
-**Figura 51**
+<p style="text-indent: 1.25cm;">El wireframe de la Landing Page de Centralis establece la estructura fundamental del sitio web informativo, diseñado bajo los principios de Material Design 3 y considerando los sistemas de organización y etiquetado definidos en la arquitectura de información. Este diseño inicial prioriza la claridad, la navegación intuitiva y la presentación efectiva de la propuesta de valor de la plataforma.
+
+**Header y Navegación Principal**
+
+- **Logo y marca**: Posicionado en la esquina superior izquierda para reconocimiento inmediato
+- **Call-to-action primario**: Botón de acceso a la aplicación destacado visualmente
+
+**Sección Hero**
+
+- **Título principal**: Comunicación clara de la propuesta de valor central
+- **Subtítulo explicativo**: Breve descripción de los beneficios de la plataforma
+- **Imagen representativa**: Visualización de la aplicación en contexto de uso
+- **Botones de acción**: Descarga de aplicación y learn more
+
+**Organización de Contenido**
+
+- **Flujo jerárquico**: Información organizada por importancia y relevancia
+- **Secciones modulares**: Contenido agrupado en bloques diferenciados visualmente
+- **Espaciado consistente**: Separación adecuada entre elementos para mejor legibilidad
+
+**Nomenclatura Consistente**
+
+- **Terminología unificada**: Uso del lenguaje de marca establecido
+- **Etiquetas descriptivas**: Textos claros y accesibles para todos los usuarios
+- **Jerarquía visual**: Diferenciación tipográfica para títulos, subtítulos y body text
+
+**Navegación y Wayfinding**
+
+- **Breadcrumbs visuales**: Indicadores de posición dentro del sitio
+- **Enlaces contextuales**: Conexiones lógicas entre secciones relacionadas
+- **Call-to-action estratégicos**: Ubicados en puntos de mayor atención visual
+
+**Figura 56**
 
 *Imagen del wireframe de la Landing Page*
 
@@ -355,7 +456,34 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 
 #### 3.1.3.2. Landing Page Mock-up
 
-**Figura 52**
+<p style="text-indent: 1.25cm;">El mock-up de la Landing Page de Centralis representa la evolución visual del wireframe, aplicando el Design System establecido y los principios de Material Design 3. Este diseño detallado integra la paleta de colores, tipografía, componentes de interfaz y elementos visuales que garantizan una experiencia atractiva, profesional y alineada con la identidad de la marca.
+
+**Colores y Estilo Visual**
+
+- **Paleta de Colores**: Uso de colores primarios y secundarios definidos en el style guide, con énfasis en contraste y accesibilidad.
+- **Tipografía**: Jerarquía clara mediante el uso de escalas tipográficas para títulos, subtítulos y cuerpo de texto, asegurando legibilidad en todos los dispositivos.
+- **Iconografía**: Iconos consistentes con el tema de Material Design 3, utilizados para representar secciones y características de manera intuitiva.
+
+**Header y Navegación Principal**
+
+- **Logo y Marca**: Diseño refinado con los colores de la marca, posicionado para máximo reconocimiento
+- **Call-to-Action Primario**: Botón con estilo destacado usando colores primarios, sombras sutiles y efectos hover
+- **Navegación Secundaria**: Enlaces discretos pero accesibles para información adicional
+
+**Sección Hero**
+
+- **Título Principal**: Tipografía impactante con peso semibold, tamaño generoso y espaciado cuidadoso
+- **Subtítulo Explicativo**: Texto legible con contraste adecuado, complementando el mensaje principal
+- **Imagen Representativa**: Mock-up de alta calidad de la aplicación en uso, con sombras y efectos de profundidad
+- **Botones de Acción**: Diseño dual con botón primario (descarga) y secundario (learn more), visualmente balanceados
+
+**Organización de Contenido Visual**
+
+- **Flujo Jerárquico**: Uso de tamaño, color y espaciado para guiar la atención del usuario
+- **Secciones Modulares**: Tarjetas con bordes redondeados, sombras sutiles y separación visual clara
+- **Espaciado Consistente**: Aplicación del sistema de espaciado definido en el Design System
+
+**Figura 57**
 
 *Imagen del wireframe de la Landing Page*
 
@@ -372,17 +500,285 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/14_siatlj.jpg" alt="Class wireframe">
 </p>
 
-*Nota.* Elaboración propia.
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
+<p style="text-indent: 1.25cm;">Los wireframes de la aplicación móvil Centralis representan la estructura fundamental de la interfaz de usuario, diseñados bajo los principios de Material Design 3 y considerando los sistemas de organización y etiquetado definidos en la arquitectura de información. Estos diseños iniciales establecen la base para una experiencia de usuario coherente, intuitiva y accesible en todos los módulos de la aplicación.
+
+
+
+**Basándonos en los sistemas de organización definidos, los wireframes aplican:**
+
+- **Organización Jerárquica Visual**: La estructura de información prioriza los contenidos más relevantes mediante el uso de tarjetas de diferentes tamaños y ubicación estratégica en la pantalla.
+
+- **Organización por Tópicos**: Los módulos principales (Anuncios, Eventos, Chats, Perfil) están organizados por funcionalidades específicas, permitiendo a los usuarios acceder rápidamente a las secciones según sus necesidades.
+
+- **Organización Matricial**: En secciones como el listado de anuncios y chats, se implementa una cuadrícula flexible que se adapta al contenido disponible.
+
+  
+
+**El sistema de etiquetado sigue las convenciones establecidas:**
+
+- **Etiquetas Consisas**: Navegación inferior con íconos y labels cortos "Announcement", "Chats", "Events", "Profile".
+- **Terminología Consistente**: Uso del lenguaje ubicuo definido en el proyecto para términos como "Announcements", "Priority", "Group Chats".
+- **Jerarquía Visual Clara**: Diferenciación mediante tipografía y espaciado para títulos, subtítulos y contenido body.
+
+
+
+**Chat context**
+
+- **Lista de Conversaciones**: Vista de lista con avatar y nombre del grupo.
+- **Chat Individual**: Burbujas de conversación diferenciadas por usuario.
+- **Creación de Grupos**: Formulario paso a paso con selección de miembros y configuración.
+
+**Events context**
+
+- **Vista Calendario**: Grid mensual con indicadores de eventos, navegación por meses.
+- **Detalle de Evento**: Información completa con fecha, hora, participantes y descripción
+- **Creación de Eventos**: Formulario con selectores de fecha/hora y campos validados
+
+**Profile context**
+
+- **Perfil Personal**: Header con avatar, información básica,
+- **Edición de Perfil**: Formularios modales con validación en tiempo real
+- **Configuración**: Lista de opciones organizadas por categorías
+
+
+
+**Figura 58**
+
+*Imagen del wireframes de la application mobile*
+
+<p align="center">
+  <img src="https://i.imgur.com/p1P4XiI.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+<p style="text-indent: 1.25cm;">Los wireflow diagrams de Centralis representan los flujos de interacción principales que siguen tanto empleados como gerentes dentro de la aplicación móvil. Estos diagramas integran los wireframes con las transiciones entre pantallas, mostrando cómo los usuarios navegan para cumplir sus objetivos específicos. Cabe destacar que, mientras los empleados y gerentes comparten la mayoría de los flujos de navegación y consulta, los gerentes tienen capacidades adicionales de creación y edición en los módulos de eventos y anuncios.
+
+**Wireflow 1: Gestión de Anuncios**
+
+**User Goal:** Consultar y gestionar anuncios de la empresa
+
+**Flujo para Empleados:**
+
+1. **Pantalla de Inicio** → Navegación a "Announcements"
+2. **Lista de Anuncios** → Visualización de tarjetas con prioridad
+3. **Filtrado por Prioridad** → Opcional: filtrar por HIGH/URGENT
+4. **Detalle de Anuncio** → Ver contenido completo e imágenes
+5. **Sección de Comentarios** → Leer comentarios existentes
+
+**Flujo para Gerentes (flujo extendido):**
+
+1-4. Mismo flujo que empleados
+
+5. **Botones de Acción** → "Edit" / "Delete" disponibles
+6. **Edición de Anuncio** → Formulario de modificación
+7. **Confirmación de Cambios** → Guardado y actualización en lista
+
+**Wireflow 2: Gestión de Eventos**
+
+**User Goal:** Consultar y gestionar eventos del calendario
+
+**Flujo Compartido:**
+
+1. **Pantalla de Inicio** → Navegación a "Events"
+2. **Vista de Calendario** → Navegación mensual/semanal
+3. **Detalle de Evento** → Información completa y asistentes
+
+**Flujo Extendido para Gerentes:**
+
+1. **Botón "Create Event"** → Visible solo para gerentes
+2. **Formulario de Creación** → Campos: título, fecha, hora, descripción
+3. **Selección de Participantes** → Lista de empleados disponibles
+4. **Confirmación y Notificación** → Evento creado y notificaciones enviadas
+
+**Wireflow 3: Comunicación por Chat**
+
+**User Goal:** Comunicarse mediante chats grupales y departamentales
+
+**Flujo Compartido para Todos los Usuarios:**
+
+1. **Pantalla de Inicio** → Navegación a "Chats"
+2. **Lista de Conversaciones** → Chats activos y departamentales
+3. **Chat Individual** → Envío y recepción de mensajes
+4. **Envío de Imágenes** → Selección desde galería o cámara
+5. **Creación de Chat Grupal** → Disponible para todos los usuarios
+
+**Wireflow 4: Gestión de Perfil**
+
+**User Goal:** Gestionar información personal y preferencias
+
+**Flujo Compartido:**
+
+1. **Pantalla de Inicio** → Navegación a "Profile"
+2. **Vista de Perfil** → Información personal y avatar
+3. **Edición de Perfil** → Modificación de datos personales
+4. **Configuración** → Ajustes de notificaciones y preferencias
+
+**Figura 59**
+
+*Imagen del Wireflow Diagrams de la application mobile*
+
+<p align="center">
+  <img src="https://i.imgur.com/CzDSDJf.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+<p style="text-indent: 1.25cm;">Los mock-ups de la aplicación móvil Centralis representan la evolución visual de los wireframes, aplicando el Design System establecido y los principios de Material Design 3. Estos diseños detallados integran la paleta de colores, tipografía, componentes de interfaz y elementos de interacción que garantizan una experiencia de usuario cohesiva, accesible y alineada con la identidad de la marca.
+
+**Componentes de Interfaz**
+
+- **Tarjetas (Cards)**: Uso de cards con sombras y bordes redondeados para organizar contenido en listas y detalles.
+- **Botones**: Estilos diferenciados para acciones primarias, secundarias y de texto, con estados activo, inactivo y de deshabilitado.
+- **Barras de Navegación**: Bottom navigation bar con íconos y etiquetas para una navegación clara y accesible.
+
+**Navegación y Estructura**
+
+- **Flujo Predictible**: Diseño de pantallas que guían al usuario a través de flujos lógicos y familiares, reduciendo la curva de aprendizaje.
+- **Retroalimentación Visual**: Uso de micro-interacciones y animaciones sutiles para confirmar acciones y mejorar la experiencia de usuario.
+- **Consistencia**: Mantenimiento de patrones de diseño uniformes en todos los módulos, reforzando la usabilidad y la confianza del usuario.
+
+**Detalles por Contexto**
+
+**Chat Context**
+
+- **Lista de Conversaciones**: Diseño de lista con avatares circulares, nombres de grupo en negrita y preview del último mensaje en un estilo secundario.
+- **Chat Individual**: Interfaz de burbujas de mensajes diferenciadas por colores para emisor y receptor, con soporte para multimedia y estados de entrega.
+- **Creación de Grupos**: Formulario modal con búsqueda de miembros y selección múltiple, diseñado para ser intuitivo y eficiente.
+
+**Events Context**
+
+- **Vista Calendario**: Grid mensual con días resaltados para eventos, usando colores temáticos para categorías de eventos.
+- **Detalle de Evento**: Pantalla con imagen de portada, información clave en tipografía destacada y sección de asistentes con avatares.
+- **Creación de Eventos**: Formulario paso a paso con selectores de fecha y hora nativos, y validación en tiempo real.
+
+**Profile Context**
+
+- **Perfil Personal**: Cabecera con foto de perfil, nombre y rol, seguido de secciones plegables para información adicional.
+- **Edición de Perfil**: Formularios modales con campos pre-llenados y validación contextual.
+- **Configuración**: Lista de opciones agrupadas temáticamente, con interruptores y menús desplegables para preferencias.
+
+**Figura 60**
+
+*Imagen del Mockups de la application mobile*
+
+<p align="center">
+  <img src="https://i.imgur.com/Ut2yO7X.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+<p style="text-indent: 1.25cm;">Los user flow diagrams de Centralis representan las rutas completas que siguen los usuarios para alcanzar sus objetivos dentro de la aplicación móvil. Estos diagramas integran los mock-ups de las pantallas con todas las posibles rutas, incluyendo el flujo principal (happy path), considerando las diferentes capacidades de empleados y gerentes.
+
+**User Flow 1: Gestión de Anuncios**
+
+**User Goal:** Ver y editar anuncios de la empresa
+
+**Happy Path - Empleado:**
+
+1. **Login Screen** → Autenticación exitosa
+2. **Home Screen** → Tap en "Announcements"
+3. **Announcements List** → Scroll y visualización
+4. **Announcement Detail** → Tap en cualquier anuncio
+5. **View Content** → Lectura completa y comentarios
+
+**Happy Path - Gerente:**
+
+1-4. **Mismo flujo hasta Announcement Detail**
+
+5. **Edit Options** → Tap en "Edit" button
+6. **Edit Form** → Modificación de título, contenido, prioridad
+7. **Save Changes** → Confirmación y regreso a lista actualizada
+
+**Figura 61**
+
+*Imagen del User flow Announcement*
+
+<p align="center">
+  <img src="https://i.imgur.com/g4MFIXQ.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
+**User Flow 2: Gestión de Chats y Mensajes**
+
+**User Goal:** Crear, ver chats, enviar y ver mensajes
+
+Happy Path:
+
+1. **Chats List** → Visualización de conversaciones activas
+2. **Create New Chat** → Tap en "+" button
+3. **Select Participants** → Búsqueda y selección de miembros
+4. **Group Setup** → Asignar nombre y configuración
+5. **Chat Interface** → Envío y recepción de mensajes en tiempo real
+6. **Send Message** → Escritura y envío con confirmación
+7. **View Messages** → Scroll histórico y burbujas de conversación
+
+**Figura 62**
+
+*Imagen del User flow Gestión de Chats y Mensajes*
+
+<p align="center">
+  <img src="https://i.imgur.com/hI7l9O9.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
+**User Flow 3: Autenticación y Gestión de Perfil**
+
+**User Goal:** Iniciar sesión, crear cuenta y editar perfil
+
+**Happy Path - Login:**
+
+1. **Login Screen** → Ingreso de email y password
+2. **Authentication** → Validación exitosa
+3. **Home Screen** → Navegación a aplicación principal
+
+**Happy Path - Registro:**
+
+1. **Sign Up Screen** → Tap en "Create Account"
+2. **Registration Form** → Compleción de campos obligatorios
+3. **Email Verification** → Confirmación vía email
+4. **Profile Setup** → Configuración inicial de perfil
+5. **Home Screen** → Acceso a aplicación
+
+**Happy Path - Edición de Perfil:**
+
+1. **Profile Screen** → Tap en "Edit Profile"
+2. **Edit Form** → Modificación de datos personales
+3. **Photo Upload** → Selección de avatar desde galería
+4. **Save Changes** → Confirmación y actualización visual
+
+**Figura 63**
+
+*Imagen del User flow Iniciar sesión y crear cuenta*
+
+<p align="center">
+  <img src="https://i.imgur.com/tvtwAwx.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 64**
+
+*Imagen del User flow Gestión de Perfil*
+
+<p align="center">
+  <img src="https://i.imgur.com/nN4BQnl.png" alt="Class wireframe">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
@@ -402,7 +798,9 @@ En cuanto a los flujos de interacción, el prototipo contempla las siguientes se
 
 
 
-**Figura 51**
+**Figura 65**
+
+*Screenshot del video prototyping*
 
 <p align="center">
   <img src="https://i.imgur.com/84sVlcs.png" alt="Descripción">
@@ -411,6 +809,3 @@ En cuanto a los flujos de interacción, el prototipo contempla las siguientes se
 *Nota.* Elaboración propia.
 
 Link del video : https://acortar.link/Rkmy5z
-
-
-

@@ -70,12 +70,9 @@ Url de la organización: https://github.com/synera-app-moviles
 **TB1:**
 
 <p style="text-indent: 1.25cm;">A continuación, se presenta un informe detallado sobre la colaboración del equipo en el proyecto Synera, con un enfoque en la entrega del informe tb1 para el producto Centralis. Este análisis se basa en el registro de desempeño de los participantes, destacando las responsabilidades asignadas y el cumplimiento de cada miembro del equipo. A pesar de los desafíos encontrados con la gestión de la herramienta GitHub,  los miembros cumplieron a tiempo con sus tareas.
-
-
-
-![Insights 1](https://res.cloudinary.com/dpprgycup/image/upload/v1758149176/7111c4ea-30b8-421e-a8e2-e417f1f6026e.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758149176/7111c4ea-30b8-421e-a8e2-e417f1f6026e.png" alt="PI1" width="1000">
+</p>
 
 **Actividades individuales de los estudiantes**
 
@@ -120,6 +117,11 @@ Url de la organización: https://github.com/synera-app-moviles
 <p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo trabajó de manera colaborativa en el desarrollo e implementación de los componentes principales de la plataforma Centralis, logrando establecer los cimientos tecnológicos y funcionales del proyecto. La colaboración se caracterizó por una distribución efectiva de responsabilidades según las especialidades de cada integrante, manteniendo una comunicación constante a través de reuniones diarias y utilizando GitHub como plataforma central de control de versiones.
 
 <p style="text-indent: 1.25cm;">El equipo implementó exitosamente metodologías ágiles y prácticas de desarrollo modernas, incluyendo GitFlow para el control de versiones, Conventional Commits para la estandarización de mensajes, y pruebas automatizadas para garantizar la calidad del código. Cada miembro contribuyó activamente en el desarrollo de la aplicación móvil nativa en Kotlin, los Web Services con Spring Boot, y la Landing Page, demostrando un alto nivel de compromiso y coordinación.
+<p align="center">
+  <img src="https://i.imgur.com/bGTIs3e.png" alt="PI1" width="1000">
+</p>
+
+
 
 A continuación, se detallan las contribuciones específicas de cada integrante durante este sprint:
 
@@ -366,8 +368,6 @@ Capítulo III: Solution UI/UX Design
 | Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | **Gómez Flores, Daniela Araceli:<br />TB1:**<br />Participé activamente en las revisiones de mi bounded context (Event), incorporando feedback y mejorando los artefactos en iteraciones sucesivas. Reconozco que la mejora continua es esencial para el desarrollo de software de calidad.  <br /><br />**TP1:** <br />Reconozco que el desarrollo frontend requiere constante actualización en frameworks y estándares web. Me capacité en Material Design 3 y técnicas avanzadas de CSS Grid para mejorar la experiencia de usuario en la landing page.<br /><br />**Curipaco Huayllani, Neil:<br />TB1:**  <br />Como Team Leader, coordiné las actividades de aprendizaje colaborativo, asegurándome de que integráramos nuevas prácticas de DDD y Lean UX en cada entrega. Comprendo que el liderazgo técnico requiere un aprendizaje constante. <br /><br />**TP1:** <br />Comprendí que la seguridad en aplicaciones móviles es un área en evolución constante. Investigué e implementé mejores prácticas para la autenticación JWT y protección de endpoints sensibles.<br /><br />**Diaz Fiestas, Jorge Luis: <br />TB1:**<br />Investigué y apliqué técnicas de Ubiquitous Language y Empathy Mapping, ajustando mi enfoque tras las primeras retroalimentaciones. Valoro la capacidad de adaptarse y aprender de los errores.<br /> <br /><br /> **TP1:** <br />Reconozco que el diseño UX/UI requiere permanente actualización. Me especialicé en patrones de diseño móvil y principios de usabilidad para crear interfaces intuitivas y accesibles.<br /><br />**Medina Cruzado, Raúl Adrian: <br />TB1:**<br />Evolucioné mi comprensión del análisis competitivo y el Impact Mapping, refinando mi trabajo en base a la investigación continua. Reconozco que la competitividad exige estar siempre actualizado. <br /><br />**TP1:** <br />Comprendí que la integración de servicios de notificaciones push requiere constante actualización. Aprendí a implementar Firebase Cloud Messaging en Spring Boot, reconociendo que las APIs móviles evolucionan frecuentemente y demandan aprendizaje continuo para mantener compatibilidad y optimizar el engagement con usuarios.<br /><br />**Vaszquez Villalobos, Elverth Jair: <br />TB1:**<br />Aprendí y apliqué técnicas de Context Mapping y realización de entrevistas, demostrando mejora continua en la calidad de mis contribuciones. Entiendo que el aprendizaje autónomo es clave en la ingeniería de software.<br /><br />**TP1:** <br />Identifiqué que el manejo de archivos multimedia en aplicaciones móviles necesita conocimientos actualizados. Aprendí a integrar Cloudinary para gestión de imágenes en chats, reconociendo la importancia de mantenerse al día con servicios cloud que optimizan almacenamiento y distribución de contenido. | **TB1:** <br />El equipo internalizó la importancia del aprendizaje continuo y la adaptabilidad en el ámbito de la ingeniería de software, reconociendo que el desarrollo profesional exige una actualización constante tanto en herramientas como en metodologías, lo cual se reflejó en la evolución y refinamiento del proyecto a lo largo del ciclo.<br /><br />**TP1:** El equipo demostró madurez profesional al enfrentar desafíos técnicos complejos, investigando soluciones innovadoras y aplicando mejores prácticas de desarrollo que requirieron aprendizaje autónomo y colaborativo. |
 
 # Objetivos SMART 
-
-
 
 **1. Neil Aldrin Wilhelm Curipaco Huayllani (U20231B866)**
 

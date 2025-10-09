@@ -9,11 +9,11 @@
 | **Producto/Herramienta**     | **Categoría**         | **Ruta de Descarga/Acceso**                | **Propósito en el Proyecto**                              |
 | ---------------------------- | --------------------- | ------------------------------------------ | --------------------------------------------------------- |
 | **OpenJDK**                  | Desarrollo Backend    | https://openjdk.org/                       | Entorno de ejecución para aplicaciones Java               |
-| **Apache Maven **            | Desarrollo Backend    | https://maven.apache.org/                  | Gestión de dependencias y construcción del proyecto       |
-| **Spring Boot **             | Desarrollo Backend    | https://spring.io/projects/spring-boot     | Framework para desarrollo de APIs RESTful                 |
+| **Apache Maven**             | Desarrollo Backend    | https://maven.apache.org/                  | Gestión de dependencias y construcción del proyecto       |
+| **Spring Boot**              | Desarrollo Backend    | https://spring.io/projects/spring-boot     | Framework para desarrollo de APIs RESTful                 |
 | **Android Studio**           | Desarrollo Móvil      | https://developer.android.com/studio       | IDE para desarrollo de aplicaciones Android nativas       |
 | **Kotlin**                   | Desarrollo Móvil      | Incluido en Android Studio                 | Lenguaje de programación para aplicación móvil            |
-| **Render PostgreSQL **       | Base de Datos         | https://render.com/docs/postgresql         | Base de datos relacional en la nube                       |
+| **Render PostgreSQL**        | Base de Datos         | https://render.com/docs/postgresql         | Base de datos relacional en la nube                       |
 | **Material Design 3**        | Diseño UX/UI          | https://m3.material.io/                    | Sistema de diseño para interfaces consistentes            |
 | **Jira**                     | Gestión de Proyectos  | https://www.atlassian.com/es/software/jira | Gestión de backlog y sprints                              |
 | **UXPressia**                | Gestión de Requisitos | https://uxpressia.com/                     | Creación de User Personas, Journey Maps, Impact Mapping   |
@@ -46,6 +46,8 @@
 **Conventional Commits**
 
 <p style="text-indent: 1.25cm;">Se ha implementado la especificación de Conventional Commits para estandarizar los mensajes de commit en todos los repositorios del proyecto. Este formato estructurado proporciona un lenguaje consistente para describir los cambios realizados, facilitando la generación automática de changelogs y la comprensión del historial del proyecto. La convención define tipos específicos de commits que categorizan el propósito de cada cambio, mejorando la trazabilidad y el mantenimiento del código a largo plazo.
+
+
 **Repositorios GitHub**
 
 | **Producto**                  | **URL del Repositorio**                                | **Descripción**                                     |
@@ -126,7 +128,7 @@
 
 **Deploy Diagram**
 
-**Figura 52**
+**Figura 66**
 
 <p align="center">
   <img src="https://i.imgur.com/hYfvD44.png" alt="Descripción">
@@ -167,7 +169,7 @@
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Prepared By</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curiapco Huayllani</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curipaco Huayllani</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Attendees (to planning meeting)</td>
@@ -228,7 +230,15 @@ This will be confirmed when managers can create announcements, employees can vie
 | US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done        |
 | US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done        |
 
+**Figura 67**
 
+*Imagen de las tareasde Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/kAHQ4KR.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -375,13 +385,15 @@ Característica: Creación básica de eventos
 
 
 
+
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo logró implementar exitosamente todas las funcionalidades core de la plataforma Centralis, estableciendo una base sólida para la comunicación interna empresarial. Se desarrollaron e integraron completamente los módulos de anuncios, eventos, chats y perfiles, cumpliendo con las user stories planificados. La aplicación móvil demostró navegación fluida entre secciones y una integración robusta con los servicios backend.
 
 **Evidencia de las capturas:**
 
-**Figura N**
+**Figura 68**
 
 <p align="center">
   <img src="https://i.imgur.com/awHtV3H.png" alt="Descripción">
@@ -389,7 +401,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 69**
 
 <p align="center">
   <img src="https://i.imgur.com/QVRGqBo.png" alt="Descripción">
@@ -397,7 +409,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 70**
 
 <p align="center">
   <img src="https://i.imgur.com/A1ccb3e.png" alt="Descripción">
@@ -405,7 +417,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 71**
 
 <p align="center">
   <img src="https://i.imgur.com/Xee6ipb.png" alt="Descripción">
@@ -413,7 +425,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 72**
 
 <p align="center">
   <img src="https://i.imgur.com/7xJlzyV.png" alt="Descripción">
@@ -421,19 +433,16 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 69**
 
 <p align="center">
   <img src="https://i.imgur.com/hOBRZ5u.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
+**Figura 70**
 
-
-Evidencia de las pantallas principales en video
-
-**Figura N**
+*Evidencia de las pantallas principales en video*
 
 <p align="center">
   <img src="https://i.imgur.com/3AZlRCL.png" alt="Descripción">
@@ -745,7 +754,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Evidencia del deploy del web service**
 
-**Figura 51**
+**Figura 75**
 
 *Desploy del web service*
 
@@ -756,7 +765,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 *Nota.* Elaboración propia.
 
-**Figura 52**
+**Figura 76**
 
 *Configurcion de las variables de entorno*
 
@@ -769,9 +778,9 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Evidencia del deploy de la landing page**
 
-**Figura 52**
+**Figura 73**
 
-*Configurcion de las variables de entorno*
+*Deploy de la landing page*
 
 <p align="center">
   <img src="https://i.imgur.com/Y3nwdsR.png" alt="Descripción">
@@ -807,6 +816,8 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 - Desarrolló el sistema de chats por departamentos automáticos 
 - Implementó el listado organizado de chats 
 
+
+
 **Jorge Luis Díaz Fiestas**
 
 **Contribución Principal:** 
@@ -817,6 +828,8 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 - Implementó el sistema de comentarios en anuncios
 - Desarrolló la subida y visualización de imágenes en anuncios
 
+
+
 **Neil Aldrin Wilhelm Curipaco Huayllani**
 
 **Contribución Principal:** 
@@ -825,6 +838,8 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 - Creó el sistema de gestión de perfiles de usuario
 - Implementó la autenticación y autorización de usuarios
 - Desarrolló las APIs para gestión de datos de perfil
+
+
 
 **Raúl Adrian Medina Cruzado**
 
@@ -836,6 +851,30 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 - Configuró los servicios de backend en Render
 
 
+
+**Evidencia del application mobile**
+
+**Figura 78**
+
+*Colaboraciónen github application mobile*
+
+<p align="center">
+  <img src="https://i.imgur.com/zbu9b4L.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Evidencia del web service**
+
+**Figura 79**
+
+*Colaboraciónen github web service*
+
+<p align="center">
+  <img src="https://i.imgur.com/sJAC0zb.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 # Conclusiones
 
@@ -889,5 +928,3 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 * Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 
 * Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
-
-# Video About-the-team
