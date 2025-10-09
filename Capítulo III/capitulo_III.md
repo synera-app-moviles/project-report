@@ -15,8 +15,10 @@ La siguiente paleta de colores elegidos se basan en un contraste armónico que e
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/paleta_d4ej9l.jpg" alt="paleta">
 </p>
+
 *Nota.* Elaboración propia.
 
+#
 
 La paleta cromática de Centralis ha sido concebida con una intención emocional y psicológica precisa, buscando generar una experiencia visual equilibrada que estimule la concentración y la confianza del usuario. El tono violeta predominante (#823DFA) actúa como color principal de acción, simbolizando creatividad, dinamismo y energía digital; es el color que impulsa la interacción y orienta al usuario hacia los elementos más relevantes de la interfaz.
 
@@ -31,11 +33,14 @@ La tipografía seleccionada para la identidad visual de Centralis es Manrope, un
 El uso de Manrope en distintos grosores —desde Regular 400 hasta Bold 700— permite construir jerarquías visuales claras entre los textos principales, secundarios y complementarios, reforzando la armonía gráfica de la aplicación. Cada peso tipográfico ha sido seleccionado cuidadosamente para generar una transición visual fluida entre secciones, guiando la atención del usuario hacia los elementos más relevantes sin saturar la composición. En conjunto, la tipografía aporta una presencia sólida y contemporánea, consolidando la percepción de Centralis como una marca digital moderna, confiable y con proyección tecnológica.
 
 *Fuente de Centralis*
+
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/fuente_tbt8iy.jpg" alt="Class fuente">
 </p>
+
 *Nota.* Elaboración propia.
 
+#
 
 **Logo**
 
@@ -50,8 +55,10 @@ El uso del color blanco en el símbolo transmite pureza, claridad y confianza, m
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/logo_mspr1x.png" alt="Class logo">
 </p>
+
 *Nota.* Elaboración propia.
 
+#
 
 **Tono de comunicación.**
 
