@@ -70,12 +70,9 @@ Url de la organización: https://github.com/synera-app-moviles
 **TB1:**
 
 <p style="text-indent: 1.25cm;">A continuación, se presenta un informe detallado sobre la colaboración del equipo en el proyecto Synera, con un enfoque en la entrega del informe tb1 para el producto Centralis. Este análisis se basa en el registro de desempeño de los participantes, destacando las responsabilidades asignadas y el cumplimiento de cada miembro del equipo. A pesar de los desafíos encontrados con la gestión de la herramienta GitHub,  los miembros cumplieron a tiempo con sus tareas.
-
-
-
-![Insights 1](https://res.cloudinary.com/dpprgycup/image/upload/v1758149176/7111c4ea-30b8-421e-a8e2-e417f1f6026e.png)
-
-
+<p align="center">
+  <img src="https://res.cloudinary.com/dpprgycup/image/upload/v1758149176/7111c4ea-30b8-421e-a8e2-e417f1f6026e.png" alt="PI1" width="1000">
+</p>
 
 **Actividades individuales de los estudiantes**
 
@@ -120,6 +117,11 @@ Url de la organización: https://github.com/synera-app-moviles
 <p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo trabajó de manera colaborativa en el desarrollo e implementación de los componentes principales de la plataforma Centralis, logrando establecer los cimientos tecnológicos y funcionales del proyecto. La colaboración se caracterizó por una distribución efectiva de responsabilidades según las especialidades de cada integrante, manteniendo una comunicación constante a través de reuniones diarias y utilizando GitHub como plataforma central de control de versiones.
 
 <p style="text-indent: 1.25cm;">El equipo implementó exitosamente metodologías ágiles y prácticas de desarrollo modernas, incluyendo GitFlow para el control de versiones, Conventional Commits para la estandarización de mensajes, y pruebas automatizadas para garantizar la calidad del código. Cada miembro contribuyó activamente en el desarrollo de la aplicación móvil nativa en Kotlin, los Web Services con Spring Boot, y la Landing Page, demostrando un alto nivel de compromiso y coordinación.
+<p align="center">
+  <img src="https://i.imgur.com/bGTIs3e.png" alt="PI1" width="1000">
+</p>
+
+
 
 A continuación, se detallan las contribuciones específicas de cada integrante durante este sprint:
 

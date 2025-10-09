@@ -126,7 +126,7 @@
 
 **Deploy Diagram**
 
-**Figura 52**
+**Figura 62**
 
 <p align="center">
   <img src="https://i.imgur.com/hYfvD44.png" alt="Descripción">
@@ -228,7 +228,15 @@ This will be confirmed when managers can create announcements, employees can vie
 | US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done        |
 | US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done        |
 
+**Figura 63**
 
+*Imagen de las tareasde Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/kAHQ4KR.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -375,13 +383,15 @@ Característica: Creación básica de eventos
 
 
 
+
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo logró implementar exitosamente todas las funcionalidades core de la plataforma Centralis, estableciendo una base sólida para la comunicación interna empresarial. Se desarrollaron e integraron completamente los módulos de anuncios, eventos, chats y perfiles, cumpliendo con las user stories planificados. La aplicación móvil demostró navegación fluida entre secciones y una integración robusta con los servicios backend.
 
 **Evidencia de las capturas:**
 
-**Figura N**
+**Figura 64**
 
 <p align="center">
   <img src="https://i.imgur.com/awHtV3H.png" alt="Descripción">
@@ -389,7 +399,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 65**
 
 <p align="center">
   <img src="https://i.imgur.com/QVRGqBo.png" alt="Descripción">
@@ -397,7 +407,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 66**
 
 <p align="center">
   <img src="https://i.imgur.com/A1ccb3e.png" alt="Descripción">
@@ -405,7 +415,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 67**
 
 <p align="center">
   <img src="https://i.imgur.com/Xee6ipb.png" alt="Descripción">
@@ -413,7 +423,7 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 68**
 
 <p align="center">
   <img src="https://i.imgur.com/7xJlzyV.png" alt="Descripción">
@@ -421,19 +431,16 @@ Característica: Creación básica de eventos
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 69**
 
 <p align="center">
   <img src="https://i.imgur.com/hOBRZ5u.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
+**Figura 70**
 
-
-Evidencia de las pantallas principales en video
-
-**Figura N**
+*Evidencia de las pantallas principales en video*
 
 <p align="center">
   <img src="https://i.imgur.com/3AZlRCL.png" alt="Descripción">
@@ -745,7 +752,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Evidencia del deploy del web service**
 
-**Figura 51**
+**Figura 71**
 
 *Desploy del web service*
 
@@ -756,7 +763,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 *Nota.* Elaboración propia.
 
-**Figura 52**
+**Figura 72**
 
 *Configurcion de las variables de entorno*
 
@@ -769,7 +776,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Evidencia del deploy de la landing page**
 
-**Figura 52**
+**Figura 73**
 
 *Configurcion de las variables de entorno*
 
@@ -837,6 +844,30 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 
 
+**Evidencia del application mobile**
+
+**Figura 74**
+
+*Colaboraciónen github application mobile*
+
+<p align="center">
+  <img src="https://i.imgur.com/zbu9b4L.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Evidencia del web service**
+
+**Figura 75**
+
+*Colaboraciónen github web service*
+
+<p align="center">
+  <img src="https://i.imgur.com/sJAC0zb.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
 # Conclusiones
 
 **TB1:**
@@ -889,5 +920,3 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 * Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 
 * Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
-
-# Video About-the-team
