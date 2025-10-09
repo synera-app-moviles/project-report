@@ -9,7 +9,7 @@
 
 La siguiente paleta de colores elegidos se basan en un contraste armónico que escogimos para representar comodidad visual y así desplegar nuestro servicio
 
-**Figura N**
+**Figura 46**
 
 *Paleta de colores de la plataforma*
 <p align="center">
@@ -32,8 +32,9 @@ La tipografía seleccionada para la identidad visual de Centralis es Manrope, un
 
 El uso de Manrope en distintos grosores —desde Regular 400 hasta Bold 700— permite construir jerarquías visuales claras entre los textos principales, secundarios y complementarios, reforzando la armonía gráfica de la aplicación. Cada peso tipográfico ha sido seleccionado cuidadosamente para generar una transición visual fluida entre secciones, guiando la atención del usuario hacia los elementos más relevantes sin saturar la composición. En conjunto, la tipografía aporta una presencia sólida y contemporánea, consolidando la percepción de Centralis como una marca digital moderna, confiable y con proyección tecnológica.
 
-*Fuente de Centralis*
+**Figura 47**
 
+*Fuente de Centralis*
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759977923/fuente_tbt8iy.jpg" alt="Class fuente">
 </p>
@@ -49,7 +50,7 @@ El logotipo de Centralis constituye el eje principal de su identidad gráfica. S
 El uso del color blanco en el símbolo transmite pureza, claridad y confianza, mientras que el fondo violeta oscuro degradado refuerza la noción de modernidad, tecnología y profesionalismo. Este contraste cromático otorga equilibrio visual y facilita su reconocimiento en distintos contextos digitales. La geometría del ícono, además, remite sutilmente a la idea de estructura y organización, elementos clave en la propuesta de valor de la aplicación. En conjunto, el logotipo se consolida como un emblema visual coherente, representando la unión entre diseño funcional y tecnología centrada en el usuario.
 
 
-**Figura N**
+**Figura 48**
 
 *Logo de Centralis*
 <p align="center">
@@ -333,7 +334,7 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 
 #### 3.1.3.1. Landing Page Wireframe
 
-**Figura N**
+**Figura 51**
 
 *Imagen del wireframe de la Landing Page*
 
@@ -353,6 +354,8 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 *Nota.* Elaboración propia.
 
 #### 3.1.3.2. Landing Page Mock-up
+
+**Figura 52**
 
 *Imagen del wireframe de la Landing Page*
 
