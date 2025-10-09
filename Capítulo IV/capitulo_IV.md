@@ -7,30 +7,13 @@
 ### 4.1.1.Software Development Environment Configuration
 
 | **Producto/Herramienta**     | **Categoría**         | **Ruta de Descarga/Acceso**                | **Propósito en el Proyecto**                              |
-| ---------------------------- | --------------------- | ------------------------------**Figura 73****Figura 74**
-
-<p align="center">
-  <img src="https://i.imgur.com/3AZlRCL.png" alt="Descripción">
-</p>
-
-*Nota.* Elaboración propia.lign="center">
-  <img src="https://i.imgur.com/hOBRZ5u.png" alt="Descripción">
-</p>
-
-*Nota.* Elaboración propia.----- | --------------------------------------------------------- |
-| **OpenJDK**                  | Desarr**Figura 77**
-
-*Configurcion de las variables de entorno*
-
-<p align="center">
-  <img src="https://i.imgur.com/Y3nwdsR.png" alt="Descripción">
-</p>
-*Nota.* Elaboración propia.kend    | https://openjdk.org/                       | Entorno de ejecución para aplicaciones Java               |
-| **Apache Maven **            | Desarrollo Backend    | https://maven.apache.org/                  | Gestión de dependencias y construcción del proyecto       |
-| **Spring Boot **             | Desarrollo Backend    | https://spring.io/projects/spring-boot     | Framework para desarrollo de APIs RESTful                 |
+| ---------------------------- | --------------------- | ------------------------------------------ | --------------------------------------------------------- |
+| **OpenJDK**                  | Desarrollo Backend    | https://openjdk.org/                       | Entorno de ejecución para aplicaciones Java               |
+| **Apache Maven**             | Desarrollo Backend    | https://maven.apache.org/                  | Gestión de dependencias y construcción del proyecto       |
+| **Spring Boot**              | Desarrollo Backend    | https://spring.io/projects/spring-boot     | Framework para desarrollo de APIs RESTful                 |
 | **Android Studio**           | Desarrollo Móvil      | https://developer.android.com/studio       | IDE para desarrollo de aplicaciones Android nativas       |
 | **Kotlin**                   | Desarrollo Móvil      | Incluido en Android Studio                 | Lenguaje de programación para aplicación móvil            |
-| **Render PostgreSQL **       | Base de Datos         | https://render.com/docs/postgresql         | Base de datos relacional en la nube                       |
+| **Render PostgreSQL**        | Base de Datos         | https://render.com/docs/postgresql         | Base de datos relacional en la nube                       |
 | **Material Design 3**        | Diseño UX/UI          | https://m3.material.io/                    | Sistema de diseño para interfaces consistentes            |
 | **Jira**                     | Gestión de Proyectos  | https://www.atlassian.com/es/software/jira | Gestión de backlog y sprints                              |
 | **UXPressia**                | Gestión de Requisitos | https://uxpressia.com/                     | Creación de User Personas, Journey Maps, Impact Mapping   |
