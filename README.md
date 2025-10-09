@@ -369,8 +369,6 @@ Capítulo III: Solution UI/UX Design
 
 # Objetivos SMART 
 
-
-
 **1. Neil Aldrin Wilhelm Curipaco Huayllani (U20231B866)**
 
 **1.1. Especialización en Desarrollo Móvil Nativo Android:**
