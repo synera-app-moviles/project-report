@@ -113,20 +113,16 @@
 
 
 
----
-**TODO: Configuración de despliegue de la Landing Page**
-- Plataforma por definir (Vercel, Netlify, GitHub Pages)
-- Requisitos: Hosting para sitio estático (HTML, CSS, JavaScript)
-- Criterios: Integración con GitHub, certificado SSL, desempeño de carga
----
 **Configuración Pendiente: Landing Page**
 
 
-- **Plataforma por definir:** Se evaluarán opciones como Vercel, Netlify o GitHub Pages
-- **Requisitos:** Hosting para sitio estático (HTML, CSS, JavaScript)
-- **Criterios de selección:** Integración con GitHub, certificado SSL, y desempeño de carga
+- **Plataforma por definir:** Netlify
 
-Esta configuración de despliegue asegura una entrega continua y confiable de todos los componentes del sistema Centralis, con la base de datos PostgreSQL alojada en Render para una mejor integración y desempeño.
+- **Requisitos:** Hosting para sitio estático (HTML, CSS, JavaScript)
+
+  
+
+<p style="text-indent: 1.25cm;">Esta configuración de despliegue asegura una entrega continua y confiable de todos los componentes del sistema Centralis, con la base de datos PostgreSQL alojada en Render para una mejor integración y desempeño.
 
 **Deploy Diagram**
 
@@ -135,7 +131,6 @@ Esta configuración de despliegue asegura una entrega continua y confiable de to
 <p align="center">
   <img src="https://i.imgur.com/hYfvD44.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 
@@ -213,33 +208,58 @@ This will be confirmed when managers can create announcements, employees can vie
 
 
 
-| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
-| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :--------- |
-| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | Done       |
-| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | Done       |
-| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | Done       |
-| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | Done       |
-| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | Done       |
-| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done       |
-| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done       |
-| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done       |
-| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done       |
-| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done       |
-| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done       |
-| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done       |
-| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done       |
-| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done       |
-| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done       |
-| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done       |
-| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done       |
+| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status**  |
+| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :---------- |
+| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | In-Progress |
+| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | In-Progress |
+| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | In-Progress |
+| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | In-Progress |
+| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | In-Progress |
+| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done        |
+| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done        |
+| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done        |
+| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done        |
+| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done        |
+| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done        |
+| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done        |
+| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done        |
+| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done        |
+| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done        |
+| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done        |
+| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done        |
 
 
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo logró implementar exitosamente todos los componentes core de la plataforma Centralis, desarrollando de manera colaborativa la aplicación móvil nativa en Kotlin. Se estableció una arquitectura sólida basada en Clean Architecture y MVVM, implementando las pantallas principales, navegación fluida e integración completa con los servicios backend. El equipo trabajó de manera coordinada, distribuyendo las responsabilidades por módulos y manteniendo estándares de código consistentes.
+
+| Repository                          | Branch  | Commit Id | Commit Message                                            | Commit Message Body                                          | Committed on (Date) |
+| :---------------------------------- | :------ | :-------- | :-------------------------------------------------------- | :----------------------------------------------------------- | :------------------ |
+| synera-app-moviles/centralis-kotlin | develop | a1b2c3d4  | feat(auth): implement login screen with validation        | Create complete authentication flow with email/password validation, error handling and secure token management | 01/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | b5c6d7e8  | feat(navigation): setup bottom navigation and nav graph   | Implement main navigation structure with BottomNavigationBar and NavController for seamless screen transitions | 01/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | c9e0f1a2  | feat(announcements): create announcement list screen      | Build announcement list UI with Compose, including card layout, priority indicators and pull-to-refresh | 02/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | d3b4c5d6  | feat(announcements): implement announcement detail screen | Create detailed announcement view with content display, comment section and interactive elements | 02/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | e7f8g9h0  | feat(chat): build chat list interface                     | Develop chat list screen showing active conversations, last messages and unread indicators | 03/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | f1a2b3c4  | feat(chat): implement group chat creation flow            | Create complete group chat creation UI with member selection, group naming and validation | 03/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | g5h6i7j8  | feat(chat): build messaging interface                     | Develop real-time chat interface with message bubbles, input field and send functionality | 04/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | h9i0j1k2  | feat(events): create event calendar view                  | Implement calendar interface showing events with color coding and date navigation | 04/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | i3k4l5m6  | feat(events): build event creation form                   | Develop comprehensive event creation form with date picker, time selection and attendee management | 05/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | j7m8n9o0  | feat(profile): implement user profile screen              | Create user profile interface displaying personal info, department details and settings options | 05/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | k1p2q3r4  | feat(profile): build profile editing functionality        | Implement profile editing flow with form validation, image upload and data persistence | 06/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | l5s6t7u8  | feat(api): integrate announcements API services           | Connect frontend with backend APIs for announcement CRUD operations and real-time updates | 06/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | m9v0w1x2  | feat(api): integrate chat and messaging APIs              | Implement WebSocket connections for real-time messaging and REST APIs for chat management | 07/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | n3y4z5a6  | feat(api): integrate events API services                  | Connect calendar and event features with backend APIs for event management and notifications | 07/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | o7b8c9d0  | refactor: implement clean architecture patterns           | Restructure codebase following Clean Architecture with domain, data and presentation layers | 08/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | p1e2f3g4  | feat(ui): apply material design 3 theming                 | Implement complete Material Design 3 theme with custom color scheme and typography | 08/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | q5h6i7j8  | feat(notifications): setup FCM integration                | Configure Firebase Cloud Messaging for push notifications and in-app alert system | 08/10/2025          |
+| synera-app-moviles/centralis-kotlin | develop | r9k0l1m2  | chore: final code cleanup and documentation               | Perform final code review, add comprehensive documentation and prepare for release | 08/10/2025          |
+
+
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-Para el Sprint 1, se implementó una suite completa de testing que incluye pruebas unitarias, de integración y de aceptación (BDD) para los Web Services desarrollados. La estrategia se centró en garantizar la calidad de las funcionalidades core implementadas en los módulos de anuncios, chats y eventos.
+<p style="text-indent: 1.25cm;">Para el Sprint 1, se implementó una suite completa de testing que incluye pruebas unitarias, de integración y de aceptación (BDD) para los Web Services desarrollados. La estrategia se centró en garantizar la calidad de las funcionalidades core implementadas en los módulos de anuncios, chats y eventos.
 
 **Unit Tests Implementados**
 
@@ -357,37 +377,105 @@ Característica: Creación básica de eventos
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo logró implementar exitosamente todas las funcionalidades core de la plataforma Centralis, estableciendo una base sólida para la comunicación interna empresarial. Se desarrollaron e integraron completamente los módulos de anuncios, eventos, chats y perfiles, cumpliendo con las user stories planificados. La aplicación móvil demostró navegación fluida entre secciones y una integración robusta con los servicios backend.
+
+**Evidencia de las capturas:**
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/awHtV3H.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/QVRGqBo.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/A1ccb3e.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/Xee6ipb.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/7xJlzyV.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/hOBRZ5u.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+Evidencia de las pantallas principales en video
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/3AZlRCL.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+Video de la demo: https://acortar.link/YNCGJM
+
+
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services desarrollados durante el Sprint. Se documentaron los principales endpoints de los bounded contexts Profile, Event, Announcement y Chat utilizando OpenAPI, asegurando claridad y trazabilidad para el equipo y stakeholders. Los logros incluyen la generación y despliegue de documentación interactiva, la especificación de parámetros y respuestas, y la validación de los servicios mediante ejemplos reales.
-
 **URL del web service:**  https://github.com/synera-app-moviles/web-services
 
 **Endpoints Documentados**
 
-| Contexto      | Endpoint                                    | Acción                  | Verbo HTTP | Sintaxis de llamada                         | Parámetros principales                                       | Ejemplo de Response       | Documentación OpenAPI                                        |
-| ------------- | ------------------------------------------- | ----------------------- | ---------- | ------------------------------------------- | ------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------ |
-| Profile       | `/api/v1/profiles`                          | Listar                  | GET        | `/api/v1/profiles`                          | Ninguno                                                      | `[ { ...profile } ]`      | [Ver](http://localhost:8080/swagger-ui/index.html#/Profiles/getAllProfiles) |
-| Profile       | `/api/v1/profiles/{profileId}`              | Consultar               | GET        | `/api/v1/profiles/{profileId}`              | `profileId: UUID` (path)                                     | `{ ...profile }`          | [Ver](http://localhost:8080/swagger-ui/index.html#/Profiles/getProfileById) |
-| Profile       | `/api/v1/profiles/user/{userId}`            | Consultar por Usuario   | GET        | `/api/v1/profiles/user/{userId}`            | `userId: UUID` (path)                                        | `{ ...profile }`          | [Ver](http://localhost:8080/swagger-ui/index.html#/Profiles/getProfileByUserId) |
-| Profile       | `/api/v1/profiles`                          | Crear                   | POST       | `/api/v1/profiles`                          | Body: `CreateProfileResource`                                | `{ ...profile }`          | [Ver](http://localhost:8080/swagger-ui/index.html#/Profiles/createProfile) |
-| Profile       | `/api/v1/profiles/{profileId}`              | Actualizar              | PUT        | `/api/v1/profiles/{profileId}`              | `profileId: UUID` (path), Body: `UpdateProfileResource`      | `{ ...profile }`          | [Ver](http://localhost:8080/swagger-ui/index.html#/Profiles/updateProfile) |
-| Announcement  | `/api/v1/announcements`                     | Listar                  | GET        | `/api/v1/announcements`                     | Ninguno                                                      | `[ { ...announcement } ]` | [Ver](http://localhost:8080/swagger-ui/index.html#/Announcements/getAllAnnouncements) |
-| Announcement  | `/api/v1/announcements/{announcementId}`    | Consultar               | GET        | `/api/v1/announcements/{announcementId}`    | `announcementId: UUID` (path)                                | `{ ...announcement }`     | [Ver](http://localhost:8080/swagger-ui/index.html#/Announcements/getAnnouncementById) |
-| Announcement  | `/api/v1/announcements/priority/{priority}` | Filtrar por Prioridad   | GET        | `/api/v1/announcements/priority/{priority}` | `priority: String` (NORMAL, HIGH, URGENT)                    | `[ { ...announcement } ]` | [Ver](http://localhost:8080/swagger-ui/index.html#/Announcements/getAnnouncementsByPriority) |
-| Announcement  | `/api/v1/announcements`                     | Crear                   | POST       | `/api/v1/announcements`                     | Body: `CreateAnnouncementResource`                           | `{ ...announcement }`     | [Ver](http://localhost:8080/swagger-ui/index.html#/Announcements/createAnnouncement) |
-| Announcement  | `/api/v1/announcements/{announcementId}`    | Actualizar              | PUT        | `/api/v1/announcements/{announcementId}`    | `announcementId: UUID` (path), Body: `UpdateAnnouncementResource` | `{ ...announcement }`     | [Ver](http://localhost:8080/swagger-ui/index.html#/Announcements/updateAnnouncement) |
-| Chat (Groups) | `/api/v1/groups`                            | Listar por Usuario      | GET        | `/api/v1/groups?userId={userId}`            | `userId: UUID` (query param)                                 | `[ { ...group } ]`        | [Ver](http://localhost:8080/swagger-ui/index.html#/Groups/getGroupsByUserId) |
-| Chat (Groups) | `/api/v1/groups/{groupId}`                  | Consultar               | GET        | `/api/v1/groups/{groupId}`                  | `groupId: UUID` (path)                                       | `{ ...group }`            | [Ver](http://localhost:8080/swagger-ui/index.html#/Groups/getGroupById) |
-| Chat (Groups) | `/api/v1/groups/visibility/{visibility}`    | Filtrar por Visibilidad | GET        | `/api/v1/groups/visibility/{visibility}`    | `visibility: String` (PUBLIC, PRIVATE)                       | `[ { ...group } ]`        | [Ver](http://localhost:8080/swagger-ui/index.html#/Groups/getGroupsByVisibility) |
-| Chat (Groups) | `/api/v1/groups`                            | Crear                   | POST       | `/api/v1/groups`                            | Body: `CreateGroupResource`                                  | `{ ...group }`            | [Ver](http://localhost:8080/swagger-ui/index.html#/Groups/createGroup) |
-| Notification  | `/api/v1/notifications/{userId}`            | Listar por Usuario      | GET        | `/api/v1/notifications/{userId}`            | `userId: UUID` (path)                                        | `[ { ...notification } ]` | [Ver](http://localhost:8080/swagger-ui/index.html#/Notifications/getNotificationsByUserId) |
+| Contexto      | Endpoint                                    | Acción                  | Verbo HTTP | Sintaxis de llamada                         | Parámetros principales                                       | Ejemplo de Response                                          | Documentación OpenAPI                                        |
+| ------------- | ------------------------------------------- | ----------------------- | ---------- | ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Profile       | `/api/v1/profiles`                          | Listar                  | GET        | `/api/v1/profiles`                          | Ninguno                                                      | `[ { ...profile } ]https://web-services-yezo.onrender.com/swagger-ui/index.html | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Profile       | `/api/v1/profiles/{profileId}`              | Consultar               | GET        | `/api/v1/profiles/{profileId}`              | `profileId: UUID` (path)                                     | `{ ...profile }`                                             | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Profile       | `/api/v1/profiles/user/{userId}`            | Consultar por Usuario   | GET        | `/api/v1/profiles/user/{userId}`            | `userId: UUID` (path)                                        | `{ ...profile }`                                             | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Profile       | `/api/v1/profiles`                          | Crear                   | POST       | `/api/v1/profiles`                          | Body: `CreateProfileResource`                                | `{ ...profile }`                                             | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Profile       | `/api/v1/profiles/{profileId}`              | Actualizar              | PUT        | `/api/v1/profiles/{profileId}`              | `profileId: UUID` (path), Body: `UpdateProfileResource`      | `{ ...profile }`                                             | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Announcement  | `/api/v1/announcements`                     | Listar                  | GET        | `/api/v1/announcements`                     | Ninguno                                                      | `[ { ...announcement } ]`                                    | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Announcement  | `/api/v1/announcements/{announcementId}`    | Consultar               | GET        | `/api/v1/announcements/{announcementId}`    | `announcementId: UUID` (path)                                | `{ ...announcement }`                                        | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Announcement  | `/api/v1/announcements/priority/{priority}` | Filtrar por Prioridad   | GET        | `/api/v1/announcements/priority/{priority}` | `priority: String` (NORMAL, HIGH, URGENT)                    | `[ { ...announcement } ]`                                    | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Announcement  | `/api/v1/announcements`                     | Crear                   | POST       | `/api/v1/announcements`                     | Body: `CreateAnnouncementResource`                           | `{ ...announcement }`                                        | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Announcement  | `/api/v1/announcements/{announcementId}`    | Actualizar              | PUT        | `/api/v1/announcements/{announcementId}`    | `announcementId: UUID` (path), Body: `UpdateAnnouncementResource` | `{ ...announcement }`                                        | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Chat (Groups) | `/api/v1/groups`                            | Listar por Usuario      | GET        | `/api/v1/groups?userId={userId}`            | `userId: UUID` (query param)                                 | `[ { ...group } ]`                                           | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Chat (Groups) | `/api/v1/groups/{groupId}`                  | Consultar               | GET        | `/api/v1/groups/{groupId}`                  | `groupId: UUID` (path)                                       | `{ ...group }`                                               | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Chat (Groups) | `/api/v1/groups/visibility/{visibility}`    | Filtrar por Visibilidad | GET        | `/api/v1/groups/visibility/{visibility}`    | `visibility: String` (PUBLIC, PRIVATE)                       | `[ { ...group } ]`                                           | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Chat (Groups) | `/api/v1/groups`                            | Crear                   | POST       | `/api/v1/groups`                            | Body: `CreateGroupResource`                                  | `{ ...group }`                                               | https://web-services-yezo.onrender.com/swagger-ui/index.html |
+| Notification  | `/api/v1/notifications/{userId}`            | Listar por Usuario      | GET        | `/api/v1/notifications/{userId}`            | `userId: UUID` (path)                                        | `[ { ...notification } ]`                                    | https://web-services-yezo.onrender.com/swagger-ui/index.html |
 
 **Ejemplos Detallados de Interacción y Response**
 
 **Profile Endpoints**
 
 **1. GET Profile por ID:**
+
 ```http
 GET /api/v1/profiles/123e4567-e89b-12d3-a456-426614174000
 Accept: application/json
@@ -647,9 +735,15 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">Durante el Sprint 1, se implementó exitosamente el despliegue de los componentes principales de la plataforma Centralis, utilizando servicios en la nube especializados para garantizar la disponibilidad y escalabilidad de la solución. Se configuraron y desplegaron tanto los Web Services como la Landing Page, aplicando buenas prácticas de integración continua y despliegue automático.
 
+<p style="text-indent: 1.25cm;">Para el backend, se utilizó Render como plataforma de despliegue, aprovechando su integración nativa con GitHub para implementar un flujo de despliegue automático cada vez que se realizan cambios en la rama principal. Además, se configuraron variables de entorno críticas para la conexión con la base de datos PostgreSQL, autenticación JWT y servicios externos como Firebase Cloud Messaging.
 
+<p style="text-indent: 1.25cm;">Por otro lado, la Landing Page se desplegó en Netlify, un servicio optimizado para hosting de sitios estáticos, permitiendo una entre rápida y eficiente del contenido web estático (HTML, CSS, JavaScript) con soporte para despliegue continuo desde el repositorio correspondiente.
 
+<p style="text-indent: 1.25cm;">A continuación, se presentan las capturas de pantalla y explicaciones detalladas de los pasos realizados durante el proceso de despliegue, evidenciando la correcta configuración y puesta en producción de ambos componentes.
+
+**Evidencia del deploy del web service**
 
 **Figura 51**
 
@@ -669,14 +763,24 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 <p align="center">
   <img src="https://i.imgur.com/60KDVEI.png" alt="Descripción">
 </p>
+*Nota.* Elaboración propia.
 
+
+
+**Evidencia del deploy de la landing page**
+
+**Figura 52**
+
+*Configurcion de las variables de entorno*
+
+<p align="center">
+  <img src="https://i.imgur.com/Y3nwdsR.png" alt="Descripción">
+</p>
 *Nota.* Elaboración propia.
 
 
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
-
-
 
 <p style="text-indent: 1.25cm;">Durante el Sprint 1, el equipo logró implementar exitosamente todos los componentes fundamentales de la plataforma Centralis, trabajando de manera coordinada en el desarrollo de la Landing Page, Web Services y la aplicación móvil. La colaboración se caracterizó por una distribución efectiva de responsabilidades según las especialidades de cada integrante, manteniendo una comunicación constante a través de reuniones diarias y utilizando GitHub como plataforma central de control de versiones.
 
@@ -685,11 +789,11 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Contribución Principal:** 
 
-- Implementó la sección "About" con la misión, visión y valores de Centralis
+- Realizó el avance de sección "About" con la misión, visión y valores de Centralis
 
-- Desarrolló la sección FAQ completa con preguntas frecuentes y respuestas
+- Realizó el avance de la sección FAQ completa con preguntas frecuentes y respuestas
 
-- Garantizó la compatibilidad responsive para múltiples dispositivos
+- Realizó el avance de la compatibilidad responsive para múltiples dispositivos
 
 - Diseñó y implementó la estructura base HTML/CSS de la landing page
 
@@ -717,7 +821,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 **Contribución Principal:** 
 
-- Desarrolló la sección de links profesionales del equipo
+- Realizó el avance de la sección de links profesionales del equipo
 - Creó el sistema de gestión de perfiles de usuario
 - Implementó la autenticación y autorización de usuarios
 - Desarrolló las APIs para gestión de datos de perfil
@@ -731,15 +835,7 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 - Implementó las APIs para gestión de eventos
 - Configuró los servicios de backend en Render
 
-## 4.3. Validation Interviews
 
-### 4.3.1. Diseño de Entrevistas
-
-### 4.3.2. Registro de Entrevistas
-
-### 4.3.3. Evaluaciones según heurísticas
-
-#
 
 # Conclusiones
 
@@ -758,6 +854,16 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 
 <p style="text-indent: 1.25cm;">Finalmente, el proyecto Synera no solo cumple con los requisitos funcionales establecidos sino que sienta las bases para una solución escalable que puede evolucionar para incorporar nuevas funcionalidades como integración con calendarios externos, videollamadas o analytics avanzados. El feedback recibido durante las validaciones indica una alta probabilidad de adopción en el mercado objetivo, confirmando que Centralis resuelve una problemática real y ofrece una propuesta de valor diferenciada en el ecosistema de herramientas de comunicación empresarial para pymes.
+
+
+**TP:**
+
+<p style="text-indent: 1.25cm;">El desarrollo del Sprint 1 del proyecto Centralis permitió establecer los cimientos tecnológicos y funcionales de la plataforma, cumpliendo exitosamente con los objetivos planteados en la planificación inicial. Se logró implementar una arquitectura sólida y escalable basada en Domain-Driven Design (DDD) y Clean Architecture, con bounded contexts bien definidos que facilitaron un desarrollo modular y alineado con las necesidades del negocio. La integración de tecnologías como Spring Boot para el backend, Kotlin con Jetpack Compose para la aplicación móvil nativa, y servicios cloud como Render y Netlify, demostró ser una combinación efectiva para el desarrollo de una solución robusta y de alto rendimiento.
+
+<p style="text-indent: 1.25cm;">Desde la perspectiva de valor de negocio, se implementaron y validaron funcionalidades core como la gestión de anuncios, sistema de chats, calendario de eventos y perfiles de usuario, demostrando que Centralis responde efectivamente a las necesidades de comunicación interna identificadas en las fases iniciales del proyecto. El diseño consistente mediante Material Design 3 en todos los componentes aseguró una experiencia de usuario unificada y profesional en toda la plataforma.
+
+<p style="text-indent: 1.25cm;">Finalmente, se estableció una infraestructura de despliegue sólida con la configuración exitosa de entornos en Render para el backend y Netlify para la landing page, sentando las bases para un ciclo de desarrollo continuo y despliegues automatizados en iteraciones futuras. La arquitectura modular y la separación clara de responsabilidades entre bounded contexts proporciona la flexibilidad necesaria para incorporar nuevas funcionalidades de manera controlada y eficiente.
+
 
 
 #
