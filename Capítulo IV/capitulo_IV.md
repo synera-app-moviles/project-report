@@ -146,7 +146,6 @@
 #### 4.2.1.1. Sprint Planning 1
 
 <p style="text-indent: 1.25cm;">El Sprint Planning 1 marca el inicio del desarrollo formal de Centralis, donde el equipo se reunió para definir los objetivos y el alcance del primer sprint, priorizando la implementación de los componentes esenciales de la plataforma: la arquitectura base del Web Service, el despliegue de la Landing Page y las pantallas principales de la aplicación móvil, con el fin de establecer una base sólida para iteraciones futuras.
-
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
@@ -195,13 +194,14 @@ This will be confirmed when managers can create announcements, employees can vie
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 1 Velocity</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">84</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">73</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">84</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">73</td>
   </tr>
 </table>
+
 
 
 #### 4.2.1.2. Sprint Backlog 1
@@ -210,25 +210,25 @@ This will be confirmed when managers can create announcements, employees can vie
 
 
 
-| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :---------- |
-| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | In-Progress |
-| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | In-Progress |
-| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | In-Progress |
-| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | In-Progress |
-| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | In-Progress |
-| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done        |
-| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done        |
-| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done        |
-| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done        |
-| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done        |
-| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done        |
-| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done        |
-| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done        |
-| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done        |
-| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done        |
-| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done        |
-| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done        |
+| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :--------- |
+| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | Done       |
+| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | Done       |
+| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | Done       |
+| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | Done       |
+| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | Done       |
+| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done       |
+| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done       |
+| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done       |
+| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done       |
+| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done       |
+| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done       |
+| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done       |
+| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done       |
+| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done       |
+| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done       |
+| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done       |
+| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done       |
 
 **Figura 67**
 
@@ -237,7 +237,6 @@ This will be confirmed when managers can create announcements, employees can vie
 <p align="center">
   <img src="https://i.imgur.com/kAHQ4KR.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
@@ -457,6 +456,8 @@ Video de la demo: https://acortar.link/YNCGJM
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services desarrollados durante el Sprint. Se documentaron los principales endpoints de los bounded contexts Profile, Event, Announcement y Chat utilizando OpenAPI, asegurando claridad y trazabilidad para el equipo y stakeholders. Los logros incluyen la generación y despliegue de documentación interactiva, la especificación de parámetros y respuestas, y la validación de los servicios mediante ejemplos reales.
+  
+
 **URL del web service:**  https://github.com/synera-app-moviles/web-services
 
 **Endpoints Documentados**
@@ -873,8 +874,222 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 <p align="center">
   <img src="https://i.imgur.com/sJAC0zb.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
+
+### 4.2.2. Sprint 2
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 2 se consolidaron las funcionalidades <i>core</i> del proyecto, logrando el despliegue completo del 100% del Web Service con Spring Boot y la finalización de su documentación en OpenAPI. En el desarrollo móvil, se implementaron las lógicas de negocio avanzadas para los roles de administrador en la aplicación nativa Kotlin, y, en paralelo, se inició el desarrollo de la aplicación cross-platform utilizando Flutter. Adicionalmente, se expandió el Landing Page, añadiendo nuevas secciones de contenido y las bases para su internacionalización.
+
+
+#### 4.2.2.1. Sprint Planning 2
+
+
+
+<p style="text-indent: 1.25cm;">El Sprint Planning 2 se realizó para dar continuidad al desarrollo del proyecto, tomando como base los cimientos establecidos en la primera iteración. El equipo se reunió para revisar los resultados y el feedback del Sprint 1, definir el nuevo Sprint Goal y seleccionar las User Stories para el segundo ciclo de desarrollo. El foco se centró en completar el despliegue del backend, implementar las funciones de administrador Gerente y comenzar el desarrollo de la aplicación cross-platform en Flutter.</p
+
+
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Date</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">31/10/2025</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Time</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">16:48 PM</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Location</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Google Meet</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Prepared By</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curipaco Huayllani</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Attendees (to planning meeting)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Daniela Araceli Gómez Flores, Elverth Jair Vaszquez Villalobos, Jorge Luis Diaz Fiestas, Raúl Adrian Medina Cruzado</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Review Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Based on the Sprint 1 review, the team successfully established the project's foundation. The base Web Service en Spring Boot, the responsive Landing Page, and the main screens of the Kotlin mobile app were implemented. Basic API integration for authentication and announcements is functional, and API documentation with OpenAPI was completed.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Retrospective Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">The retrospective identified that while backend and frontend integration was successful, initial setup of the development environment took longer than expected. The team agreed to improve communication for dependency management and to better define task breakdowns in Jira to avoid overlap.</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 2 Goal</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Our focus is on completing the backend deployment and expanding the platform's core functionalities, including administrator controls and initiating the cross-platform Flutter application. <br><br>
+We believe it delivers critical management capabilities to the 'Manager' role and expands our technological reach by starting Flutter development. <br> <br>
+This will be confirmed when the backend is 100% deployed on a public site, managers can successfully create, edit, and delete announcements, events, and groups, and the initial build of the Flutter application is running.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 2 Velocity</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">64</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">64</td>
+  </tr>
+</table>
+
+
+
+
+
+#### 4.2.2.2. Sprint Backlog 2
+
+
+
+| StoryID | Title                                       | ID task  | Título                                      | Descripción                                                  | Estimation  (Hours) | Assigned  To | Status |
+| ------- | ------------------------------------------- | -------- | ------------------------------------------- | ------------------------------------------------------------ | ------------------- | ------------ | ------ |
+| US01    | Cambiar el idioma de la landing page        | SCRUM-1  | Cambiar el idioma de la landing page        | Como visitante, quiero traducir la página para leer el contenido en mi idioma preferido. | 3                   | Jorge | Done   |
+| US05    | Sección Team                                | SCRUM-5  | Sección Team                                | Como visitante, quiero conocer al equipo detrás de Centralis para humanizar la marca y generar confianza. | 3                   | Daniela     | Done   |
+| US10    | Acceder a las descripciones de las imágenes | SCRUM-10 | Acceder a las descripciones de las imágenes | Como visitante que utiliza un lector de pantalla, quiero que todas las imágenes significativas de la página de destino incluyan texto alternativo claro para poder comprender el contenido visual y navegar por el sitio web. | 2                   | Daniela     | Done   |
+| US18    | Eliminación de anuncios                     | SCRUM-18 | Eliminación de anuncios                     | Como gerente, quiero eliminar anuncios obsoletos para mantener la información actualizada. | 4                   | Jorge       | Done   |
+| US24    | Subir imágenes en anuncios                  | SCRUM-24 | Subir imágenes en anuncios                  | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                   | Jorge       | Done   |
+| US27    | Invitación a departamentos específicos      | SCRUM-27 | Invitación a departamentos específicos      | Como gerente, quiero invitar a departamentos específicos a eventos para asegurar que solo participen los empleados requeridos. | 4                   | Neil     | Done   |
+| US28    | Confirmación de asistencia                  | SCRUM-28 | Confirmación de asistencia                  | Como empleado, quiero confirmar mi asistencia a eventos para que los organizadores sepan cuántos asistirán. | 3                   | Daniela | Done   |
+| US29    | Cancelación de eventos                      | SCRUM-29 | Cancelación de eventos                      | Como gerente, quiero cancelar eventos cuando sea necesario para evitar confusiones. | 3                   | Daniela | Done   |
+| US30    | Modificación de eventos                     | SCRUM-30 | Modificación de eventos                     | Como gerente, quiero modificar detalles de eventos existentes para ajustar cambios de último momento. | 4                   | Daniela  | Done   |
+| US31    | Eventos prioritarios                        | SCRUM-31 | Eventos prioritarios                        | Como gerente, quiero marcar eventos como prioritarios para que los empleados les presten especial atención. | 3                   | Neil     | Done   |
+| US32    | Métricas de participación                   | SCRUM-32 | Métricas de participación                   | Como gerente, quiero ver métricas de participación en eventos para medir el engagement del equipo. | 5                   | Neil    | Done   |
+| US35    | Eliminar grupos de chats                    | SCRUM-35 | Eliminar grupos de chats                    | Como gerente, quiero eliminar chats grupales para mantener el orden de las conversaciones. | 4                   | Elverth     | Done   |
+| US37    | Eliminación de mensajes enviados            | SCRUM-37 | Eliminación de mensajes enviados            | Como empleado, quiero eliminar mensajes que envié por error para corregir mis equivocaciones. | 3                   | Elverth     | Done   |
+| US38    | Modificación de mensajes enviados           | SCRUM-38 | Modificación de mensajes enviados           | Como empleado, quiero editar mensajes que ya envié para corregir errores tipográficos. | 3                   | Elverth     | Done   |
+| US39    | Eliminación de mensajes por moderadores     | SCRUM-39 | Eliminación de mensajes por moderadores     | Como gerente, quiero eliminar mensajes inapropiados de cualquier chat para mantener la profesionalidad. | 4                   | Elverth     | Done   |
+| US40    | Eliminación de chats grupales por gerentes  | SCRUM-40 | Eliminación de chats grupales por gerentes  | Como gerente, quiero eliminar chats grupales obsoletos o inactivos para mantener la lista de chats organizada y relevante. | 4                   | Elverth     | Done   |
+| US43    | Eliminar imágenes enviadas en el chat       | SCRUM-43 | Eliminar imágenes enviadas en el chat       | Como usuario quiero poder eliminar una imagen enviada en un chat, para corregir errores o evitar confusiones. | 3                   | Raul  | Done   |
+| US44    | Visualizar imágenes en chats                | SCRUM-44 | Visualizar imágenes en chats                | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 3                   | Raul | Done   |
+
+
+
+**Figura N**
+
+*Imagen de las tareasde Jira*
+
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/ZFbdv3f.png" alt="Descripción">
+</p>
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+*Imagen de las tareasde Jira*
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/nzVxyGx.png" alt="Descripción">
+</p>
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+|            |        |           |                |                     |                     |
+
+
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+
+
+**Evidencia de Commits de Testing**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
+
+
+
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+
+
+
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
+
+**Endpoints Documentados**
+
+| Contexto | Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros principales | Ejemplo de Response | Documentación OpenAPI |
+| -------- | -------- | ------ | ---------- | ------------------- | ---------------------- | ------------------- | --------------------- |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+|          |          |        |            |                     |                        |                     |                       |
+
+
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+
+
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
 
 
 
