@@ -876,6 +876,156 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 *Nota.* Elaboración propia.
 
+
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+<p style="text-indent: 1.25cm;">En esta sección se establece el plan de validación con usuarios, definiendo los elementos a incluir y los flujos de usuario que serán evaluados. El objetivo principal es medir la usabilidad, coherencia de la arquitectura de información y la facilidad de uso de los artefactos producidos, tanto del Landing Page como de la aplicación móvil.
+<p style="text-indent: 1.25cm;">Las sesiones se diseñan en torno a los dos segmentos objetivo principales del proyecto: Gerentes y Empleados, asegurando que los flujos de tareas cubran tanto las funcionalidades compartidas como las específicas de cada rol.
+
+
+**1. Validación del Landing Page**
+
+<p style="text-indent: 1.25cm;">El Landing Page de Centralis sirve como el principal punto de información y conversión para todos los visitantes, independientemente de su rol. Por lo tanto, el diseño de la entrevista de validación es idéntico para ambos segmentos.
+
+- **Elementos a Incluir:** Se utilizará el prototipo de alta fidelidad del Landing Page, que replica la estructura de información, jerarquía visual y navegación (Header y Footer) definida en la fase de diseño.
+- **User Flows a Validar:**
+  - **Descubrimiento y Propuesta de Valor:** Se solicitará al visitante que explore la página de inicio (Home). El objetivo es evaluar la claridad inmediata del *Hero Section* y validar si el usuario se siente identificado con los problemas descritos en la sección de *Pain Points*.
+  - **Exploración de Características y Alcance:** Se guiará al visitante para que navegue a la página de "Producto". Se medirá la facilidad para comprender el valor de los módulos (Anuncios, Eventos, Chats) y la transparencia de la sección "Alcance", que define qué funcionalidades están incluidas y cuáles no.
+  - **Generación de Confianza:** El visitante deberá navegar a las páginas "Equipo" (About Team) y "FAQ". Se evaluará si la presentación del equipo y la información corporativa generan credibilidad, y si las preguntas frecuentes resuelven sus dudas principales.
+
+**2. Validación de la Aplicación Móvil**
+
+Para la validación de la aplicación móvil, se utilizarán prototipos navegables que simulan los dos perfiles de usuario, cada uno con sus respectivos permisos y vistas.
+
+**2.1. Segmento Empleados:  Flujo de Consumidor de Información**
+
+Este flujo se centra en tareas de consulta, recepción de información e interacción básica.
+
+- **User Flows  a Validar:**
+  - **Consumo de Anuncios:** Ingresar a la sección "Announcements" y diferenciar visualmente un anuncio "Urgent" del resto. Abrir un anuncio específico "Paro de transportistas", leer el detalle y publicar un comentario.
+  - **Consulta de Eventos:** Navegar a la sección "Events" y revisar la agenda. Seleccionar una "Capacitación" para consultar los detalles: fecha, hora, ubicación y la lista de otros asistentes.
+  - **Interacción en Grupos:**  Acceder a un grupo de chat asignado. Enviar un mensaje y verificar que la interfaz refleje la recepción y envío de mensajes en tiempo real.
+  - **Gestión de Notificaciones:**  Acceder al centro de "Notificaciones". Interpretar correctamente una notificación del sistema "Te han asignado a un evento"
+
+**2.2. Segmento Gerentes: Flujo de Administrador de Contenido**
+
+Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de creación, edición y eliminación de contenido.
+
+- **User Flows a Validar:**
+  - **Gestión de Anuncios**  Crear un nuevo anuncio. Publicar un anuncio con prioridad "Urgent".  Editar y/o eliminar un anuncio previamente publicado.
+  - **Gestión de Eventos** Crear un nuevo evento. Asignar asistentes al evento. Ingresar a un evento existente para modificar sus detalles "Edit Event" o cancelarlo "Delete Event"
+  - **Gestión de Grupos**  Crear un nuevo grupo de chat para un proyecto específico. Modificar el nombre de un grupo existente. Añadir nuevos miembros y eliminar miembros existentes de un grupo.
+
+### 4.3.2. Registro de Entrevistas
+
+
+
+### 4.3.3. Evaluaciones según heurísticas
+
+<p align="center">UX Heuristics & Principles Evaluation</p>
+
+<p align="center">Usability – Inclusive Design – Information Architecture</p>
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** Aplicaciones para Dispositivos Móviles
+
+**SECCIÓN :** 14650
+
+**PROFESORES :** Todos
+
+**AUDITOR :** Equipo Synera
+
+**CLIENTE(S) :** 
+
+**SITE o APP A EVALUAR:**
+
+Centralis aplicacion móvil 
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Tareas de los Gerentes**
+
+- Crear un nuevo anuncio o evento.
+- Modificar el nombre de un grupo.
+- Eliminar un evento existente.
+
+**Tareas de los empleados**
+
+- Identificar anuncios "Urgent" en la lista.
+
+- Publicar un comentario en un anuncio y verificar su publicación.
+
+-  Intentar editar o eliminar un comentario propio.
+
+- Consultar detalles de un evento (ubicación, asistentes, hora).
+
+- Enviar un mensaje en un chat grupal y verificar el estado de lectura.
+
+  
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                  |
+| ----- | ------------------------------------------------------------ |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| **#** | **Problema**                                                 | **Escala de severidad** | **Heurística/Principio violada(o)** |
+| ----- | ------------------------------------------------------------ | ----------------------- | ----------------------------------- |
+| 1     | Ausencia de confirmación antes de eliminar un evento.        | 4                       | Prevención de errores.              |
+| 2     | El usuario no puede editar o eliminar sus propios comentarios. | 3                       | Control y libertad del usuario.     |
+| 3     | El chat de grupo no muestra confirmaciones de lectura (estado del sistema). | 2                       | Visibilidad del estado del sistema. |
+| 4     | La ubicación del evento no es un enlace accionable (ej. a "Meet"). | 2                       | Flexibilidad y eficiencia de uso.   |
+| 5     | Información redundante o inútil en detalles del evento.      | 1                       | Diseño estético y minimalista.      |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Ausencia de confirmación antes de eliminar un evento.
+
+- **Severidad:** 4 Problema muy grave
+- **Heurística violada:** Prevención de errores.
+- **Problema:** El rol de Gerente tiene la capacidad de eliminar eventos, con el botón "Delete Event". El usuario manifestó explícitamente que esperaría un diálogo de confirmación, ya que presionar ese botón por accidente causaría una pérdida de datos irreversible para todos los asistentes.
+- **Recomendación:** Implementar un diálogo modal de confirmación, ejemplo. "¿Está seguro de que desea eliminar este evento? Esta acción no se puede deshacer" que aparezca después de presionar el botón "Delete Event" y antes de ejecutar la acción.
+
+
+
+**PROBLEMA #2:** El usuario no puede editar o eliminar sus propios comentarios.
+
+- **Severidad:** 3 Problema mayor
+- **Heurística violada:** Control y libertad del usuario.
+- **Problema:** El usuario Empleado puede publicar un comentario exitosamente, el cual aparece en la lista. Sin embargo, al intentar corregir un error o eliminar dicho comentario, el usuario no encuentra ninguna opción visible que le permita hacerlo.
+- **Recomendación:** Implementar una interacción que despliegue un menú contextual con las opciones de "Editar" y "Eliminar" el mensaje.
+
+
+
+**PROBLEMA #3:** El chat de grupo no muestra confirmaciones de lectura.
+
+- **Severidad:** 2 Problema menor
+- **Heurística violada:** Visibilidad del estado del sistema.
+- **Problema:** El usuario Empleado envía un mensaje en el chat de grupo, pero la interfaz no proporciona ningún *feedback* sobre el estado de dicho mensaje (ej. entregado, leído). El usuario manifestó que esperaba ver algún tipo de "doble check" o ícono de "visto" para saber si sus compañeros habían recibido la información.
+- **Recomendación:** Implementar un sistema de confirmación de lectura (ej. doble check gris para entregado, doble check azul para leído) para informar al usuario sobre el estado de sus mensajes.
+
+
+
+**PROBLEMA #4:** La ubicación del evento no es un enlace accionable.
+
+- **Severidad:** 2 Problema menor
+- **Heurística violada:** Flexibilidad y eficiencia de uso.
+- **Problema:** En los detalles del evento, la ubicación se muestra como un texto plano "meet". El usuario espera que, si la ubicación es una sala virtual, este campo sea un enlace accionable que lo lleve directamente a la reunión como Google Meet, Zoom, ahorrándole pasos.
+- **Recomendación:** Modificar el campo "Location" para que acepte URLs y las muestre como un hipervínculo accionable para el usuario.
+
 # Conclusiones
 
 **TB1:**
@@ -905,7 +1055,6 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 
 
-#
 
 # Bibliografía 
 
