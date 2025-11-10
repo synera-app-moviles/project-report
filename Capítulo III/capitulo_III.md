@@ -440,16 +440,16 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 *Imagen del wireframe de la Landing Page*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/1_uuqext.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/1BipQ2Z.png" alt="Class wireframe">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/2_rzay88.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/1hquqr4.png" alt="Class wireframe">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/3_b3ef0l.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/oJCEntX.png" alt="Class wireframe">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/4_jgui97.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/JWVjZrS.png" alt="Class wireframe">
 </p>
 
 *Nota.* Elaboración propia.
@@ -488,17 +488,18 @@ El sistema de búsqueda se implementa en dos escenarios fundamentales:
 *Imagen del wireframe de la Landing Page*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/11_t3jk6h.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/FsQDmt9.png">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/12_sqzjxo.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/E63hBDG.png" alt="Class wireframe">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/13_bdb7se.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/vj80q7E.png" alt="Class wireframe">
 </p>
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1759975195/14_siatlj.jpg" alt="Class wireframe">
+  <img src="https://i.imgur.com/ys397Qn.png" alt="Class wireframe">
 </p>
+
 
 
 ### 3.1.4. Mobile Applications UX/UI Design
