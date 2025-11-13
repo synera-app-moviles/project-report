@@ -1315,18 +1315,18 @@ Fátima encontró que Centralis soluciona un problema común en muchas empresas:
 
 Milagros considera que Centralis es una herramienta ideal para mejorar la comunicación entre los diferentes equipos de trabajo. Durante la validación, destacó que la aplicación facilita la creación y gestión de anuncios, eventos y grupos sin depender de correos o mensajes dispersos. Le pareció muy claro el flujo para publicar información y valoró la opción de marcar anuncios como urgentes para priorizar temas importantes. Sugirió incorporar un sistema de confirmación al eliminar eventos o mensajes para evitar errores, y mejorar la forma en que se muestran los asistentes a los eventos. En general, percibe que Centralis ordena y optimiza la gestión interna, ayudando a mantener a todos alineados desde un solo lugar.
 
-**Entrevistada #4: --**  
+**Entrevistada #4: Leonardo Delgado**  
 
 **Figura**  
 *Imagen del usuario número 4 entrevistada*
 
 <p align="center">
-  <img src="images/danielasupervisro2.JPG" width="850">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
 </p>
 
 *Nota.* Elaboración propia.  
 
-
+Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
 
 ### 4.3.3. Evaluaciones según heurísticas
 
