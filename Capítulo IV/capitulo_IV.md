@@ -950,6 +950,7 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 
 #### 4.2.2.2. Sprint Backlog 2
 
+<p style="text-indent: 1.25cm;">El Sprint Backlog 2 se enfocó en consolidar las funcionalidades de administrador (Gerente) y en robustecer las características principales de la plataforma. El equipo se distribuyó las 18 historias de usuario planificadas, abarcando el CRUD completo de Anuncios y Eventos, la implementación de moderación avanzada en los Chats y mejoras significativas en la accesibilidad e internacionalización del Landing Page.</p>
 
 
 | StoryID | Title                                       | ID task  | Título                                      | Descripción                                                  | Estimation  (Hours) | Assigned  To | Status |
@@ -1002,30 +1003,22 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">En esta sección se presentan los avances de implementación del Sprint 2, los cuales se centraron en la aplicación móvil nativa (centralis-kotlin). El trabajo de esta iteración se enfocó en consolidar las funcionalidades administrativas para el rol de Gerente, expandir las capacidades multimedia de la plataforma y realizar una refactorización de la interfaz de usuario para mejorar la experiencia general.</p>
 
+| **Repository**                        | **Branch**           | **Commit Id** | **Commit Message** | **Commit Message Body**                                      | **Committed on (Date)** |
+| ------------------------------------- | -------------------- | ------------- | ------------------ | ------------------------------------------------------------ | ----------------------- |
+| `synera-app-moviles/centralis-kotlin` | `fix/announcement`   | `c993530`     | `feat`             | Implement group deletion functionality with confirmation dialog and navigation | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `6b8f7c9`     | `feat`             | Add image upload functionality and preview for group creation | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `92560ed`     | `feat`             | Add delete functionality and confirmation dialog to announcement details | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `c8430bb`     | `feat`             | Enhance announcement screens with image handling and improved UI elements | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `e7388df`     | `feat`             | Update announcement screens with new color scheme and improved UI elements | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `83f5f8d`     | `fix`              | SavedAnnouncementsScreen(navController = navController)      | 07/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `feature/view_event` | `e64db04`     | `feat`             | Refactor notification handling and improve UI elements in Events and Notification screens | 06/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `d90e53d`     | `feat`             | Implement CreateEventRequestNetwork model and update event handling in ViewModel and screens | 03/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `5f40505`     | `feat`             | Update launcher icons with new background color and improved vector graphics | 02/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `9831861`     | `feat`             | Update chat and authentication views with group information and avatar handling | 02/11/2025              |
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| :--------- | :----- | :-------- | :------------- | :------------------ | :------------------ |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-|            |        |           |                |                     |                     |
-
-
+<p style="text-indent: 1.25cm;">La implementación se enfocó en el desarrollo de lógicas de negocio críticas. Se completaron los flujos de administrador para la eliminación de grupos de chat y la eliminación de anuncios , implementando en ambos casos diálogos de confirmación para la prevención de errores. Se expandieron las capacidades multimedia, añadiendo la subida de imágenes y vista previa en la creación de grupos y mejorando el manejo y visualización de imágenes en los anuncios. Adicionalmente, se implementó el modelo de red para la creación de eventos y se realizó una refactorización general de la UI, mejorando las pantallas de eventos y notificaciones.</p>
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -1052,44 +1045,187 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">En el Sprint 2, el equipo alcanzó los objetivos definidos, logrando la finalización y el despliegue del 100% del backend. El principal avance funcional se centró en la implementación de las características <i>core</i> de la aplicación móvil en flutter y pulir fucionalidades de kotlin, específicamente las lógicas de negocio avanzadas para el rol de Gerente. Esto incluyó el CRUD completo de anuncios, la gestión avanzada de eventos (modificación, cancelación, confirmación de asistencia) y las capacidades de moderación de chat (eliminación de mensajes y grupos). Paralelamente, se inició el desarrollo de la aplicación cross-platform en Flutter y se completaron las mejoras de accesibilidad e internacionalización en el Landing Page.</p>
 
+<p style="text-indent: 1.25cm;">A continuación, se presentan las capturas de pantalla que evidencian las principales vistas implementadas en la aplicación móvil, ilustrando los flujos de administrador y las nuevas capacidades de gestión. Se adjunta también el enlace al video de demostración, donde se explica y recorre la navegación y la interacción lograda en este Sprint, validando el cumplimiento de las historias de usuario.</p>
 
+**Aplicación en Kotlin:**
 
+<p align="center">
+  <img src="https://i.imgur.com/ThgEQ1S.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/1yXvTdq.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/rkvE6C3.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/13Pz1QD.png" alt="Descripción">
+</p>
+URL del video: https://acortar.link/u5x1AS
+
+**Landing Page:**
+
+<p align="center">
+  <img src="https://i.imgur.com/Xe7FsFA.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/FilLNRC.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/xcGvs1I.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/MXSQqu4.png" alt="Descripción">
+</p>
+
+URL del video: https://acortar.link/Y0oFip
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
-
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services implementados durante el Sprint 2, generada utilizando la especificación OpenAPI. Los endpoints desarrollados completan las funcionalidades <i>core</i> de la plataforma, abarcando tres dominios principales: Comments, Events y Messages. La documentación detalla las operaciones CRUD, los servicios de consulta (QueryService) y los servicios de comandos (CommandService) para cada dominio, incluyendo la gestión de estados, validaciones de pertenencia y autorización por roles (MANAGER) en el dominio de Eventos.</p>
 
 
 **Endpoints Documentados**
 
-| Contexto | Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros principales | Ejemplo de Response | Documentación OpenAPI |
-| -------- | -------- | ------ | ---------- | ------------------- | ---------------------- | ------------------- | --------------------- |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
-|          |          |        |            |                     |                        |                     |                       |
+| Endpoint                                               | Método | Descripción                     | Request Body                         | Response Body           | Códigos de Estado  |
+| ------------------------------------------------------ | ------ | ------------------------------- | ------------------------------------ | ----------------------- | ------------------ |
+| `/api/v1/announcements/{id}/comments`                  | POST   | Crear comentario en anuncio     | `CreateCommentResource`              | `CommentResource`       | 201, 400, 404, 500 |
+| `/api/v1/comments/{id}`                                | GET    | Obtener comentario por ID       | -                                    | `CommentResource`       | 200, 404, 500      |
+| `/api/v1/announcements/{id}/comments`                  | GET    | Obtener comentarios de anuncio  | -                                    | `List<CommentResource>` | 200, 404, 500      |
+| `/api/v1/comments/{id}`                                | DELETE | Eliminar comentario             | -                                    | -                       | 204, 404, 500      |
+| `/api/v1/events`                                       | POST   | Crear evento                    | `CreateEventResource`                | `EventResource`         | 201, 400, 500      |
+| `/api/v1/events/{eventId}`                             | GET    | Obtener evento por ID           | -                                    | `EventResource`         | 200, 404, 500      |
+| `/api/v1/events`                                       | GET    | Obtener todos los eventos       | Query params: `userId`, `filterType` | `List<EventResource>`   | 200, 500           |
+| `/api/v1/events/calendar`                              | GET    | Obtener eventos para calendario | Query param: `userId`                | `List<EventResource>`   | 200, 500           |
+| `/api/v1/events/{eventId}`                             | PUT    | Actualizar evento               | `UpdateEventResource`                | `EventResource`         | 200, 400, 404, 500 |
+| `/api/v1/events/{eventId}`                             | DELETE | Eliminar evento                 | -                                    | -                       | 204, 404, 500      |
+| `/api/v1/groups/{groupId}/messages`                    | POST   | Crear mensaje en grupo          | `CreateMessageResource`              | `MessageResource`       | 201, 400, 404, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | GET    | Obtener mensaje por ID          | -                                    | `MessageResource`       | 200, 404, 500      |
+| `/api/v1/groups/{groupId}/messages`                    | GET    | Obtener mensajes de grupo       | -                                    | `List<MessageResource>` | 200, 500           |
+| `/api/v1/groups/{groupId}/messages/status/{status}`    | GET    | Obtener mensajes por estado     | -                                    | `List<MessageResource>` | 200, 400, 500      |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | PUT    | Actualizar contenido de mensaje | `UpdateMessageBodyResource`          | `MessageResource`       | 200, 404, 400, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}/status` | PATCH  | Actualizar estado de mensaje    | `UpdateMessageStatusResource`        | `MessageResource`       | 200, 404, 400, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | DELETE | Eliminar mensaje                | -                                    | -                       | 204, 404, 500      |
+
+
+
+**Comments Domain**
+
+- **CommentCommandService**: Manejo de comandos de comentarios (crear, eliminar)
+- **CommentQueryService**: Consultas de comentarios (obtener por ID, por anuncio)
+- **CommentController**: API REST para operaciones de comentarios
+- **Características**:
+  - Integración con sistema de anuncios
+  - Validación de existencia de anuncios
+  - Operaciones CRUD básicas
+
+**Events Domain**
+
+- **EventCommandService**: Manejo de comandos de eventos (crear, actualizar, eliminar)
+- **EventQueryService**: Consultas de eventos (por ID, por creador, por destinatario, todos)
+- **EventController**: API REST para gestión de eventos
+- **Características**:
+  - Filtrado por usuario (creador/destinatario)
+  - Vista de calendario
+  - Gestión de destinatarios múltiples
+  - Autorización por rol (MANAGER)
+
+**Messages Domain**
+
+- **MessageCommandService**: Manejo de comandos de mensajes (crear, actualizar, eliminar)
+- **MessageQueryService**: Consultas de mensajes (por ID, por grupo, por estado)
+- **MessageController**: API REST para mensajería en grupos
+- **Características**:
+  - Mensajes vinculados a grupos específicos
+  - Estados de mensaje (SENT/EDITED/DELETED)
+  - Actualización de contenido y estado por separado
+  - Validación de pertenencia a grupo
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/IzPFXRp.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/IcEA5yu.png" alt="Descripción">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/MNZ7yvk.png" alt="Descripción">
+</p>
 
 
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">En esta sección se resumen los procesos realizados en relación con el despliegue durante el Sprint 2. Las actividades de este sprint se centraron en la consolidación de los servicios existentes y la actualización de los productos web, más que en la creación de nueva infraestructura.</p>
 
+<p style="text-indent: 1.25cm;">Para los Web Services, no se realizaron cambios en la configuración de despliegue en Render, ya que la infraestructura base establecida en el Sprint 1 se mantuvo estable y fue suficiente para soportar el 100% de las funcionalidades del backend. En cuanto al Landing Page, sí se desplegó una nueva versión para reflejar las actualizaciones de contenido implementadas, como la adición de las secciones "Team", "FAQ" y "Producto", así como la funcionalidad de internacionalización. Las Aplicaciones móviles (Kotlin y Flutter) continúan en fase de desarrollo y aún no han sido desplegadas en un servicio de distribución. A continuación, se presentan las evidencias del despliegue actualizado del Landing Page.</p>
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/ZEWrEQC.png" alt="Descripción">
+</p>
 
 
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 2, el equipo continuó su trabajo colaborativo, centrándose en la consolidación de la plataforma y la expansión de sus funcionalidades clave. Este sprint fue crucial para finalizar el despliegue del backend, empezar el desarrollo en flutter e implementar las lógicas de negocio avanzadas para el rol de Gerente, como la gestión de eventos y la moderación de chats.</p>
+
+**Daniela Araceli Gómez Flores** **Contribución Principal:**
+
+- Expansión del Landing Page con la "Sección Team".
+- Desarrollo del módulo de eventos, implementando la confirmación de asistencia.
+- Implementación de la cancelación de eventos.
+- Implementación de la modificación de detalles de eventos.
+
+**Elverth Jair Vaszquez Villalobos** **Contribución Principal:**
+
+- Implementación de funciones de moderación avanzada del chat.
+- Desarrollo de la eliminación y modificación de mensajes enviados por empleados.
+- Implementación de la eliminación de mensajes por moderadores (rol Gerente).
+- Desarrollo de la eliminación de grupos de chat completos por parte de los gerentes.
+
+**Jorge Luis Díaz Fiestas** **Contribución Principal:**
+
+- Completó el CRUD de anuncios en la aplicación.
+- Añadió la capacidad de eliminar anuncios.
+- Implementó la funcionalidad de subir imágenes en los anuncios.
+
+**Neil Aldrin Wilhelm Curipaco Huayllani** **Contribución Principal:**
+
+- Implementación de la funcionalidad de internacionalización en el Landing Page.
+- Agregó la "Sección FAQ" al Landing Page.
+- Agregó la "Sección Producto" al Landing Page.
+
+**Raúl Adrian Medina Cruzado** **Contribución Principal:**
+
+- Expandió las capacidades del módulo de chat.
+- Implementó la funcionalidad para visualizar imágenes dentro de las conversaciones.
+- Desarrolló la capacidad de que los usuarios puedan eliminar las imágenes que han enviado.
+
+**Evidencia de la landing page: ** 
+
+<p align="center">
+  <img src="https://i.imgur.com/o9I8xhl.png" alt="Descripción">
+</p>
+
+**Evidencia de la landing page: ** 
+
+
+
+
 
 
 
@@ -1264,10 +1400,24 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 <p style="text-indent: 1.25cm;">El desarrollo del Sprint 1 del proyecto Centralis permitió establecer los cimientos tecnológicos y funcionales de la plataforma, cumpliendo exitosamente con los objetivos planteados en la planificación inicial. Se logró implementar una arquitectura sólida y escalable basada en Domain-Driven Design (DDD) y Clean Architecture, con bounded contexts bien definidos que facilitaron un desarrollo modular y alineado con las necesidades del negocio. La integración de tecnologías como Spring Boot para el backend, Kotlin con Jetpack Compose para la aplicación móvil nativa, y servicios cloud como Render y Netlify, demostró ser una combinación efectiva para el desarrollo de una solución robusta y de alto rendimiento.
 
+
+
 <p style="text-indent: 1.25cm;">Desde la perspectiva de valor de negocio, se implementaron y validaron funcionalidades core como la gestión de anuncios, sistema de chats, calendario de eventos y perfiles de usuario, demostrando que Centralis responde efectivamente a las necesidades de comunicación interna identificadas en las fases iniciales del proyecto. El diseño consistente mediante Material Design 3 en todos los componentes aseguró una experiencia de usuario unificada y profesional en toda la plataforma.
 
-<p style="text-indent: 1.25cm;">Finalmente, se estableció una infraestructura de despliegue sólida con la configuración exitosa de entornos en Render para el backend y Netlify para la landing page, sentando las bases para un ciclo de desarrollo continuo y despliegues automatizados en iteraciones futuras. La arquitectura modular y la separación clara de responsabilidades entre bounded contexts proporciona la flexibilidad necesaria para incorporar nuevas funcionalidades de manera controlada y eficiente.
 
+
+<p style="text-indent: 1.25cm;">Finalmente, se estableció una infraestructura de despliegue sólida con la configuración exitosa de entornos en Render para el backend y Netlify para la landing page, sentando las bases para un ciclo de desarrollo continuo y despliegues automatizados en iteraciones futuras. La arquitectura modular y la separación clara de responsabilidades entre bounded contexts proporciona la flexibilidad necesaria para incorporar nuevas funcionalidades de manera controlada y eficiente.
+**TB2:**
+
+<p style="text-indent: 1.25cm;">El Sprint 2 representa la consolidación y expansión de la plataforma Centralis, marcando la transición de los cimientos arquitectónicos a una solución funcionalmente robusta. En esta entrega se alcanzó el hito clave del 100% del despliegue del backend en un sitio público. El foco principal fue la implementación de las lógicas de negocio avanzadas para el rol de Gerente, completando el CRUD de anuncios, la gestión avanzada de eventos y las capacidades críticas de moderación de chats.
+
+
+
+<p style="text-indent: 1.25cm;">Técnicamente, este sprint demostró la flexibilidad de la arquitectura al permitir el inicio del desarrollo de la aplicación cross-platform en Flutter en paralelo al desarrollo nativo. Asimismo, se robusteció el Landing Page implementando funcionalidades de internacionalización (i18n).
+
+
+
+<p style="text-indent: 1.25cm;">Con el backend finalizado y las funcionalidades core implementadas en la aplicación nativa, el proyecto se encuentra en una posición sólida para la fase final. Este sprint también incluyó la elaboración de las primeras versiones de los videos "About-the-Product" y "About-the-Team", sentando las bases para las entrevistas de validación con usuarios y la entrega final del producto (TF1).
 
 
 
