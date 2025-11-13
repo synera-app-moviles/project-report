@@ -975,27 +975,24 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 
 
 
-**Figura N**
+**Figura 80**
 
-*Imagen de las tareasde Jira*
-
-
-
+*Imagen de las tareas de Jira*
 
 <p align="center">
   <img src="https://i.imgur.com/ZFbdv3f.png" alt="Descripción">
 </p>
+
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 81**
 
-*Imagen de las tareasde Jira*
-
-
+*Imagen de las tareas de Jira*
 
 <p align="center">
   <img src="https://i.imgur.com/nzVxyGx.png" alt="Descripción">
 </p>
+
 *Nota.* Elaboración propia.
 
 
@@ -1170,40 +1167,72 @@ Característica: Eliminar grupos de chats
 
 **Aplicación en Kotlin:**
 
+**Figura 82**
+
 <p align="center">
   <img src="https://i.imgur.com/ThgEQ1S.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
+
+**Figura 83**
 
 <p align="center">
   <img src="https://i.imgur.com/1yXvTdq.png" alt="Descripción">
 </p>
 
+*Nota.* Elaboración propia.
+
+**Figura 84**
+
 <p align="center">
   <img src="https://i.imgur.com/rkvE6C3.png" alt="Descripción">
 </p>
 
+*Nota.* Elaboración propia.
+
+**Figura 85**
+
 <p align="center">
   <img src="https://i.imgur.com/13Pz1QD.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
 URL del video: https://acortar.link/u5x1AS
 
 **Landing Page:**
+
+**Figura 86**
 
 <p align="center">
   <img src="https://i.imgur.com/Xe7FsFA.png" alt="Descripción">
 </p>
 
+*Nota.* Elaboración propia.
+
+**Figura 87**
+
 <p align="center">
   <img src="https://i.imgur.com/FilLNRC.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
+
+**Figura 88**
 
 <p align="center">
   <img src="https://i.imgur.com/xcGvs1I.png" alt="Descripción">
 </p>
 
+*Nota.* Elaboración propia.
+
+**Figura 89**
+
 <p align="center">
   <img src="https://i.imgur.com/MXSQqu4.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
 
 URL del video: https://acortar.link/Y0oFip
 
@@ -1270,17 +1299,29 @@ URL del video: https://acortar.link/Y0oFip
 
 
 
+**Figura 90**
+
 <p align="center">
   <img src="https://i.imgur.com/IzPFXRp.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
+
+**Figura 91**
 
 <p align="center">
   <img src="https://i.imgur.com/IcEA5yu.png" alt="Descripción">
 </p>
 
+*Nota.* Elaboración propia.
+
+**Figura 92**
+
 <p align="center">
   <img src="https://i.imgur.com/MNZ7yvk.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
 
 
 
@@ -1292,9 +1333,13 @@ URL del video: https://acortar.link/Y0oFip
 
 
 
+**Figura 93**
+
 <p align="center">
   <img src="https://i.imgur.com/ZEWrEQC.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
 
 
 
@@ -1333,14 +1378,23 @@ URL del video: https://acortar.link/Y0oFip
 
 **Evidencia de la landing page:** 
 
+**Figura 94**
+
 <p align="center">
   <img src="https://i.imgur.com/o9I8xhl.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
+
 **Evidencia aplicación en Flutter:** 
+
+**Figura 95**
 
 <p align="center">
   <img src="https://i.imgur.com/IG2yVSY.png" alt="Descripción">
 </p>
+
+*Nota.* Elaboración propia.
 
 
 ## 4.3. Validation Interviews
@@ -1389,7 +1443,9 @@ Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de 
 <ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
 
 **Entrevistado #1: Abigail Goñe**  
-**Figura**  
+
+**Figura 96**  
+
 *Imagen del usuario número 1 entrevistado*  
 
 <p align="center">
@@ -1398,17 +1454,22 @@ Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de 
 
 *Nota.* Elaboración propia.
 
+*Nota.* Elaboración propia.
+
 Abigail percibió que Centralis representa una mejora significativa en la forma en que los empleados acceden a información relevante dentro de la empresa. Destacó la simplicidad de la interfaz y la rapidez con la que puede ver anuncios, confirmar asistencia a eventos y comunicarse con sus compañeros. Mencionó que la aplicación le genera confianza por la claridad en las funciones y la seguridad de los datos. Propuso mejorar la visibilidad de algunos botones en la Landing Page y optimizar la navegación en ciertas pantallas, pero aseguró que la experiencia general es positiva. Considera que Centralis fomenta la participación, reduce confusiones y promueve una comunicación más efectiva entre todos los niveles de la organización.
 
 
 **Entrevistada #2: Fatima Arosemena**   
 
-**Figura**  
+**Figura 97**  
+
 *Imagen del usuario número 2 entrevistada*
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/fatimaaa_mc1ynn.jpg" width="850">
 </p>
+
+*Nota.* Elaboración propia.
 
 *Nota.* Elaboración propia.  
 
@@ -1418,12 +1479,15 @@ Fátima encontró que Centralis soluciona un problema común en muchas empresas:
 
 **Entrevistada #3: Milagros Arellano**  
 
-**Figura**  
+**Figura 98**  
+
 *Imagen del usuario número 3 entrevistada*
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031559/milagros_kbtkk4.jpg" width="850">
 </p>
+
+*Nota.* Elaboración propia.
 
 *Nota.* Elaboración propia. 
 
@@ -1431,12 +1495,15 @@ Milagros considera que Centralis es una herramienta ideal para mejorar la comuni
 
 **Entrevistada #4: Leonardo Delgado**  
 
-**Figura**  
+**Figura 99**  
+
 *Imagen del usuario número 4 entrevistada*
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
 </p>
+
+*Nota.* Elaboración propia.
 
 *Nota.* Elaboración propia.  
 
