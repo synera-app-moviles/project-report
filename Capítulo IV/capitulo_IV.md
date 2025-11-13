@@ -1308,7 +1308,7 @@ Fátima encontró que Centralis soluciona un problema común en muchas empresas:
 *Imagen del usuario número 3 entrevistada*
 
 <p align="center">
-  <img src="images/danielasupervisro2.JPG" width="850">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031559/milagros_kbtkk4.jpg" width="850">
 </p>
 
 *Nota.* Elaboración propia. 
