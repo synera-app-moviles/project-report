@@ -146,7 +146,6 @@
 #### 4.2.1.1. Sprint Planning 1
 
 <p style="text-indent: 1.25cm;">El Sprint Planning 1 marca el inicio del desarrollo formal de Centralis, donde el equipo se reunió para definir los objetivos y el alcance del primer sprint, priorizando la implementación de los componentes esenciales de la plataforma: la arquitectura base del Web Service, el despliegue de la Landing Page y las pantallas principales de la aplicación móvil, con el fin de establecer una base sólida para iteraciones futuras.
-
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
@@ -195,13 +194,14 @@ This will be confirmed when managers can create announcements, employees can vie
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 1 Velocity</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">84</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">73</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">84</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">73</td>
   </tr>
 </table>
+
 
 
 #### 4.2.1.2. Sprint Backlog 1
@@ -210,25 +210,25 @@ This will be confirmed when managers can create announcements, employees can vie
 
 
 
-| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :---------- |
-| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | In-Progress |
-| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | In-Progress |
-| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | In-Progress |
-| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | In-Progress |
-| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | In-Progress |
-| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done        |
-| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done        |
-| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done        |
-| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done        |
-| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done        |
-| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done        |
-| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done        |
-| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done        |
-| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done        |
-| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done        |
-| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done        |
-| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done        |
+| **StoryID** | **Title**                                 | **ID task** | **Título**                                | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+| :---------- | :---------------------------------------- | :---------- | :---------------------------------------- | :----------------------------------------------------------- | :--------------------- | :-------------- | :--------- |
+| US02        | Sección About de la landing page          | SCRUM-2     | Sección About de la landing page          | Como visitante, quiero ver una sección About en la landing page para entender la misión, visión y propósito de Centralis. | 4                      | Daniela         | Done       |
+| US03        | Historia de la startup                    | SCRUM-3     | Historia de la startup                    | Como visitante, quiero conocer la historia y origen de Centralis para generar confianza en la marca. | 3                      | Neil            | Done       |
+| US04        | Sección FAQ                               | SCRUM-4     | Sección FAQ                               | Como visitante, quiero acceder a una sección FAQ para resolver mis dudas comunes sobre el producto. | 5                      | Daniela         | Done       |
+| US06        | Links profesionales del equipo            | SCRUM-6     | Links profesionales del equipo            | Como visitante, quiero acceder a los perfiles profesionales del equipo para verificar su expertise. | 2                      | Neil            | Done       |
+| US07        | Compatibilidad con múltiples dispositivos | SCRUM-7     | Compatibilidad con múltiples dispositivos | Como visitante, quiero poder ver la landing page en mi dispositivo móvil para no tener que abrir el sitio web en un dispositivo similar a una computadora de escritorio. | 3                      | Daniela         | Done       |
+| US15        | Publicación básica de anuncios            | SCRUM-15    | Publicación básica de anuncios            | Como gerente, quiero publicar anuncios en la aplicación móvil para que los empleados estén informados de las novedades de la empresa. | 4                      | Jorge           | Done       |
+| US16        | Priorización de anuncios                  | SCRUM-16    | Priorización de anuncios                  | Como gerente, quiero marcar anuncios como prioritarios para que los empleados los vean primero. | 3                      | Jorge           | Done       |
+| US17        | Edición de anuncios                       | SCRUM-17    | Edición de anuncios                       | Como gerente, quiero editar anuncios ya publicados para corregir errores o actualizar información. | 3                      | Jorge           | Done       |
+| US23        | Comentarios en anuncios                   | SCRUM-23    | Comentarios en anuncios                   | Como empleado, quiero dar feedback sobre anuncios para aclarar dudas o hacer comentarios. | 4                      | Jorge           | Done       |
+| US24        | Subir imágenes en anuncios                | SCRUM-24    | Subir imágenes en anuncios                | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                      | Jorge           | Done       |
+| US25        | Visualizar imágenes en anuncios           | SCRUM-25    | Visualizar imágenes en anuncios           | Como empleado quiero poder ver las imágenes adjuntas en los anuncios, para comprender mejor la información publicada. | 3                      | Raul            | Done       |
+| US26        | Creación básica de eventos                | SCRUM-26    | Creación básica de eventos                | Como gerente, quiero crear eventos en la aplicación móvil para organizar reuniones y actividades de la empresa. | 5                      | Daniela         | Done       |
+| US33        | Creación de chats grupales                | SCRUM-33    | Creación de chats grupales                | Como empleado, quiero crear chats grupales para discutir temas específicos con mis colegas. | 4                      | Elverth         | Done       |
+| US34        | Chats por departamentos                   | SCRUM-34    | Chats por departamentos                   | Como gerente, quiero crear chats automáticos por departamentos para facilitar la comunicación interna. | 4                      | Elverth         | Done       |
+| US36        | Envío de mensajes                         | SCRUM-36    | Envío de mensajes                         | Como empleado, quiero enviar mensajes para mantenerme comunicado con mi equipo | 5                      | Elverth         | Done       |
+| US41        | Listado organizado de chats               | SCRUM-41    | Listado organizado de chats               | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 4                      | Elverth         | Done       |
+| US42        | Enviar imágenes en chats grupales         | SCRUM-42    | Enviar imágenes en chats grupales         | Como empleado quiero poder enviar imágenes en los chats grupales, para compartir información visual con mi equipo. | 4                      | Raul            | Done       |
 
 **Figura 67**
 
@@ -237,7 +237,6 @@ This will be confirmed when managers can create announcements, employees can vie
 <p align="center">
   <img src="https://i.imgur.com/kAHQ4KR.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 #### 4.2.1.3. Development Evidence for Sprint Review
@@ -298,7 +297,7 @@ This will be confirmed when managers can create announcements, employees can vie
 
 
 
-```json
+```gherkin
 # language: es
 Característica: Publicación básica de anuncios
   Como gerente
@@ -322,7 +321,7 @@ Característica: Publicación básica de anuncios
 
 **chats.feature** (US33-US34, US36, US41-US42)
 
-```json
+```gherkin
 # language: es
 Característica: Creación de chats grupales
   Como empleado
@@ -345,7 +344,7 @@ Característica: Creación de chats grupales
 
 **events.feature** (US26)
 
-```json
+```gherkin
 # language: es
 Característica: Creación básica de eventos
   Como gerente
@@ -457,6 +456,8 @@ Video de la demo: https://acortar.link/YNCGJM
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services desarrollados durante el Sprint. Se documentaron los principales endpoints de los bounded contexts Profile, Event, Announcement y Chat utilizando OpenAPI, asegurando claridad y trazabilidad para el equipo y stakeholders. Los logros incluyen la generación y despliegue de documentación interactiva, la especificación de parámetros y respuestas, y la validación de los servicios mediante ejemplos reales.
+  
+
 **URL del web service:**  https://github.com/synera-app-moviles/web-services
 
 **Endpoints Documentados**
@@ -873,8 +874,744 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 <p align="center">
   <img src="https://i.imgur.com/sJAC0zb.png" alt="Descripción">
 </p>
+*Nota.* Elaboración propia.
+
+### 4.2.2. Sprint 2
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 2 se consolidaron las funcionalidades <i>core</i> del proyecto, logrando el despliegue completo del 100% del Web Service con Spring Boot y la finalización de su documentación en OpenAPI. En el desarrollo móvil, se implementaron las lógicas de negocio avanzadas para los roles de administrador en la aplicación nativa Kotlin, y, en paralelo, se inició el desarrollo de la aplicación cross-platform utilizando Flutter. Adicionalmente, se expandió el Landing Page, añadiendo nuevas secciones de contenido y las bases para su internacionalización.
+
+#### 4.2.2.1. Sprint Planning 2
+
+
+
+<p style="text-indent: 1.25cm;">El Sprint Planning 2 se realizó para dar continuidad al desarrollo del proyecto, tomando como base los cimientos establecidos en la primera iteración. El equipo se reunió para revisar los resultados y el feedback del Sprint 1, definir el nuevo Sprint Goal y seleccionar las User Stories para el segundo ciclo de desarrollo. El foco se centró en completar el despliegue del backend, implementar las funciones de administrador Gerente y comenzar el desarrollo de la aplicación cross-platform en Flutter.</p
+
+
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Sprint 2</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Date</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">31/10/2025</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Time</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">16:48 PM</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Location</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Google Meet</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Prepared By</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curipaco Huayllani</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Attendees (to planning meeting)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Daniela Araceli Gómez Flores, Elverth Jair Vaszquez Villalobos, Jorge Luis Diaz Fiestas, Raúl Adrian Medina Cruzado</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Review Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Based on the Sprint 1 review, the team successfully established the project's foundation. The base Web Service en Spring Boot, the responsive Landing Page, and the main screens of the Kotlin mobile app were implemented. Basic API integration for authentication and announcements is functional, and API documentation with OpenAPI was completed.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Retrospective Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">The retrospective identified that while backend and frontend integration was successful, initial setup of the development environment took longer than expected. The team agreed to improve communication for dependency management and to better define task breakdowns in Jira to avoid overlap.</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 2 Goal</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Our focus is on completing the backend deployment and expanding the platform's core functionalities, including administrator controls and initiating the cross-platform Flutter application. <br><br>
+We believe it delivers critical management capabilities to the 'Manager' role and expands our technological reach by starting Flutter development. <br> <br>
+This will be confirmed when the backend is 100% deployed on a public site, managers can successfully create, edit, and delete announcements, events, and groups, and the initial build of the Flutter application is running.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 2 Velocity</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">64</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">64</td>
+  </tr>
+</table>
+
+
+
+
+
+#### 4.2.2.2. Sprint Backlog 2
+
+<p style="text-indent: 1.25cm;">El Sprint Backlog 2 se enfocó en consolidar las funcionalidades de administrador (Gerente) y en robustecer las características principales de la plataforma. El equipo se distribuyó las 18 historias de usuario planificadas, abarcando el CRUD completo de Anuncios y Eventos, la implementación de moderación avanzada en los Chats y mejoras significativas en la accesibilidad e internacionalización del Landing Page.</p>
+
+
+| StoryID | Title                                       | ID task  | Título                                      | Descripción                                                  | Estimation  (Hours) | Assigned  To | Status |
+| ------- | ------------------------------------------- | -------- | ------------------------------------------- | ------------------------------------------------------------ | ------------------- | ------------ | ------ |
+| US01    | Cambiar el idioma de la landing page        | SCRUM-1  | Cambiar el idioma de la landing page        | Como visitante, quiero traducir la página para leer el contenido en mi idioma preferido. | 3                   | Jorge        | Done   |
+| US05    | Sección Team                                | SCRUM-5  | Sección Team                                | Como visitante, quiero conocer al equipo detrás de Centralis para humanizar la marca y generar confianza. | 3                   | Daniela      | Done   |
+| US10    | Acceder a las descripciones de las imágenes | SCRUM-10 | Acceder a las descripciones de las imágenes | Como visitante que utiliza un lector de pantalla, quiero que todas las imágenes significativas de la página de destino incluyan texto alternativo claro para poder comprender el contenido visual y navegar por el sitio web. | 2                   | Daniela      | Done   |
+| US18    | Eliminación de anuncios                     | SCRUM-18 | Eliminación de anuncios                     | Como gerente, quiero eliminar anuncios obsoletos para mantener la información actualizada. | 4                   | Jorge        | Done   |
+| US24    | Subir imágenes en anuncios                  | SCRUM-24 | Subir imágenes en anuncios                  | Como gerente quiero poder adjuntar imágenes a los anuncios publicados, para que la información sea más clara y atractiva. | 5                   | Jorge        | Done   |
+| US27    | Invitación a departamentos específicos      | SCRUM-27 | Invitación a departamentos específicos      | Como gerente, quiero invitar a departamentos específicos a eventos para asegurar que solo participen los empleados requeridos. | 4                   | Neil         | Done   |
+| US28    | Confirmación de asistencia                  | SCRUM-28 | Confirmación de asistencia                  | Como empleado, quiero confirmar mi asistencia a eventos para que los organizadores sepan cuántos asistirán. | 3                   | Daniela      | Done   |
+| US29    | Cancelación de eventos                      | SCRUM-29 | Cancelación de eventos                      | Como gerente, quiero cancelar eventos cuando sea necesario para evitar confusiones. | 3                   | Daniela      | Done   |
+| US30    | Modificación de eventos                     | SCRUM-30 | Modificación de eventos                     | Como gerente, quiero modificar detalles de eventos existentes para ajustar cambios de último momento. | 4                   | Daniela      | Done   |
+| US31    | Eventos prioritarios                        | SCRUM-31 | Eventos prioritarios                        | Como gerente, quiero marcar eventos como prioritarios para que los empleados les presten especial atención. | 3                   | Neil         | Done   |
+| US32    | Métricas de participación                   | SCRUM-32 | Métricas de participación                   | Como gerente, quiero ver métricas de participación en eventos para medir el engagement del equipo. | 5                   | Neil         | Done   |
+| US35    | Eliminar grupos de chats                    | SCRUM-35 | Eliminar grupos de chats                    | Como gerente, quiero eliminar chats grupales para mantener el orden de las conversaciones. | 4                   | Elverth      | Done   |
+| US37    | Eliminación de mensajes enviados            | SCRUM-37 | Eliminación de mensajes enviados            | Como empleado, quiero eliminar mensajes que envié por error para corregir mis equivocaciones. | 3                   | Elverth      | Done   |
+| US38    | Modificación de mensajes enviados           | SCRUM-38 | Modificación de mensajes enviados           | Como empleado, quiero editar mensajes que ya envié para corregir errores tipográficos. | 3                   | Elverth      | Done   |
+| US39    | Eliminación de mensajes por moderadores     | SCRUM-39 | Eliminación de mensajes por moderadores     | Como gerente, quiero eliminar mensajes inapropiados de cualquier chat para mantener la profesionalidad. | 4                   | Elverth      | Done   |
+| US40    | Eliminación de chats grupales por gerentes  | SCRUM-40 | Eliminación de chats grupales por gerentes  | Como gerente, quiero eliminar chats grupales obsoletos o inactivos para mantener la lista de chats organizada y relevante. | 4                   | Elverth      | Done   |
+| US43    | Eliminar imágenes enviadas en el chat       | SCRUM-43 | Eliminar imágenes enviadas en el chat       | Como usuario quiero poder eliminar una imagen enviada en un chat, para corregir errores o evitar confusiones. | 3                   | Raul         | Done   |
+| US44    | Visualizar imágenes en chats                | SCRUM-44 | Visualizar imágenes en chats                | Como empleado, quiero ver todos los chats de los que forma parte para encontrar rápidamente conversaciones específicas. | 3                   | Raul         | Done   |
+
+
+
+**Figura 80**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/ZFbdv3f.png" alt="Descripción">
+</p>
 
 *Nota.* Elaboración propia.
+
+**Figura 81**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/nzVxyGx.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se presentan los avances de implementación del Sprint 2, los cuales se centraron en la aplicación móvil nativa (centralis-kotlin). El trabajo de esta iteración se enfocó en consolidar las funcionalidades administrativas para el rol de Gerente, expandir las capacidades multimedia de la plataforma y realizar una refactorización de la interfaz de usuario para mejorar la experiencia general.</p>
+
+| **Repository**                        | **Branch**           | **Commit Id** | **Commit Message** | **Commit Message Body**                                      | **Committed on (Date)** |
+| ------------------------------------- | -------------------- | ------------- | ------------------ | ------------------------------------------------------------ | ----------------------- |
+| `synera-app-moviles/centralis-kotlin` | `fix/announcement`   | `c993530`     | `feat`             | Implement group deletion functionality with confirmation dialog and navigation | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `6b8f7c9`     | `feat`             | Add image upload functionality and preview for group creation | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `92560ed`     | `feat`             | Add delete functionality and confirmation dialog to announcement details | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `c8430bb`     | `feat`             | Enhance announcement screens with image handling and improved UI elements | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `e7388df`     | `feat`             | Update announcement screens with new color scheme and improved UI elements | 10/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `83f5f8d`     | `fix`              | SavedAnnouncementsScreen(navController = navController)      | 07/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `feature/view_event` | `e64db04`     | `feat`             | Refactor notification handling and improve UI elements in Events and Notification screens | 06/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `d90e53d`     | `feat`             | Implement CreateEventRequestNetwork model and update event handling in ViewModel and screens | 03/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `5f40505`     | `feat`             | Update launcher icons with new background color and improved vector graphics | 02/11/2025              |
+| `synera-app-moviles/centralis-kotlin` | `develop`            | `9831861`     | `feat`             | Update chat and authentication views with group information and avatar handling | 02/11/2025              |
+
+<p style="text-indent: 1.25cm;">La implementación se enfocó en el desarrollo de lógicas de negocio críticas. Se completaron los flujos de administrador para la eliminación de grupos de chat y la eliminación de anuncios , implementando en ambos casos diálogos de confirmación para la prevención de errores. Se expandieron las capacidades multimedia, añadiendo la subida de imágenes y vista previa en la creación de grupos y mejorando el manejo y visualización de imágenes en los anuncios. Adicionalmente, se implementó el modelo de red para la creación de eventos y se realizó una refactorización general de la UI, mejorando las pantallas de eventos y notificaciones.</p>
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">Para el Sprint 2, la estrategia de testing se centró en la validación de las nuevas funcionalidades del rol de Gerente y la lógica de negocio avanzada. Se implementó una robusta suite de pruebas de aceptación (BDD) para la aplicación Flutter (centralis_flutter), asegurando la cobertura de las historias de usuario relacionadas con la gestión de anuncios, eventos y la moderación de chats.</p>
+
+
+
+**Acceptance Tests (BDD - Gherkin)**
+
+Se crearon y expandieron los archivos `.feature` para validar las lógicas de negocio implementadas en este sprint:
+
+- **announcements.feature (US18, US24)**
+  - Se añadieron escenarios BDD para la eliminación de anuncios y la subida de imágenes, cubriendo la validación de permisos y los flujos de gestión de archivos.
+
+```gherkin
+# language: es
+Característica: Subir imágenes en anuncios
+  Como gerente
+  Quiero poder adjuntar imágenes a los anuncios publicados
+  Para que la información sea más clara y atractiva
+
+  Escenario: Subir imagen en anuncio exitosamente
+    Dado que soy un gerente autenticado
+    Cuando creo un anuncio con título "Nueva política" y adjunto una imagen
+    Entonces el anuncio debe ser creado con la imagen exitosamente
+    Y la imagen debe ser visible en el anuncio
+
+  Escenario: Subir imagen con formato válido
+    Dado que soy un gerente autenticado
+    Cuando intento subir una imagen en formato JPG de 2MB
+    Entonces la imagen debe ser aceptada
+    Y debe aparecer como vista previa
+
+  Escenario: Rechazar imagen con formato inválido
+    Dado que soy un gerente autenticado
+    Cuando intento subir un archivo de formato TXT
+    Entonces debo recibir un error de formato no válido
+    Y la imagen no debe ser adjuntada
+
+  Escenario: Rechazar imagen excesivamente grande
+    Dado que soy un gerente autenticado
+    Cuando intento subir una imagen de 50MB
+    Entonces debo recibir un error de tamaño excesivo
+    Y la imagen no debe ser adjuntada
+```
+
+
+
+- **events.feature (US27-US29, US30-US32)**
+  - Se implementaron escenarios BDD para las características centrales de gestión de eventos, incluyendo invitaciones por departamento, confirmación de asistencia y cancelación de eventos.
+  - Se expandieron las pruebas para incluir las características avanzadas, como la modificación de eventos, la gestión de prioridades y la validación de las métricas de participación.
+
+```gherkin
+# language: es
+Característica: Eventos prioritarios
+  Como gerente
+  Quiero marcar eventos como prioritarios
+  Para que los empleados les presten especial atención
+
+  Escenario: Marcar evento como prioritario
+    Dado que soy un gerente autenticado
+    Y existe un evento "Reunión urgente"
+    Cuando marco el evento como prioritario
+    Entonces el evento debe mostrar un indicador de prioridad
+    Y debe aparecer destacado en la lista de eventos
+
+  Escenario: Quitar prioridad de evento
+    Dado que soy un gerente autenticado
+    Y existe un evento prioritario "Junta directiva"
+    Cuando quito la prioridad del evento
+    Entonces el evento debe perder el indicador de prioridad
+    Y debe aparecer como evento normal
+
+  Escenario: Ver eventos prioritarios destacados
+    Dado que soy un empleado autenticado
+    Y existen eventos prioritarios y normales
+    Cuando veo la lista de eventos
+    Entonces los eventos prioritarios deben aparecer al principio
+    Y deben tener un indicador visual distintivo
+
+  Escenario: Notificación especial para eventos prioritarios
+    Dado que soy un empleado autenticado
+    Y se crea un evento prioritario "Emergencia"
+    Cuando recibo la notificación del evento
+    Entonces la notificación debe indicar que es prioritario
+    Y debe tener mayor prominencia visual
+```
+
+
+
+- **chats.feature (US35-US38, US39-US44)**
+  - Se implementaron escenarios BDD para la gestión de mensajes y la eliminación de grupos de chat, incluyendo la validación de permisos de usuario.
+  - Se añadieron escenarios para las funciones de moderación (eliminación de mensajes por gerentes) y las características multimedia, como el envío de imágenes.
+
+```gherkin
+# language: es
+Característica: Eliminar grupos de chats
+  Como gerente
+  Quiero eliminar chats grupales
+  Para mantener el orden de las conversaciones
+
+  Escenario: Eliminar grupo de chat exitosamente
+    Dado que soy un gerente autenticado
+    Y existe un grupo de chat "Proyecto Antiguo" que ya no es necesario
+    Cuando elimino el grupo de chat
+    Entonces el grupo debe ser eliminado exitosamente
+    Y no debe aparecer en mi lista de chats
+
+  Escenario: Confirmar eliminación de grupo con mensajes
+    Dado que soy un gerente autenticado
+    Y existe un grupo de chat "Marketing 2023" con mensajes históricos
+    Cuando intento eliminar el grupo
+    Entonces debo ver una confirmación sobre la pérdida de mensajes
+    Y debo confirmar la eliminación explícitamente
+
+  Escenario: Intentar eliminar grupo sin permisos
+    Dado que soy un empleado autenticado sin permisos de gerente
+    Y existe un grupo de chat "Ventas General"
+    Cuando intento eliminar el grupo
+    Entonces debo recibir un error de permisos insuficientes
+    Y el grupo debe permanecer activo
+
+  Escenario: Notificar miembros sobre eliminación de grupo
+    Dado que soy un gerente autenticado
+    Y existe un grupo "Equipo Beta" con múltiples miembros
+    Cuando elimino el grupo
+    Entonces todos los miembros deben ser notificados
+    Y el grupo debe desaparecer de sus listas de chat
+```
+
+**Evidencia de Commits de Testing**
+
+| Repository                           | Branch  | Commit Id | Commit Message                                               | Commit Message Body                                          | Commited on (Date) |
+| :----------------------------------- | :------ | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------- |
+| synera-app-moviles/centralis_flutter | testing | 24731b2   | feat(chat): add BDD tests for moderation and multimedia features US39-US44 | Implement BDD scenarios for message moderation by managers, chat archiving, and image sharing with comprehensive permission and file management validation | 13/11/2025         |
+| synera-app-moviles/centralis_flutter | testing | 21b5f96   | feat(chat): add BDD tests for message management and group deletion US35-US38 | Implement BDD scenarios for group chat deletion, message editing, and deletion with time limit validation and user permission testing | 13/11/2025         |
+| synera-app-moviles/centralis_flutter | testing | 503584d   | feat(events): add BDD tests for advanced event features US30-US32 | Implement BDD scenarios for event modification, priority management, and participation metrics with dashboard and reporting functionality | 13/11/2025         |
+| synera-app-moviles/centralis_flutter | testing | 104cf67   | feat(events): add BDD tests for event management core features US27-US29 | Implement BDD scenarios for department invitations, attendance confirmation, and event cancellation with comprehensive permission and validation testing | 13/11/2025         |
+| synera-app-moviles/centralis_flutter | testing | 74bfeac   | feat(announcements): add BDD tests for announcement management US18-US24 | Implement BDD scenarios for announcement deletion and image upload features, covering permission validation and file management workflows | 13/11/2025         |
+
+
+
+
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En el Sprint 2, el equipo alcanzó los objetivos definidos, logrando la finalización y el despliegue del 100% del backend. El principal avance funcional se centró en la implementación de las características <i>core</i> de la aplicación móvil en flutter y pulir fucionalidades de kotlin, específicamente las lógicas de negocio avanzadas para el rol de Gerente. Esto incluyó el CRUD completo de anuncios, la gestión avanzada de eventos (modificación, cancelación, confirmación de asistencia) y las capacidades de moderación de chat (eliminación de mensajes y grupos). Paralelamente, se inició el desarrollo de la aplicación cross-platform en Flutter y se completaron las mejoras de accesibilidad e internacionalización en el Landing Page.</p>
+
+<p style="text-indent: 1.25cm;">A continuación, se presentan las capturas de pantalla que evidencian las principales vistas implementadas en la aplicación móvil, ilustrando los flujos de administrador y las nuevas capacidades de gestión. Se adjunta también el enlace al video de demostración, donde se explica y recorre la navegación y la interacción lograda en este Sprint, validando el cumplimiento de las historias de usuario.</p>
+
+**Aplicación en Kotlin:**
+
+**Figura 82**
+
+<p align="center">
+  <img src="https://i.imgur.com/ThgEQ1S.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 83**
+
+<p align="center">
+  <img src="https://i.imgur.com/1yXvTdq.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 84**
+
+<p align="center">
+  <img src="https://i.imgur.com/rkvE6C3.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 85**
+
+<p align="center">
+  <img src="https://i.imgur.com/13Pz1QD.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+URL del video: https://acortar.link/u5x1AS
+
+**Landing Page:**
+
+**Figura 86**
+
+<p align="center">
+  <img src="https://i.imgur.com/Xe7FsFA.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 87**
+
+<p align="center">
+  <img src="https://i.imgur.com/FilLNRC.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 88**
+
+<p align="center">
+  <img src="https://i.imgur.com/xcGvs1I.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 89**
+
+<p align="center">
+  <img src="https://i.imgur.com/MXSQqu4.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+URL del video: https://acortar.link/Y0oFip
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services implementados durante el Sprint 2, generada utilizando la especificación OpenAPI. Los endpoints desarrollados completan las funcionalidades <i>core</i> de la plataforma, abarcando tres dominios principales: Comments, Events y Messages. La documentación detalla las operaciones CRUD, los servicios de consulta (QueryService) y los servicios de comandos (CommandService) para cada dominio, incluyendo la gestión de estados, validaciones de pertenencia y autorización por roles (MANAGER) en el dominio de Eventos.</p>
+
+
+**Endpoints Documentados**
+
+| Endpoint                                               | Método | Descripción                     | Request Body                         | Response Body           | Códigos de Estado  |
+| ------------------------------------------------------ | ------ | ------------------------------- | ------------------------------------ | ----------------------- | ------------------ |
+| `/api/v1/announcements/{id}/comments`                  | POST   | Crear comentario en anuncio     | `CreateCommentResource`              | `CommentResource`       | 201, 400, 404, 500 |
+| `/api/v1/comments/{id}`                                | GET    | Obtener comentario por ID       | -                                    | `CommentResource`       | 200, 404, 500      |
+| `/api/v1/announcements/{id}/comments`                  | GET    | Obtener comentarios de anuncio  | -                                    | `List<CommentResource>` | 200, 404, 500      |
+| `/api/v1/comments/{id}`                                | DELETE | Eliminar comentario             | -                                    | -                       | 204, 404, 500      |
+| `/api/v1/events`                                       | POST   | Crear evento                    | `CreateEventResource`                | `EventResource`         | 201, 400, 500      |
+| `/api/v1/events/{eventId}`                             | GET    | Obtener evento por ID           | -                                    | `EventResource`         | 200, 404, 500      |
+| `/api/v1/events`                                       | GET    | Obtener todos los eventos       | Query params: `userId`, `filterType` | `List<EventResource>`   | 200, 500           |
+| `/api/v1/events/calendar`                              | GET    | Obtener eventos para calendario | Query param: `userId`                | `List<EventResource>`   | 200, 500           |
+| `/api/v1/events/{eventId}`                             | PUT    | Actualizar evento               | `UpdateEventResource`                | `EventResource`         | 200, 400, 404, 500 |
+| `/api/v1/events/{eventId}`                             | DELETE | Eliminar evento                 | -                                    | -                       | 204, 404, 500      |
+| `/api/v1/groups/{groupId}/messages`                    | POST   | Crear mensaje en grupo          | `CreateMessageResource`              | `MessageResource`       | 201, 400, 404, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | GET    | Obtener mensaje por ID          | -                                    | `MessageResource`       | 200, 404, 500      |
+| `/api/v1/groups/{groupId}/messages`                    | GET    | Obtener mensajes de grupo       | -                                    | `List<MessageResource>` | 200, 500           |
+| `/api/v1/groups/{groupId}/messages/status/{status}`    | GET    | Obtener mensajes por estado     | -                                    | `List<MessageResource>` | 200, 400, 500      |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | PUT    | Actualizar contenido de mensaje | `UpdateMessageBodyResource`          | `MessageResource`       | 200, 404, 400, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}/status` | PATCH  | Actualizar estado de mensaje    | `UpdateMessageStatusResource`        | `MessageResource`       | 200, 404, 400, 500 |
+| `/api/v1/groups/{groupId}/messages/{messageId}`        | DELETE | Eliminar mensaje                | -                                    | -                       | 204, 404, 500      |
+
+
+
+**Comments Domain**
+
+- **CommentCommandService**: Manejo de comandos de comentarios (crear, eliminar)
+- **CommentQueryService**: Consultas de comentarios (obtener por ID, por anuncio)
+- **CommentController**: API REST para operaciones de comentarios
+- **Características**:
+  - Integración con sistema de anuncios
+  - Validación de existencia de anuncios
+  - Operaciones CRUD básicas
+
+**Events Domain**
+
+- **EventCommandService**: Manejo de comandos de eventos (crear, actualizar, eliminar)
+- **EventQueryService**: Consultas de eventos (por ID, por creador, por destinatario, todos)
+- **EventController**: API REST para gestión de eventos
+- **Características**:
+  - Filtrado por usuario (creador/destinatario)
+  - Vista de calendario
+  - Gestión de destinatarios múltiples
+  - Autorización por rol (MANAGER)
+
+**Messages Domain**
+
+- **MessageCommandService**: Manejo de comandos de mensajes (crear, actualizar, eliminar)
+- **MessageQueryService**: Consultas de mensajes (por ID, por grupo, por estado)
+- **MessageController**: API REST para mensajería en grupos
+- **Características**:
+  - Mensajes vinculados a grupos específicos
+  - Estados de mensaje (SENT/EDITED/DELETED)
+  - Actualización de contenido y estado por separado
+  - Validación de pertenencia a grupo
+
+
+
+**Figura 90**
+
+<p align="center">
+  <img src="https://i.imgur.com/IzPFXRp.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 91**
+
+<p align="center">
+  <img src="https://i.imgur.com/IcEA5yu.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 92**
+
+<p align="center">
+  <img src="https://i.imgur.com/MNZ7yvk.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se resumen los procesos realizados en relación con el despliegue durante el Sprint 2. Las actividades de este sprint se centraron en la consolidación de los servicios existentes y la actualización de los productos web, más que en la creación de nueva infraestructura.</p>
+
+<p style="text-indent: 1.25cm;">Para los Web Services, no se realizaron cambios en la configuración de despliegue en Render, ya que la infraestructura base establecida en el Sprint 1 se mantuvo estable y fue suficiente para soportar el 100% de las funcionalidades del backend. En cuanto al Landing Page, sí se desplegó una nueva versión para reflejar las actualizaciones de contenido implementadas, como la adición de las secciones "Team", "FAQ" y "Producto", así como la funcionalidad de internacionalización. Las Aplicaciones móviles (Kotlin y Flutter) continúan en fase de desarrollo y aún no han sido desplegadas en un servicio de distribución. A continuación, se presentan las evidencias del despliegue actualizado del Landing Page.</p>
+
+
+
+**Figura 93**
+
+<p align="center">
+  <img src="https://i.imgur.com/ZEWrEQC.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 2, el equipo continuó su trabajo colaborativo, centrándose en la consolidación de la plataforma y la expansión de sus funcionalidades clave. Este sprint fue crucial para finalizar el despliegue del backend, empezar el desarrollo en flutter e implementar las lógicas de negocio avanzadas para el rol de Gerente, como la gestión de eventos y la moderación de chats.</p>
+
+**Daniela Araceli Gómez Flores** **Contribución Principal:**
+
+- Expansión del Landing Page con la "Sección Team".
+- Desarrollo del módulo de eventos.
+- Implementación de la cancelación de eventos.
+- Implementación de la modificación de detalles de eventos.
+
+**Elverth Jair Vaszquez Villalobos** **Contribución Principal:**
+
+- Desarrollo de la creación y modificación de grupos. 
+- Desarrollo de la eliminación de grupos de chat completos por parte de los gerentes.
+
+**Jorge Luis Díaz Fiestas** **Contribución Principal:**
+
+- Completó el CRUD de anuncios en la aplicación.
+- Añadió la capacidad de eliminar anuncios.
+- Implementó la funcionalidad de subir imágenes en los anuncios.
+
+**Neil Aldrin Wilhelm Curipaco Huayllani** **Contribución Principal:**
+
+- Implementación de la funcionalidad de internacionalización en el Landing Page.
+- Agregó la "Sección FAQ" al Landing Page.
+- Agregó la "Sección Producto" al Landing Page.
+
+**Raúl Adrian Medina Cruzado** **Contribución Principal:**
+
+- Expandió las capacidades del módulo de chat.
+- Implementó la vista de notificaciones 
+
+**Evidencia de la landing page:** 
+
+**Figura 94**
+
+<p align="center">
+  <img src="https://i.imgur.com/o9I8xhl.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Evidencia aplicación en Flutter:** 
+
+**Figura 95**
+
+<p align="center">
+  <img src="https://i.imgur.com/IG2yVSY.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+<p style="text-indent: 1.25cm;">En esta sección se establece el plan de validación con usuarios, definiendo los elementos a incluir y los flujos de usuario que serán evaluados. El objetivo principal es medir la usabilidad, coherencia de la arquitectura de información y la facilidad de uso de los artefactos producidos, tanto del Landing Page como de la aplicación móvil.
+<p style="text-indent: 1.25cm;">Las sesiones se diseñan en torno a los dos segmentos objetivo principales del proyecto: Gerentes y Empleados, asegurando que los flujos de tareas cubran tanto las funcionalidades compartidas como las específicas de cada rol.
+
+
+**1. Validación del Landing Page**
+
+<p style="text-indent: 1.25cm;">El Landing Page de Centralis sirve como el principal punto de información y conversión para todos los visitantes, independientemente de su rol. Por lo tanto, el diseño de la entrevista de validación es idéntico para ambos segmentos.
+
+- **Elementos a Incluir:** Se utilizará el prototipo de alta fidelidad del Landing Page, que replica la estructura de información, jerarquía visual y navegación (Header y Footer) definida en la fase de diseño.
+- **User Flows a Validar:**
+  - **Descubrimiento y Propuesta de Valor:** Se solicitará al visitante que explore la página de inicio (Home). El objetivo es evaluar la claridad inmediata del *Hero Section* y validar si el usuario se siente identificado con los problemas descritos en la sección de *Pain Points*.
+  - **Exploración de Características y Alcance:** Se guiará al visitante para que navegue a la página de "Producto". Se medirá la facilidad para comprender el valor de los módulos (Anuncios, Eventos, Chats) y la transparencia de la sección "Alcance", que define qué funcionalidades están incluidas y cuáles no.
+  - **Generación de Confianza:** El visitante deberá navegar a las páginas "Equipo" (About Team) y "FAQ". Se evaluará si la presentación del equipo y la información corporativa generan credibilidad, y si las preguntas frecuentes resuelven sus dudas principales.
+
+**2. Validación de la Aplicación Móvil**
+
+Para la validación de la aplicación móvil, se utilizarán prototipos navegables que simulan los dos perfiles de usuario, cada uno con sus respectivos permisos y vistas.
+
+**2.1. Segmento Empleados:  Flujo de Consumidor de Información**
+
+Este flujo se centra en tareas de consulta, recepción de información e interacción básica.
+
+- **User Flows  a Validar:**
+  - **Consumo de Anuncios:** Ingresar a la sección "Announcements" y diferenciar visualmente un anuncio "Urgent" del resto. Abrir un anuncio específico "Paro de transportistas", leer el detalle y publicar un comentario.
+  - **Consulta de Eventos:** Navegar a la sección "Events" y revisar la agenda. Seleccionar una "Capacitación" para consultar los detalles: fecha, hora, ubicación y la lista de otros asistentes.
+  - **Interacción en Grupos:**  Acceder a un grupo de chat asignado. Enviar un mensaje y verificar que la interfaz refleje la recepción y envío de mensajes en tiempo real.
+  - **Gestión de Notificaciones:**  Acceder al centro de "Notificaciones". Interpretar correctamente una notificación del sistema "Te han asignado a un evento"
+
+**2.2. Segmento Gerentes: Flujo de Administrador de Contenido**
+
+Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de creación, edición y eliminación de contenido.
+
+- **User Flows a Validar:**
+  - **Gestión de Anuncios**  Crear un nuevo anuncio. Publicar un anuncio con prioridad "Urgent".  Editar y/o eliminar un anuncio previamente publicado.
+  - **Gestión de Eventos** Crear un nuevo evento. Asignar asistentes al evento. Ingresar a un evento existente para modificar sus detalles "Edit Event" o cancelarlo "Delete Event"
+  - **Gestión de Grupos**  Crear un nuevo grupo de chat para un proyecto específico. Modificar el nombre de un grupo existente. Añadir nuevos miembros y eliminar miembros existentes de un grupo.
+
+### 4.3.2. Registro de Entrevistas
+
+<ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
+
+**Entrevistado #1: Abigail Goñe**  
+
+**Figura 96**  
+
+*Imagen del usuario número 1 entrevistado*  
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/abigaiill_ihwjzu.jpg" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+*Nota.* Elaboración propia.
+
+Abigail percibió que Centralis representa una mejora significativa en la forma en que los empleados acceden a información relevante dentro de la empresa. Destacó la simplicidad de la interfaz y la rapidez con la que puede ver anuncios, confirmar asistencia a eventos y comunicarse con sus compañeros. Mencionó que la aplicación le genera confianza por la claridad en las funciones y la seguridad de los datos. Propuso mejorar la visibilidad de algunos botones en la Landing Page y optimizar la navegación en ciertas pantallas, pero aseguró que la experiencia general es positiva. Considera que Centralis fomenta la participación, reduce confusiones y promueve una comunicación más efectiva entre todos los niveles de la organización.
+
+
+**Entrevistada #2: Fatima Arosemena**   
+
+**Figura 97**  
+
+*Imagen del usuario número 2 entrevistada*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/fatimaaa_mc1ynn.jpg" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+*Nota.* Elaboración propia.  
+
+Fátima encontró que Centralis soluciona un problema común en muchas empresas: la falta de un canal único de comunicación. Considera que la app es intuitiva, visualmente atractiva y fácil de navegar. Le gustó cómo los anuncios urgentes destacan claramente, y que puede interactuar dejando comentarios o consultando detalles de eventos sin complicaciones. También resaltó la claridad en los chats grupales y la utilidad de las confirmaciones de lectura. Sugirió agregar la opción de fijar mensajes importantes dentro de los grupos, pero en general expresó que la aplicación hace más fluida la comunicación y mejora la organización del trabajo diario.
+
+<ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
+
+**Entrevistada #3: Milagros Arellano**  
+
+**Figura 98**  
+
+*Imagen del usuario número 3 entrevistada*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031559/milagros_kbtkk4.jpg" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+*Nota.* Elaboración propia. 
+
+Milagros considera que Centralis es una herramienta ideal para mejorar la comunicación entre los diferentes equipos de trabajo. Durante la validación, destacó que la aplicación facilita la creación y gestión de anuncios, eventos y grupos sin depender de correos o mensajes dispersos. Le pareció muy claro el flujo para publicar información y valoró la opción de marcar anuncios como urgentes para priorizar temas importantes. Sugirió incorporar un sistema de confirmación al eliminar eventos o mensajes para evitar errores, y mejorar la forma en que se muestran los asistentes a los eventos. En general, percibe que Centralis ordena y optimiza la gestión interna, ayudando a mantener a todos alineados desde un solo lugar.
+
+**Entrevistada #4: Leonardo Delgado**  
+
+**Figura 99**  
+
+*Imagen del usuario número 4 entrevistada*
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+*Nota.* Elaboración propia.  
+
+Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
+
+
+### 4.3.3. Evaluaciones según heurísticas
+
+<p align="center">UX Heuristics & Principles Evaluation</p>
+
+<p align="center">Usability – Inclusive Design – Information Architecture</p>
+
+**CARRERA :** Ingeniería de Software
+
+**CURSO :** Aplicaciones para Dispositivos Móviles
+
+**SECCIÓN :** 14650
+
+**PROFESORES :** Todos
+
+**AUDITOR :** Equipo Synera
+
+**CLIENTE(S) :** 
+
+**SITE o APP A EVALUAR:**
+
+Centralis aplicacion móvil 
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Tareas de los Gerentes**
+
+- Crear un nuevo anuncio o evento.
+- Modificar el nombre de un grupo.
+- Eliminar un evento existente.
+
+**Tareas de los empleados**
+
+- Identificar anuncios "Urgent" en la lista.
+
+- Publicar un comentario en un anuncio y verificar su publicación.
+
+-  Intentar editar o eliminar un comentario propio.
+
+- Consultar detalles de un evento (ubicación, asistentes, hora).
+
+- Enviar un mensaje en un chat grupal y verificar el estado de lectura.
+
+  
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                  |
+| ----- | ------------------------------------------------------------ |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| **#** | **Problema**                                                 | **Escala de severidad** | **Heurística/Principio violada(o)** |
+| ----- | ------------------------------------------------------------ | ----------------------- | ----------------------------------- |
+| 1     | Ausencia de confirmación antes de eliminar un evento.        | 4                       | Prevención de errores.              |
+| 2     | El usuario no puede editar o eliminar sus propios comentarios. | 3                       | Control y libertad del usuario.     |
+| 3     | El chat de grupo no muestra confirmaciones de lectura (estado del sistema). | 2                       | Visibilidad del estado del sistema. |
+| 4     | La ubicación del evento no es un enlace accionable (ej. a "Meet"). | 2                       | Flexibilidad y eficiencia de uso.   |
+| 5     | Información redundante o inútil en detalles del evento.      | 1                       | Diseño estético y minimalista.      |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** Ausencia de confirmación antes de eliminar un evento.
+
+- **Severidad:** 4 Problema muy grave
+- **Heurística violada:** Prevención de errores.
+- **Problema:** El rol de Gerente tiene la capacidad de eliminar eventos, con el botón "Delete Event". El usuario manifestó explícitamente que esperaría un diálogo de confirmación, ya que presionar ese botón por accidente causaría una pérdida de datos irreversible para todos los asistentes.
+- **Recomendación:** Implementar un diálogo modal de confirmación, ejemplo. "¿Está seguro de que desea eliminar este evento? Esta acción no se puede deshacer" que aparezca después de presionar el botón "Delete Event" y antes de ejecutar la acción.
+
+
+
+**PROBLEMA #2:** El usuario no puede editar o eliminar sus propios comentarios.
+
+- **Severidad:** 3 Problema mayor
+- **Heurística violada:** Control y libertad del usuario.
+- **Problema:** El usuario Empleado puede publicar un comentario exitosamente, el cual aparece en la lista. Sin embargo, al intentar corregir un error o eliminar dicho comentario, el usuario no encuentra ninguna opción visible que le permita hacerlo.
+- **Recomendación:** Implementar una interacción que despliegue un menú contextual con las opciones de "Editar" y "Eliminar" el mensaje.
+
+
+
+**PROBLEMA #3:** El chat de grupo no muestra confirmaciones de lectura.
+
+- **Severidad:** 2 Problema menor
+- **Heurística violada:** Visibilidad del estado del sistema.
+- **Problema:** El usuario Empleado envía un mensaje en el chat de grupo, pero la interfaz no proporciona ningún *feedback* sobre el estado de dicho mensaje (ej. entregado, leído). El usuario manifestó que esperaba ver algún tipo de "doble check" o ícono de "visto" para saber si sus compañeros habían recibido la información.
+- **Recomendación:** Implementar un sistema de confirmación de lectura (ej. doble check gris para entregado, doble check azul para leído) para informar al usuario sobre el estado de sus mensajes.
+
+
+
+**PROBLEMA #4:** La ubicación del evento no es un enlace accionable.
+
+- **Severidad:** 2 Problema menor
+- **Heurística violada:** Flexibilidad y eficiencia de uso.
+- **Problema:** En los detalles del evento, la ubicación se muestra como un texto plano "meet". El usuario espera que, si la ubicación es una sala virtual, este campo sea un enlace accionable que lo lleve directamente a la reunión como Google Meet, Zoom, ahorrándole pasos.
+- **Recomendación:** Modificar el campo "Location" para que acepte URLs y las muestre como un hipervínculo accionable para el usuario.
 
 # Conclusiones
 
@@ -899,13 +1636,109 @@ A continuación se muestran capturas de pantalla de la documentación OpenAPI ge
 
 <p style="text-indent: 1.25cm;">El desarrollo del Sprint 1 del proyecto Centralis permitió establecer los cimientos tecnológicos y funcionales de la plataforma, cumpliendo exitosamente con los objetivos planteados en la planificación inicial. Se logró implementar una arquitectura sólida y escalable basada en Domain-Driven Design (DDD) y Clean Architecture, con bounded contexts bien definidos que facilitaron un desarrollo modular y alineado con las necesidades del negocio. La integración de tecnologías como Spring Boot para el backend, Kotlin con Jetpack Compose para la aplicación móvil nativa, y servicios cloud como Render y Netlify, demostró ser una combinación efectiva para el desarrollo de una solución robusta y de alto rendimiento.
 
+
+
 <p style="text-indent: 1.25cm;">Desde la perspectiva de valor de negocio, se implementaron y validaron funcionalidades core como la gestión de anuncios, sistema de chats, calendario de eventos y perfiles de usuario, demostrando que Centralis responde efectivamente a las necesidades de comunicación interna identificadas en las fases iniciales del proyecto. El diseño consistente mediante Material Design 3 en todos los componentes aseguró una experiencia de usuario unificada y profesional en toda la plataforma.
+
 
 <p style="text-indent: 1.25cm;">Finalmente, se estableció una infraestructura de despliegue sólida con la configuración exitosa de entornos en Render para el backend y Netlify para la landing page, sentando las bases para un ciclo de desarrollo continuo y despliegues automatizados en iteraciones futuras. La arquitectura modular y la separación clara de responsabilidades entre bounded contexts proporciona la flexibilidad necesaria para incorporar nuevas funcionalidades de manera controlada y eficiente.
 
 
 
-#
+**TB2:**
+
+
+<p style="text-indent: 1.25cm;">El Sprint 2 representa la consolidación y expansión de la plataforma Centralis, marcando la transición de los cimientos arquitectónicos a una solución funcionalmente robusta. En esta entrega se alcanzó el hito clave del 100% del despliegue del backend en un sitio público. El foco principal fue la implementación de las lógicas de negocio avanzadas para el rol de Gerente, completando el CRUD de anuncios, la gestión avanzada de eventos y las capacidades críticas de moderación de chats.
+
+
+
+<p style="text-indent: 1.25cm;">Técnicamente, este sprint demostró la flexibilidad de la arquitectura al permitir el inicio del desarrollo de la aplicación cross-platform en Flutter en paralelo al desarrollo nativo. Asimismo, se robusteció el Landing Page implementando funcionalidades de internacionalización (i18n).
+
+
+
+<p style="text-indent: 1.25cm;">Con el backend finalizado y las funcionalidades core implementadas en la aplicación nativa, el proyecto se encuentra en una posición sólida para la fase final. Este sprint también incluyó la elaboración de las primeras versiones de los videos "About-the-Product" y "About-the-Team", sentando las bases para las entrevistas de validación con usuarios y la entrega final del producto (TF1).
+
+
+## Video App Validation 
+
+<p style="text-indent: 1.25cm;">En esta sección se registran y explican las actividades de entrevistas de validación realizadas con los segmentos objetivo. Las sesiones fueron grabadas en video para documentar la interacción de los usuarios con la aplicación móvil, y los hallazgos se utilizarán para la evaluación heurística. A continuación, se presenta un resumen de las principales apreciaciones de los entrevistados con respecto a las tareas asignadas.</p>
+
+<p style="text-indent: 1.25cm;">Las entrevistas proporcionaron retroalimentación valiosa. La primera entrevistada, perteneciente al Segmento Empleado, validó la información de los eventos como suficiente, incluyendo asistentes, hora y fecha. Sin embargo, sugirió añadir mensajes de confirmación de éxito en la creación y eliminación, iconos de confirmación de lectura en los chats y la capacidad de fijar mensajes grupales. La segunda entrevista, también del Segmento Empleado, coincidió en la necesidad de feedback en los mensajes, sugiriendo un check de "enviado" y "leído", y propuso además una funcionalidad de confirmación de asistencia a eventos. Finalmente, la tercera entrevista, del Segmento Gerente, confirmó la utilidad de las funciones administrativas, destacando que las opciones para editar y eliminar anuncios y eventos son esenciales para su rol.</p>
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/8L16JO0.png" width="850">
+</p>
+
+Link de las entrevistas: https://acortar.link/TbVsHT
+
+## Video About the product 
+
+<p style="text-indent: 1.25cm;">En esta sección se introduce y describe el video "About-the-Product", el cual ha sido diseñado con un doble propósito: comunicar el modelo de negocio y la propuesta de valor a los visitantes del Landing Page, y demostrar las características principales del software a los usuarios de la aplicación. El contenido del video recorre las funcionalidades clave tanto del Landing Page como de la aplicación móvil, manteniendo un tono de comunicación consistente con la identidad del producto. Además, se incluye un testimonio positivo de un usuario que participó en las entrevistas de validación. A continuación, se adjuntan el screenshot, los enlaces de despliegue (OneDrive y YouTube) y la duración (timing) del mismo.</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/nJm7Tug.png" width="850">
+</p>
+
+
+
+Link del video en YouTube: https://youtu.be/pj9MuNyfGec  2 minutos 27 segundos
+Link del video en OneDrive: https://acortar.link/69wpTn 2 minutos 27 segundos
+
+## Video About the team
+
+<p style="text-indent: 1.25cm;">El desarrollo de este proyecto ha representado un proceso de aprendizaje evolutivo y práctico. En la fase inicial, el equipo se centró en adquirir y aplicar conocimientos metodológicos fundamentales, investigando y aplicando técnicas como Domain-Driven Design (DDD), MVVM, BLoC, EventStorming y Lean UX para modelar correctamente el dominio del problema.</p>
+
+<p style="text-indent: 1.25cm;">Posteriormente, este conocimiento teórico se materializó en la implementación de los cimientos tecnológicos de la plataforma, donde el equipo aprendió a integrar un stack de tecnologías completo, incluyendo Spring Boot para el backend, Kotlin nativo y Flutter para la aplicación móvil y servicios de autenticación como JWT. En la etapa más reciente, el aprendizaje se profundizó, pasando de la implementación de funcionalidades básicas a la resolución de desafíos técnicos avanzados. Esto incluyó la gestión de archivos multimedia con cloudinary, la implementación de lógicas de negocio complejas y la adopción de estándares de calidad como la internacionalización (i18n)</p>
+
+Link del video en OneDrive: https://acortar.link/7DEwKw
+
+**Neil Aldrin Wilhelm Curipaco Huayllani** 
+Inicio: minuto 0 segundo 5
+
+<p align="center">
+  <img src="https://i.imgur.com/JkOWiUe.png" width="850">
+</p>
+
+
+
+**Daniela Araceli Gómez Flores**
+
+Inicio: minuto 0 segundo 59
+
+<p align="center">
+  <img src="https://i.imgur.com/V2sEjvI.png" width="850">
+</p>
+
+**Elverth Jair Vaszquez Villalobos** 
+
+Inicio: minuto 3 segundo 47
+
+<p align="center">
+  <img src="https://i.imgur.com/KDaQ4sP.png" width="850">
+</p>
+
+**Raúl Adrian Medina Cruzado** 
+
+Inicio: minuto 5 segundo 18
+
+<p align="center">
+  <img src="https://i.imgur.com/HpDikUo.png" width="850">
+</p>
+
+
+
+**Jorge Luis Díaz Fiestas** 
+Inicio: minuto 6 segundo 21
+
+<p align="center">
+  <img src="https://i.imgur.com/R2YuePF.png" width="850">
+</p>
+
+
+
+
 
 # Bibliografía 
 
