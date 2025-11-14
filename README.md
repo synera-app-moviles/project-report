@@ -1,50 +1,38 @@
-<h1 align="center"><strong>Informe del Trabajo Final</strong></h1>
-<h3 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h1>
+
 
 <p align="center">
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Descripción de la imagen" style="width: 50%; height: auto;"></p>
 
-<h4 align="center"><strong>Ingeniería de Software</strong></h4>
-<h4 align="center"><strong>Ciclo 202520</strong></h4>
-<h4 align="center"><strong>Aplicaciones para dispositivos Moviles - 4388</strong></h4>
-<h4 align="center"><strong>Docente: Reyes Rodríguez, Eduardo Martín</h4>
-<h4 align="center"><strong>Informe de Trabajo Final</strong></h4>
+<h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
+
+
+<h3 align="center"><strong>Ingeniería de Software</strong></h3>
+<h4 align="center">Periodo: 202520</h4>
+<h4 align="center"><strong>1ACC0238 | Aplicaciones para dispositivos Moviles</strong></h4>
+<h4 align="center"><strong>NRC: 14650</strong></h4>
+<h4 align="center"><strong>Docente: Eduardo Martín Reyes Rodríguez</h4>
+
+<hr>
+
+<br>
+
+<h3 align="center"><strong>Informe de Trabajo Final</strong></h3>
 <h4 align="center"><strong>Startup: Synera</strong></h4>
 <h4 align="center">Product: Centralis</strong></h4>
 
-<p align="center"><strong>Team members:</strong></p>
+<br>
 
-<table align="center"; style="width: 100%; border-collapse: collapse; margin: 0 auto;">
-  <tr>
-    <th style="border: 1px solid black; padding: 8px; text-align: center;">Nombre</th>
-    <th style="border: 1px solid black; padding: 8px; text-align: center;">Código</th>
-  </tr>
-  </tr>
-    <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Daniela Araceli Gómez Flores </td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202311184</td>
-  </tr>
-   <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Elverth Jair Vaszquez Villalobos</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202213070</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Jorge Luis Diaz Fiestas </td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U20231D534</td>
-  </tr>
-  </tr>
-    <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Neil Aldrin Wilhelm Curipaco Huayllani</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U20231B866</td>
-  </tr>  
-  <tr>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Raúl Adrian Medina Cruzado</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">U202210938</td>  
-  </tr>
-</table>
+<h4 align="center"><strong>u202311184 - Gómez Flores, Daniela Araceli</strong></h4>
+<h4 align="center"><strong>u202213070 - Vaszquez Villalobos, Elverth Jair</strong></h4>
+<h4 align="center"><strong>u20231D534 - Diaz Fiestas, Jorge Luis</strong></h4>
+<h4 align="center"><strong>u20231B866 - Curipaco Huayllani, Neil Aldrin Wilhelm</strong></h4>
+<h4 align="center"><strong>u202210938 - Medina Cruzado, Raúl Adrian</strong></h4>
+
+<br>
 
 <h3 align="center"><strong>Septiembre 2025</strong></h3>
 
+<br>
 <hr>
 
 # Registro de Versiones del Informe
