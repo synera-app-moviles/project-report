@@ -992,7 +992,6 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 <p align="center">
   <img src="https://i.imgur.com/nzVxyGx.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 
@@ -1338,10 +1337,7 @@ URL del video: https://acortar.link/Y0oFip
 <p align="center">
   <img src="https://i.imgur.com/ZEWrEQC.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
-
-
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1396,6 +1392,136 @@ URL del video: https://acortar.link/Y0oFip
 
 *Nota.* Elaboración propia.
 
+
+
+### 4.2.3. Sprint 3
+
+<p style="text-indent: 1.25cm;">En esta sección se registra y explica el avance correspondiente al Sprint 3, una etapa decisiva enfocada en la robustez, la seguridad y el valor estratégico de la plataforma Centralis. Tras consolidar las funcionalidades operativas en el sprint anterior, el esfuerzo del equipo se redirigió hacia la implementación de requisitos no funcionales críticos, como la seguridad de nivel empresarial mediante autenticación JWT y cifrado de datos.</p>
+
+<p style="text-indent: 1.25cm;">Simultáneamente, se enriqueció la experiencia de usuario con características de tiempo real, integrando notificaciones push para mantener a los empleados informados al instante. Para el rol de Gerente, se introdujo un nuevo componente de valor: un dashboard de análisis diseñado para ofrecer visibilidad sobre la participación y el engagement de los equipos. Adicionalmente, se continuó refinando el Landing Page con mejoras visuales y de accesibilidad para potenciar su alcance.</p>
+
+
+
+#### 4.2.3.1. Sprint Planning 3
+
+<p style="text-indent: 1.25cm;">El Sprint Planning 3 se llevó a cabo el 27 de noviembre de 2025 con el propósito de definir los objetivos para esta fase de maduración técnica del producto. La sesión inició con la revisión de los hitos alcanzados en el Sprint 2, lo que permitió al equipo identificar la necesidad imperativa de blindar la aplicación antes de su lanzamiento final.</p>
+
+<p style="text-indent: 1.25cm;">Durante la reunión, se acordó priorizar las historias de usuario relacionadas con la protección de datos y la comunicación inmediata. Como resultado, se estableció un Sprint Goal ambicioso centrado en la seguridad y la inteligencia de negocios, buscando entregar confianza en el manejo de la información y herramientas de gestión avanzadas para los gerentes. A continuación, se presenta el resumen detallado de la planificación acordada.</p>
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Date</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">27/11/2025</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Time</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">16:48 PM</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Location</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Google Meet</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Prepared By</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curipaco Huayllani</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Attendees (to planning meeting)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Daniela Araceli Gómez Flores, Elverth Jair Vaszquez Villalobos, Jorge Luis Diaz Fiestas, Raúl Adrian Medina Cruzado</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Review Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Based on the Sprint 2 review, the team achieved 100% backend deployment and successfully implemented advanced 'Manager' role features (CRUD for events/announcements, chat moderation) in the native app. Additionally, the Flutter cross-platform development was initiated, and the Landing Page was upgraded with internationalization and accessibility features.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Retrospective Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">The retrospective highlighted challenges in synchronizing business logic between the native Kotlin app and the new Flutter build. The team agreed to enforce stricter API contract adherence to ensure consistent behavior across platforms and to prioritize security implementations early in the next sprint to avoid technical debt.</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 3 Goal</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Our focus is on implementing enterprise-grade security protocols and a managerial analytics dashboard.<br><br>We believe it delivers data confidence and actionable operational insights to Managers.<br><br>This will be confirmed when user sessions are secured via encrypted JWTs, and managers can successfully visualize team participation metrics through the new dashboard.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 3 Velocity</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">57</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">57</td>
+  </tr>
+</table>
+
+
+
+#### 4.2.3.2. Sprint Backlog 3
+
+<p style="text-indent: 1.25cm;">El Sprint Backlog 3 se centró en fortalecer la seguridad de la plataforma y potenciar la interacción en tiempo real. El equipo completó exitosamente las 18 historias de usuario planificadas, abarcando la implementación de protocolos de autenticación robustos con JWT y la integración de notificaciones push mediante Firebase Cloud Messaging </p>
+
+| **StoryID** | **Title**                                                    | **ID task** | **Título**                                                   | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ----------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | --------------- | ---------- |
+| US13        | Traducir la aplicación móvil                                 | SCRUM-13    | Traducir la aplicación móvil                                 | Como empleado, quiero elegir mi idioma preferido en la interfaz de usuario para poder interactuar con la plataforma en mi idioma nativo. | 2                      | Raul            | Done       |
+| US14        | Vincular el selector de idioma al módulo i18n y activar el cambio de idioma | SCRUM-14    | Vincular el selector de idioma al módulo i18n y activar el cambio de idioma | Como desarrollador, quiero vincular un selector de idioma desplegable al módulo i18n y activar la función dinámicamente. | 5                      | Raul            | Done       |
+| US19        | Segmentación de anuncios por departamento                    | SCRUM-19    | Segmentación de anuncios por departamento                    | Como gerente, quiero dirigir anuncios a departamentos específicos para que la información relevante llegue solo a quienes corresponda. | 3                      | Jorge           | Done       |
+| US20        | Confirmaciones de lectura                                    | SCRUM-20    | Confirmaciones de lectura                                    | Como gerente, quiero ver confirmaciones de lectura de anuncios para saber quién ha leído la información importante. | 5                      | Neil            | Done       |
+| US21        | Marcar anuncios como leídos                                  | SCRUM-21    | Marcar anuncios como leídos                                  | Como empleado, quiero marcar anuncios como leídos para llevar un control de la información revisada. | 3                      | Neil            | Done       |
+| US22        | Filtrado de anuncios por prioridad                           | SCRUM-22    | Filtrado de anuncios por prioridad                           | Como empleado, quiero filtrar anuncios por prioridad para ver primero lo más importante. | 2                      | Jorge           | Done       |
+| US45        | Notificaciones de anuncios                                   | SCRUM-45    | Notificaciones de anuncios                                   | Como empleado, quiero recibir notificaciones de nuevos anuncios para estar informado. | 2                      | Neil            | Done       |
+| US46        | Notificaciones de cambios                                    | SCRUM-46    | Notificaciones de cambios                                    | Como empleado, quiero recibir notificaciones cuando los eventos cambien para estar siempre actualizado. | 5                      | Neil            | Done       |
+| US47        | Validar y almacenar datos cifrados de usuario al registrarse | SCRUM-47    | Validar y almacenar datos cifrados de usuario al registrarse | Como desarrollador, quiero validar los datos de registro entrantes y almacenar las credenciales cifradas de los empleados para que las cuentas se creen de forma segura y estén protegidas contra accesos no autorizados. | 2                      | Neil            | Done       |
+| US48        | Restringir el acceso a la API                                | SCRUM-48    | Restringir el acceso a la API                                | Como desarrollador, quiero proteger las rutas de la API mediante control de acceso basado en roles y protecciones de middleware para bloquear el acceso no autorizado. | 3                      | Neil            | Done       |
+| US49        | Mantener la sesión iniciada                                  | SCRUM-49    | Mantener la sesión iniciada                                  | Como empleado, quiero mantener la sesión iniciada de forma segura en todas las sesiones para no tener que volver a autenticarme con frecuencia al volver a la aplicación. | 5                      | Daniela         | Done       |
+| US50        | Funcionalidad de Cierre de Sesión Seguro                     | SCRUM-50    | Funcionalidad de Cierre de Sesión Seguro                     | Como empleado, quiero cerrar sesión de forma segura en la aplicación para que mi sesión finalice por completo y no pueda ser reutilizada por terceros no autorizados. | 2                      | Daniela         | Done       |
+| US51        | Invalidar tokens y borrar metadatos de sesión al cerrar sesión | SCRUM-51    | Invalidar tokens y borrar metadatos de sesión al cerrar sesión | Como desarrollador, quiero implementar un mecanismo de cierre de sesión que invalide los tokens de actualización y borre los metadatos de sesión para mejorar la seguridad | 2                      | Daniela         | Done       |
+| US52        | Implementar la transmisión segura de datos y el cifrado.     | SCRUM-52    | Implementar la transmisión segura de datos y el cifrado.     | Como desarrollador, quiero asegurarme de que todos los datos confidenciales estén cifrados en reposo y se transmitan de forma segura para la seguridad de los datos. | 2                      | Neil            | Done       |
+| US53        | Implementar autenticación segura con JWT y cifrado de contraseñas | SCRUM-53    | Implementar autenticación segura con JWT y cifrado de contraseñas | Como desarrollador, quiero implementar un endpoint de autenticación y emitir JWT firmados con gestión de expiración, para que se puedan establecer sesiones de empleados seguras. | 2                      | Raul            | Done       |
+| US54        | Representación de navegación y acciones basada en roles.     | SCRUM-54    | Representación de navegación y acciones basada en roles.     | Como desarrollador, quiero ver los elementos de navegación según los roles autenticados, para que los empleados solo vean las secciones a las que están autorizados a acceder. | 2                      | Raul            | Done       |
+| US55        | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | SCRUM-55    | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | Como equipo de desarrollo de Synera, quiero investigar y prototipar la integración de Firebase Cloud Messaging (FCM) para el envío de notificaciones push a las aplicaciones móviles, para entender los requisitos técnicos, los costos, las limitaciones y el esfuerzo necesario para implementar esta funcionalidad de manera robusta y escalable. | 8                      | Neil            | Done       |
+
+
+
+**Figura N**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/2v0V778.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/ogysAtW.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
 
