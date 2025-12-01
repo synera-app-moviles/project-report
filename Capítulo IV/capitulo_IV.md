@@ -1171,7 +1171,6 @@ Característica: Eliminar grupos de chats
 <p align="center">
   <img src="https://i.imgur.com/ThgEQ1S.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 **Figura 83**
@@ -1513,9 +1512,227 @@ URL del video: https://acortar.link/Y0oFip
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">En esta sección se presentan los avances de implementación correspondientes al Sprint 3, con un enfoque principal en el desarrollo evolutivo de la aplicación móvil multiplataforma. Durante esta iteración, el equipo logró hitos significativos, destacando la implementación del Dashboard de análisis para el rol de Gerente, el cual permite el seguimiento de visualizaciones y estadísticas de contenido en tiempo real.</p>
+
+
+
+| **Repository**                        | **Branch**                    | **Commit Id** | **Commit Message**                                           | **Commit Message Body**                                      | **Committed on (Date)** |
+| ------------------------------------- | ----------------------------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------- |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `a7abad0`     | `Merge pull request #12 from synera-app-moviles/feature/validation_event` | Feature/validation event                                      | 27/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `719a3d1`     | `feat(event): refactor event loading and access validation logic` |                                                              | 27/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `506dd34`     | `feat(event): enhance event loading logic and user access validation` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `948c27f`     | `feat(event): normalize recipient IDs and enhance event filtering logic` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `7d2c223`     | `Merge pull request #11 from synera-app-moviles/app-firebase` | App firebase                                                 | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `app-firebase`                | `c2a911a`     | `feat(firebase): update asset catalog and add flutter launcher icons configuration` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `app-firebase`                | `b0f27fb`     | `fire base`                                                  |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `d7eb46f`     | `Merge pull request #9 from synera-app-moviles/feature/add-dashboard` | Feature/add dashboard                                        | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `88e2f88`     | `feat(event): update button color to use centralized theme color` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `d3fe9b1`     | `feat(chat): implement image upload and display functionality in chat` |                                                              | 25/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `ef2555a`     | `feat(dashboard): add content statistics and viewer tracking for announcements and events` |                                                              | 25/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `a80f3f7`     | `feat(dashboard): add dashboard feature with user views and analytics` |                                                              | 25/11/2025              |
+
+Resumen de Actividades
+
+1. **Dashboard y Analytics (25-26/11/2025)**
+   - Implementación completa del sistema de dashboard
+   - Estadísticas de visualización de contenido
+   - Seguimiento de viewers para anuncios y eventos
+   - Analytics de usuarios
+
+2. **Sistema de Chat con Imágenes (25/11/2025)**
+   - Funcionalidad de subida y visualización de imágenes en chat
+   - Integración con servicio de imágenes
+   - Mejoras en la interfaz de usuario del chat
+
+3. **Validación y Lógica de Eventos (26-27/11/2025)**
+   - Refactorización de la lógica de carga de eventos
+   - Validación de acceso de usuarios
+   - Normalización de IDs de destinatarios
+   - Mejoras en el filtrado de eventos
+
+4. **Configuración Firebase (26/11/2025)**
+   - Actualización del catálogo de assets
+   - Configuración de iconos de launcher de Flutter
+   - Integración con Firebase
+
+5. **Mejoras de UI/UX (26/11/2025)**
+   - Actualización de colores de botones usando tema centralizado
+   - Mejoras en la consistencia visual de la aplicación
+
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">Durante el Sprint 3, la estrategia de aseguramiento de la calidad se enfocó rigurosamente en la validación de los requisitos no funcionales críticos y la mejora de la experiencia del usuario. Se implementó y ejecutó una suite de pruebas de aceptación utilizando escenarios Gherkin para verificar la robustez de los nuevos protocolos de seguridad, la integración de notificaciones push y las capacidades de internacionalización. El objetivo fue asegurar que las funcionalidades de protección de datos y engagement operen correctamente bajo los estándares de calidad definidos.</p>
+
+**Resumen de Módulos Verificados (BDD - Gherkin):**
+
+- **Security & Authentication (US47-US53):** Se validaron escenarios complejos de seguridad, incluyendo el almacenamiento de datos cifrados, control de acceso a API, gestión segura de sesiones, autenticación JWT y transmisión segura de datos.
+
+- **Notifications System (US45-US46):** Verificación de los flujos de notificación para nuevos anuncios y cambios en eventos, asegurando la correcta configuración de las preferencias del usuario.
+
+- **Advanced Announcements (US19-US22):** Validación de la lógica de negocio avanzada para la segmentación por departamentos, confirmaciones de lectura y filtrado por prioridad.
+
+  
+
+**US20_confirmaciones_lectura.feature**
+
+```gherkin
+Característica: Confirmaciones de lectura
+  Como gerente
+  Quiero ver confirmaciones de lectura de anuncios
+  Para saber quién ha leído la información importante
+
+  Escenario: Ver lista de empleados que han leído el anuncio
+    Dado que soy un gerente que ha publicado un anuncio importante
+    Cuando accedo a los detalles del anuncio
+    Entonces debo ver una lista de empleados que lo han marcado como leído
+    Y debo ver la fecha y hora en que cada uno lo leyó
+
+  Escenario: Ver estadísticas de lectura del anuncio
+    Dado que soy un gerente revisando un anuncio publicado hace 2 días
+    Cuando veo las estadísticas de lectura
+    Entonces debo ver el porcentaje de empleados que lo han leído
+    Y debo ver cuántos empleados aún no lo han leído
+
+  Escenario: Identificar empleados que no han leído anuncios críticos
+    Dado que soy un gerente con un anuncio marcado como "Crítico"
+    Cuando reviso las confirmaciones de lectura después de 24 horas
+    Entonces debo ver claramente qué empleados no lo han leído
+    Y debo poder enviar recordatorios específicos
+
+  Escenario: Exportar reporte de confirmaciones de lectura
+    Dado que soy un gerente que necesita documentar el cumplimiento
+    Cuando solicito un reporte de confirmaciones de lectura
+    Entonces debo poder exportar un archivo con todos los datos de lectura
+    Y el archivo debe incluir nombres, departamentos y fechas de lectura
+```
+
+
+
+**US21_marcar_anuncios_leidos.feature**
+
+```gherkin
+Característica: Marcar anuncios como leídos
+  Como empleado
+  Quiero marcar anuncios como leídos
+  Para llevar un control de la información revisada
+
+  Escenario: Marcar anuncio como leído exitosamente
+    Dado que soy un empleado autenticado
+    Cuando leo un anuncio sobre "Nueva política de vacaciones"
+    Y hago clic en "Marcar como leído"
+    Entonces el anuncio debe marcarse visualmente como leído
+    Y debe registrarse la fecha y hora de lectura
+
+  Escenario: Ver estado de lectura en lista de anuncios
+    Dado que soy un empleado con varios anuncios disponibles
+    Cuando veo mi lista de anuncios
+    Entonces debo ver claramente cuáles he marcado como leídos
+    Y cuáles siguen pendientes por leer
+
+  Escenario: Marcar múltiples anuncios como leídos
+    Dado que soy un empleado con varios anuncios pendientes
+    Cuando selecciono múltiples anuncios
+    Y uso la opción "Marcar todos como leídos"
+    Entonces todos los anuncios seleccionados deben marcarse como leídos
+    Y debo ver confirmación de la acción
+
+  Escenario: Desmarcar anuncio como no leído
+    Dado que soy un empleado que marcó un anuncio como leído por error
+    Cuando accedo al anuncio marcado
+    Y selecciono "Marcar como no leído"
+    Entonces el anuncio debe volver al estado de pendiente
+    Y debe eliminarse el registro de fecha de lectura
+
+  Escenario: Recordatorio de anuncios no leídos
+    Dado que soy un empleado con anuncios importantes sin leer
+    Cuando han pasado 48 horas desde la publicación
+    Entonces debo recibir una notificación recordatoria
+    Y debo poder acceder directamente al anuncio desde la notificación
+```
+
+
+
+
+| Repository                           | Branch  | Commit Id | Commit Message                                               | Commit Message Body                                          | Commited on (Date) |
+| :----------------------------------- | :------ | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------- |
+| synera-app-moviles/centralis-kotlin | testing | 05fa66b   | feat(rbac-fcm): add BDD tests for role-based access control and FCM research US54-US55 | Implement BDD scenarios for role-based navigation control and Firebase Cloud Messaging integration research with technical requirements analysis and prototyping validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | 6f253bc   | feat(security): add BDD tests for authentication and security features US47-US53 | Implement BDD scenarios for encrypted user data validation, API access control, secure session management, JWT authentication, token invalidation, and secure data transmission with comprehensive security validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | cb8ccb3   | feat(notifications): add BDD tests for notification system US45-US46 | Implement BDD scenarios for announcement notifications and event change notifications with push notification configuration and user preference management | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | 054d43d   | feat(announcements): add BDD tests for advanced announcement management US19-US22 | Implement BDD scenarios for department segmentation, read confirmations, marking as read, and priority filtering with comprehensive permission and user experience validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | a10f862   | feat(i18n): add BDD tests for internationalization features US13-US14 | Implement BDD scenarios for mobile app translation and language selector integration with i18n module, including dynamic language switching and preference persistence | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | b29d0a9   | feat(landing): add BDD tests for landing page and accessibility features US08-US12 | Implement BDD scenarios for Centralis access from landing page, accessible navigation, social media links, and visual representations with comprehensive user experience validation | 01/12/2025         |
+
 #### 4.2.3.5. Execution Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia visual de la ejecución del Sprint 3, donde se logró un avance significativo en la interfaz de usuario y la experiencia interactiva de la aplicación. El hito principal fue la implementación de las pantallas del Dashboard Gerencial, una herramienta visual que permite a los administradores monitorear métricas de participación y estadísticas de visualización de contenido en tiempo real.</p>
+
+<p style="text-indent: 1.25cm;">Adicionalmente, se enriqueció la interfaz del módulo de comunicación con la integración de la funcionalidad de subida y visualización de imágenes en los chats, mejorando la capacidad de colaboración multimedia entre los usuarios. A continuación, se adjuntan las capturas de pantalla correspondientes a estas nuevas vistas y el enlace al video demostrativo que recorre los flujos de navegación implementados.</p>
+
+Aplicación en Flutter:
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/50kmKSg.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/nLMC5rA.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/JNnawXI.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/fTXmHtv.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/4S3gYEr.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/fWX6P7F.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura N**
+
+<p align="center">
+  <img src="https://i.imgur.com/IJHmuNX.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
