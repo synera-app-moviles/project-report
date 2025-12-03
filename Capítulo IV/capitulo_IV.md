@@ -1738,7 +1738,64 @@ Aplicación en Flutter:
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+<p style="text-indent: 1.25cm;">En esta sección se resumen los procesos realizados en relación con el despliegue (Deployment) durante el Sprint, destacando la expansión del ciclo de entrega hacia las plataformas móviles. Se configuraron los entornos necesarios para la distribución de binarios, cumpliendo con el requisito de poner las aplicaciones a disposición de los usuarios finales para su validación en dispositivos reales.</p>
+
+<p style="text-indent: 1.25cm;">Específicamente, se implementó el servicio Firebase App Distribution como plataforma centralizada para la entrega continua de las aplicaciones móviles. Se generaron y desplegaron los artefactos instalables (APKs) correspondientes tanto a la versión nativa desarrollada en Kotlin como a la versión multiplataforma en Flutter. Esta configuración permitió distribuir de manera eficiente las nuevas compilaciones a los grupos de testers seleccionados, facilitando la descarga directa, la ejecución de pruebas de usabilidad y la recolección de feedback temprano antes del lanzamiento final.</p>
+
+**Figura N**
+
+*Distribución de kotlin*
+
+<p align="center">
+  <img src="https://i.imgur.com/7X22l7N.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura N**
+
+*Distribución de flutter*
+
+<p align="center">
+  <img src="https://i.imgur.com/1mAdyWF.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 3, el equipo se enfocó en fortalecer la seguridad de la plataforma y mejorar la experiencia de usuario con notificaciones en tiempo real e internacionalización. La colaboración fue clave para integrar estas funcionalidades complejas de manera fluida.</p>
+
+**Daniela Araceli Gómez Flores** **Contribución Principal:**
+
+- Implementó la funcionalidad de mantener la sesión iniciada de forma segura.
+- Desarrolló el cierre de sesión seguro.
+
+**Elverth Jair Vaszquez Villalobos** **Contribución Principal:**
+
+- Lideró la grabación y documentación de las entrevistas de pruebas de usuario, asegurando la correcta recolección de feedback para la validación del producto.
+
+**Jorge Luis Díaz Fiestas** **Contribución Principal:**
+
+- Implementó la segmentación de anuncios por departamento.
+- Apoyó en la logística y grabación de las entrevistas de validación con usuarios.
+
+**Neil Aldrin Wilhelm Curipaco Huayllani** **Contribución Principal:**
+
+- Realizo la integración de Firebase Cloud Messaging (FCM).
+- Implementó las notificaciones de anuncios y cambios en eventos.
+- Implementó las confirmaciones de lectura y marcado de anuncios como leídos.
+
+**Raúl Adrian Medina Cruzado** **Contribución Principal:**
+
+- Desarrolló la autenticación segura con JWT y cifrado de contraseñas.
+- Implementó la navegación y acciones basadas en roles.
+
+
 
 ## 4.3. Validation Interviews
 
