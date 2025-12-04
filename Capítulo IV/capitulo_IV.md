@@ -1948,7 +1948,7 @@ En los Eventos, consideró que la información está bien distribuida y que es �
 
 #
 
-**Entrevistada #2: ...**   
+**Entrevistada #2: Marjorie Luna**   
 
 **Figura N**  
 
