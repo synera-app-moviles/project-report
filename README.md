@@ -160,7 +160,7 @@ A continuación, se detallan las contribuciones específicas de cada integrante 
 
 <p style="text-indent: 1.25cm;">Durante el Sprint 3, la dinámica de colaboración del equipo evolucionó para enfrentar desafíos de alta complejidad técnica, priorizando la seguridad de la arquitectura y la capacidad de respuesta en tiempo real de la plataforma. La distribución de tareas fue estratégica, permitiendo que el desarrollo de protocolos de autenticación robustos, la integración de servicios de notificaciones en la nube y la implementación de la internacionalización avanzaran en paralelo sin generar bloqueos. A través de una comunicación constante y el uso riguroso de herramientas de gestión ágil, el equipo logró integrar exitosamente estos componentes críticos, asegurando la coherencia entre el backend, la aplicación móvil y el landing page.</p>
 
-<p align="center"> <img src="hLM9bA.png" alt="PI2" width="1000"> </p>
+<p align="center"> <img src="https://i.imgur.com/ZceSiiz.png" alt="PI2" width="1000"> </p>
 
 A continuación, se detallan las contribuciones específicas de cada integrante durante este sprint:
 
