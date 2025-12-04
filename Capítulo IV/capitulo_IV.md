@@ -1736,6 +1736,95 @@ Aplicación en Flutter:
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services implementados durante el Sprint 2, generada utilizando la especificación OpenAPI. Los endpoints desarrollados completan las funcionalidades <i>core</i> de la plataforma, abarcando tres dominios principales: Comments, Events y Messages. La documentación detalla las operaciones CRUD, los servicios de consulta (QueryService) y los servicios de comandos (CommandService) para cada dominio, incluyendo la gestión de estados, validaciones de pertenencia y autorización por roles (MANAGER) en el dominio de Eventos.</p>
+
+
+**Endpoints Documentados**
+
+| Endpoint                                                       | Método | Descripción                                       | Request Body | Response Body                 | Códigos de Estado      |
+| ------------------------------------------------------------- | ------ | ------------------------------------------------- | ------------ | ------------------------------ | ----------------------- |
+| `/api/v1/sse/chat/{groupId}/close`                            | POST   | Cerrar conexiones del grupo                       | -            | -                              | 200, 400, 404           |
+| `/api/v1/sse/stats`                                           | GET    | Obtener estadísticas SSE                          | -            | `SseStatsResource`             | 200, 401                |
+| `/api/v1/sse/chat/{groupId}`                                  | GET    | Conectar al chat en tiempo real (SSE)             | -            | `SseChatStream`                | 200, 400, 401, 404      |
+| `/api/v1/sse/chat/{groupId}/connections`                      | GET    | Obtener conexiones activas del grupo              | -            | `List<Connection>`             | 200, 404                |
+| `/api/v1/dashboard/views/summary`                             | GET    | Obtener resumen general de visualizaciones        | -            | `SummaryResource`              | 200                     |
+| `/api/v1/dashboard/users/{userId}/events/views`               | GET    | Obtener eventos vistos por un usuario             | -            | `List<ViewResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/users/{userId}/announcements/views`        | GET    | Obtener anuncios vistos por un usuario            | -            | `List<ViewResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/events/{eventId}/users/views`              | GET    | Obtener usuarios que vieron un evento             | -            | `List<UserResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/events/{eventId}/stats`                    | GET    | Obtener estadísticas de visualización de evento   | -            | `EventStatsResource`           | 200, 400, 404           |
+| `/api/v1/dashboard/announcements/{announcementId}/users/views`| GET    | Obtener usuarios que vieron un anuncio            | -            | `List<UserResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/announcements/{announcementId}/stats`      | GET    | Obtener estadísticas del anuncio                  | -            | `AnnouncementStatsResource`    | 200, 400, 404           |
+| `/api/v1/analytics/events/{eventId}/views`                    | POST   | Registrar visualización de evento                 | -            | `ViewResource`                 | 201, 400, 404, 500      |
+| `/api/v1/analytics/announcements/{announcementId}/views`      | POST   | Registrar visualización de anuncio                | -            | `ViewResource`                 | 201, 400, 404, 500      |
+
+
+
+
+**SSE Domain**
+
+- **SseConnectionService**: Gestión de conexiones SSE para chats de grupo.
+- **SseStatsService**: Obtención de métricas del sistema SSE (conexiones activas, grupos conectados).
+- **SseController**: API REST para conexión en tiempo real y manejo de SSE.
+- **Características:**
+  - Conexión en tiempo real mediante SSE.
+  - Cierre de conexiones por grupo.
+  - Consulta de conexiones activas.
+  - Métricas globales de actividad SSE.
+  - Manejo de autenticación (401).
+  - Respuestas optimizadas en streaming.
+
+**Dashboard Domain**
+
+- **DashboardQueryService**: Consultas analíticas de visualizaciones y estadísticas.
+- **DashboardController**: API REST para reportes y analítica global.
+- **Características:**
+  - Resumen global de vistas.
+  - Seguimiento de vistas por usuario.
+  - Estadísticas por evento y anuncio.
+  - Consultas para panel de control administrativo.
+  - Validación de usuarios, eventos y anuncios.
+  - Optimización para dashboards.
+
+**Analytics Domain**
+
+- **AnalyticsCommandService**: Registro de vistas de contenido (eventos y anuncios).
+- **AnalyticsController**: API REST para tracking de visualizaciones.
+- **Características:**
+  - Registro rápido de vistas.
+  - Integración directa con Dashboard.
+  - Validación de existencia del contenido.
+  - Prevención de duplicados.
+  - Optimizado para tracking desde frontend.
+
+
+
+**Figura 90**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/chat_skt2da.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 91**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/dash_xpot0n.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 92**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/analy_ihkmsn.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 <p style="text-indent: 1.25cm;">En esta sección se resumen los procesos realizados en relación con el despliegue (Deployment) durante el Sprint, destacando la expansión del ciclo de entrega hacia las plataformas móviles. Se configuraron los entornos necesarios para la distribución de binarios, cumpliendo con el requisito de poner las aplicaciones a disposición de los usuarios finales para su validación en dispositivos reales.</p>
