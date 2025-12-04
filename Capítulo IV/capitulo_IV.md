@@ -1799,7 +1799,7 @@ Aplicación en Flutter:
 
 
 
-**Figura 90**
+**Figura N**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/chat_skt2da.jpg" alt="Descripción">
@@ -1807,7 +1807,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura 91**
+**Figura N**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/dash_xpot0n.jpg" alt="Descripción">
@@ -1815,7 +1815,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura 92**
+**Figura N**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/analy_ihkmsn.jpg" alt="Descripción">
@@ -1931,62 +1931,80 @@ Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de 
 
 <ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
 
-**Entrevistado #1: Abigail Goñe**  
+**Entrevistado #1: Denisse Ortega Roque**  
 
-**Figura 96**  
+**Figura N**  
 
 *Imagen del usuario número 1 entrevistado*  
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/abigaiill_ihwjzu.jpg" width="850">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764861626/DENI_vuuemz.jpg" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.
+Dennise percibe que Centralis es una solución muy útil para ordenar la comunicación interna y evitar la dispersión de información entre correos, chats personales y anuncios físicos. Al revisar la Landing Page, destacó que el mensaje es claro, que los beneficios están bien explicados y que transmitir quiénes son los creadores genera confianza. Le pareció sencillo identificar la propuesta de valor y ubicar el botón para solicitar una demostración. En cuanto a la aplicación móvil, valoró lo intuitiva que es la sección de Anuncios, especialmente el indicador de urgente, que le ayuda a identificar prioridades rápidamente. También resaltó la claridad al publicar comentarios y la facilidad para corregirlos en caso de equivocación.
+En los Eventos, consideró que la información está bien distribuida y que es útil visualizar quiénes asistirán. Sugirió mejorar algunos detalles visuales para que la pantalla se vea más limpia. En los Grupos, destacó lo práctico que es identificar quién envió cada mensaje y mencionó que sería útil incorporar un sistema de confirmación de lectura. En general, Dennise considera que Centralis es una aplicación moderna, clara y beneficiosa para empleados, ayudando a mantener todo organizado y accesible desde el celular.
 
-Abigail percibió que Centralis representa una mejora significativa en la forma en que los empleados acceden a información relevante dentro de la empresa. Destacó la simplicidad de la interfaz y la rapidez con la que puede ver anuncios, confirmar asistencia a eventos y comunicarse con sus compañeros. Mencionó que la aplicación le genera confianza por la claridad en las funciones y la seguridad de los datos. Propuso mejorar la visibilidad de algunos botones en la Landing Page y optimizar la navegación en ciertas pantallas, pero aseguró que la experiencia general es positiva. Considera que Centralis fomenta la participación, reduce confusiones y promueve una comunicación más efectiva entre todos los niveles de la organización.
+#
 
+**Entrevistada #2: ...**   
 
-**Entrevistada #2: Fatima Arosemena**   
-
-**Figura 97**  
+**Figura N**  
 
 *Imagen del usuario número 2 entrevistada*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/fatimaaa_mc1ynn.jpg" width="850">
+  <img src="..." width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.  
+- resumen de la entrevista
 
-Fátima encontró que Centralis soluciona un problema común en muchas empresas: la falta de un canal único de comunicación. Considera que la app es intuitiva, visualmente atractiva y fácil de navegar. Le gustó cómo los anuncios urgentes destacan claramente, y que puede interactuar dejando comentarios o consultando detalles de eventos sin complicaciones. También resaltó la claridad en los chats grupales y la utilidad de las confirmaciones de lectura. Sugirió agregar la opción de fijar mensajes importantes dentro de los grupos, pero en general expresó que la aplicación hace más fluida la comunicación y mejora la organización del trabajo diario.
+# 
 
-<ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
+**Entrevistada #3: ...**   
 
-**Entrevistada #3: Milagros Arellano**  
-
-**Figura 98**  
+**Figura N**  
 
 *Imagen del usuario número 3 entrevistada*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031559/milagros_kbtkk4.jpg" width="850">
+  <img src="..." width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia. 
+- resumen de la entrevista
 
-Milagros considera que Centralis es una herramienta ideal para mejorar la comunicación entre los diferentes equipos de trabajo. Durante la validación, destacó que la aplicación facilita la creación y gestión de anuncios, eventos y grupos sin depender de correos o mensajes dispersos. Le pareció muy claro el flujo para publicar información y valoró la opción de marcar anuncios como urgentes para priorizar temas importantes. Sugirió incorporar un sistema de confirmación al eliminar eventos o mensajes para evitar errores, y mejorar la forma en que se muestran los asistentes a los eventos. En general, percibe que Centralis ordena y optimiza la gestión interna, ayudando a mantener a todos alineados desde un solo lugar.
 
-**Entrevistada #4: Leonardo Delgado**  
+#
 
-**Figura 99**  
+  
+<ins>**Registro de entrevistas para segmento objetivo: Gerente o Lider de Equipo**<ins>  
+
+**Entrevistada #4: Abigail Goñe Araccata**  
+
+**Figura N**  
 
 *Imagen del usuario número 4 entrevistada*
+
+<p align="center">
+  <img src="..." width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+- resumen de la entrevista
+
+#
+
+**Entrevistada #5: Leonardo Delgado**  
+
+**Figura N**  
+
+*Imagen del usuario número 5 entrevistada*
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
@@ -1994,10 +2012,23 @@ Milagros considera que Centralis es una herramienta ideal para mejorar la comuni
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.  
-
 Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
 
+#
+
+**Entrevistada #6: ...**  
+
+**Figura N**  
+
+*Imagen del usuario número 6 entrevistada*
+
+<p align="center">
+  <img src="..." width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+- resumen de la entrevista
 
 ### 4.3.3. Evaluaciones según heurísticas
 
