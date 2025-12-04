@@ -1378,7 +1378,6 @@ URL del video: https://acortar.link/Y0oFip
 <p align="center">
   <img src="https://i.imgur.com/o9I8xhl.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 **Evidencia aplicación en Flutter:** 
@@ -1488,7 +1487,7 @@ URL del video: https://acortar.link/Y0oFip
 
 
 
-**Figura N**
+**Figura 96**
 
 *Imagen de las tareas de Jira*
 
@@ -1498,7 +1497,7 @@ URL del video: https://acortar.link/Y0oFip
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 97**
 
 *Imagen de las tareas de Jira*
 
@@ -1670,7 +1669,7 @@ Característica: Marcar anuncios como leídos
 
 Aplicación en Flutter:
 
-**Figura N**
+**Figura 98**
 
 <p align="center">
   <img src="https://i.imgur.com/50kmKSg.png" alt="Descripción">
@@ -1678,7 +1677,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 99**
 
 <p align="center">
   <img src="https://i.imgur.com/nLMC5rA.png" alt="Descripción">
@@ -1688,7 +1687,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 100**
 
 <p align="center">
   <img src="https://i.imgur.com/JNnawXI.png" alt="Descripción">
@@ -1698,7 +1697,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 101**
 
 <p align="center">
   <img src="https://i.imgur.com/fTXmHtv.png" alt="Descripción">
@@ -1708,7 +1707,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 102**
 
 <p align="center">
   <img src="https://i.imgur.com/4S3gYEr.png" alt="Descripción">
@@ -1718,7 +1717,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 103**
 
 <p align="center">
   <img src="https://i.imgur.com/fWX6P7F.png" alt="Descripción">
@@ -1726,7 +1725,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 104**
 
 <p align="center">
   <img src="https://i.imgur.com/IJHmuNX.png" alt="Descripción">
@@ -1799,7 +1798,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 105**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/chat_skt2da.jpg" alt="Descripción">
@@ -1807,7 +1806,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 106**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/dash_xpot0n.jpg" alt="Descripción">
@@ -1815,7 +1814,7 @@ Aplicación en Flutter:
 
 *Nota.* Elaboración propia.
 
-**Figura N**
+**Figura 107**
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/analy_ihkmsn.jpg" alt="Descripción">
@@ -1831,7 +1830,7 @@ Aplicación en Flutter:
 
 <p style="text-indent: 1.25cm;">Específicamente, se implementó el servicio Firebase App Distribution como plataforma centralizada para la entrega continua de las aplicaciones móviles. Se generaron y desplegaron los artefactos instalables (APKs) correspondientes tanto a la versión nativa desarrollada en Kotlin como a la versión multiplataforma en Flutter. Esta configuración permitió distribuir de manera eficiente las nuevas compilaciones a los grupos de testers seleccionados, facilitando la descarga directa, la ejecución de pruebas de usabilidad y la recolección de feedback temprano antes del lanzamiento final.</p>
 
-**Figura N**
+**Figura 108**
 
 *Distribución de kotlin*
 
@@ -1843,7 +1842,7 @@ Aplicación en Flutter:
 
 
 
-**Figura N**
+**Figura 109**
 
 *Distribución de flutter*
 
@@ -1884,7 +1883,37 @@ Aplicación en Flutter:
 - Desarrolló la autenticación segura con JWT y cifrado de contraseñas.
 - Implementó la navegación y acciones basadas en roles.
 
+**Figura 110**
 
+*Insights del web servise*
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/BGwi05k.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 111**
+
+*Insights del app en kotlin*
+
+<p align="center">
+  <img src="https://i.imgur.com/arkwJi8.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 112**
+
+*Insights del app en flutter*
+
+<p align="center">
+  <img src="https://i.imgur.com/twKP3Xn.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 ## 4.3. Validation Interviews
 
@@ -1996,7 +2025,7 @@ En los Eventos, consideró que la información está bien distribuida y que es �
 
 *Nota.* Elaboración propia.
 
-- resumen de la entrevista
+- Desde una perspectiva gerencial, la entrevistada (Abigail) validó la eficiencia de la aplicación para la gestión integral de la comunicación interna, destacando la usabilidad intuitiva de los módulos de Anuncios y Eventos. Valoró positivamente la claridad de los formularios de creación, la distinción visual de los mensajes urgentes y los mecanismos de seguridad implementados para la eliminación de contenido. Hizo especial énfasis en el valor estratégico del Dashboard de análisis, calificando la visualización de métricas de lectura y participación como una función fundamental para garantizar la transparencia y la toma de decisiones basada en datos reales. Finalmente, resaltó la agilidad en la gestión de grupos, concluyendo que la plataforma otorga el control y la visibilidad necesarios para mantener a la organización alineada.
 
 #
 
@@ -2209,7 +2238,7 @@ Link de las entrevistas: https://acortar.link/TbVsHT
 </p>
 
 
-
+Link de las entrevistas: https://acortar.link/jjf9Ub
 
 
 ## Video About the product 
@@ -2317,4 +2346,4 @@ Link del video en OneDrive: https://acortar.link/7DEwKw
 **Video App Validation:**
 
 Primera version: https://acortar.link/TbVsHT
-Segunda version: 
+Segunda version: https://acortar.link/jjf9Ub
