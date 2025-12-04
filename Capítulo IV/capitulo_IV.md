@@ -1955,33 +1955,33 @@ En los Eventos, consideró que la información está bien distribuida y que es �
 *Imagen del usuario número 2 entrevistada*
 
 <p align="center">
-  <img src="..." width="850">
+  <img src="https://i.imgur.com/ETRxx7I.png" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-- resumen de la entrevista
+- La entrevistada destacó que la navegación por la aplicación resulta sencilla e intuitiva, facilitando la interacción con las secciones de anuncios y eventos. No obstante, sugirió la incorporación de indicadores de lectura en los chats grupales para confirmar el estado de los mensajes enviados.
 
 # 
 
-**Entrevistada #3: ...**   
+**Entrevistada #3: Leonardo Delgado**   
 
 **Figura N**  
 
 *Imagen del usuario número 3 entrevistada*
 
 <p align="center">
-  <img src="..." width="850">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-- resumen de la entrevista
+- Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
 
 
 #
 
-  
+
 <ins>**Registro de entrevistas para segmento objetivo: Gerente o Lider de Equipo**<ins>  
 
 **Entrevistada #4: Abigail Goñe Araccata**  
@@ -2000,35 +2000,35 @@ En los Eventos, consideró que la información está bien distribuida y que es �
 
 #
 
-**Entrevistada #5: Leonardo Delgado**  
+**Entrevistada #5: Geraldine Lazo **  
 
 **Figura N**  
 
 *Imagen del usuario número 5 entrevistada*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
+  <img src="https://i.imgur.com/Thn2ya0.png" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
+* Desde una perspectiva gerencial, la entrevistada valoró especialmente la incorporación del panel de analíticas, resaltando su utilidad estratégica para monitorear el alcance de las publicaciones y el nivel de participación del equipo. En cuanto a la operatividad, calificó la interfaz como intuitiva, lo que agiliza significativamente la gestión y creación de nuevos anuncios y eventos. Sin embargo, enfatizó la necesidad de integrar confirmaciones de lectura en la mensajería grupal, un elemento que considera vital para asegurar que las directrices compartidas hayan sido efectivamente recibidas por los colaboradores.
 
 #
 
-**Entrevistada #6: ...**  
+**Entrevistada #6: Guiliana Nisbet**  
 
 **Figura N**  
 
 *Imagen del usuario número 6 entrevistada*
 
 <p align="center">
-  <img src="..." width="850">
+  <img src="https://i.imgur.com/AjZ5pzy.png" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-- resumen de la entrevista
+- La entrevistada destacó que la navegación por la aplicación resulta sencilla e intuitiva, facilitando la creación de anuncios y eventos. No obstante, sugirió la incorporación de indicadores de lectura en los chats grupales para confirmar el estado de los mensajes enviados. Asimismo, valoró positivamente la utilidad del panel de visualización de analíticas.
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -2181,6 +2181,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## Video App Validation 
 
+
+
+### Primera versión 
+
 <p style="text-indent: 1.25cm;">En esta sección se registran y explican las actividades de entrevistas de validación realizadas con los segmentos objetivo. Las sesiones fueron grabadas en video para documentar la interacción de los usuarios con la aplicación móvil, y los hallazgos se utilizarán para la evaluación heurística. A continuación, se presenta un resumen de las principales apreciaciones de los entrevistados con respecto a las tareas asignadas.</p>
 
 <p style="text-indent: 1.25cm;">Las entrevistas proporcionaron retroalimentación valiosa. La primera entrevistada, perteneciente al Segmento Empleado, validó la información de los eventos como suficiente, incluyendo asistentes, hora y fecha. Sin embargo, sugirió añadir mensajes de confirmación de éxito en la creación y eliminación, iconos de confirmación de lectura en los chats y la capacidad de fijar mensajes grupales. La segunda entrevista, también del Segmento Empleado, coincidió en la necesidad de feedback en los mensajes, sugiriendo un check de "enviado" y "leído", y propuso además una funcionalidad de confirmación de asistencia a eventos. Finalmente, la tercera entrevista, del Segmento Gerente, confirmó la utilidad de las funciones administrativas, destacando que las opciones para editar y eliminar anuncios y eventos son esenciales para su rol.</p>
@@ -2190,8 +2194,23 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <p align="center">
   <img src="https://i.imgur.com/8L16JO0.png" width="850">
 </p>
-
 Link de las entrevistas: https://acortar.link/TbVsHT
+
+### Segunda versión 
+
+<p style="text-indent: 1.25cm;">En esta sección, el equipo documenta la evaluación final de la aplicación a través de pruebas de usuario distribuidas mediante Firebase App Distribution. El video adjunto consolida los resultados de las sesiones de validación realizadas con una muestra de 6 usuarios, divididos equitativamente entre los segmentos objetivo: 3 Empleados y 3 Gerentes.</p>
+
+<p style="text-indent: 1.25cm;">Los hallazgos generales indican una alta satisfacción con la usabilidad de la aplicación. Ambos grupos de usuarios coincidieron en que la interfaz es intuitiva, facilitando la ejecución de tareas principales como la creación de anuncios, la gestión de eventos y el inicio de chats. Sin embargo, se identificó una oportunidad de mejora transversal: ambos perfiles señalaron la necesidad crítica de implementar indicadores de lectura en la mensajería para garantizar la confirmación de recepción de la información.</p>
+
+<p style="text-indent: 1.25cm;">Por su parte, el segmento de Gerentes destacó el valor estratégico de las funcionalidades exclusivas de su rol. Específicamente, validaron la utilidad del Dashboard de analíticos, resaltando la capacidad para visualizar métricas de alcance (quién vio un anuncio o evento específico) y la gestión centralizada del contenido creado, lo cual les permite tener un control efectivo sobre la comunicación interna de la organización.</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/8L16JO0.png" width="850">
+</p>
+
+
+
+
 
 ## Video About the product 
 
@@ -2281,3 +2300,21 @@ Inicio: minuto 6 segundo 21
 * Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 
 * Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
+
+
+
+# Anexos
+
+**Video About the product:** 
+
+Link del video en YouTube: https://youtu.be/pj9MuNyfGec
+Link del video en OneDrive: https://acortar.link/69wpTn
+
+**Video About the team:**
+
+Link del video en OneDrive: https://acortar.link/7DEwKw
+
+**Video App Validation:**
+
+Primera version: https://acortar.link/TbVsHT
+Segunda version: 
