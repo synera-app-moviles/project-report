@@ -992,7 +992,6 @@ This will be confirmed when the backend is 100% deployed on a public site, manag
 <p align="center">
   <img src="https://i.imgur.com/nzVxyGx.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 
@@ -1172,7 +1171,6 @@ Característica: Eliminar grupos de chats
 <p align="center">
   <img src="https://i.imgur.com/ThgEQ1S.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 **Figura 83**
@@ -1338,10 +1336,7 @@ URL del video: https://acortar.link/Y0oFip
 <p align="center">
   <img src="https://i.imgur.com/ZEWrEQC.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
-
-
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1383,7 +1378,6 @@ URL del video: https://acortar.link/Y0oFip
 <p align="center">
   <img src="https://i.imgur.com/o9I8xhl.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
 
 **Evidencia aplicación en Flutter:** 
@@ -1396,6 +1390,530 @@ URL del video: https://acortar.link/Y0oFip
 
 *Nota.* Elaboración propia.
 
+
+
+### 4.2.3. Sprint 3
+
+<p style="text-indent: 1.25cm;">En esta sección se registra y explica el avance correspondiente al Sprint 3, una etapa decisiva enfocada en la robustez, la seguridad y el valor estratégico de la plataforma Centralis. Tras consolidar las funcionalidades operativas en el sprint anterior, el esfuerzo del equipo se redirigió hacia la implementación de requisitos no funcionales críticos, como la seguridad de nivel empresarial mediante autenticación JWT y cifrado de datos.</p>
+
+<p style="text-indent: 1.25cm;">Simultáneamente, se enriqueció la experiencia de usuario con características de tiempo real, integrando notificaciones push para mantener a los empleados informados al instante. Para el rol de Gerente, se introdujo un nuevo componente de valor: un dashboard de análisis diseñado para ofrecer visibilidad sobre la participación y el engagement de los equipos. Adicionalmente, se continuó refinando el Landing Page con mejoras visuales y de accesibilidad para potenciar su alcance.</p>
+
+
+
+#### 4.2.3.1. Sprint Planning 3
+
+<p style="text-indent: 1.25cm;">El Sprint Planning 3 se llevó a cabo el 27 de noviembre de 2025 con el propósito de definir los objetivos para esta fase de maduración técnica del producto. La sesión inició con la revisión de los hitos alcanzados en el Sprint 2, lo que permitió al equipo identificar la necesidad imperativa de blindar la aplicación antes de su lanzamiento final.</p>
+
+<p style="text-indent: 1.25cm;">Durante la reunión, se acordó priorizar las historias de usuario relacionadas con la protección de datos y la comunicación inmediata. Como resultado, se estableció un Sprint Goal ambicioso centrado en la seguridad y la inteligencia de negocios, buscando entregar confianza en el manejo de la información y herramientas de gestión avanzadas para los gerentes. A continuación, se presenta el resumen detallado de la planificación acordada.</p>
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint #</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Sprint 3</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Date</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">27/11/2025</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Time</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">16:48 PM</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Location</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Google Meet</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Prepared By</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Neil Curipaco Huayllani</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Attendees (to planning meeting)</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Daniela Araceli Gómez Flores, Elverth Jair Vaszquez Villalobos, Jorge Luis Diaz Fiestas, Raúl Adrian Medina Cruzado</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Review Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Based on the Sprint 2 review, the team achieved 100% backend deployment and successfully implemented advanced 'Manager' role features (CRUD for events/announcements, chat moderation) in the native app. Additionally, the Flutter cross-platform development was initiated, and the Landing Page was upgraded with internationalization and accessibility features.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint n - 1 Retrospective Summary</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">The retrospective highlighted challenges in synchronizing business logic between the native Kotlin app and the new Flutter build. The team agreed to enforce stricter API contract adherence to ensure consistent behavior across platforms and to prioritize security implementations early in the next sprint to avoid technical debt.</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold; text-align: center;">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 3 Goal</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">Our focus is on implementing enterprise-grade security protocols and a managerial analytics dashboard.<br><br>We believe it delivers data confidence and actionable operational insights to Managers.<br><br>This will be confirmed when user sessions are secured via encrypted JWTs, and managers can successfully visualize team participation metrics through the new dashboard.</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sprint 3 Velocity</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">57</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2; font-weight: bold;">Sum of Story Points</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">57</td>
+  </tr>
+</table>
+
+
+
+#### 4.2.3.2. Sprint Backlog 3
+
+<p style="text-indent: 1.25cm;">El Sprint Backlog 3 se centró en fortalecer la seguridad de la plataforma y potenciar la interacción en tiempo real. El equipo completó exitosamente las 18 historias de usuario planificadas, abarcando la implementación de protocolos de autenticación robustos con JWT y la integración de notificaciones push mediante Firebase Cloud Messaging </p>
+
+| **StoryID** | **Title**                                                    | **ID task** | **Título**                                                   | **Descripción**                                              | **Estimation (Hours)** | **Assigned To** | **Status** |
+| ----------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- | --------------- | ---------- |
+| US13        | Traducir la aplicación móvil                                 | SCRUM-13    | Traducir la aplicación móvil                                 | Como empleado, quiero elegir mi idioma preferido en la interfaz de usuario para poder interactuar con la plataforma en mi idioma nativo. | 2                      | Raul            | Done       |
+| US14        | Vincular el selector de idioma al módulo i18n y activar el cambio de idioma | SCRUM-14    | Vincular el selector de idioma al módulo i18n y activar el cambio de idioma | Como desarrollador, quiero vincular un selector de idioma desplegable al módulo i18n y activar la función dinámicamente. | 5                      | Raul            | Done       |
+| US19        | Segmentación de anuncios por departamento                    | SCRUM-19    | Segmentación de anuncios por departamento                    | Como gerente, quiero dirigir anuncios a departamentos específicos para que la información relevante llegue solo a quienes corresponda. | 3                      | Jorge           | Done       |
+| US20        | Confirmaciones de lectura                                    | SCRUM-20    | Confirmaciones de lectura                                    | Como gerente, quiero ver confirmaciones de lectura de anuncios para saber quién ha leído la información importante. | 5                      | Neil            | Done       |
+| US21        | Marcar anuncios como leídos                                  | SCRUM-21    | Marcar anuncios como leídos                                  | Como empleado, quiero marcar anuncios como leídos para llevar un control de la información revisada. | 3                      | Neil            | Done       |
+| US22        | Filtrado de anuncios por prioridad                           | SCRUM-22    | Filtrado de anuncios por prioridad                           | Como empleado, quiero filtrar anuncios por prioridad para ver primero lo más importante. | 2                      | Jorge           | Done       |
+| US45        | Notificaciones de anuncios                                   | SCRUM-45    | Notificaciones de anuncios                                   | Como empleado, quiero recibir notificaciones de nuevos anuncios para estar informado. | 2                      | Neil            | Done       |
+| US46        | Notificaciones de cambios                                    | SCRUM-46    | Notificaciones de cambios                                    | Como empleado, quiero recibir notificaciones cuando los eventos cambien para estar siempre actualizado. | 5                      | Neil            | Done       |
+| US47        | Validar y almacenar datos cifrados de usuario al registrarse | SCRUM-47    | Validar y almacenar datos cifrados de usuario al registrarse | Como desarrollador, quiero validar los datos de registro entrantes y almacenar las credenciales cifradas de los empleados para que las cuentas se creen de forma segura y estén protegidas contra accesos no autorizados. | 2                      | Neil            | Done       |
+| US48        | Restringir el acceso a la API                                | SCRUM-48    | Restringir el acceso a la API                                | Como desarrollador, quiero proteger las rutas de la API mediante control de acceso basado en roles y protecciones de middleware para bloquear el acceso no autorizado. | 3                      | Neil            | Done       |
+| US49        | Mantener la sesión iniciada                                  | SCRUM-49    | Mantener la sesión iniciada                                  | Como empleado, quiero mantener la sesión iniciada de forma segura en todas las sesiones para no tener que volver a autenticarme con frecuencia al volver a la aplicación. | 5                      | Daniela         | Done       |
+| US50        | Funcionalidad de Cierre de Sesión Seguro                     | SCRUM-50    | Funcionalidad de Cierre de Sesión Seguro                     | Como empleado, quiero cerrar sesión de forma segura en la aplicación para que mi sesión finalice por completo y no pueda ser reutilizada por terceros no autorizados. | 2                      | Daniela         | Done       |
+| US51        | Invalidar tokens y borrar metadatos de sesión al cerrar sesión | SCRUM-51    | Invalidar tokens y borrar metadatos de sesión al cerrar sesión | Como desarrollador, quiero implementar un mecanismo de cierre de sesión que invalide los tokens de actualización y borre los metadatos de sesión para mejorar la seguridad | 2                      | Daniela         | Done       |
+| US52        | Implementar la transmisión segura de datos y el cifrado.     | SCRUM-52    | Implementar la transmisión segura de datos y el cifrado.     | Como desarrollador, quiero asegurarme de que todos los datos confidenciales estén cifrados en reposo y se transmitan de forma segura para la seguridad de los datos. | 2                      | Neil            | Done       |
+| US53        | Implementar autenticación segura con JWT y cifrado de contraseñas | SCRUM-53    | Implementar autenticación segura con JWT y cifrado de contraseñas | Como desarrollador, quiero implementar un endpoint de autenticación y emitir JWT firmados con gestión de expiración, para que se puedan establecer sesiones de empleados seguras. | 2                      | Raul            | Done       |
+| US54        | Representación de navegación y acciones basada en roles.     | SCRUM-54    | Representación de navegación y acciones basada en roles.     | Como desarrollador, quiero ver los elementos de navegación según los roles autenticados, para que los empleados solo vean las secciones a las que están autorizados a acceder. | 2                      | Raul            | Done       |
+| US55        | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | SCRUM-55    | Investigar la Integración de Firebase Cloud Messaging para Notificaciones en la Plataforma Synera | Como equipo de desarrollo de Synera, quiero investigar y prototipar la integración de Firebase Cloud Messaging (FCM) para el envío de notificaciones push a las aplicaciones móviles, para entender los requisitos técnicos, los costos, las limitaciones y el esfuerzo necesario para implementar esta funcionalidad de manera robusta y escalable. | 8                      | Neil            | Done       |
+
+
+
+**Figura 96**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/2v0V778.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 97**
+
+*Imagen de las tareas de Jira*
+
+<p align="center">
+  <img src="https://i.imgur.com/ogysAtW.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se presentan los avances de implementación correspondientes al Sprint 3, con un enfoque principal en el desarrollo evolutivo de la aplicación móvil multiplataforma. Durante esta iteración, el equipo logró hitos significativos, destacando la implementación del Dashboard de análisis para el rol de Gerente, el cual permite el seguimiento de visualizaciones y estadísticas de contenido en tiempo real.</p>
+
+
+
+| **Repository**                        | **Branch**                    | **Commit Id** | **Commit Message**                                           | **Commit Message Body**                                      | **Committed on (Date)** |
+| ------------------------------------- | ----------------------------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------- |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `a7abad0`     | `Merge pull request #12 from synera-app-moviles/feature/validation_event` | Feature/validation event                                      | 27/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `719a3d1`     | `feat(event): refactor event loading and access validation logic` |                                                              | 27/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `506dd34`     | `feat(event): enhance event loading logic and user access validation` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/validation_event`    | `948c27f`     | `feat(event): normalize recipient IDs and enhance event filtering logic` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `7d2c223`     | `Merge pull request #11 from synera-app-moviles/app-firebase` | App firebase                                                 | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `app-firebase`                | `c2a911a`     | `feat(firebase): update asset catalog and add flutter launcher icons configuration` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `app-firebase`                | `b0f27fb`     | `fire base`                                                  |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `develop`                     | `d7eb46f`     | `Merge pull request #9 from synera-app-moviles/feature/add-dashboard` | Feature/add dashboard                                        | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `88e2f88`     | `feat(event): update button color to use centralized theme color` |                                                              | 26/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `d3fe9b1`     | `feat(chat): implement image upload and display functionality in chat` |                                                              | 25/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `ef2555a`     | `feat(dashboard): add content statistics and viewer tracking for announcements and events` |                                                              | 25/11/2025              |
+| `synera-app-moviles/centralis_flutter` | `feature/add-dashboard`       | `a80f3f7`     | `feat(dashboard): add dashboard feature with user views and analytics` |                                                              | 25/11/2025              |
+
+Resumen de Actividades
+
+1. **Dashboard y Analytics (25-26/11/2025)**
+   - Implementación completa del sistema de dashboard
+   - Estadísticas de visualización de contenido
+   - Seguimiento de viewers para anuncios y eventos
+   - Analytics de usuarios
+
+2. **Sistema de Chat con Imágenes (25/11/2025)**
+   - Funcionalidad de subida y visualización de imágenes en chat
+   - Integración con servicio de imágenes
+   - Mejoras en la interfaz de usuario del chat
+
+3. **Validación y Lógica de Eventos (26-27/11/2025)**
+   - Refactorización de la lógica de carga de eventos
+   - Validación de acceso de usuarios
+   - Normalización de IDs de destinatarios
+   - Mejoras en el filtrado de eventos
+
+4. **Configuración Firebase (26/11/2025)**
+   - Actualización del catálogo de assets
+   - Configuración de iconos de launcher de Flutter
+   - Integración con Firebase
+
+5. **Mejoras de UI/UX (26/11/2025)**
+   - Actualización de colores de botones usando tema centralizado
+   - Mejoras en la consistencia visual de la aplicación
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 3, la estrategia de aseguramiento de la calidad se enfocó rigurosamente en la validación de los requisitos no funcionales críticos y la mejora de la experiencia del usuario. Se implementó y ejecutó una suite de pruebas de aceptación utilizando escenarios Gherkin para verificar la robustez de los nuevos protocolos de seguridad, la integración de notificaciones push y las capacidades de internacionalización. El objetivo fue asegurar que las funcionalidades de protección de datos y engagement operen correctamente bajo los estándares de calidad definidos.</p>
+
+**Resumen de Módulos Verificados (BDD - Gherkin):**
+
+- **Security & Authentication (US47-US53):** Se validaron escenarios complejos de seguridad, incluyendo el almacenamiento de datos cifrados, control de acceso a API, gestión segura de sesiones, autenticación JWT y transmisión segura de datos.
+
+- **Notifications System (US45-US46):** Verificación de los flujos de notificación para nuevos anuncios y cambios en eventos, asegurando la correcta configuración de las preferencias del usuario.
+
+- **Advanced Announcements (US19-US22):** Validación de la lógica de negocio avanzada para la segmentación por departamentos, confirmaciones de lectura y filtrado por prioridad.
+
+  
+
+**US20_confirmaciones_lectura.feature**
+
+```gherkin
+Característica: Confirmaciones de lectura
+  Como gerente
+  Quiero ver confirmaciones de lectura de anuncios
+  Para saber quién ha leído la información importante
+
+  Escenario: Ver lista de empleados que han leído el anuncio
+    Dado que soy un gerente que ha publicado un anuncio importante
+    Cuando accedo a los detalles del anuncio
+    Entonces debo ver una lista de empleados que lo han marcado como leído
+    Y debo ver la fecha y hora en que cada uno lo leyó
+
+  Escenario: Ver estadísticas de lectura del anuncio
+    Dado que soy un gerente revisando un anuncio publicado hace 2 días
+    Cuando veo las estadísticas de lectura
+    Entonces debo ver el porcentaje de empleados que lo han leído
+    Y debo ver cuántos empleados aún no lo han leído
+
+  Escenario: Identificar empleados que no han leído anuncios críticos
+    Dado que soy un gerente con un anuncio marcado como "Crítico"
+    Cuando reviso las confirmaciones de lectura después de 24 horas
+    Entonces debo ver claramente qué empleados no lo han leído
+    Y debo poder enviar recordatorios específicos
+
+  Escenario: Exportar reporte de confirmaciones de lectura
+    Dado que soy un gerente que necesita documentar el cumplimiento
+    Cuando solicito un reporte de confirmaciones de lectura
+    Entonces debo poder exportar un archivo con todos los datos de lectura
+    Y el archivo debe incluir nombres, departamentos y fechas de lectura
+```
+
+
+
+**US21_marcar_anuncios_leidos.feature**
+
+```gherkin
+Característica: Marcar anuncios como leídos
+  Como empleado
+  Quiero marcar anuncios como leídos
+  Para llevar un control de la información revisada
+
+  Escenario: Marcar anuncio como leído exitosamente
+    Dado que soy un empleado autenticado
+    Cuando leo un anuncio sobre "Nueva política de vacaciones"
+    Y hago clic en "Marcar como leído"
+    Entonces el anuncio debe marcarse visualmente como leído
+    Y debe registrarse la fecha y hora de lectura
+
+  Escenario: Ver estado de lectura en lista de anuncios
+    Dado que soy un empleado con varios anuncios disponibles
+    Cuando veo mi lista de anuncios
+    Entonces debo ver claramente cuáles he marcado como leídos
+    Y cuáles siguen pendientes por leer
+
+  Escenario: Marcar múltiples anuncios como leídos
+    Dado que soy un empleado con varios anuncios pendientes
+    Cuando selecciono múltiples anuncios
+    Y uso la opción "Marcar todos como leídos"
+    Entonces todos los anuncios seleccionados deben marcarse como leídos
+    Y debo ver confirmación de la acción
+
+  Escenario: Desmarcar anuncio como no leído
+    Dado que soy un empleado que marcó un anuncio como leído por error
+    Cuando accedo al anuncio marcado
+    Y selecciono "Marcar como no leído"
+    Entonces el anuncio debe volver al estado de pendiente
+    Y debe eliminarse el registro de fecha de lectura
+
+  Escenario: Recordatorio de anuncios no leídos
+    Dado que soy un empleado con anuncios importantes sin leer
+    Cuando han pasado 48 horas desde la publicación
+    Entonces debo recibir una notificación recordatoria
+    Y debo poder acceder directamente al anuncio desde la notificación
+```
+
+
+
+
+| Repository                           | Branch  | Commit Id | Commit Message                                               | Commit Message Body                                          | Commited on (Date) |
+| :----------------------------------- | :------ | :-------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------- |
+| synera-app-moviles/centralis-kotlin | testing | 05fa66b   | feat(rbac-fcm): add BDD tests for role-based access control and FCM research US54-US55 | Implement BDD scenarios for role-based navigation control and Firebase Cloud Messaging integration research with technical requirements analysis and prototyping validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | 6f253bc   | feat(security): add BDD tests for authentication and security features US47-US53 | Implement BDD scenarios for encrypted user data validation, API access control, secure session management, JWT authentication, token invalidation, and secure data transmission with comprehensive security validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | cb8ccb3   | feat(notifications): add BDD tests for notification system US45-US46 | Implement BDD scenarios for announcement notifications and event change notifications with push notification configuration and user preference management | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | 054d43d   | feat(announcements): add BDD tests for advanced announcement management US19-US22 | Implement BDD scenarios for department segmentation, read confirmations, marking as read, and priority filtering with comprehensive permission and user experience validation | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | a10f862   | feat(i18n): add BDD tests for internationalization features US13-US14 | Implement BDD scenarios for mobile app translation and language selector integration with i18n module, including dynamic language switching and preference persistence | 01/12/2025         |
+| synera-app-moviles/centralis-kotlin | testing | b29d0a9   | feat(landing): add BDD tests for landing page and accessibility features US08-US12 | Implement BDD scenarios for Centralis access from landing page, accessible navigation, social media links, and visual representations with comprehensive user experience validation | 01/12/2025         |
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia visual de la ejecución del Sprint 3, donde se logró un avance significativo en la interfaz de usuario y la experiencia interactiva de la aplicación. El hito principal fue la implementación de las pantallas del Dashboard Gerencial, una herramienta visual que permite a los administradores monitorear métricas de participación y estadísticas de visualización de contenido en tiempo real.</p>
+
+<p style="text-indent: 1.25cm;">Adicionalmente, se enriqueció la interfaz del módulo de comunicación con la integración de la funcionalidad de subida y visualización de imágenes en los chats, mejorando la capacidad de colaboración multimedia entre los usuarios. A continuación, se adjuntan las capturas de pantalla correspondientes a estas nuevas vistas y el enlace al video demostrativo que recorre los flujos de navegación implementados.</p>
+
+Aplicación en Flutter:
+
+**Figura 98**
+
+<p align="center">
+  <img src="https://i.imgur.com/50kmKSg.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 99**
+
+<p align="center">
+  <img src="https://i.imgur.com/nLMC5rA.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 100**
+
+<p align="center">
+  <img src="https://i.imgur.com/JNnawXI.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 101**
+
+<p align="center">
+  <img src="https://i.imgur.com/fTXmHtv.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 102**
+
+<p align="center">
+  <img src="https://i.imgur.com/4S3gYEr.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 103**
+
+<p align="center">
+  <img src="https://i.imgur.com/fWX6P7F.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 104**
+
+<p align="center">
+  <img src="https://i.imgur.com/IJHmuNX.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+<p style="text-indent: 1.25cm;">En esta sección se presenta la evidencia de la documentación de los Web Services implementados durante el Sprint 2, generada utilizando la especificación OpenAPI. Los endpoints desarrollados completan las funcionalidades <i>core</i> de la plataforma, abarcando tres dominios principales: Comments, Events y Messages. La documentación detalla las operaciones CRUD, los servicios de consulta (QueryService) y los servicios de comandos (CommandService) para cada dominio, incluyendo la gestión de estados, validaciones de pertenencia y autorización por roles (MANAGER) en el dominio de Eventos.</p>
+
+
+**Endpoints Documentados**
+
+| Endpoint                                                       | Método | Descripción                                       | Request Body | Response Body                 | Códigos de Estado      |
+| ------------------------------------------------------------- | ------ | ------------------------------------------------- | ------------ | ------------------------------ | ----------------------- |
+| `/api/v1/sse/chat/{groupId}/close`                            | POST   | Cerrar conexiones del grupo                       | -            | -                              | 200, 400, 404           |
+| `/api/v1/sse/stats`                                           | GET    | Obtener estadísticas SSE                          | -            | `SseStatsResource`             | 200, 401                |
+| `/api/v1/sse/chat/{groupId}`                                  | GET    | Conectar al chat en tiempo real (SSE)             | -            | `SseChatStream`                | 200, 400, 401, 404      |
+| `/api/v1/sse/chat/{groupId}/connections`                      | GET    | Obtener conexiones activas del grupo              | -            | `List<Connection>`             | 200, 404                |
+| `/api/v1/dashboard/views/summary`                             | GET    | Obtener resumen general de visualizaciones        | -            | `SummaryResource`              | 200                     |
+| `/api/v1/dashboard/users/{userId}/events/views`               | GET    | Obtener eventos vistos por un usuario             | -            | `List<ViewResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/users/{userId}/announcements/views`        | GET    | Obtener anuncios vistos por un usuario            | -            | `List<ViewResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/events/{eventId}/users/views`              | GET    | Obtener usuarios que vieron un evento             | -            | `List<UserResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/events/{eventId}/stats`                    | GET    | Obtener estadísticas de visualización de evento   | -            | `EventStatsResource`           | 200, 400, 404           |
+| `/api/v1/dashboard/announcements/{announcementId}/users/views`| GET    | Obtener usuarios que vieron un anuncio            | -            | `List<UserResource>`           | 200, 400, 404           |
+| `/api/v1/dashboard/announcements/{announcementId}/stats`      | GET    | Obtener estadísticas del anuncio                  | -            | `AnnouncementStatsResource`    | 200, 400, 404           |
+| `/api/v1/analytics/events/{eventId}/views`                    | POST   | Registrar visualización de evento                 | -            | `ViewResource`                 | 201, 400, 404, 500      |
+| `/api/v1/analytics/announcements/{announcementId}/views`      | POST   | Registrar visualización de anuncio                | -            | `ViewResource`                 | 201, 400, 404, 500      |
+
+
+
+
+**SSE Domain**
+
+- **SseConnectionService**: Gestión de conexiones SSE para chats de grupo.
+- **SseStatsService**: Obtención de métricas del sistema SSE (conexiones activas, grupos conectados).
+- **SseController**: API REST para conexión en tiempo real y manejo de SSE.
+- **Características:**
+  - Conexión en tiempo real mediante SSE.
+  - Cierre de conexiones por grupo.
+  - Consulta de conexiones activas.
+  - Métricas globales de actividad SSE.
+  - Manejo de autenticación (401).
+  - Respuestas optimizadas en streaming.
+
+**Dashboard Domain**
+
+- **DashboardQueryService**: Consultas analíticas de visualizaciones y estadísticas.
+- **DashboardController**: API REST para reportes y analítica global.
+- **Características:**
+  - Resumen global de vistas.
+  - Seguimiento de vistas por usuario.
+  - Estadísticas por evento y anuncio.
+  - Consultas para panel de control administrativo.
+  - Validación de usuarios, eventos y anuncios.
+  - Optimización para dashboards.
+
+**Analytics Domain**
+
+- **AnalyticsCommandService**: Registro de vistas de contenido (eventos y anuncios).
+- **AnalyticsController**: API REST para tracking de visualizaciones.
+- **Características:**
+  - Registro rápido de vistas.
+  - Integración directa con Dashboard.
+  - Validación de existencia del contenido.
+  - Prevención de duplicados.
+  - Optimizado para tracking desde frontend.
+
+
+
+**Figura 105**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/chat_skt2da.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 106**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/dash_xpot0n.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 107**
+
+<p align="center">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764860900/analy_ihkmsn.jpg" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p style="text-indent: 1.25cm;">En esta sección se resumen los procesos realizados en relación con el despliegue (Deployment) durante el Sprint, destacando la expansión del ciclo de entrega hacia las plataformas móviles. Se configuraron los entornos necesarios para la distribución de binarios, cumpliendo con el requisito de poner las aplicaciones a disposición de los usuarios finales para su validación en dispositivos reales.</p>
+
+<p style="text-indent: 1.25cm;">Específicamente, se implementó el servicio Firebase App Distribution como plataforma centralizada para la entrega continua de las aplicaciones móviles. Se generaron y desplegaron los artefactos instalables (APKs) correspondientes tanto a la versión nativa desarrollada en Kotlin como a la versión multiplataforma en Flutter. Esta configuración permitió distribuir de manera eficiente las nuevas compilaciones a los grupos de testers seleccionados, facilitando la descarga directa, la ejecución de pruebas de usabilidad y la recolección de feedback temprano antes del lanzamiento final.</p>
+
+**Figura 108**
+
+*Distribución de kotlin*
+
+<p align="center">
+  <img src="https://i.imgur.com/7X22l7N.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+**Figura 109**
+
+*Distribución de flutter*
+
+<p align="center">
+  <img src="https://i.imgur.com/1mAdyWF.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+<p style="text-indent: 1.25cm;">Durante el Sprint 3, el equipo se enfocó en fortalecer la seguridad de la plataforma y mejorar la experiencia de usuario con notificaciones en tiempo real e internacionalización. La colaboración fue clave para integrar estas funcionalidades complejas de manera fluida.</p>
+
+**Daniela Araceli Gómez Flores** **Contribución Principal:**
+
+- Implementó la funcionalidad de mantener la sesión iniciada de forma segura.
+- Desarrolló el cierre de sesión seguro.
+
+**Elverth Jair Vaszquez Villalobos** **Contribución Principal:**
+
+- Lideró la grabación y documentación de las entrevistas de pruebas de usuario, asegurando la correcta recolección de feedback para la validación del producto.
+
+**Jorge Luis Díaz Fiestas** **Contribución Principal:**
+
+- Implementó la segmentación de anuncios por departamento.
+- Apoyó en la logística y grabación de las entrevistas de validación con usuarios.
+
+**Neil Aldrin Wilhelm Curipaco Huayllani** **Contribución Principal:**
+
+- Realizo la integración de Firebase Cloud Messaging (FCM).
+- Implementó las notificaciones de anuncios y cambios en eventos.
+- Implementó las confirmaciones de lectura y marcado de anuncios como leídos.
+
+**Raúl Adrian Medina Cruzado** **Contribución Principal:**
+
+- Desarrolló la autenticación segura con JWT y cifrado de contraseñas.
+- Implementó la navegación y acciones basadas en roles.
+
+**Figura 110**
+
+*Insights del web servise*
+
+
+
+<p align="center">
+  <img src="https://i.imgur.com/BGwi05k.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 111**
+
+*Insights del app en kotlin*
+
+<p align="center">
+  <img src="https://i.imgur.com/arkwJi8.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Figura 112**
+
+*Insights del app en flutter*
+
+<p align="center">
+  <img src="https://i.imgur.com/twKP3Xn.png" alt="Descripción">
+</p>
+
+*Nota.* Elaboración propia.
 
 ## 4.3. Validation Interviews
 
@@ -1442,62 +1960,44 @@ Este flujo incluye todas las tareas del "Empleado", más las funcionalidades de 
 
 <ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
 
-**Entrevistado #1: Abigail Goñe**  
+**Entrevistado #1: Denisse Ortega Roque**  
 
-**Figura 96**  
+**Figura N**  
 
 *Imagen del usuario número 1 entrevistado*  
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/abigaiill_ihwjzu.jpg" width="850">
+  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1764861626/DENI_vuuemz.jpg" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.
+Dennise percibe que Centralis es una solución muy útil para ordenar la comunicación interna y evitar la dispersión de información entre correos, chats personales y anuncios físicos. Al revisar la Landing Page, destacó que el mensaje es claro, que los beneficios están bien explicados y que transmitir quiénes son los creadores genera confianza. Le pareció sencillo identificar la propuesta de valor y ubicar el botón para solicitar una demostración. En cuanto a la aplicación móvil, valoró lo intuitiva que es la sección de Anuncios, especialmente el indicador de urgente, que le ayuda a identificar prioridades rápidamente. También resaltó la claridad al publicar comentarios y la facilidad para corregirlos en caso de equivocación.
+En los Eventos, consideró que la información está bien distribuida y que es útil visualizar quiénes asistirán. Sugirió mejorar algunos detalles visuales para que la pantalla se vea más limpia. En los Grupos, destacó lo práctico que es identificar quién envió cada mensaje y mencionó que sería útil incorporar un sistema de confirmación de lectura. En general, Dennise considera que Centralis es una aplicación moderna, clara y beneficiosa para empleados, ayudando a mantener todo organizado y accesible desde el celular.
 
-Abigail percibió que Centralis representa una mejora significativa en la forma en que los empleados acceden a información relevante dentro de la empresa. Destacó la simplicidad de la interfaz y la rapidez con la que puede ver anuncios, confirmar asistencia a eventos y comunicarse con sus compañeros. Mencionó que la aplicación le genera confianza por la claridad en las funciones y la seguridad de los datos. Propuso mejorar la visibilidad de algunos botones en la Landing Page y optimizar la navegación en ciertas pantallas, pero aseguró que la experiencia general es positiva. Considera que Centralis fomenta la participación, reduce confusiones y promueve una comunicación más efectiva entre todos los niveles de la organización.
+#
 
+**Entrevistada #2: Marjorie Luna**   
 
-**Entrevistada #2: Fatima Arosemena**   
-
-**Figura 97**  
+**Figura N**  
 
 *Imagen del usuario número 2 entrevistada*
 
 <p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031076/fatimaaa_mc1ynn.jpg" width="850">
+  <img src="https://i.imgur.com/ETRxx7I.png" width="850">
 </p>
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.  
+- La entrevistada destacó que la navegación por la aplicación resulta sencilla e intuitiva, facilitando la interacción con las secciones de anuncios y eventos. No obstante, sugirió la incorporación de indicadores de lectura en los chats grupales para confirmar el estado de los mensajes enviados.
 
-Fátima encontró que Centralis soluciona un problema común en muchas empresas: la falta de un canal único de comunicación. Considera que la app es intuitiva, visualmente atractiva y fácil de navegar. Le gustó cómo los anuncios urgentes destacan claramente, y que puede interactuar dejando comentarios o consultando detalles de eventos sin complicaciones. También resaltó la claridad en los chats grupales y la utilidad de las confirmaciones de lectura. Sugirió agregar la opción de fijar mensajes importantes dentro de los grupos, pero en general expresó que la aplicación hace más fluida la comunicación y mejora la organización del trabajo diario.
+# 
 
-<ins>**Registro de entrevistas para segmento objetivo: Empleado de empresa**<ins>  
+**Entrevistada #3: Leonardo Delgado**   
 
-**Entrevistada #3: Milagros Arellano**  
-
-**Figura 98**  
+**Figura N**  
 
 *Imagen del usuario número 3 entrevistada*
-
-<p align="center">
-  <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763031559/milagros_kbtkk4.jpg" width="850">
-</p>
-
-*Nota.* Elaboración propia.
-
-*Nota.* Elaboración propia. 
-
-Milagros considera que Centralis es una herramienta ideal para mejorar la comunicación entre los diferentes equipos de trabajo. Durante la validación, destacó que la aplicación facilita la creación y gestión de anuncios, eventos y grupos sin depender de correos o mensajes dispersos. Le pareció muy claro el flujo para publicar información y valoró la opción de marcar anuncios como urgentes para priorizar temas importantes. Sugirió incorporar un sistema de confirmación al eliminar eventos o mensajes para evitar errores, y mejorar la forma en que se muestran los asistentes a los eventos. En general, percibe que Centralis ordena y optimiza la gestión interna, ayudando a mantener a todos alineados desde un solo lugar.
-
-**Entrevistada #4: Leonardo Delgado**  
-
-**Figura 99**  
-
-*Imagen del usuario número 4 entrevistada*
 
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1763047827/elverth_wkmox1.jpg" width="850">
@@ -1505,10 +2005,59 @@ Milagros considera que Centralis es una herramienta ideal para mejorar la comuni
 
 *Nota.* Elaboración propia.
 
-*Nota.* Elaboración propia.  
+- Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
 
-Leonardo actualmente trabaja coordinando tareas con su equipo mediante mensajes en distintas aplicaciones y llamadas, lo que a menudo genera confusión y pérdida de información importante. Al probar Centralis, destacó lo práctico de tener todos los anuncios, eventos y chats centralizados en un solo espacio. Mencionó que la app facilita la comunicación entre empleados y evita malentendidos en la organización interna. Considera que su diseño es claro y fácil de usar incluso para personas con poca experiencia digital. Como mejora, sugiere que las notificaciones sean más personalizables y que se puedan fijar los mensajes más importantes dentro de los grupos.
 
+#
+
+
+<ins>**Registro de entrevistas para segmento objetivo: Gerente o Lider de Equipo**<ins>  
+
+**Entrevistada #4: Abigail Goñe Araccata**  
+
+**Figura N**  
+
+*Imagen del usuario número 4 entrevistada*
+
+<p align="center">
+  <img src="..." width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+- Desde una perspectiva gerencial, la entrevistada (Abigail) validó la eficiencia de la aplicación para la gestión integral de la comunicación interna, destacando la usabilidad intuitiva de los módulos de Anuncios y Eventos. Valoró positivamente la claridad de los formularios de creación, la distinción visual de los mensajes urgentes y los mecanismos de seguridad implementados para la eliminación de contenido. Hizo especial énfasis en el valor estratégico del Dashboard de análisis, calificando la visualización de métricas de lectura y participación como una función fundamental para garantizar la transparencia y la toma de decisiones basada en datos reales. Finalmente, resaltó la agilidad en la gestión de grupos, concluyendo que la plataforma otorga el control y la visibilidad necesarios para mantener a la organización alineada.
+
+#
+
+**Entrevistada #5: Geraldine Lazo **  
+
+**Figura N**  
+
+*Imagen del usuario número 5 entrevistada*
+
+<p align="center">
+  <img src="https://i.imgur.com/Thn2ya0.png" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+* Desde una perspectiva gerencial, la entrevistada valoró especialmente la incorporación del panel de analíticas, resaltando su utilidad estratégica para monitorear el alcance de las publicaciones y el nivel de participación del equipo. En cuanto a la operatividad, calificó la interfaz como intuitiva, lo que agiliza significativamente la gestión y creación de nuevos anuncios y eventos. Sin embargo, enfatizó la necesidad de integrar confirmaciones de lectura en la mensajería grupal, un elemento que considera vital para asegurar que las directrices compartidas hayan sido efectivamente recibidas por los colaboradores.
+
+#
+
+**Entrevistada #6: Guiliana Nisbet**  
+
+**Figura N**  
+
+*Imagen del usuario número 6 entrevistada*
+
+<p align="center">
+  <img src="https://i.imgur.com/AjZ5pzy.png" width="850">
+</p>
+
+*Nota.* Elaboración propia.
+
+- La entrevistada destacó que la navegación por la aplicación resulta sencilla e intuitiva, facilitando la creación de anuncios y eventos. No obstante, sugirió la incorporación de indicadores de lectura en los chats grupales para confirmar el estado de los mensajes enviados. Asimismo, valoró positivamente la utilidad del panel de visualización de analíticas.
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -1661,6 +2210,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## Video App Validation 
 
+
+
+### Primera versión 
+
 <p style="text-indent: 1.25cm;">En esta sección se registran y explican las actividades de entrevistas de validación realizadas con los segmentos objetivo. Las sesiones fueron grabadas en video para documentar la interacción de los usuarios con la aplicación móvil, y los hallazgos se utilizarán para la evaluación heurística. A continuación, se presenta un resumen de las principales apreciaciones de los entrevistados con respecto a las tareas asignadas.</p>
 
 <p style="text-indent: 1.25cm;">Las entrevistas proporcionaron retroalimentación valiosa. La primera entrevistada, perteneciente al Segmento Empleado, validó la información de los eventos como suficiente, incluyendo asistentes, hora y fecha. Sin embargo, sugirió añadir mensajes de confirmación de éxito en la creación y eliminación, iconos de confirmación de lectura en los chats y la capacidad de fijar mensajes grupales. La segunda entrevista, también del Segmento Empleado, coincidió en la necesidad de feedback en los mensajes, sugiriendo un check de "enviado" y "leído", y propuso además una funcionalidad de confirmación de asistencia a eventos. Finalmente, la tercera entrevista, del Segmento Gerente, confirmó la utilidad de las funciones administrativas, destacando que las opciones para editar y eliminar anuncios y eventos son esenciales para su rol.</p>
@@ -1670,8 +2223,23 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 <p align="center">
   <img src="https://i.imgur.com/8L16JO0.png" width="850">
 </p>
-
 Link de las entrevistas: https://acortar.link/TbVsHT
+
+### Segunda versión 
+
+<p style="text-indent: 1.25cm;">En esta sección, el equipo documenta la evaluación final de la aplicación a través de pruebas de usuario distribuidas mediante Firebase App Distribution. El video adjunto consolida los resultados de las sesiones de validación realizadas con una muestra de 6 usuarios, divididos equitativamente entre los segmentos objetivo: 3 Empleados y 3 Gerentes.</p>
+
+<p style="text-indent: 1.25cm;">Los hallazgos generales indican una alta satisfacción con la usabilidad de la aplicación. Ambos grupos de usuarios coincidieron en que la interfaz es intuitiva, facilitando la ejecución de tareas principales como la creación de anuncios, la gestión de eventos y el inicio de chats. Sin embargo, se identificó una oportunidad de mejora transversal: ambos perfiles señalaron la necesidad crítica de implementar indicadores de lectura en la mensajería para garantizar la confirmación de recepción de la información.</p>
+
+<p style="text-indent: 1.25cm;">Por su parte, el segmento de Gerentes destacó el valor estratégico de las funcionalidades exclusivas de su rol. Específicamente, validaron la utilidad del Dashboard de analíticos, resaltando la capacidad para visualizar métricas de alcance (quién vio un anuncio o evento específico) y la gestión centralizada del contenido creado, lo cual les permite tener un control efectivo sobre la comunicación interna de la organización.</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/8L16JO0.png" width="850">
+</p>
+
+
+Link de las entrevistas: https://acortar.link/jjf9Ub
+
 
 ## Video About the product 
 
@@ -1761,3 +2329,21 @@ Inicio: minuto 6 segundo 21
 * Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
 
 * Martin, R. C. (2008). *Clean Code: A Handbook of Agile Software Craftsmanship*. Prentice Hall.
+
+
+
+# Anexos
+
+**Video About the product:** 
+
+Link del video en YouTube: https://youtu.be/pj9MuNyfGec
+Link del video en OneDrive: https://acortar.link/69wpTn
+
+**Video About the team:**
+
+Link del video en OneDrive: https://acortar.link/7DEwKw
+
+**Video App Validation:**
+
+Primera version: https://acortar.link/TbVsHT
+Segunda version: https://acortar.link/jjf9Ub
