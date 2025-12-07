@@ -30,7 +30,7 @@
 
 <br>
 
-<h3 align="center"><strong>Septiembre 2025</strong></h3>
+<h3 align="center"><strong>Diciembre 2025</strong></h3>
 
 <br>
 <hr>
